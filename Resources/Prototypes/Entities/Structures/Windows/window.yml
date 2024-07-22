@@ -20,9 +20,9 @@
       - Window
   - type: Sprite
     drawdepth: WallTops
-    sprite: Structures/Windows/window.rsi
+    sprite: DeltaV/Structures/Windows/window.rsi #Delta V - Resprite windows
   - type: Icon
-    sprite: Structures/Windows/window.rsi
+    sprite: DeltaV/Structures/Windows/window.rsi #Delta V - Resprite windows
     state: full
   - type: Physics
     bodyType: Static
@@ -143,10 +143,10 @@
         collection: GlassSmack
   - type: Sprite
     drawdepth: Mobs
-    sprite: Structures/Windows/directional.rsi
+    sprite: DeltaV/Structures/Windows/directional.rsi #Delta V - Resprite windows
     state: window
   - type: Icon
-    sprite: Structures/Windows/directional.rsi
+    sprite: DeltaV/Structures/Windows/directional.rsi #Delta V - Resprite windows
     state: window
   - type: InteractionPopup
     interactSuccessString: comp-window-knock
@@ -235,10 +235,10 @@
     - Window
   components:
   - type: Sprite
-    sprite: Structures/Windows/directional.rsi
+    sprite: DeltaV/Structures/Windows/directional.rsi #Delta V - Resprite windows
     state: frosted_window
   - type: Icon
-    sprite: Structures/Windows/directional.rsi
+    sprite: DeltaV/Structures/Windows/directional.rsi #Delta V - Resprite windows
     state: frosted_window
   - type: StaticPrice
     price: 35
@@ -254,7 +254,7 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: Structures/Windows/window_diagonal.rsi
+    sprite: DeltaV/Structures/Windows/window_diagonal.rsi #Delta V - Resprite windows
     state: state0
   - type: Tag
     tags:
@@ -264,7 +264,7 @@
     key: windows
     base: state
   - type: Icon
-    sprite: Structures/Windows/window_diagonal.rsi
+    sprite: DeltaV/Structures/Windows/window_diagonal.rsi #Delta V - Resprite windows
     state: state0
   - type: Fixtures
     fixtures:
