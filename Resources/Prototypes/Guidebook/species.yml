@@ -31,8 +31,8 @@
     - Vulpkanin
     - Rodentia
     - IPC
-    # ImpStation additions
-    - Thaven
+    - Thaven # ImpStation additions
+    - Tajaran 
 
 - type: guideEntry
   id: Arachnid
@@ -104,3 +104,8 @@
   id: IPC
   name: species-name-ipc
   text: "/ServerInfo/Guidebook/Mobs/IPCs.xml"
+
+- type: guideEntry
+  id: Tajaran
+  name: species-name-tajaran
+  text: "/ServerInfo/Guidebook/Mobs/Tajaran.xml"
