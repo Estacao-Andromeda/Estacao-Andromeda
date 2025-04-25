@@ -67,6 +67,8 @@
         prob: 0.2
       - id: ClothingHandsGlovesColorYellow
         prob: 0.05
+      - id: ClothingOuterJacketInsulated
+        prob: 0.05
       - id: ClothingHeadHatHardhatRed
         prob: 0.4
       - id: CableApcStack
@@ -183,6 +185,7 @@
   - type: StorageFill
     contents:
       - id: ClothingHandsGlovesColorYellow
+      - id: ClothingOuterJacketInsulated
       - id: ClothingMaskGas
       - id: trayScanner
       - id: RCD

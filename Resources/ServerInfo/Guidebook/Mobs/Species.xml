@@ -40,5 +40,8 @@ SPDX-License-Identifier: MIT
   <GuideEntityEmbed Entity="MobIPCDummy" Caption="I.P.C."/>
   <GuideEntityEmbed Entity="MobThaven" Caption="Thaven"/>
   </Box>
+  <Box>
+  <GuideEntityEmbed Entity="MobXelthia" Caption="Xelthia"/>
+  </Box>
 
 </Document>
