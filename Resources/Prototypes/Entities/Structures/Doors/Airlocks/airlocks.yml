@@ -130,7 +130,7 @@
   name: maintenance access
   components:
   - type: Sprite
-    sprite: DeltaV/Structures/Doors/Airlocks/Standard/maint.rsi #Delta V - Resprite Doors
+    sprite: DeltaV/Structures/Doors/Airlocks/Standard/maint.rsi
 
 - type: entity
   parent: AirlockSecurity # if you get syndie door somehow it counts as sec

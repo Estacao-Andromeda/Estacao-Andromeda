@@ -4,7 +4,7 @@
   name: engineering maintenance access
   components:
   - type: Sprite
-    sprite: _Funkystation/Structures/Doors/Airlocks/Standard/maint_engi.rsi
+    sprite: eltaV/Structures/Doors/Airlocks/Standard/maint.rsi #Delta V - Resprite Doors
   - type: Wires
     layoutId: AirlockEngineering
 
@@ -14,7 +14,7 @@
   name: atmospherics maintenance access
   components:
   - type: Sprite
-    sprite: _Funkystation/Structures/Doors/Airlocks/Standard/maint_atmos.rsi
+    sprite: DeltaV/Structures/Doors/Airlocks/Standard/maint.rsi #Delta V - Resprite Doors
   - type: Wires
     layoutId: AirlockEngineering
 
@@ -24,7 +24,7 @@
   name: service maintenance access
   components:
   - type: Sprite
-    sprite: _Funkystation/Structures/Doors/Airlocks/Standard/maint_service.rsi
+    sprite: DeltaV/Structures/Doors/Airlocks/Standard/maint.rsi #Delta V - Resprite Doors
   - type: Wires
     layoutId: AirlockService
 
@@ -34,7 +34,9 @@
   name: hydroponics maintenance access
   components:
   - type: Sprite
-    sprite: _Funkystation/Structures/Doors/Airlocks/Standard/maint_hydroponics.rsi
+    sprite: DeltaV/Structures/Doors/Airlocks/Standard/maint.rsi #Delta V - Resprite Doors
+  - type: Wires
+    layoutId: AirlockService
 
 - type: entity
   parent: AirlockMaint
@@ -42,7 +44,7 @@
   name: medical maintenance access
   components:
   - type: Sprite
-    sprite: _Funkystation/Structures/Doors/Airlocks/Standard/maint_medical.rsi
+    sprite: DeltaV/Structures/Doors/Airlocks/Standard/maint.rsi #Delta V - Resprite Doors
   - type: Wires
     layoutId: AirlockMedical
 
@@ -52,7 +54,7 @@
   name: chemistry maintenance access
   components:
   - type: Sprite
-    sprite: _Funkystation/Structures/Doors/Airlocks/Standard/maint_chemistry.rsi
+    sprite: DeltaV/Structures/Doors/Airlocks/Standard/maint.rsi #Delta V - Resprite Doors
 
 - type: entity
   parent: AirlockMaint
@@ -60,7 +62,7 @@
   name: science maintenance access
   components:
   - type: Sprite
-    sprite: _Funkystation/Structures/Doors/Airlocks/Standard/maint_science.rsi
+    sprite: DeltaV/Structures/Doors/Airlocks/Standard/maint.rsi #Delta V - Resprite Doors
   - type: Wires
     layoutId: AirlockScience
 
@@ -70,7 +72,7 @@
   name: security maintenance access
   components:
   - type: Sprite
-    sprite: _Funkystation/Structures/Doors/Airlocks/Standard/maint_security.rsi
+    sprite: DeltaV/Structures/Doors/Airlocks/Standard/maint.rsi #Delta V - Resprite Doors
   - type: Wires
     layoutId: AirlockSecurity
 
@@ -80,7 +82,7 @@
   name: armory maintenance access
   components:
   - type: Sprite
-    sprite: _Funkystation/Structures/Doors/Airlocks/Standard/maint_security.rsi
+    sprite: DeltaV/Structures/Doors/Airlocks/Standard/maint.rsi #Delta V - Resprite Doors
   - type: Wires
     layoutId: AirlockArmory
 
@@ -90,7 +92,7 @@
   name: cargo maintenance access
   components:
   - type: Sprite
-    sprite: _Funkystation/Structures/Doors/Airlocks/Standard/maint_cargo.rsi
+    sprite: DeltaV/Structures/Doors/Airlocks/Standard/maint.rsi #Delta V - Resprite Doors
   - type: Wires
     layoutId: AirlockCargo
 
@@ -100,7 +102,7 @@
   name: salvage maintenance access
   components:
   - type: Sprite
-    sprite: _Funkystation/Structures/Doors/Airlocks/Standard/maint_cargo.rsi
+    sprite: DeltaV/Structures/Doors/Airlocks/Standard/maint.rsi #Delta V - Resprite Doors
   - type: Wires
     layoutId: AirlockCargo
 
@@ -110,6 +112,6 @@
   name: command maintenance access
   components:
   - type: Sprite
-    sprite: _Funkystation/Structures/Doors/Airlocks/Standard/maint_command.rsi
+    sprite: DeltaV/Structures/Doors/Airlocks/Standard/maint.rsi #Delta V - Resprite Doors
   - type: Wires
     layoutId: AirlockCommand
