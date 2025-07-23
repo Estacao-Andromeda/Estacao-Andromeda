@@ -1,6 +1,6 @@
 - type: entity
   abstract: true
-  parent: [ClothingOuterStorageBase, AllowSuitStorageClothing]
+  parent: [ClothingOuterStorageBase, AllowBackStorageClothing]
   id: ClothingOuterArmoredWinterCoat
   components:
   - type: TemperatureProtection
