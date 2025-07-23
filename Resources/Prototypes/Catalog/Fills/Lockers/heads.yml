@@ -20,6 +20,7 @@
     - id: SalvageShuttleConsoleCircuitboard
     - id: AstroNavCartridge
     - id: ClothingOuterHardsuitLuxury
+    - id: PrinterDocFlatpack  # Corvax-Printer
 
 - type: entity
   id: LockerQuarterMasterFilled
@@ -53,6 +54,7 @@
     - id: SpaceCash1000
     - id: WeaponDisabler
     - id: ClothingEyesGlassesCommand
+    - id: PrinterDocFlatpack  # Corvax-Printer
 
 # No laser table + Laser table
 - type: entityTable
@@ -142,6 +144,7 @@
     - id: WeaponDisablerPlus # funkystation adding unique hop weapon
     - id: ClothingEyesHudCommand
     - id: PDA_cartridge_case
+    - id: PrinterDocFlatpack  # Corvax-Printer
 
 - type: entity
   id: LockerHeadOfPersonnelFilled
@@ -173,6 +176,7 @@
     - id: RubberStampCE
     - id: BaseHandheldStationMapPowerCe
     - id: RPD # RPD
+    - id: PrinterDocFlatpack  # Corvax-Printer
 # Hardsuit table, used for suit storage as well
 - type: entityTable
   id: FillChiefEngineerHardsuit
@@ -240,6 +244,7 @@
     # Shitmed
     - id: MedicalBiofabMachineBoard
     - id: AutoclaveFlatpack # DV
+    - id: PrinterDocFlatpack  # Corvax-Printer
 
 # Hardsuit table, used for suit storage as well
 - type: entityTable
@@ -299,6 +304,7 @@
     - id: AnomalyLocator # GoobStation - adding anomaly locator to the RD locker to reduce the amount of anoms that crit
     - id: CigarCase
       prob: 0.15 # GoobStation - RD needs cigs for uhh... science...
+    - id: PrinterDocFlatpack  # Corvax-Printer
 
 # Hardsuit table, used for suit storage as well
 - type: entityTable
@@ -361,6 +367,7 @@
     - id: WeaponDisabler
     - id: WantedListCartridge
     - id: DrinkHosFlask
+    - id: PrinterDocFlatpack  # Corvax-Printer
 
 # Hardsuit table, used for suit storage as well
 - type: entityTable
