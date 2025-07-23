@@ -1,5 +1,5 @@
 ﻿- type: entity
-  parent: InternalAffairsAgentPDA
+  parent: BasePDA
   id: VisitorVIPPDA
   name: Visitante V.I.P PDA
   description: Se você tem isso, talvez consiga comprar um pequeno país no caminho de volta para casa.

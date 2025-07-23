@@ -34,7 +34,7 @@
         Slash: 0.75
         Piercing: 0.75
         Heat: 0.75
-  - type: AllowSuitStorage
+  - type: AllowBackStorage
   - type: TemperatureProtection
     coolingCoefficient: 0.1
     heatingCoefficient: 1.1

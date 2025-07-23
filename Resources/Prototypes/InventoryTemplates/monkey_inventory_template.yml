@@ -112,24 +112,28 @@
       dependsOn: jumpsuit
       displayName: Pocket 2
       stripHidden: true
-<<<<<<< HEAD
-    - name: suitstorage
-      slotTexture: suit_storage
-      slotFlags: SUITSTORAGE
-=======
     - name: backstorage
       slotTexture: back_storage
       slotFlags:   BACKSTORAGE
->>>>>>> 88edeaee45cf45cd51f64d304a6af3a6aa32108d
       slotGroup: MainHotbar
       stripTime: 3
       uiWindowPos: 2,0
       strippingWindowPos: 0,5
       dependsOn: outerClothing
       dependsOnComponents:
-<<<<<<< HEAD
-        - type: AllowSuitStorage
-      displayName: Suit Storage
+      - type: AllowBackStorage
+      displayName: Back Storage
+    - name: tankstorage
+      slotTexture: tank_storage
+      slotFlags:   TANKSTORAGE
+      slotGroup: MainHotbar
+      stripTime: 3
+      uiWindowPos: 3,0
+      strippingWindowPos: 1, 5
+      dependsOn: outerClothing
+      dependsOnComponents:
+      - type: AllowTankStorage
+      displayName: Tank Storage
     - name: id
       slotTexture: id
       fullTextureName: template_small
@@ -179,18 +183,3 @@
       uiWindowPos: 3,0
       strippingWindowPos: 4,2
       displayName: Socks
-=======
-      - type: AllowBackStorage
-      displayName: Back Storage
-    - name: tankstorage
-      slotTexture: tank_storage
-      slotFlags:   TANKSTORAGE
-      slotGroup: MainHotbar
-      stripTime: 3
-      uiWindowPos: 3,0
-      strippingWindowPos: 1, 5
-      dependsOn: outerClothing
-      dependsOnComponents:
-      - type: AllowTankStorage
-      displayName: Tank Storage
->>>>>>> 88edeaee45cf45cd51f64d304a6af3a6aa32108d

@@ -127,7 +127,7 @@
         ents: []
 #Tank Harness
 #- type: entity
- # parent: [ClothingOuterBase, AllowSuitStorageClothingGasTanks]
+ # parent: [ClothingOuterBase, AllowBackStorageClothingGasTanks]
  # id: ClothingOuterVestTank
  # name: tank harness
  # description: A simple harness that can hold a gas tank.

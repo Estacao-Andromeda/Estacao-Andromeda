@@ -172,7 +172,7 @@
   - type: PresetIdCard
     job: SecurityCadet
   - type: Sprite
-    sprite: _DV/Objects/Misc/id_cards.rsi # DeltaV - resprite security IDs
+    #sprite: _DV/Objects/Misc/id_cards.rsi # DeltaV - resprite security IDs
     layers:
     - state: default #base
     - state: decal-stripe-security #decal
@@ -226,7 +226,7 @@
   name: security ID card
   components:
   - type: Sprite
-    sprite: _DV/Objects/Misc/id_cards.rsi # DeltaV - resprite security IDs
+    #sprite: _DV/Objects/Misc/id_cards.rsi # DeltaV - resprite security IDs
     layers:
     - state: default #base
     - state: decal-stripe-security #decal
@@ -241,16 +241,8 @@
   id: WardenIDCard
   name: warden ID card
   components:
-<<<<<<< HEAD
-    - type: Sprite
-      sprite: _DV/Objects/Misc/id_cards.rsi # DeltaV - resprite security IDs
-      layers:
-        - state: default
-        - state: idwarden
-    - type: PresetIdCard
-      job: Warden
-=======
   - type: Sprite
+    #sprite: _DV/Objects/Misc/id_cards.rsi # DeltaV - resprite security IDs
     layers:
     - state: default #base
     - state: decal-stripe-security #decal
@@ -259,7 +251,6 @@
       state: Warden
   - type: PresetIdCard
     job: Warden
->>>>>>> 88edeaee45cf45cd51f64d304a6af3a6aa32108d
 
 - type: entity
   parent: IDCardStandard
@@ -631,7 +622,7 @@
   name: head of security ID card
   components:
   - type: Sprite
-    sprite: _DV/Objects/Misc/id_cards.rsi # DeltaV - resprite security IDs
+    #sprite: _DV/Objects/Misc/id_cards.rsi # DeltaV - resprite security IDs
     layers:
     - state: silver #base
     - state: decal-stripe-security #decal
@@ -668,7 +659,7 @@
   name: brigmedic ID card
   components:
   - type: Sprite
-    sprite: _DV/Objects/Misc/id_cards.rsi # DeltaV - resprite security IDs
+    #sprite: _DV/Objects/Misc/id_cards.rsi # DeltaV - resprite security IDs
     layers:
     - state: default #base
     - state: decal-stripe-security #decal
@@ -1026,7 +1017,7 @@
   name: detective ID card
   components:
   - type: Sprite
-    sprite: _DV/Objects/Misc/id_cards.rsi # DeltaV - resprite security IDs
+    #sprite: _DV/Objects/Misc/id_cards.rsi # DeltaV - resprite security IDs
     layers:
     - state: default #base
     - state: decal-stripe-security #decal
@@ -1158,7 +1149,7 @@
   name: senior officer ID card
   components:
   - type: Sprite
-    sprite: _DV/Objects/Misc/id_cards.rsi # DeltaV - resprite security IDs
+    #sprite: _DV/Objects/Misc/id_cards.rsi # DeltaV - resprite security IDs
     layers:
     - state: default #base
     - state: decal-stripe-security #decal

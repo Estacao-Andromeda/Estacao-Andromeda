@@ -119,52 +119,28 @@
       dependsOn: jumpsuit
       displayName: Pocket 2
       stripHidden: true
-<<<<<<< HEAD
-    - name: suitstorage
-      slotTexture: suit_storage
-      slotFlags: SUITSTORAGE
-=======
     - name: backstorage
       slotTexture: back_storage
       slotFlags:   BACKSTORAGE
->>>>>>> 88edeaee45cf45cd51f64d304a6af3a6aa32108d
       slotGroup: MainHotbar
       stripTime: 3
       uiWindowPos: 2,0
       strippingWindowPos: 0,4
       dependsOn: outerClothing
       dependsOnComponents:
-<<<<<<< HEAD
-        - type: AllowSuitStorage
-      displayName: Suit Storage
-    - name: id
-      slotTexture: id
-      fullTextureName: template_small
-      slotFlags: IDCARD
-      slotGroup: SecondHotbar
-      stripTime: 6
-      uiWindowPos: 2,1
-      strippingWindowPos: 2,4
-      dependsOn: jumpsuit
-      displayName: ID
-    - name: belt
-      slotTexture: belt
-      fullTextureName: template_small
-      slotFlags: BELT
-      slotGroup: SecondHotbar
-      stripTime: 6
-      uiWindowPos: 3,1
-      strippingWindowPos: 1,5
-      displayName: Belt
-    - name: back
-      slotTexture: back
-      fullTextureName: template_small
-      slotFlags: BACK
-      slotGroup: SecondHotbar
-      stripTime: 6
+      - type: AllowBackStorage
+      displayName: Back Storage
+    - name: tankstorage
+      slotTexture: tank_storage
+      slotFlags:   TANKSTORAGE
+      slotGroup: MainHotbar
+      stripTime: 3
       uiWindowPos: 3,0
-      strippingWindowPos: 0,5
-      displayName: Back
+      strippingWindowPos: 1, 4
+      dependsOn: outerClothing
+      dependsOnComponents:
+      - type: AllowTankStorage
+      displayName: Tank Storage
     - name: underpants
       slotTexture: underpants
       slotFlags: UNDERPANTS
@@ -179,18 +155,3 @@
       uiWindowPos: 3,2
       strippingWindowPos: 4,1
       displayName: Undershirt
-=======
-      - type: AllowBackStorage
-      displayName: Back Storage
-    - name: tankstorage
-      slotTexture: tank_storage
-      slotFlags:   TANKSTORAGE
-      slotGroup: MainHotbar
-      stripTime: 3
-      uiWindowPos: 3,0
-      strippingWindowPos: 1, 4
-      dependsOn: outerClothing
-      dependsOnComponents:
-      - type: AllowTankStorage
-      displayName: Tank Storage
->>>>>>> 88edeaee45cf45cd51f64d304a6af3a6aa32108d

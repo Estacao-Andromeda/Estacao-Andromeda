@@ -528,25 +528,6 @@
 - type: roleLoadout
   id: JobDetective
   groups:
-<<<<<<< HEAD
-    - DetectiveHead
-    - DetectiveNeck
-    - SecurityGlasses #Funky
-    - DetectiveJumpsuit
-    - SecurityBackpack
-    - DetectiveOuterClothing
-    - SecurityShoes
-    - SurvivalSecurity
-    - SecurityArmas # Andromeda
-    - SecurityAllAmmo # Andromeda
-    - Trinkets
-    - SecurityStar
-    - ApoiadoresGroup # Andromeda
-    - GroupSpeciesBreathToolSecurity
-    - ShocksGroup
-    - UnderPantsGroup
-    - UnderShirtGroup
-=======
   - DetectiveHead
   - DetectiveNeck
   - SecurityGlasses #Funky
@@ -559,7 +540,28 @@
   - Trinkets
   - SecurityStar
   - GroupSpeciesBreathToolSecurity
->>>>>>> 88edeaee45cf45cd51f64d304a6af3a6aa32108d
+
+#- type: roleLoadout
+#  id: JobDetective
+#  groups:
+#    - DetectiveHead
+#    - DetectiveNeck
+#    - SecurityGlasses #Funky
+#    - DetectiveJumpsuit
+#    - SecurityBackpack
+#    - DetectiveOuterClothing
+#    - SecurityShoes
+#    - DetectivePDA # funkystation
+#    - SurvivalSecurity
+#    - SecurityArmas # Andromeda
+#    - SecurityAllAmmo # Andromeda
+#    - Trinkets
+#    - SecurityStar
+#    - ApoiadoresGroup # Andromeda
+#    - GroupSpeciesBreathToolSecurity
+#    - ShocksGroup
+#    - UnderPantsGroup
+#    - UnderShirtGroup
 
 - type: roleLoadout
   id: JobSecurityCadet
@@ -759,99 +761,66 @@
 - type: roleLoadout
   id: RoleSurvivalVoxSupport
   groups:
-<<<<<<< HEAD
-    - GroupSpeciesBreathTool
-=======
   - GroupSpeciesBreathTool
 
->>>>>>> 88edeaee45cf45cd51f64d304a6af3a6aa32108d
 
 # gives vox a nitrogen breathing tank
 # other species get nothing
 - type: roleLoadout
   id: RoleSurvivalVoxTank
   groups:
-    - GroupEVATankVox
+  - GroupEVATankVox
 
 - type: roleLoadout
   id: RoleSurvivalStandard
   groups:
-<<<<<<< HEAD
-    - Survival
-    - GroupSpeciesBreathTool
-=======
   - Survival
   - GroupSpeciesBreathTool
 
->>>>>>> 88edeaee45cf45cd51f64d304a6af3a6aa32108d
 
 - type: roleLoadout
   id: RoleSurvivalClown
   groups:
-<<<<<<< HEAD
-    - SurvivalClown
-=======
   - SurvivalClown
 
->>>>>>> 88edeaee45cf45cd51f64d304a6af3a6aa32108d
 
 - type: roleLoadout
   id: RoleSurvivalExtended
   groups:
-<<<<<<< HEAD
-    - SurvivalExtended
-    - GroupSpeciesBreathTool
-=======
   - SurvivalExtended
   - GroupSpeciesBreathTool
 
->>>>>>> 88edeaee45cf45cd51f64d304a6af3a6aa32108d
 
 - type: roleLoadout
   id: RoleSurvivalMedical
   groups:
-<<<<<<< HEAD
-    - SurvivalMedical
-    - GroupSpeciesBreathToolMedical
-=======
   - SurvivalMedical
   - GroupSpeciesBreathToolMedical
 
->>>>>>> 88edeaee45cf45cd51f64d304a6af3a6aa32108d
 
 - type: roleLoadout
   id: RoleSurvivalSecurity
   groups:
-<<<<<<< HEAD
-    - SurvivalSecurity
-    - GroupSpeciesBreathToolSecurity
-=======
   - SurvivalSecurity
   - GroupSpeciesBreathToolSecurity
 
->>>>>>> 88edeaee45cf45cd51f64d304a6af3a6aa32108d
 
 - type: roleLoadout
   id: RoleSurvivalSyndicate
   groups:
-<<<<<<< HEAD
-    - SurvivalSyndicate
-    - GroupSpeciesBreathTool
-=======
   - SurvivalSyndicate
   - GroupSpeciesBreathTool
 
->>>>>>> 88edeaee45cf45cd51f64d304a6af3a6aa32108d
 
 - type: roleLoadout
   id: RoleSurvivalNukie
   groups:
-    - SurvivalSyndicate
-    - GroupSpeciesBreathTool
-    - GroupPocketTankDouble
+  - SurvivalSyndicate
+  - GroupSpeciesBreathTool
+  - GroupPocketTankDouble
 
 - type: roleLoadout
   id: RoleSurvivalEVA
   groups:
-    - GroupEVATank
-    - SurvivalExtended
+  - GroupEVATank
+  - SurvivalExtended

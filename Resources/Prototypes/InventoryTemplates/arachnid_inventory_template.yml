@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-=======
-﻿# SPDX-FileCopyrightText: 2021 Paul Ritter <ritter.paul1@googlemail.com>
+# SPDX-FileCopyrightText: 2021 Paul Ritter <ritter.paul1@googlemail.com>
 # SPDX-FileCopyrightText: 2022 DrSmugleaf <DrSmugleaf@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2022 Jezithyr <Jezithyr.@gmail.com>
 # SPDX-FileCopyrightText: 2022 Justin Trotter <trotter.justin@gmail.com>
@@ -20,7 +18,6 @@
 
 # Human with extra pockets
 
->>>>>>> 88edeaee45cf45cd51f64d304a6af3a6aa32108d
 - type: inventoryTemplate
   id: arachnid
   slots:
@@ -133,11 +130,6 @@
       dependsOn: jumpsuit
       displayName: Pocket 2
       stripHidden: true
-<<<<<<< HEAD
-    - name: suitstorage
-      slotTexture: suit_storage
-      slotFlags: SUITSTORAGE
-=======
     - name: pocket3
       slotTexture: web
       fullTextureName: template_small
@@ -163,16 +155,25 @@
     - name: backstorage
       slotTexture: back_storage
       slotFlags:   BACKSTORAGE
->>>>>>> 88edeaee45cf45cd51f64d304a6af3a6aa32108d
       slotGroup: MainHotbar
       stripTime: 3
       uiWindowPos: 2,0
       strippingWindowPos: 0,5
       dependsOn: outerClothing
       dependsOnComponents:
-<<<<<<< HEAD
-        - type: AllowSuitStorage
-      displayName: Suit Storage
+      - type: AllowBackStorage
+      displayName: Back Storage
+    - name: tankstorage
+      slotTexture: tank_storage
+      slotFlags:   TANKSTORAGE
+      slotGroup: MainHotbar
+      stripTime: 3
+      uiWindowPos: 3,0
+      strippingWindowPos: 1, 5
+      dependsOn: outerClothing
+      dependsOnComponents:
+      - type: AllowTankStorage
+      displayName: Tank Storage
     - name: underpants
       slotTexture: underpants
       slotFlags: UNDERPANTS
@@ -194,18 +195,3 @@
       uiWindowPos: 3,0
       strippingWindowPos: 4,2
       displayName: Socks
-=======
-      - type: AllowBackStorage
-      displayName: Back Storage
-    - name: tankstorage
-      slotTexture: tank_storage
-      slotFlags:   TANKSTORAGE
-      slotGroup: MainHotbar
-      stripTime: 3
-      uiWindowPos: 3,0
-      strippingWindowPos: 1, 5
-      dependsOn: outerClothing
-      dependsOnComponents:
-      - type: AllowTankStorage
-      displayName: Tank Storage
->>>>>>> 88edeaee45cf45cd51f64d304a6af3a6aa32108d
