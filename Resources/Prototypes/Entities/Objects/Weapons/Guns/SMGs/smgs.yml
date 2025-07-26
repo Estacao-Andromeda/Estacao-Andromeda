@@ -103,6 +103,17 @@
     price: 500
   - type: Multishot # Goobstation
     spreadMultiplier: 1.4
+  # Goobstation edit start
+  - type: EmitSoundOnPickup
+    sound:
+      collection: SMGPickUp
+  - type: EmitSoundOnDrop
+    sound:
+      collection: SMGDrop
+  - type: EmitSoundOnLand
+    sound:
+      collection: SMGDrop
+  # Goobstation edit end
 
 - type: entity
   name: Atreides
