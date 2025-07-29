@@ -1,0 +1,26 @@
+- type: entity
+  parent: BaseFlatpack
+  id: CloningPodFlatpack
+  name: CloningPod flatpack
+  description: A flatpack used for constructing an CloningPod.
+  components:
+  - type: Flatpack
+    entity: CloningPod
+
+- type: entity
+  parent: BaseFlatpack
+  id: ComputerCloningConsoleFlatpack
+  name: ComputerCloningConsole flatpack
+  description: A flatpack used for constructing an ComputerCloningConsole.
+  components:
+  - type: Flatpack
+    entity: ComputerCloningConsole
+
+- type: entity
+  parent: BaseFlatpack
+  id: MedicalScannerFlatpack
+  name: MedicalScanner flatpack
+  description: A flatpack used for constructing an MedicalScanner.
+  components:
+  - type: Flatpack
+    entity: MedicalScanner

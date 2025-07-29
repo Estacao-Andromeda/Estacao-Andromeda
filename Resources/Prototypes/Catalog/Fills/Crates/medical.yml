@@ -100,6 +100,9 @@
       - id: BoneGel
       - id: BoxLatexGloves
       - id: BoxSterileMask
+      - id: CloningPodFlatpack
+      - id: ComputerCloningConsoleFlatpack
+      - id: MedicalScannerFlatpack
 
 - type: entity
   id: CrateMedicalScrubs

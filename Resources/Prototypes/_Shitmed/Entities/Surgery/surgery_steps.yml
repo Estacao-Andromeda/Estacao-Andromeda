@@ -411,7 +411,7 @@
   - type: SurgeryDamageChangeEffect # DeltaV
     damage:
       types:
-        Slash: 2
+        Blunt: 1
   - type: SurgeryRepeatableStep
   - type: SurgeryOperatingTableCondition # funkystation - fuck you
   - type: SurgeryStepDirtiness # DeltaV - surgery cross contamination
