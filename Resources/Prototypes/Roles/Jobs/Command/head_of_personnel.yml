@@ -59,13 +59,13 @@
   playTimeTracker: JobHeadOfPersonnel
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 90000 #25 hrs
+      time: 54000 #Andromeda - 15h
     - !type:DepartmentTimeRequirement
       department: Civilian
       time: 18000 #5 hrs
     - !type:DepartmentTimeRequirement
       department: Security
-      time: 18000 #5 hrs
+      time: 7200 #5 hrs
   weight: 20
   startingGear: HoPGear
   icon: "JobIconHeadOfPersonnel"

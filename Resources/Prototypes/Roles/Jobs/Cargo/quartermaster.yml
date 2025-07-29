@@ -60,9 +60,9 @@
       time: 18000 #5 hrs
     - !type:DepartmentTimeRequirement
       department: Cargo
-      time: 54000 #15 hrs
+      time: 36000 #Andromeda - 10h
     - !type:OverallPlaytimeRequirement
-      time: 72000 #20 hrs
+      time: 54000 #Andromeda - 15h
   weight: 10
   startingGear: QuartermasterGear
   icon: "JobIconQuarterMaster"

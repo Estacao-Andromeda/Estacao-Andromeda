@@ -60,15 +60,15 @@
   requirements:
     - !type:RoleTimeRequirement
       role: JobRoboticist
-      time: 18000 #5 hrs
+      time: 7200 #Andromeda - 2h
     - !type:RoleTimeRequirement
       role: JobScientist
       time: 36000 #10 hrs
     - !type:DepartmentTimeRequirement
       department: Science
-      time: 72000 #20 hrs
+      time: 54000 #Andromeda - 15h
     - !type:OverallPlaytimeRequirement
-      time: 90000 #25 hrs
+      time: 54000 #Andromeda - 15h
   weight: 10
   startingGear: ResearchDirectorGear
   icon: "JobIconResearchDirector"

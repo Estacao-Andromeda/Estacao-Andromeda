@@ -67,15 +67,15 @@
   requirements:
     - !type:RoleTimeRequirement
       role: JobWarden
-      time: 36000 #10 hrs
+      time: 18000 #Andromeda - 5
     - !type:RoleTimeRequirement
       role: JobSecurityOfficer
-      time: 72000 #20 hrs
+      time: 36000 #Andromeda - 10h
     - !type:DepartmentTimeRequirement
       department: Security
-      time: 108000 #30 hrs
+      time: 72000 #20 hrs
     - !type:OverallPlaytimeRequirement
-      time: 144000 #40 hrs
+      time: 90000 #25 hrs
   weight: 10
   startingGear: HoSGear
   icon: "JobIconHeadOfSecurity"

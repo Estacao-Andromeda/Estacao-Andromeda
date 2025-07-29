@@ -54,20 +54,20 @@
   description: job-description-captain
   playTimeTracker: JobCaptain
   requirements:
-    - !type:DepartmentTimeRequirement
-      department: Engineering
-      time: 18000 #5 hrs
-    - !type:DepartmentTimeRequirement
-      department: Medical
-      time: 18000 #5 hrs
+    #- !type:DepartmentTimeRequirement
+    #  department: Engineering
+    #  time: 18000 #5 hrs
+    #- !type:DepartmentTimeRequirement # Andromeda
+    #  department: Medical
+    #  time: 18000 #5 hrs
     - !type:DepartmentTimeRequirement
       department: Security
-      time: 36000 #10 hrs
+      time: 10800 #Andromeda - 3h
     - !type:DepartmentTimeRequirement
       department: Command
-      time: 72000 #20 hrs
+      time: 10800 #Andromeda - 3h
     - !type:OverallPlaytimeRequirement
-      time: 144000 #40 hrs
+      time: 72000 #Andromeda - 20h
   weight: 20
   startingGear: CaptainGear
   icon: "JobIconCaptain"

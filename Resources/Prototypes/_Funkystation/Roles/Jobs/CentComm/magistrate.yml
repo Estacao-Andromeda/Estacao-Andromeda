@@ -11,16 +11,16 @@
   playTimeTracker: JobMagistrate
   requirements:
   - !type:OverallPlaytimeRequirement
-    time: 72000 #20 hrs
+    time: 36000 # Andromeda - 10h
   - !type:RoleTimeRequirement
     role: JobNanotrasenRepresentative
-    time: 36000 #10 hrs
+    time: 18000 #Andromeda - 5h
   - !type:RoleTimeRequirement
     role: JobCaptain
-    time: 36000 #10 hrs
+    time: 18000 #Andromeda - 5h
   - !type:RoleTimeRequirement
     role: JobHeadOfSecurity
-    time: 36000 #10 hrs
+    time: 18000 #Andromeda - 5h
   weight: 20
   startingGear: MagistrateGear
   icon: "JobIconMagistrate"

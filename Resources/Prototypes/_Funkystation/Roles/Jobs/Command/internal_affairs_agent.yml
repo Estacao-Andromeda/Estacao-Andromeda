@@ -12,7 +12,7 @@
   playTimeTracker: JobInternalAffairsAgent
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 72000 #20 hrs
+      time: 36000 # Andromeda - 10h
     - !type:RoleTimeRequirement
       role: JobLawyer
       time: 18000 #5 hrs

@@ -56,15 +56,15 @@
   requirements:
     - !type:RoleTimeRequirement
       role: JobChemist
-      time: 36000 #10 hrs
+      time: 18000 #Andromeda - 5
     - !type:RoleTimeRequirement
       role: JobMedicalDoctor
-      time: 36000 #10 hrs
+      time: 18000 #Andromeda - 5
     - !type:DepartmentTimeRequirement
       department: Medical
-      time: 72000 #20 hrs
+      time: 36000 #Andromeda - 10h
     - !type:OverallPlaytimeRequirement
-      time: 90000 #25 hrs
+      time: 54000 #Andromeda - 15h
   weight: 10
   startingGear: CMOGear
   icon: "JobIconChiefMedicalOfficer"
