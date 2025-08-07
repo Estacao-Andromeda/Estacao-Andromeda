@@ -10,5 +10,3 @@
     - id: ChemistryEmptyBottle01
     - id: EpinephrineChemistryBottle # these are mostly to show off the sprite
     - id: EmergencyMedipen
-    - id: PainMedipen
-      amount: 2
