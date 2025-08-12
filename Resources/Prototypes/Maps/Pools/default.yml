@@ -41,7 +41,7 @@
 - type: gameMapPool
   id: DefaultMapPool
   maps:
-  - roid_outpost
+  #- roid_outpost
   - Amber
   - Elkridge
   - Glacier

@@ -299,19 +299,21 @@
   name: medical intern PDA
   description: Why isn't it white?
   components:
-    - type: Pda
-      id: MedicalInternIDCard
-    - type: Appearance
-      appearanceDataInit:
-        enum.PdaVisuals.PdaType: !type:String pda-internmed
-    - type: PdaBorderColor
-      borderColor: "#717059"
-      accentVColor: "#447987"
-    - type: Icon
-      state: pda-internmed
-    - type: GuideHelp
-      guides:
-        - Medical Doctor
+  - type: Pda
+    id: MedicalInternIDCard
+  - type: Appearance
+    appearanceDataInit:
+     enum.PdaVisuals.PdaType:
+       !type:String
+       pda-internmed
+  - type: PdaBorderColor
+    borderColor: "#717059"
+    accentVColor: "#447987"
+  - type: Icon
+    state: pda-internmed
+  - type: GuideHelp
+    guides:
+    - MedicalDoctor
 
 - type: entity
   parent: BaseSecurityPDA
@@ -799,19 +801,21 @@
   name: medical PDA
   description: Shiny and sterile.
   components:
-    - type: Pda
-      id: MedicalIDCard
-    - type: Appearance
-      appearanceDataInit:
-        enum.PdaVisuals.PdaType: !type:String pda-medical
-    - type: PdaBorderColor
-      borderColor: "#d7d7d0"
-      accentVColor: "#447987"
-    - type: Icon
-      state: pda-medical
-    - type: GuideHelp
-      guides:
-        - Medical Doctor
+  - type: Pda
+    id: MedicalIDCard
+  - type: Appearance
+    appearanceDataInit:
+     enum.PdaVisuals.PdaType:
+       !type:String
+       pda-medical
+  - type: PdaBorderColor
+    borderColor: "#d7d7d0"
+    accentVColor: "#447987"
+  - type: Icon
+    state: pda-medical
+  - type: GuideHelp
+    guides:
+    - MedicalDoctor
 
 - type: entity
   parent: MedicalPDA
@@ -1363,23 +1367,25 @@
   suffix: Unremoveable
   description: Cursed cluwne PDA.
   components:
-    - type: Pda
-      id: CluwneIDCard
-    - type: Appearance
-      appearanceDataInit:
-        enum.PdaVisuals.PdaType: !type:String pda-cluwne
-    - type: PdaBorderColor
-      borderColor: "#1c8f4d"
-    - type: Icon
-      state: pda-cluwne
-      penSlot:
-        startingItem: CrayonGreen
-        ejectSound: /Audio/Items/bikehorn.ogg
-        priority: -1
-        whitelist:
-          tags:
-            - Write
-    - type: Unremoveable
+  - type: Pda
+    id: CluwneIDCard
+    penSlot:
+      startingItem: CrayonGreen
+      ejectSound: /Audio/Items/bikehorn.ogg
+      priority: -1
+      whitelist:
+        tags:
+        - Write
+  - type: Appearance
+    appearanceDataInit:
+     enum.PdaVisuals.PdaType:
+       !type:String
+       pda-cluwne
+  - type: PdaBorderColor
+    borderColor: "#1c8f4d"
+  - type: Icon
+    state: pda-cluwne
+  - type: Unremoveable
 
 - type: entity
   parent: BasePDA
