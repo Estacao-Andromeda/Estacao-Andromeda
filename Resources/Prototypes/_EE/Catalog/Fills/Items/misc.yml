@@ -7,6 +7,8 @@
     contents:
     - id: SyringeInaprovaline
     - id: Syringe
+    - id: TraunexamicAcidChemistryBottle
     - id: ChemistryEmptyBottle01
-    - id: EpinephrineChemistryBottle # these are mostly to show off the sprite
+    - id: EpinephrineChemistryBottle
     - id: EmergencyMedipen
+    - id: SpaceMedipen

@@ -1,0 +1,50 @@
+- type: loadout
+  id: SyringeCaseFilledLoadout
+  storage:
+    back:
+    - SyringeCaseFilled
+
+- type: loadout
+  id: MedkitBruteFilledLoadout
+  storage:
+    back:
+    - MedkitBruteFilled
+
+- type: loadout
+  id: MedkitBurnFilledLoadout
+  storage:
+    back:
+    - MedkitBurnFilled
+
+- type: loadout
+  id: MedkitFilledLoadout
+  storage:
+    back:
+    - MedkitFilled
+
+- type: loadout
+  id: MedkitRadiationFilledLoadout
+  storage:
+    back:
+    - MedkitRadiationFilled
+
+- type: loadout
+  id: MedkitToxinFilledLoadout
+  storage:
+    back:
+    - MedkitToxinFilled
+
+- type: loadout
+  id: autoInjectorCartridgeCaseSoftFilledLoadout
+  storage:
+    back:
+    - autoInjectorCartridgeCaseSoftFilled
+
+- type: loadout
+  id: BoxPillCanisterLoadoutFilledLoadout
+  storage:
+    back:
+    - BoxPillCanisterLoadoutFilled
+
+
+

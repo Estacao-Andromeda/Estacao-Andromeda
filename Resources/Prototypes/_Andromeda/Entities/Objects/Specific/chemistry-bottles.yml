@@ -1,0 +1,14 @@
+- type: entity
+  id: TraunexamicAcidChemistryBottle
+  suffix: traunexamic acid
+  parent: BaseChemistryBottleFilled
+  components:
+  - type: Label
+    currentLabel: reagent-name-tranexamic-acid
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: TranexamicAcid
+          Quantity: 30

@@ -97,34 +97,7 @@ ent-Bloodpack10Lingering = bolsa de sangue
 ent-Tourniquet = torniquete
     .desc = Provavelmente estanca o sangramento.
 
-ent-PillCanisterDexalin = porta-comprimidos (dexalin 10u)
-    .desc = Comporta até 9 comprimidos.
-
-ent-PillCanisterDylovene = porta-comprimidos (dylovene 10u)
-    .desc = Comporta até 9 comprimidos.
-
-ent-PillCanisterHyronalin = porta-comprimidos (hyronalin 10u)
-    .desc = Comporta até 9 comprimidos.
-
-ent-PillCanisterIron = porta-comprimidos (ferro 10u)
-    .desc = Comporta até 9 comprimidos.
-
-ent-PillCanisterCopper = porta-comprimidos (cobre 10u)
-    .desc = Comporta até 9 comprimidos.
-
-ent-PillCanisterKelotane = porta-comprimidos (kelotane 10u)
-    .desc = Comporta até 9 comprimidos.
-
-ent-PillCanisterDermaline = porta-comprimidos (dermaline 10u)
-    .desc = Comporta até 9 comprimidos.
-
-ent-PillCanisterTricordrazine = porta-comprimidos (tricordrazine 10u)
-    .desc = Comporta até 9 comprimidos.
-
-ent-PillCanisterBicaridine = porta-comprimidos (bicaridine 10u)
-    .desc = Comporta até 9 comprimidos.
-
-ent-PillCanisterCharcoal = porta-comprimidos (carvão vegetal 10u)
+ent-PillCanisterDexalin = porta-comprimidos
     .desc = Comporta até 9 comprimidos.
 
 PillCanisterRandom = porta-comprimidos

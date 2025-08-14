@@ -1,0 +1,20 @@
+- type: entity
+  name: caixa de pilulas prontas
+  parent: BoxCardboard
+  id: BoxPillCanisterLoadoutFilled
+  description: Uma caixa contendo pilulas prontas para serem usadas
+  components:
+  - type: StorageFill
+    contents:
+      - id: PillCanisterGranibitulari
+        amount: 2
+      - id: PillCanisterMultiver
+        amount: 1
+      - id: PillCanisterLenturi
+        amount: 2
+      - id: PillCanisterProbital
+        amount: 2
+  - type: Sprite
+    layers:
+      - state: box
+      - state: pillbox

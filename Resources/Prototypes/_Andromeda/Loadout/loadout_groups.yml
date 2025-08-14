@@ -158,7 +158,6 @@
   minLimit: 1
   maxLimit: 1
   loadouts:
-  - SecurityWeaponEnergyCutlassSecurity
   - SecurityFirearmWeaponPistolPollock
   - SecurityFirearmWeaponPistolSLP57
   - SecurityFirearmWeaponPistolMk58
@@ -166,6 +165,7 @@
   - SecurityRevolverInspector
   - SecurityFirearmWeaponRevolverFitz
   - SecurityFirearmWeaponRevolverK38Master
+  - SecurityWeaponEnergyCutlassSecurity
 
 - type: loadoutGroup
   id: HeadSecurityArmas
@@ -191,6 +191,23 @@
   - SecurityFirearmSpeedLoaderMagnum
   #- SecurityFirearmSpeedLoaderSpecialRubber
   - SecurityFirearmSpeedLoaderSpecial
+
+- type: loadoutGroup
+  id: MedicalItensLoadout
+  name: loadout-group-medical-itens
+  minLimit: 0
+  maxLimit: 2
+  loadouts:
+  - SyringeCaseFilledLoadout
+  - autoInjectorCartridgeCaseSoftFilledLoadout
+  - MedkitBruteFilledLoadout
+  - MedkitBurnFilledLoadout
+  - MedkitFilledLoadout
+  - MedkitRadiationFilledLoadout
+  - MedkitToxinFilledLoadout
+  - BoxPillCanisterLoadoutFilledLoadout
+
+
 
 - type: loadoutGroup
   id: ApoiadoresGroup
