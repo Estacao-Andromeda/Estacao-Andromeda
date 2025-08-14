@@ -576,6 +576,7 @@
     - ChiefMedicalOfficerOuterClothing
     - ChiefMedicalOfficerNeck
     - ChiefMedicalOfficerShoes
+    - MedicalItensLoadout # Andromeda
     - Glasses
     - SurvivalMedical
     - Trinkets
@@ -650,6 +651,7 @@
     - MedicalBackpack
     - ParamedicOuterClothing
     - ParamedicShoes
+    - MedicalItensLoadout # Andromeda
     - Glasses
     - SurvivalMedical
     - Trinkets
