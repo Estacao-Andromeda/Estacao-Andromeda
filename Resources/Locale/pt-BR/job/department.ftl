@@ -4,5 +4,5 @@ department-Command = de Comando
 department-Engineering = de Engenharia
 department-Medical = Médico
 department-Security = de Segurança
-department-Science = de Epistemia
+department-Science = de Ciência
 department-Specific = Específicos da Estação

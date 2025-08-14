@@ -1,24 +1,24 @@
 - type: loadout
   id: SecurityFirearmWeaponEnergyShotgun
-  equipment:
-   suitstorage: WeaponEnergyShotgun
+  inhand:
+  - WeaponEnergyShotgun
 
 - type: loadout
   id: SecurityWeaponEnergySwordHoS
-  equipment:
-   back: EnergySwordHoS
+  inhand:
+  - EnergySwordHoS
 
 - type: loadout
   id: SecurityFirearmWeaponEnergyGunMultiphase
-  equipment:
-   suitstorage: WeaponEnergyGunMultiphase
+  inhand:
+  - WeaponEnergyGunMultiphase
 
 - type: loadout
   id: SecurityFirearmWeaponSubMachineGunC20rHoS
-  equipment:
-   suitstorage: WeaponSubMachineGunC20rHoS
+  inhand:
+  - WeaponSubMachineGunC20rHoS
 
 - type: loadout
   id: SecurityFirearmWeaponPulsePistol
-  equipment:
-   back: WeaponPulsePistol
+  inhand:
+  - WeaponPulsePistol

@@ -207,6 +207,20 @@
   - MedkitToxinFilledLoadout
   - BoxPillCanisterLoadoutFilledLoadout
 
+- type: loadoutGroup
+  id: SciItensLoadout
+  name: loadout-group-sci-itens
+  minLimit: 0
+  maxLimit: 2
+  loadouts:
+  - AnomalyScannerLoadout
+  - NodeScannerLoadout
+  - AnomalyLocatorLoadout
+  - SynthesizerInstrumentLoadout
+  - WelderExperimentalLoadout
+  - ClothingShoesBootsMagSciLoadout
+  - PowerDrillLoadout
+  - MedkitRadiationFilledLoadout
 
 
 - type: loadoutGroup

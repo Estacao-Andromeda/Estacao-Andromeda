@@ -413,6 +413,7 @@
     - ResearchDirectorOuterClothing
     - ScientistGloves
     - ResearchDirectorShoes
+    - SciItensLoadout # Andromeda
     - Glasses
     - Survival
     - Trinkets
@@ -433,6 +434,7 @@
     - ScientistGloves
     - ScientistShoes
     - ScientistPDA
+    - SciItensLoadout # Andromeda
     - Glasses
     - Survival
     - Trinkets

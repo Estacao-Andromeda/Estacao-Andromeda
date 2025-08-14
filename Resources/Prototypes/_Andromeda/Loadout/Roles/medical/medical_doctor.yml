@@ -6,32 +6,27 @@
 
 - type: loadout
   id: MedkitBruteFilledLoadout
-  storage:
-    back:
+  inhand:
     - MedkitBruteFilled
 
 - type: loadout
   id: MedkitBurnFilledLoadout
-  storage:
-    back:
+  inhand:
     - MedkitBurnFilled
 
 - type: loadout
   id: MedkitFilledLoadout
-  storage:
-    back:
+  inhand:
     - MedkitFilled
 
 - type: loadout
   id: MedkitRadiationFilledLoadout
-  storage:
-    back:
+  inhand:
     - MedkitRadiationFilled
 
 - type: loadout
   id: MedkitToxinFilledLoadout
-  storage:
-    back:
+  inhand:
     - MedkitToxinFilled
 
 - type: loadout
@@ -42,8 +37,7 @@
 
 - type: loadout
   id: BoxPillCanisterLoadoutFilledLoadout
-  storage:
-    back:
+  inhand:
     - BoxPillCanisterLoadoutFilled
 
 

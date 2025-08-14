@@ -1,0 +1,59 @@
+- type: loadout
+  id: AnomalyScannerLoadout
+  storage:
+    back:
+    - AnomalyScanner
+
+- type: loadout
+  id: NodeScannerLoadout
+  storage:
+    back:
+    - NodeScanner
+
+- type: loadout
+  id: AnomalyLocatorLoadout
+  storage:
+    back:
+    - AnomalyLocator
+
+- type: loadout
+  id: SynthesizerInstrumentLoadout
+  storage:
+    back:
+    - SynthesizerInstrument
+
+- type: loadout
+  id: WelderExperimentalLoadout
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SeniorResearcher
+  storage:
+    back:
+    - WelderExperimental
+
+- type: loadout
+  id: PowerDrillLoadout
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MidSeniorEffect
+  storage:
+    back:
+    - PowerDrill
+
+- type: loadout
+  id: ClothingShoesBootsMagSciLoadout
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SeniorResearcher
+  storage:
+    back:
+    - ClothingShoesBootsMagSci
+
+- type: loadoutEffectGroup
+  id: MidSeniorEffect
+  effects:
+    - !type:JobRequirementLoadoutEffect
+      requirement:
+        !type:DepartmentTimeRequirement
+        department: Science
+        time: 108000 #30 hrs
