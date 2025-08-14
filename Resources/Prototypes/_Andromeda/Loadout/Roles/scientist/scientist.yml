@@ -23,13 +23,13 @@
     - SynthesizerInstrument
 
 - type: loadout
-  id: WelderExperimentalLoadout
+  id: WeaponPistolCHIMPLoadout
   effects:
   - !type:GroupLoadoutEffect
     proto: SeniorResearcher
   storage:
     back:
-    - WelderExperimental
+    - WeaponPistolCHIMP
 
 - type: loadout
   id: PowerDrillLoadout
