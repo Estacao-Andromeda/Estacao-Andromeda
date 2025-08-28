@@ -210,11 +210,6 @@ public sealed partial class StaminaSystem : EntitySystem
 
         // goobstation
         
-        // Begin DeltaV additions
-        // Allow users to modifier stamina damage as well, this part of the event is not handle-able by listeners.
-        RaiseLocalEvent(args.User, hitEvent);
-        // End DeltaV additions
-
         foreach (var (ent, comp) in toHit)
         {
             var hitEvent = new TakeStaminaDamageEvent((ent, comp));
