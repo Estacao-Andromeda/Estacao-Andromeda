@@ -29,8 +29,8 @@ public static class SkinColor
     public const float MaxFeathersValue = 55f / 100;
 
     // Einstein Engines - Tajaran
-    public const float MinAnimalFurHue = 20f / 360;
-    public const float MaxAnimalFurHue = 60f / 360;
+    public const float MinAnimalFurHue = 0f / 360; // Vermelho
+    public const float MaxAnimalFurHue = 360f / 360; // Todas as cores
     public const float MinAnimalFurSaturation = 0f / 100;
     public const float MaxAnimalFurSaturation = 100f / 100;
     public const float MinAnimalFurValue = 0f / 100;

@@ -46,10 +46,6 @@
     color: "#808080"
     activateSound: null
     deactivateSound: null
-  - type: Flashable
-    eyeDamageChance: 0.3
-    eyeDamage: 1
-    durationMultiplier: 1.5
   - type: MeleeWeapon
     soundHit:
       collection: Punch
@@ -90,20 +86,12 @@
         - Landmine
         - Mousetrap
         - SlipEntity
-  - type: LanguageKnowledge
-    speaks:
-    - TauCetiBasic
-    - SiikMaas
-    understands:
-    - TauCetiBasic
-    - SiikMaas
   - type: Tag
     tags:
     - CanPilot
     - FootstepSound
     - DoorBumpOpener
     - FelinidEmotes
-  - type: FootPrints
   - type: Temperature
     coldDamageThreshold: 248.15 # -25 degrees centigrade, like 12 degrees below normal
     currentTemperature: 311.76  # Body temperature of cat
