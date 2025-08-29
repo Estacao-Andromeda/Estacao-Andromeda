@@ -1,0 +1,4 @@
+- type: guideEntry
+  id: Oni
+  name: species-name-oni
+  text: "/ServerInfo/Guidebook/Mobs/_DV/Oni.xml"
