@@ -8,7 +8,7 @@
   id: HumanHairGatheredlow
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Human, Dwarf, SlimePerson, Felinid, Vulpkanin] # Frontier: add Felinid, Vulpkanin
+  speciesRestriction: [Human, Dwarf, SlimePerson, Felinid, Vulpkanin, Daengati] # Frontier: add Felinid, Vulpkanin
   sprites:
     - sprite: _Impstation/Mobs/Customization/human_hair.rsi
       state: gatheredlow
@@ -17,7 +17,7 @@
   id: HumanHairLowpigtails
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Human, Dwarf, SlimePerson, Felinid, Vulpkanin] # Frontier: add Felinid, Vulpkanin
+  speciesRestriction: [Human, Dwarf, SlimePerson, Felinid, Vulpkanin, Daengati] # Frontier: add Felinid, Vulpkanin
   sprites:
     - sprite: _Impstation/Mobs/Customization/human_hair.rsi
       state: lowpigtails
@@ -26,7 +26,7 @@
   id: HumanHairFrenchBraid
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Human, Dwarf, SlimePerson, Felinid, Vulpkanin] # Frontier: add Felinid, Vulpkanin
+  speciesRestriction: [Human, Dwarf, SlimePerson, Felinid, Vulpkanin, Daengati] # Frontier: add Felinid, Vulpkanin
   sprites:
     - sprite: _Impstation/Mobs/Customization/human_hair.rsi
       state: frenchbraid

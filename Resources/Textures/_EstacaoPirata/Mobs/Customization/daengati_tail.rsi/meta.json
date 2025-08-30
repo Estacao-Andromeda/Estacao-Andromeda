@@ -1,0 +1,43 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Tails by Wells Chaplon (discord: wellnachapara)",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "daengati_tail",
+            "directions": 4
+        },
+        {
+            "name": "nightcrawler_tail",
+            "directions": 4
+        },
+        {
+            "name": "HeartTail",
+            "directions": 4
+        },
+        {
+            "name": "HeartTail-tip",
+            "directions": 4
+        },
+        {
+            "name": "DragonLong",
+            "directions": 4
+        },
+        {
+            "name": "DragonLong-tip",
+            "directions": 4
+        },
+        {
+            "name": "RaboCortado",
+            "directions": 4
+        },
+        {
+            "name": "RaboEnrolado",
+            "directions": 4
+        }
+    ]
+}
