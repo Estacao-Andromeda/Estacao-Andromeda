@@ -105,6 +105,7 @@ namespace Content.IntegrationTests.Tests
         {
             "/Maps/centcomm.yml",
             "/Maps/_Harmony/centcomm.yml", // Funky, Harmony CC version
+            "/Maps/Shuttles/AdminSpawn/**" // admin gaming
         };
 
         private static readonly string[] GameMaps =
