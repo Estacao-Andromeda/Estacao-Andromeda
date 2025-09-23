@@ -8,3 +8,14 @@
     sprite: _Andromeda/Clothing/Uniforms/Jumpsuit/centcom_operador.rsi
   - type: Clothing
     sprite: _Andromeda/Clothing/Uniforms/Jumpsuit/centcom_operador.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitBarao
+  name: Uniforme de Barão
+  description: Um uniforme usado por Barões da mais alta classe, que chique !
+  components:
+  - type: Sprite
+    sprite: _Andromeda/Clothing/Uniforms/Jumpsuit/Roupa_barao.rsi
+  - type: Clothing
+    sprite: _Andromeda/Clothing/Uniforms/Jumpsuit/Roupa_barao.rsi
