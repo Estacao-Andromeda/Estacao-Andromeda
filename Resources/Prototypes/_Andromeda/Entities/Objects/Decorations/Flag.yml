@@ -1,0 +1,63 @@
+
+- type: entity
+  parent: BaseItem
+  id: N14DecorationFlagpoleNano
+  name: Bandeira da Nanotrasen
+  description: Um simples estandarte da Nanotrasen, feito de madeira e tecido.
+  components:
+  - type: Sprite
+    sprite: _Andromeda/Objects/Decoration/Flags/nano_flagpole.rsi
+    state: icon
+  - type: MeleeWeapon
+    wideAnimationRotation: -135
+    damage:
+      types:
+        Blunt: 10
+    soundHit:
+      collection: MetalThud
+  - type: Wieldable
+  - type: IncreaseDamageOnWield
+    damage:
+      types:
+        Blunt: 5
+  - type: Item
+    size: Huge
+  - type: UseDelay
+    delay: 1
+  - type: Damageable
+    damageModifierSet: Wood
+    damageContainer: Inorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 50
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: WoodDestroy
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+        # N14TODO: Quem precisa de sprites pra mão ?
+
+          #Syndie Flagpole
+- type: entity
+  parent: N14DecorationFlagpoleNano
+  id: N14DecorationFlagpoleSyndie
+  name: Bandeira Sindicalista
+  description: Um estandarte do Sindicato, para os mais fanáticos da cobrinha ! Morte a Nanotrasen !.
+  components:
+  - type: Sprite
+    sprite: _Andromeda/Objects/Decoration/Flags/syndie_flagpole.rsi
+    state: icon
+
+    
+- type: entity
+  parent: N14DecorationFlagpoleNano
+  id: N14DecorationFlagpoleCentralCommand
+  name: bandeira do Comando Central
+  description: Um estandarte do Comando Central, para os mais leais a Nanotrasen ! Viva a Nanotrasen !
+  components:
+  - type: Sprite
+    sprite: _Andromeda/Objects/Decoration/Flags/central_flagpole.rsi
+    state: icon
