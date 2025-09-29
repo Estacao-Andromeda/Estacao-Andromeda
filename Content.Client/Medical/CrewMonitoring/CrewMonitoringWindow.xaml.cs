@@ -272,6 +272,16 @@ public sealed partial class CrewMonitoringWindow : FancyWindow
 
             statusContainer.AddChild(statusIcon);
 
+            // Health Value
+            var healthLabel = new Label()
+            {
+                Text = sensor.TotalDamage.ToString(),
+                HorizontalExpand = true,
+                ClipText = true,
+            };
+
+            statusContainer.AddChild(healthLabel);
+
             // User name
             var nameLabel = new Label()
             {
