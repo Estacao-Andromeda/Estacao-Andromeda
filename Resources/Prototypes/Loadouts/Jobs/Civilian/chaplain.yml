@@ -8,6 +8,35 @@
 # SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+# Playtime requirement for NanoTrasen Bible, Codex NanoTrasimus
+- type: loadoutEffectGroup
+  id: NanoTrasenBibleRequirement
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobCaptain
+      time: 7200 #2 hrs
+
+# Playtime requirement for Druid Bible, Druidic Tablet
+- type: loadoutEffectGroup
+  id: DruidBibleRequirement
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobBotanist
+      time: 18000 #5 hrs
+
+# Playtime requirement for Clown Bible, Mirth of the Honkmother
+- type: loadoutEffectGroup
+  id: ClownBibleRequirement
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobClown
+      time: 18000 #5 hrs
 
 # Head
 - type: loadout
@@ -89,6 +118,64 @@
   equipment:
     outerClothing: ClothingOuterHoodieChaplain
 
+- type: loadout
+  id: BibleDruid
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: DruidBibleRequirement
+  storage:
+    back:
+    - BibleDruid
+
+- type: loadout
+  id: BibleNanoTrasen
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: NanoTrasenBibleRequirement
+  storage:
+    back:
+    - BibleNanoTrasen
+
+- type: loadout
+  id: BibleSatanic
+  storage:
+    back:
+    - BibleSatanic
+
+- type: loadout
+  id: ChaplainBibleBhuddhist
+  storage:
+     back: 
+     - BibleBhuddhist # The item's not even spelt correctly
+
+- type: loadout
+  id: BibleTanakh
+  storage:
+    back:
+    - BibleTanakh
+
+- type: loadout
+  id: BibleNarsie
+  storage:
+    back:
+    - BibleNarsie
+
+- type: loadout
+  id: BibleHonk
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: ClownBibleRequirement
+  storage:
+    back:
+    - BibleHonk
+
+- type: loadout
+  id: BibleRatvar
+  storage:
+    back:
+    - BibleRatvar
+
+
 # funkystation
 
 - type: loadout
@@ -102,9 +189,3 @@
   storage:
      back: 
      - BibleAtheist
-
-- type: loadout
-  id: ChaplainBibleBhuddhist
-  storage:
-     back: 
-     - BibleBhuddhist # The item's not even spelt correctly
