@@ -1,5 +1,6 @@
 # SPDX-FileCopyrightText: 2025 Catazeus <200477155+Catazeus@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 Middleson5 <Chance@thethiers.com>
+# SPDX-FileCopyrightText: 2025 YaraaraY <158123176+YaraaraY@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
@@ -27,3 +28,15 @@
       sprite: _Funkystation/Clothing/Uniforms/Jumpskirt/bsotacticalmaid.rsi
     - type: Clothing
       sprite: _Funkystation/Clothing/Uniforms/Jumpskirt/bsotacticalmaid.rsi
+# senior cargo tech uniform! (by AraiMaia)
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpskirtSeniorCargo
+  name: senior cargo tech jumpskirt
+  description: A sign of skill and prestige within the cargo department.
+  components:
+  - type: Sprite
+    sprite: _Funkystation/Clothing/Uniforms/Jumpskirt/senior_cargo.rsi
+  - type: Clothing
+    sprite: _Funkystation/Clothing/Uniforms/Jumpskirt/senior_cargo.rsi
