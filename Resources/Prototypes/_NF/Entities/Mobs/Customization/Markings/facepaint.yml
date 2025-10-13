@@ -18,7 +18,7 @@
   id: FacepaintClown
   bodyPart: Head
   markingCategory: Head
-  speciesRestriction: [Arachnid, Dwarf, Felinid, Harpy, Human, Moth, SlimePerson] # Funky: remove Goblin, Oni, Sheleg
+  speciesRestriction: [Arachnid, Dwarf, Felinid, Harpy, Human, Moth, SlimePerson, Oni, Daengati] # Funky: remove Goblin, Oni, Sheleg
   forcedColoring: true
   coloring:
     default:
@@ -33,7 +33,7 @@
   id: FacepaintClownMinimal
   bodyPart: Head
   markingCategory: Head
-  speciesRestriction: [Arachnid, Dwarf, Felinid, Harpy, Human, Moth, SlimePerson] # Funky: remove Goblin, Oni, Sheleg
+  speciesRestriction: [Arachnid, Dwarf, Felinid, Harpy, Human, Moth, SlimePerson, Oni, Daengati] # Funky: remove Goblin, Oni, Sheleg
   forcedColoring: true
   coloring:
     default:
@@ -48,7 +48,7 @@
   id: FacepaintClownSad
   bodyPart: Head
   markingCategory: Head
-  speciesRestriction: [Arachnid, Dwarf, Felinid, Harpy, Human, Moth, SlimePerson] # Funky: remove Goblin, Oni, Sheleg
+  speciesRestriction: [Arachnid, Dwarf, Felinid, Harpy, Human, Moth, SlimePerson, Oni, Daengati] # Funky: remove Goblin, Oni, Sheleg
   forcedColoring: true
   coloring:
     default:
@@ -63,7 +63,7 @@
   id: FacepaintClownSerious
   bodyPart: Head
   markingCategory: Head
-  speciesRestriction: [Arachnid, Dwarf, Felinid, Harpy, Human, Moth, SlimePerson] # Funky: remove Goblin, Oni, Sheleg
+  speciesRestriction: [Arachnid, Dwarf, Felinid, Harpy, Human, Moth, SlimePerson, Oni, Daengati] # Funky: remove Goblin, Oni, Sheleg
   forcedColoring: true
   coloring:
     default:
@@ -78,7 +78,7 @@
   id: FacepaintClownSmug
   bodyPart: Head
   markingCategory: Head
-  speciesRestriction: [Arachnid, Dwarf, Felinid, Harpy, Human, Moth, SlimePerson] # Funky: remove Goblin, Oni, Sheleg
+  speciesRestriction: [Arachnid, Dwarf, Felinid, Harpy, Human, Moth, SlimePerson, Oni, Daengati] # Funky: remove Goblin, Oni, Sheleg
   forcedColoring: true
   coloring:
     default:
@@ -93,7 +93,7 @@
   id: FacepaintMime
   bodyPart: Head
   markingCategory: Head
-  speciesRestriction: [Arachnid, Dwarf, Felinid, Harpy, Human, Moth, SlimePerson] # Funky: remove Goblin, Oni, Sheleg
+  speciesRestriction: [Arachnid, Dwarf, Felinid, Harpy, Human, Moth, SlimePerson, Oni, Daengati] # Funky: remove Goblin, Oni, Sheleg
   forcedColoring: true
   coloring:
     default:
@@ -108,7 +108,7 @@
   id: FacepaintMimeBlush
   bodyPart: Head
   markingCategory: Head
-  speciesRestriction: [Arachnid, Dwarf, Felinid, Harpy, Human, Moth, SlimePerson] # Funky: remove Goblin, Oni, Sheleg
+  speciesRestriction: [Arachnid, Dwarf, Felinid, Harpy, Human, Moth, SlimePerson, Oni, Daengati] # Funky: remove Goblin, Oni, Sheleg
   forcedColoring: true
   coloring:
     default:
@@ -123,7 +123,7 @@
   id: FacepaintMimeOdd
   bodyPart: Head
   markingCategory: Head
-  speciesRestriction: [Arachnid, Dwarf, Felinid, Harpy, Human, Moth, SlimePerson] # Funky: remove Goblin, Oni, Sheleg
+  speciesRestriction: [Arachnid, Dwarf, Felinid, Harpy, Human, Moth, SlimePerson, Oni, Daengati] # Funky: remove Goblin, Oni, Sheleg
   forcedColoring: true
   coloring:
     default:
@@ -138,7 +138,7 @@
   id: FacepaintMimeSad
   bodyPart: Head
   markingCategory: Head
-  speciesRestriction: [Arachnid, Dwarf, Felinid, Harpy, Human, Moth, SlimePerson] # Funky: remove Goblin, Oni, Sheleg
+  speciesRestriction: [Arachnid, Dwarf, Felinid, Harpy, Human, Moth, SlimePerson, Oni, Daengati] # Funky: remove Goblin, Oni, Sheleg
   forcedColoring: true
   coloring:
     default:
@@ -153,7 +153,7 @@
   id: FacepaintMimeSerious
   bodyPart: Head
   markingCategory: Head
-  speciesRestriction: [Arachnid, Dwarf, Felinid, Harpy, Human, Moth, SlimePerson] # Funky: remove Goblin, Oni, Sheleg
+  speciesRestriction: [Arachnid, Dwarf, Felinid, Harpy, Human, Moth, SlimePerson, Oni, Daengati] # Funky: remove Goblin, Oni, Sheleg
   forcedColoring: true
   coloring:
     default:
@@ -168,7 +168,7 @@
   id: FacepaintWhite
   bodyPart: Head
   markingCategory: Head
-  speciesRestriction: [Arachnid, Dwarf, Felinid, Harpy, Human, Moth, SlimePerson] # Funky: remove Goblin, Oni, Sheleg
+  speciesRestriction: [Arachnid, Dwarf, Felinid, Harpy, Human, Moth, SlimePerson, Oni, Daengati] # Funky: remove Goblin, Oni, Sheleg
   forcedColoring: true
   coloring:
     default:
@@ -502,7 +502,7 @@
   id: FacepaintBlushHead
   bodyPart: Head
   markingCategory: Head
-  speciesRestriction: [Arachnid, Dwarf, Felinid, Harpy, Human, Moth, SlimePerson] # Funky: remove Goblin, Oni, Sheleg
+  speciesRestriction: [Arachnid, Dwarf, Felinid, Harpy, Human, Moth, SlimePerson, Oni, Daengati] # Funky: remove Goblin, Oni, Sheleg
   sprites:
   - sprite: _NF/Mobs/Customization/Facepaints/shared.rsi
     state: facepaint_blush
@@ -511,7 +511,7 @@
   id: FacepaintEyebrowsHead
   bodyPart: Head
   markingCategory: Head
-  speciesRestriction: [Arachnid, Dwarf, Felinid, Harpy, Human, Moth, SlimePerson] # Funky: remove Goblin, Oni, Sheleg
+  speciesRestriction: [Arachnid, Dwarf, Felinid, Harpy, Human, Moth, SlimePerson, Oni, Daengati] # Funky: remove Goblin, Oni, Sheleg
   sprites:
   - sprite: _NF/Mobs/Customization/Facepaints/shared.rsi
     state: facepaint_eyebrows
@@ -520,7 +520,7 @@
   id: FacepaintLipstickHead
   bodyPart: Head
   markingCategory: Head
-  speciesRestriction: [Arachnid, Dwarf, Felinid, Harpy, Human, Moth, SlimePerson] # Funky: remove Goblin, Oni, Sheleg
+  speciesRestriction: [Arachnid, Dwarf, Felinid, Harpy, Human, Moth, SlimePerson, Oni, Daengati] # Funky: remove Goblin, Oni, Sheleg
   sprites:
   - sprite: _NF/Mobs/Customization/Facepaints/shared.rsi
     state: facepaint_lipstick
