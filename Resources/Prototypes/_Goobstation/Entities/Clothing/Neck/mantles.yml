@@ -15,3 +15,12 @@
     sprite: _Goobstation/Clothing/Neck/Mantle/bsomantle.rsi
   - type: Clothing
     sprite: _Goobstation/Clothing/Neck/Mantle/bsomantle.rsi
+  - type: Item
+    size: Normal
+  - type: TemperatureProtection
+    heatingCoefficient: 1.1
+    coolingCoefficient: 0.1
+  - type: Armor
+    modifiers:
+      coefficients:
+        Heat: 0.90
