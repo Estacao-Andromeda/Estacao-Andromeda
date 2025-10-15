@@ -10,42 +10,42 @@ SPDX-License-Identifier: MIT
 -->
 
 <Document>
-# Chemicals
+# Produtos Químicos
 
-Chemicals are a powerful tool that can cause a variety of effects when consumed. Some can be found in plants, purchased from cargo, or be synthesized through combination with other chemicals.
+Produtos químicos são uma ferramenta poderosa que pode causar uma variedade de efeitos quando consumidos. Alguns podem ser encontrados em plantas, adquiridos de empresas de logística ou sintetizados por meio da combinação com outros produtos químicos.
 
-Knowing different types of chemicals and their effects is important for being able to manage injury and danger.
+Conhecer os diferentes tipos de produtos químicos e seus efeitos é importante para poder lidar com lesões e perigos.
 
-## Elements
+## Elementos
 <GuideReagentGroupEmbed Group="Elements"/>
 
-## Medicine
+## Medicamentos
 <GuideReagentGroupEmbed Group="Medicine"/>
 
-## Narcotics
+## Narcóticos
 <GuideReagentGroupEmbed Group="Narcotics"/>
 
-## Pyrotechnics
+## Pirotécnia
 <GuideReagentGroupEmbed Group="Pyrotechnic"/>
 
-## Toxins
+## Toxinas
 <GuideReagentGroupEmbed Group="Toxins"/>
 
-  ## Exotic
+  ## Exótico
   <GuideReagentGroupEmbed Group="Exotic"/>
 
-## Foods
+## Alimentos
 <GuideReagentGroupEmbed Group="Foods"/>
 
-## Botanical
+## Botânicos
 <GuideReagentGroupEmbed Group="Botanical"/>
 
-## Biological
+## Biológicos
 <GuideReagentGroupEmbed Group="Biological"/>
 
-## Special
+## Especial
 <GuideReagentGroupEmbed Group="Special"/>
 
-## Other
+## Outros
 <GuideReagentGroupEmbed Group="Unknown"/>
 </Document>

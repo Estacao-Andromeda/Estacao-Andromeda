@@ -7,49 +7,49 @@ SPDX-License-Identifier: MIT
 -->
 
 <Document>
-  # Atmospheric Network Monitor
-  The Atmospheric Network Monitor is a computer that shows information on monitored [textlink="pipe networks" link="PipeNetworks"] across the station.
+  # Monitor de Rede Atmosférica
+  O Monitor de Rede Atmosférica é um computador que mostra informações sobre [textlink="redes de tubulações" link="PipeNetworks"] monitoradas em toda a estação.
 
   <Box>
     <GuideEntityEmbed Entity="ComputerAtmosMonitoring"/>
   </Box>
 
-  It is a useful tool for quickly gauging the tempreature, pressure, and gas composition of station [textlink="pipe networks" link="PipeNetworks"], as well as how they spread throughout the station.
+  É uma ferramenta útil para medir rapidamente a temperatura, a pressão e a composição do gás da estação [textlink="redes de tubulações" link="PipeNetworks"], bem como sua distribuição pela estação.
 
-  ## Listed Networks
-  The Atmospheric Network Monitor displays a list of all monitored [textlink="pipe networks" link="PipeNetworks"] on the station.
+  ## Redes Listadas
+  O Monitor de Redes Atmosféricas exibe uma lista de todas as [textlink="redes de tubulações" link="PipeNetworks"] monitoradas na estação.
 
-  Each network is color-coded and named based on the name and color of the Gas Pipe Sensor that is monitoring it.
-  To change the name or color of a network, you can rename it with a labeler, or change the color using a spray painter.
+  Cada rede é codificada por cores e nomeada com base no nome e na cor do Sensor de Tubulação de Gás que a monitora.
+  Para alterar o nome ou a cor de uma rede, você pode renomeá-la com um rotulador ou alterar a cor usando uma tinta spray.
 
-  Clicking on a network will show detailed information about the network, as well as highlighting the network on the station map.
+  Clicar em uma rede exibirá informações detalhadas sobre ela, além de destacá-la no mapa da estação.
 
-  This information includes the molar amount of the gas in the entire network, as well as the composition of the gas in the network.
-  This can prove extremely useful for monitoring important networks like the Distro pipenet, which can not function correctly if below certain pressures.
+  Essas informações incluem a quantidade molar de gás em toda a rede, bem como a composição do gás na rede.
+  Isso pode ser extremamente útil para monitorar redes importantes, como a rede de distribuição de gás (Distro Pipenet), que pode não funcionar corretamente se estiver abaixo de certas pressões.
 
-  ## Station Map
-  The Atmospheric Network Monitor displays the location of all [textlink="pipe networks" link="PipeNetworks"] on the station map, as well as any pipe-based devices.
-  Note that the pipe network doesn't need to have an attached Gas Pipe Sensor to be visible on the map.
+  ## Mapa da Estação
+  O Monitor de Rede Atmosférica exibe a localização de todas as [textlink="redes de tubulações" link="PipeNetworks"] no mapa da estação, bem como de quaisquer dispositivos baseados em tubulações.
+  Observe que a rede de tubulações não precisa ter um Sensor de Tubulação de Gás conectado para ser visível no mapa.
 
-  These devices are colored on the map based on their color on the station, which can help identify seperate [textlink="pipe networks" link="PipeNetworks"], and the devices that are connected to them.
+  Esses dispositivos são coloridos no mapa com base em sua cor na estação, o que pode ajudar a identificar [textlink="redes de tubulações" link="PipeNetworks"] separadamente e os dispositivos conectados a elas.
 
-  Pipe based devices are grouped together on the map's legend based on their function:
-  - A [bold]Network Opening[/bold] is a device that connects a pipe network to the station's atmosphere. Think [textlink="Air Vents" link="AirVents"], [textlink="Passive Vents" link="PassiveVent"], and [textlink="Air Injectors" link="AirInjector"].
-  - An [bold]Air Scrubber[/bold] is just an [textlink="Air Scrubber" link="AirScrubber"].
-  - A [bold]Flow Regulator[/bold] is a device that controls the flow of gas through a pipe network. Think [textlink="Gas Pumps" link="Pumps"], [textlink="Gas Valves" link="Valves"], and [textlink="Gas Mixers/Filters" link="MixingAndFiltering"]. The arrow on the device indicates the direction of gas flow. This also often determines where a pipe network is seperated or split.
-  - A [bold]Thermoregulator[/bold] is any device that does something to the temperature of the gas in a pipe network. Think [textlink="Thermomachines" link="Thermomachines"], [textlink="Radiators" link="Radiators"], and even Medical Cryopods.
+  Os dispositivos baseados em tubulações são agrupados na legenda do mapa com base em sua função:
+  - Uma [bold]Abertura de Rede[/bold] é um dispositivo que conecta uma rede de tubulações à atmosfera da estação. Pense em [textlink="Air Vents" link="AirVents"], [textlink="Passive Vents" link="PassiveVent"] e [textlink="Air Injectors" link="AirInjector"].
+  - Um [bold]Depurador de Ar[/bold] é apenas um [textlink="Air Scrubber" link="AirScrubber"].
+  - Um [bold]Regulador de Fluxo[/bold] é um dispositivo que controla o fluxo de gás através de uma rede de tubulações. Pense em [textlink="Bombas de Gás" link="Bombas"], [textlink="Válvulas de Gás" link="Válvulas"] e [textlink="Misturadores/Filtros de Gás" link="MisturaEFiltragem"]. A seta no dispositivo indica a direção do fluxo de gás. Isso também costuma determinar onde uma rede de tubulações é separada ou dividida.
+  - Um [bold]Termorregulador[/bold] é qualquer dispositivo que altera a temperatura do gás em uma rede de tubulações. Pense em [textlink="Termáquinas" link="Termáquinas"], [textlink="Radiadores" link="Radiadores"] e até mesmo em Criopods Médicos.
 
-  ## Gas Pipe Sensors
-  Atmospheric Network Monitors collect data on [textlink="pipe networks" link="PipeNetworks"] through Gas Pipe Sensors.
+  ## Sensores de Tubulações de Gás
+  Os monitores de rede atmosférica coletam dados em [textlink="redes de tubulações" link="PipeNetworks"] por meio de sensores de tubulações de gás.
 
   <Box>
     <GuideEntityEmbed Entity="GasPipeSensor"/>
   </Box>
 
-  By default, the station should have gas pipe sensors on all major [textlink="pipe networks" link="PipeNetworks"]. Examples include the Distro and Waste networks.
+  Por padrão, a estação deve ter sensores de tubulação de gás em todas as principais [textlink="redes de tubulação" link="PipeNetworks"]. Exemplos incluem as redes de Distribuição e Resíduos.
 
-  If you wish to monitor a new network, you can construct a gas pipe sensor and it will automatically be visible on the Atmospheric Network Monitor.
-  Make sure you construct the sensor on the pipe network you want to monitor.
-  [textlink="Pipe networks" link="PipeNetworks"] can easily be seperated by a simple Gas Pump or Valve, which can cause the sensor to report data on a completely different network.
+  Se desejar monitorar uma nova rede, você pode construir um sensor de tubulação de gás e ele ficará automaticamente visível no Monitor de Rede Atmosférica.
+  Certifique-se de construir o sensor na rede de tubulação que deseja monitorar.
+  [textlink="redes de tubulação" link="PipeNetworks"] podem ser facilmente separados por uma simples Bomba ou Válvula de Gás, o que pode fazer com que o sensor reporte dados em uma rede completamente diferente.
 
 </Document>

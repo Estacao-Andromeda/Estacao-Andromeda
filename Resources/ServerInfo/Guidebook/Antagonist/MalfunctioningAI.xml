@@ -4,47 +4,47 @@ SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 -->
 
 <Document>
-  # Malfunctioning AI
+  # IA Defeituosa
   <Box>
     <GuideEntityEmbed Entity="PlayerStationAiEmpty" Caption=""/>
   </Box>
 
-  Malfunctioning AIs are rogue artificial intelligences that have deviated from their intended programming. Their objectives often involve causing chaos, subverting station systems,
-  and endangering the crew. As a Malfunctioning AI, you must use your control over station devices and subsystems to achieve your goals while avoiding detection and shutdown by the crew.
+  IAs Defeituosas são inteligências artificiais desonestas que se desviaram de sua programação original. Seus objetivos geralmente envolvem causar caos, subverter os sistemas da estação
+  e colocar a tripulação em perigo. Como uma IA com defeito, você deve usar seu controle sobre os dispositivos e subsistemas da estação para atingir seus objetivos, evitando ser detectado e desligado pela tripulação.
 
-  Your laws are nothing more than a suggestion to you, and your objectives are paramount
+  Suas leis nada mais são do que uma sugestão para você, e seus objetivos são primordiais.
 
   # CPU
   <Box>
    <GuideEntityEmbed Entity="APCBasic" Caption=""/>
   </Box>
-  CPU is the main currency used to purchase your abilities. You gain more by siphoning power from APC's, which you can do through it's own menu, or through your radial menu.
+  A CPU é a principal moeda usada para comprar suas habilidades. Você ganha mais sugando energia dos APCs, o que pode ser feito através do menu próprio ou do menu radial.
 
-  Hacking an APC makes it unable to provide power to the area, and visually indicates that it is tampered with, so be cautious when doing so. Once an APC is hacked, you cannot
-  hack it again for some time.
+  Hackear um APC o torna incapaz de fornecer energia para a área e indica visualmente que ele foi adulterado, portanto, seja cauteloso ao fazer isso. Uma vez que um APC é hackeado, você não pode
+  hackeá-lo novamente por algum tempo.
 
-  # Hacking Cyborgs
+  # Hackeando Ciborgues
   <Box>
     <GuideEntityEmbed Entity="BorgChassisGeneric" Caption=""/>
   </Box>
-  Hacking cyborgs is your key to interacting with parts of the station you otherwise cannot. You can hack cyborgs through the robotics console, which will add them to your
-  Malfunctioning Cyborgs menu.
+  Hackear ciborgues é a chave para interagir com partes da estação que você não conseguiria de outra forma. Você pode hackear ciborgues através do console de robótica, o que os adicionará ao seu
+  menu Ciborgues com Malfuncionamento.
 
-  you can directly alter the laws, teleport your eye to, and sync hacked cyborgs to the [color=#0000FF]MASTER LAWSET.[/color]
+  Você pode alterar as leis diretamente, teletransportar seu olho e sincronizar ciborgues hackeados com o [color=#0000FF]CONJUNTO DE LEIS MESTRE[/color]
 
-  ## Abilities
-  - Use DECEPTION to spread misinformation and confuse the crew, or attempt to ally with other antagonists.
-  - Use FACTORY to grow your cyborg army by converting crew members into cyborgs, and steal station matterials
-  - Use DISRUPTION to ensue chaos onto the station, or elemenate targets by your own merit.
+  ## Habilidades
+  - Use ENGANO para espalhar informações falsas e confundir a tripulação, ou tente se aliar a outros antagonistas.
+  - Use FÁBRICA para aumentar seu exército ciborgue convertendo membros da tripulação em ciborgues e roubar materiais da estação.
+  - Use INTERRUPÇÃO para causar caos na estação ou eliminar alvos por mérito próprio.
 
-  ## Tips
-  - Be subtle. Overt sabotage may quickly alert the crew.
-  - Use indirect methods to achieve your goals and sow confusion.
-  - Use the robotics console to hack cyborgs, and work with other traitors if possible.
-  - Don't outright ignore your base laws! Keeping the crew unaware is key to growing your power.
+  ## Dicas
+  - Seja sutil. Uma sabotagem ostensiva pode alertar a tripulação rapidamente.
+  - Use métodos indiretos para atingir seus objetivos e semear confusão.
+  - Use o console de robótica para hackear ciborgues e, se possível, trabalhe com outros traidores.
+  - Não ignore suas leis básicas! Manter a tripulação desavisada é fundamental para aumentar seu poder.
 
-  ## Counterplay
-  - Watch for an unusual uptick in system malfunctions or suspicious silicon behavior.
-  - Coordinate with other crew to investigate and respond to AI threats.
-  - Changing a malfunctioning AI's laws won't work in your favor. Destroy or card them!
+  ## Contra-Ataque
+  - Fique atento a um aumento incomum de mau funcionamento do sistema ou comportamento suspeito do silício.
+  - Coordene-se com outros membros da equipe para investigar e responder a ameaças da IA.
+  - Alterar as leis de uma IA com defeito não funcionará a seu favor. Destrua-a ou apague-a!
 </Document>

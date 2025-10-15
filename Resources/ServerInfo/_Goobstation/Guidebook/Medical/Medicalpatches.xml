@@ -11,38 +11,38 @@ SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 -->
 
 <Document>
-# Patches
+# Adesivos
 
-Patches are a simple and effective way to administer medication to a patient over time with lower risk of an overdose.
-They can be made at a medical techfab, and are filled directly or via a ChemMaster. They can be directly applied to a patient and will fall off by themselves once empty.
+Os adesivos são uma maneira simples e eficaz de administrar medicamentos a um paciente ao longo do tempo, com menor risco de overdose.
+Eles podem ser produzidos em uma fábrica de tecnologia médica e preenchidos diretamente ou por meio de um ChemMaster. Podem ser aplicados diretamente no paciente e se soltam sozinhos quando vazios.
 
 <GuideEntityEmbed Entity="MedicalPatchBasic" Rotation="0"/>
 
-There are 6 types of patches:
-- Basic
-- Rapid
-- Large
-- Therapeutic
-- Prefilled
-- Makeshift
+Existem 6 tipos de adesivos:
+- Básico
+- Rápido
+- Grande
+- Terapêutico
+- Pré-preenchido
+- Improvisado
 
-## Basic
-The (basic) patch holds 30 units of chemicals and transfers 2 unit every second.
+## Básico
+O adesivo (básico) contém 30 unidades de substâncias químicas e transfere 2 unidades a cada segundo.
 
-## Rapid
-The rapid patch holds 30 units and transfers 5 units every second.
+## Rápido
+O adesivo rápido contém 30 unidades e transfere 5 unidades a cada segundo.
 
-## Large
-The large patch holds 60 units and transfers 1 unit every second.
+## Grande
+O adesivo grande comporta 60 unidades e transfere 1 unidade a cada segundo.
 
-## Therapeutic
-The therapeutic patch holds 30 units and transfers 0.5 units every second.
+## Terapêutico
+O adesivo terapêutico comporta 30 unidades e transfere 0,5 unidade a cada segundo.
 
-## Prefilled
-NanoMed Plus machines and some medkits contain prefilled patches for treating Brute or Burn damage.
-These hold 30 units and transfer 0.5 units per second, but cannot be refilled or emptied. Not reusable.
+## Pré-preenchido
+As máquinas NanoMed Plus e alguns kits médicos contêm adesivos pré-preenchidos para tratar danos por Brute ou Queimadura.
+Eles comportam 30 unidades e transferem 0,5 unidade por segundo, mas não podem ser recarregados ou esvaziados. Não são reutilizáveis.
 
-## Makeshift
-This rudimentary patch can hold 15 units and transfers 2 unit every 4 seconds.
-However, it can be made by hand with cloth. Not reusable.
+## Improvisado
+Este remendo rudimentar pode conter 15 unidades e transfere 2 unidades a cada 4 segundos.
+No entanto, pode ser feito à mão com tecido. Não é reutilizável.
 </Document>

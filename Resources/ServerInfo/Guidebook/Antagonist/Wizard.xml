@@ -6,32 +6,32 @@ SPDX-License-Identifier: MIT
 -->
 
 <Document>
-  # The Wizard
+  # O Mago
 
   <Box>
-    [color=#457573][italic]IT'S WIZARD TIME MOTHERF-...[italic][/color]
+    [color=#457573][italic]É HORA DE MÁGICA FILHA DA P-...[italic][/color]
   </Box>
   <Box>
     <GuideEntityEmbed Entity="ToyFigurineWizard" Caption=""/>
   </Box>
-  Wizards are a force of chaos and unpredictability. You never know what one is going to do next.
-  Generally sent by the [color=#40E0D0]Space Wizards Federation[/color] or some schmuck turned into one by rolling a nat 20 on a cursed die.
-  And since a Wizard is highly unpredictable, one may show up when you least expect it!
+  Magos são uma força de caos e imprevisibilidade. Você nunca sabe o que um deles vai fazer em seguida.
+  Geralmente enviados pela [color=#40E0D0]Federação de Magos Espaciais[/color] ou por algum idiota transformado em um ao rolar um 20 natural em um dado amaldiçoado.
+  E como um Mago é altamente imprevisível, um pode aparecer quando você menos espera!
 
-  ## The Grimoire
+  ## O Grimório
   <Box>
     <GuideEntityEmbed Entity="WizardsGrimoire" Caption="Wizards Grimoire"/>
   </Box>
 
-  [bold]By wizard law of eld your Grimoire is bound to you.[/bold] This means you cannot share your Grimoire with anyone else. The spells and equipment inside are for you and you alone.
-  The Wizard's Grimoire is used to get all sorts of magical spells, equipment, and creatures. What's available to you is [italic]extremely powerful[/italic] so you only have 10 [color=#FF0000]W[/color][color=#FFA500]i[/color][color=#FFFF00]z[/color][color=#00FF00]€[/color][color=#0000FF]o[/color][color=#4B0082]i[/color][color=#8F00FF]n[/color]™ to spend on them.
-  Your only limit, other than the price, is your creativity. Try to find some combinations!
+  [bold]Pelas leis da magia, seu Grimório está vinculado a você.[/bold] Isso significa que você não pode compartilhá-lo com ninguém. Os feitiços e equipamentos contidos nele são para você e somente para você.
+  O Grimório do Mago é usado para obter todos os tipos de feitiços, equipamentos e criaturas mágicas. O que está disponível para você é [italic]extremamente poderoso[/italic], então você só tem 10 [color=#FF0000]W[/color][color=#FFA500]i[/color][color=#FFFF00]z[/color][color=#00FF00]€[/color][color=#0000FF]o[/color][color=#4B0082]i[/color][color=#8F00FF]n[/color]™ para gastar neles.
+  Seu único limite, além do preço, é sua criatividade. Tente encontrar algumas combinações!
 
   <Box>
     <GuideEntityEmbed Entity="PonderingOrbWizard" Caption="The Pondering Orb"/>
   </Box>
 
-  If you ever find yourself wanting to ponder, look no further! The [bold]Pondering Orb[/bold] allows the Wizard to tap into the Station's camera network to spy on others unsuspectingly.
-  Could be useful if you're trying to plan something out or stay one step ahead of [color=red]Security[/color].
+  Se você alguma vez tiver vontade de refletir, não procure mais! O [bold]Orbe da Reflexão[/bold] permite que o Mago acesse a rede de câmeras da Estação para espionar outras pessoas sem suspeitar.
+  Pode ser útil se você estiver tentando planejar algo ou se antecipar à [color=red]Segurança[/color].
 
 </Document>

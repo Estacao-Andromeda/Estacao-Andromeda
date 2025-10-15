@@ -7,19 +7,19 @@ SPDX-License-Identifier: MIT
 -->
 
 <Document>
-  # Signal Valve
-  The signal valve is a valve that can be controlled via [textlink="signals." link="Networking"]
+  # Válvula de Sinal
+  A válvula de sinal é uma válvula que pode ser controlada via [textlink="sinais." link="Rede"]
   <Box>
     <GuideEntityEmbed Entity="SignalControlledValve"/>
   </Box>
 
-  The signal valve is similar to the manual valve. Gas can flow unrestricted in both directions and it can be operated manually.
+  A válvula de sinalização é semelhante à válvula manual. O gás pode fluir livremente em ambas as direções e pode ser operada manualmente.
 
-  The signal valve has 3 [textlink="signal" link="Networking"] inputs, which can open, close, or toggle the valve.
+  A válvula de sinalização possui 3 entradas [textlink="signal" link="Networking"], que podem abrir, fechar ou alternar a válvula.
 
-  Signal valves can be used in a variety of applications, for example:
-  - Remote control of valves in hazardous areas or areas inaccessible to crew
-  - Convenient control over a valve in a hard-to-reach area
-  - Automation with other [textlink="signal-enabled" link="Networking"] machines and equipment such as [textlink="air alarms" link="AirAlarms"] and remote signalers
+  As válvulas de sinalização podem ser utilizadas em diversas aplicações, por exemplo:
+  - Controle remoto de válvulas em áreas perigosas ou áreas inacessíveis à tripulação
+  - Controle conveniente de uma válvula em áreas de difícil acesso
+  - Automação com outras máquinas e equipamentos [textlink="signal-enabled" link="Networking"], como [textlink="air alarms" link="AirAlarms"] e sinalizadores remotos
 
 </Document>

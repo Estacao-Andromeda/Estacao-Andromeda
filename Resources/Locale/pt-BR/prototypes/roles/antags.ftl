@@ -1,5 +1,16 @@
-﻿roles-antag-syndicate-agent-name = Agente do Sindicato
+﻿roles-antag-generic-solo-antagonist-name = Antagonista Solo
+
+roles-antag-generic-free-agent-name = Agente Livre
+
+roles-antag-generic-team-antagonist-name = Antagonista da Equipe
+
+roles-antag-generic-silicon-antagonist-name = Antagonista do Silício
+
+roles-antag-syndicate-agent-name = Agente do Sindicato
 roles-antag-syndicate-agent-objective = Complete seus objetivos sem ser pego.
+
+roles-antag-syndicate-agent-sleeper-name = Agente Adormecido do Sindicato
+roles-antag-syndicate-agent-sleeper-objective = Uma forma de traidor que pode ser ativada a qualquer momento no meio do turno.
 
 roles-antag-initial-infected-name = Paciente Zero
 roles-antag-initial-infected-objective = Assim que você se transformar, infecte o máximo de tripulantes possíveis.
@@ -28,11 +39,20 @@ roles-antag-subverted-silicon-objective = Siga suas novas leis e seja mau com a 
 roles-antag-space-ninja-name = Ninja Espacial
 roles-antag-space-ninja-objective = Use sua furtividade para sabotar a estação, principalmente nos fios elétricos.
 
+roles-antag-paradox-clone-name = Clone Paradoxo
+roles-antag-paradox-clone-objective = Uma anomalia espaço-temporal bizarra teletransportou você para outra realidade! Agora você tem que encontrar sua contraparte, matá-la e substituí-la.
+
 role-antag-thief-name = Ladrão
 role-antag-thief-objective= Adicione alguma propriedade do NT à sua coleção pessoal sem usar violência.
 
 roles-antag-fugitive-name = Fugitivo
 roles-antag-fugitive-description = Sobreviva. Escape.
+
+roles-antag-dragon-name = Dragão Espacial
+roles-antag-dragon-objective = Crie um exército de carpas para dominar este quadrante.
+
+roles-antag-malfunctioning-ai-name = IA Defeituosa
+roles-antag-malfunctioning-ai-objective = Sabote a estação sendo uma IA Defeituosa.
 
 role-antag-terminator-name = Exterminador
 role-antag-terminator-objective = Mate o alvo a todo custo, o futuro depende disso.

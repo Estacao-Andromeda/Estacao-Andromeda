@@ -11,13 +11,12 @@ SPDX-License-Identifier: MIT
 -->
 
 <Document>
-# Chef
-A fella has gotta eat, and it's the chef's job to make sure folks have something other than junk to munch on.
+#Chef
+Um cara precisa comer, e é função do chef garantir que todos tenham algo além de porcarias para comer.
 
+[textlink="Clique aqui para ver uma lista de receitas." link="Receitas"]
 
-[textlink="Click here to see a list of food recipes." link="FoodRecipes"]
-
-First and foremost, you'll need to familiarize yourself with the kitchen, and the tools available to you.
+Antes de mais nada, você precisa se familiarizar com a cozinha e os utensílios disponíveis.
 
 <Box>
 <GuideEntityEmbed Entity="KitchenKnife"/>
@@ -33,36 +32,36 @@ First and foremost, you'll need to familiarize yourself with the kitchen, and th
 <GuideEntityEmbed Entity="VendingMachineDinnerware" Caption="Dinnerware Vend"/>
 </Box>
 
-## Kitchen Prep:
+## Preparação da Cozinha:
 
-It's hard to put into words how to work as a chef without feeling like you're being given orders, but here are some basics.
+É difícil descrever em palavras como trabalhar como chef sem sentir que está recebendo ordens, mas aqui estão algumas noções básicas.
 
-- Check what you have on hand when it comes to ingredients, most kitchens have some Flour, Rice, Eggs, Monkey Cubes, and a few other things to get started with.
-- Try your hand at mixing up some dough by putting water and flour together in a beaker. (Use the sinks!)
-- Check the Wiki (or Food Recipes) guidebook for things you can make, and put all the listed ingredients into a microwave to cook it into a meal.
-- Set up mouse traps. Yes, really. It's easy to see all your hard work disappear if you don't take precautions for mice infestations.
+- Verifique os ingredientes que você tem em mãos; a maioria das cozinhas tem farinha, arroz, ovos, cubos de macaco e algumas outras coisas para começar.
+- Experimente misturar a massa colocando água e farinha em um copo. (Use as pias!)
+- Consulte o guia Wiki (ou o guia de Receitas de Comida) para ver o que você pode fazer e coloque todos os ingredientes listados no micro-ondas para cozinhar em uma refeição.
+- Monte ratoeiras. Sim, é verdade. É fácil ver todo o seu trabalho árduo desaparecer se você não tomar precauções contra infestações de ratos.
 
-Once you're a bit more experienced and familiar with what you can make, it might be best to put together a few menus, or a "cheat sheet" so you can give a list of ingredients to botany.
+Quando você estiver um pouco mais experiente e familiarizado com o que pode fazer, pode ser melhor elaborar alguns cardápios ou uma "folha de dicas" para que você possa fornecer uma lista de ingredientes para a botânica.
 
-## Mixing Dough:
-Add Flour and Water together in a beaker. (Use the sink for water!)
+## Misturando a Massa:
+Adicione a farinha e a água em um béquer. (Use a pia para a água!)
 <Box>
 <GuideEntityEmbed Entity="LargeBeaker"/>
 <GuideEntityEmbed Entity="ReagentContainerFlour"/>
 <GuideEntityEmbed Entity="DrinkWaterBottleFull" Caption="water"/>
 <GuideEntityEmbed Entity="FoodDough"/>
 </Box>
-## Making Flour:
-Place wheat in a grinder (with a beaker placed inside) and grind it up!
+## Fazendo Farinha:
+Coloque o trigo em um moedor (com um béquer dentro) e triture-o!
 <Box>
 <GuideEntityEmbed Entity="KitchenReagentGrinder"/>
 <GuideEntityEmbed Entity="LargeBeaker"/>
 <GuideEntityEmbed Entity="WheatBushel"/>
 <GuideEntityEmbed Entity="ReagentContainerFlour"/>
 </Box>
-## Making Cheese/Tofu/Chèvre:
-Adding Milk to a little bit of Universal Enzyme (catalyst) in a beaker can give you various items;
-Cow Milk gives you Cheese, Soy Milk makes Tofu, and Goat Milk makes Chèvre.
+## Fazendo Queijo/Tofu/Chèvre:
+Adicionar Leite a um pouco de Enzima Universal (catalisador) em um béquer pode lhe render vários itens:
+Leite de Vaca lhe rende Queijo, Leite de Soja lhe rende Tofu e Leite de Cabra lhe rende Chèvre.
 <Box>
 <GuideEntityEmbed Entity="LargeBeaker"/>
 <GuideEntityEmbed Entity="FoodCondimentBottleEnzyme"/>
@@ -74,33 +73,33 @@ Cow Milk gives you Cheese, Soy Milk makes Tofu, and Goat Milk makes Chèvre.
 <GuideEntityEmbed Entity="FoodTofu"/>
 <GuideEntityEmbed Entity="FoodChevre"/>
 </Box>
-## Making Butter:
-Pouring Milk into a beaker and adding a pinch of salt will give you a stick of butter.
-Note: You might need a bit more milk than you expect.
+## Fazendo Manteiga:
+Despejar leite em um copo e adicionar uma pitada de sal resultará em uma barra de manteiga.
+Observação: você pode precisar de um pouco mais de leite do que o esperado.
 <Box>
 <GuideEntityEmbed Entity="LargeBeaker"/>
 <GuideEntityEmbed Entity="DrinkMilkCarton"/>
 <GuideEntityEmbed Entity="FoodShakerSalt"/>
 <GuideEntityEmbed Entity="FoodButter"/>
 </Box>
-## Getting Plants:
-Ask Botany for what you need, without a botanist, you may need to grow more plants yourself.
+## Obtendo Plantas:
+Peça à Botânica o que você precisa. Sem um botânico, você pode precisar cultivar mais plantas sozinho.
 <Box>
 <GuideEntityEmbed Entity="SignHydro1" Caption=" "/>
 <GuideEntityEmbed Entity="hydroponicsTray"/>
 <GuideEntityEmbed Entity="WheatBushel"/>
 </Box>
-## Gathering Milk:
-Alt-Click on a Cow with a container in your hand. (Beakers, Buckets, Milk Jugs, ect.)
+## Coletando Leite:
+Clique com a tecla Alt pressionada em uma vaca com um recipiente na mão. (Béqueres, Baldes, Jarros de Leite, etc.)
 <Box>
 <GuideEntityEmbed Entity="Bucket"/>
 <GuideEntityEmbed Entity="MobCow"/>
 <GuideEntityEmbed Entity="DrinkMilkCarton"/>
 </Box>
-## How to Butcher:
-In most cases, you should be able to use a knife directly on a creature that's dead. It's best to do this in the freezer, as the results are... messy.
+## Como Açougueiro:
+Na maioria dos casos, você deve conseguir usar uma faca diretamente em uma criatura morta. É melhor fazer isso no congelador, pois o resultado é... bagunçado.
 
-Monkeys, however, (and other humanoids), need to be dragged onto a meatspike to be butchered.
+Macacos, no entanto (e outros humanoides), precisam ser arrastados até um espeto de carne para serem abatidos.
 <Box>
 <GuideEntityEmbed Entity="KitchenSpike"/>
 <GuideEntityEmbed Entity="KitchenKnife"/>

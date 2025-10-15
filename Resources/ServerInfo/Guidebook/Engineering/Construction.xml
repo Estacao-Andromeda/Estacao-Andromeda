@@ -13,7 +13,7 @@ SPDX-License-Identifier: MIT
 -->
 
 <Document>
-  # Construction
+  # Construção
 
   <Box>
     <GuideEntityEmbed Entity="Bed" Caption=""/>
@@ -23,18 +23,13 @@ SPDX-License-Identifier: MIT
   </Box>
 
 
-  The Construction Menu is how you build and craft objects in the game.
-  It can be accessed by pressing [color=yellow][bold][keybind="OpenCraftingMenu"][/bold][/color].
+  Pressionando [color=#a4885c][keybind="OpenCraftingMenu"][/color], é possível abrir o menu de construção, que permite criar e construir uma variedade de objetos.
 
-  When placing objects that "snap" to the grid, you can hold [color=yellow][bold][keybind="EditorLinePlace"][/bold][/color] to place an entire line at a time, and [color=yellow][bold][keybind="EditorGridPlace"][/bold][/color] to place an entire grid at a time.
+  Ao posicionar objetos que se encaixam na grade, você pode segurar [color=#a4885c]Shift[/color] para posicionar uma linha inteira de cada vez, e [color=#a4885c]Ctrl[/color] para posicionar uma grade inteira de cada vez.
 
-  When crafting objects with a lot of ingredients, keep in mind you don't have to hold everything at once; you can simply place the ingredients on the floor, in your backpack or on a table near you, and they'll be used up during crafting like normal.
+  Ao criar objetos com muitos ingredientes, lembre-se de que não precisa segurar tudo de uma vez; você pode simplesmente colocar os ingredientes no chão, na sua mochila ou em uma mesa perto de você, e eles serão usados durante a criação normalmente.
 
-  When placing a "building ghost" somewhere in the world, press [color=yellow][bold][keybind="EditorRotateObject"][/bold][/color] to rotate the ghost clockwise.
-  If you are building a mirrorable component (think: Gas Mixers/Filters), you can press [color=yellow][bold][keybind="EditorFlipObject"][/bold][/color] to flip the ghost.
-
-  You can also use [color=yellow][bold][keybind="RotateObjectClockwise"][/bold][/color] and [color=yellow][bold][keybind="RotateObjectCounterclockwise"][/bold][/color] to rotate an object clockwise or counterclockwise if it's already built, as long as it is unanchored (unwrenched).
-
+  Ao posicionar um "fantasma de construção" em algum lugar do mundo, pressione [color=#a4885c][keybind="EditorRotateObject"][/color] para girar o fantasma no sentido horário. Se você estiver construindo um componente espelhável (pense: misturadores/filtros de gás), você pode pressionar [color=#a4885c][keybind="EditorFlipObject"][/color] para inverter o fantasma.
 
 
 

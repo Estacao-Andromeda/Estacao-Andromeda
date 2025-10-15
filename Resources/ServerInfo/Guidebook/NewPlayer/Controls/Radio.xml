@@ -7,70 +7,70 @@ SPDX-License-Identifier: MIT
 -->
 
 <Document>
-# Speech and Text Channels
-Talking is a key part of Space Station 14. You can press [keybind="FocusChatInputWindow"/] to jump to the text box.
+# Canais de Fala e Texto
+Falar é uma parte fundamental da Estação Espacial 14. Você pode pressionar [keybind="FocusChatInputWindow"/] para pular para a caixa de texto.
 
-The word next to the text box is the [color=#a4885c]text channel[/color] you're about to send the message to, or rather how you're about to say what you've typed.
+A palavra ao lado da caixa de texto indica o [color=#a4885c]canal de texto[/color] para o qual você está prestes a enviar a mensagem, ou melhor, como você está prestes a dizer o que digitou.
 
-Local is normal speech at normal volume.
+Local é a fala normal em volume normal.
 
-  Inspect your headset to view all radio channel prefixes.
+Inspecione seu fone de ouvido para ver todos os prefixos de canais de rádio.
 
-Whisper can only be heard when nearby somebody. You automatically whisper into your radio to send messages over it.
+O sussurro só pode ser ouvido quando alguém está por perto. Você sussurra automaticamente no seu rádio para enviar mensagens por ele.
 
-Emotes are gestures that you make. Can be received by anyone who is not blinded. You will often see mimes do many emotes.
+Emotes são gestos que você faz. Podem ser recebidos por qualquer pessoa que não seja cega. Você frequentemente verá mímicos fazendo muitos emotes.
 
-Whisper messages can be sent by starting your message with [color=#a4885c][keybind="FocusWhisperChatWindow"/][/color] and Emotes can be sent by starting your message with ([color=#a4885c]@[/color]) or ([color=#a4885c]*[/color]).
-You can also cycle through all of these text channels by pressing [keybind="CycleChatChannelForward"/].
+Mensagens sussurradas podem ser enviadas iniciando sua mensagem com [color=#a4885c][keybind="FocusWhisperChatWindow"/][/color] e Emotes podem ser enviados iniciando sua mensagem com ([color=#a4885c]@[/color]) ou ([color=#a4885c]*[/color]).
+Você também pode alternar entre todos esses canais de texto pressionando [keybind="CycleChatChannelForward"/].
 
-People may not be able to make out all of what you're saying if you're standing too far away from them. This is especially important if you're whispering.
+As pessoas podem não conseguir entender tudo o que você está dizendo se você estiver muito longe delas. Isso é especialmente importante se você estiver sussurrando.
 
-## Radio
+## Rádio
 
-Your radio allows you to communicate to your specific [color=#a4885c]department[/color]. To communicate to the entire station, you need to use intercoms placed throughout the station to broadcast your message. You can listen to Common, but not speak in it from your headset.
+Seu rádio permite que você se comunique com seu [color=#a4885c]departamento[/color] específico. Para se comunicar com toda a emissora, você precisa usar interfones espalhados pela emissora para transmitir sua mensagem. Você pode ouvir o Common, mas não pode falar com seu fone de ouvido.
 
 <Box>
   <GuideEntityEmbed Entity="ClothingHeadsetGrey"/>
   <GuideEntityEmbed Entity="Intercom"/>
 </Box>
 
-To send a [color=#a4885c]station-wide[/color] message over the radio preface, use the intercom. Click on it, select the channel you wish to communicate on, and enable the microphone to start transmitting your speech over the [color=#32cd32]Common[/color] channel. You can also enable the speaker to listen to [color=#32cd32]Common[/color] from the intercom. It will transmit everything you say within a specific range, with whispers needing to be closer to the intercom to be picked up.
+Para enviar uma mensagem [color=#a4885c]para toda a estação[/color] pelo prefácio do rádio, use o intercomunicador. Clique nele, selecione o canal em que deseja se comunicar e ative o microfone para começar a transmitir sua fala pelo canal [color=#32cd32]Comum[/color]. Você também pode habilitar o interlocutor para ouvir [color=#32cd32]Comum[/color] do intercomunicador. Ele transmitirá tudo o que você disser dentro de um alcance específico, sendo que sussurros precisam estar mais próximos do intercomunicador para serem captados.
 
-Intercoms near certain departments will also have their specific department channels, which you can use to communicate in that channel.
+Intercomunicadores próximos a determinados departamentos também terão seus canais departamentais específicos, que você pode usar para se comunicar naquele canal.
 
-## Departmental Radio
+## Rádio Departamental
 
-You are able to send messages over your departmental radio channels using [color=#32cd32]colon (:)[/color] followed by the department letter as long as you're wearing a headset with your department's encryption key.
+Você pode enviar mensagens pelos canais de rádio do seu departamento usando [color=#32cd32]dois pontos (:)[/color] seguido da letra do departamento, desde que esteja usando um fone de ouvido com a chave de criptografia do seu departamento.
 
-Examine your headset to see the department channels available to you.
+Examine seu fone de ouvido para ver os canais do departamento disponíveis.
 
 <Box>
   <GuideEntityEmbed Entity="ClothingHeadsetEngineering"/>
 </Box>
 
-Examining an unmodified engineering headset would show you the prefixes for the [color=#32cd32]Common[/color] and [color=#f37746]Engineering[/color] channels.
+Ao examinar um fone de ouvido de engenharia não modificado, você verá os prefixos dos canais [color=#32cd32]Comum[/color] e [color=#f37746]Engenharia[/color].
 
-It is also possible to use [color=#a4885c]:h[/color]. This hotkey will automatically default to your department radio channel.
-For example, if you're a Station Engineer then [color=#a4885c]:h[/color] will default to [color=#f37746]:e[/color].
+Também é possível usar [color=#a4885c]:h[/color]. Esta tecla de atalho assumirá automaticamente o canal de rádio do seu departamento como padrão.
+Por exemplo, se você for um Engenheiro de Estação, [color=#a4885c]:h[/color] assumirá como padrão [color=#f37746]:e[/color].
 
-## Encryption Keys
-[color=#a4885c]Encryption keys[/color] give you access to their respective channel.
+## Chaves de Criptografia
+[color=#a4885c]Chaves de Criptografia[/color] dão acesso ao respectivo canal.
 
-Examining our engineering headset from earlier shows us [color=#32cd32]Common[/color] and [color=#f37746]Engineering[/color] because an engineer's headset starts with those [color=#a4885c]encryption keys[/color].
+Examinando nosso fone de ouvido de engenharia anterior, vemos [color=#32cd32]Comum[/color] e [color=#f37746]Engenharia[/color] porque o fone de ouvido de um engenheiro começa com essas [color=#a4885c]chaves de criptografia[/color].
 
 <Box>
   <GuideEntityEmbed Entity="EncryptionKeyCommon"/>
   <GuideEntityEmbed Entity="EncryptionKeyEngineering"/>
 </Box>
 
-You can take out encryption keys by using a [color=#a4885c]screwdriver[/color] on a headset. New encryption keys are put into headsets by clicking on one with an encryption key in your hand.
+Você pode obter chaves de criptografia usando uma [color=#a4885c]chave de fenda[/color] em um headset. Novas chaves de criptografia são inseridas nos headsets clicando em um deles com uma chave de criptografia em mãos.
 
-All command members have extras of their relevant encryption key, but you can also request one at the HoP's office when you're getting your job changed.
+Todos os membros do comando têm suas chaves de criptografia extras, mas você também pode solicitar uma no escritório do Chefe de Operações quando estiver mudando de função.
 
-## OOC Channels
-OOC (out-of-character) channels exist outside the game world. They are LOOC, OOC and Dead chat.
+## Canais OOC
+Canais OOC (fora do personagem) existem fora do mundo do jogo. Eles são LOOC, OOC e Bate-papo Morto.
 
-LOOC is on during the rounds, OOC is typically off until the round ends and you can only see and talk in Dead chat when you are, well, dead.
+O LOOC está ativado durante as rodadas, o OOC normalmente fica desativado até o final da rodada e você só pode ver e conversar no chat do Dead quando estiver, bem, morto.
 
-Do not discuss the current round in the Discord or in OOC if it's on during the round.
+Não discuta a rodada atual no Discord ou no OOC se ela estiver ativada durante a rodada.
 </Document>

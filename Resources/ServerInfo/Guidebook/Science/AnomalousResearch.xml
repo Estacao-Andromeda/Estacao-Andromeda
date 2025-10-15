@@ -7,43 +7,43 @@ SPDX-License-Identifier: MIT
 -->
 
 <Document>
-# Anomalous Research
+# Pesquisa Anômala
 
-Anomalous Research is a subdepartment of Science focused around the containment and manipulation of various unique anomalies.
+A Pesquisa Anômala é um subdepartamento da Ciência focado na contenção e manipulação de diversas anomalias únicas.
 
-## Equipment
+## Equipamentos
 <Box>
 <GuideEntityEmbed Entity="AnomalyScanner"/>
 <GuideEntityEmbed Entity="MachineAnomalyVessel"/>
 <GuideEntityEmbed Entity="MachineAPE"/>
 </Box>
 
-Scanners, vessels, and A.P.E.s are all used in the containment and observation of anomalies.
+Scanners, embarcações e A.P.E.s são todos usados ​​na contenção e observação de anomalias.
 
 <Box>
 <GuideEntityEmbed Entity="MachineAnomalyGenerator"/>
 </Box>
 
-The anomaly generator can produce a random anomaly somewhere on the station at the cost of plasma.
+O gerador de anomalias pode produzir uma anomalia aleatória em algum lugar da estação ao custo de plasma.
 
-## Anomalies
-Anomalies are static objects that appear on the station. They cannot be moved, and must be worked around, no matter their location.
+## Anomalias
+Anomalias são objetos estáticos que aparecem na estação. Elas não podem ser movidas e devem ser contornadas, independentemente de sua localização.
 
 <Box>
 <GuideEntityEmbed Entity="AnomalyPyroclastic"/>
 </Box>
 
-Each anomaly has three main stats, two of which can be seen in anomaly scans:
+Cada anomalia possui três atributos principais, dois dos quais podem ser vistos em varreduras de anomalias:
 
-- [color=#a4885c]Severity:[/color] This is a numerical value corresponding to the danger of an anomaly.
-- [color=#a4885c]Stability:[/color] Shown as either decaying, stable, or growing; this is how frequently and widespread the effects will be.
-- [color=#a4885c]Health:[/color] Health is a hidden stat. It decreases when you use [color=#a4885c]containment particles[/color] on an anomaly. If you use too many, the anomaly will disappear.
+- [color=#a4885c]Severidade:[/color] Este é um valor numérico correspondente ao perigo de uma anomalia.
+- [color=#a4885c]Estabilidade:[/color] Mostrada como decaindo, estável ou crescente; esta é a frequência e a extensão dos efeitos.
+- [color=#a4885c]Vida:[/color] A vida é um atributo oculto. Ela diminui quando você usa [color=#a4885c]partículas de contenção[/color] em uma anomalia. Se você usar muitas, a anomalia desaparecerá.
 
-## Pulses and Supercritical Events
-The most dangerous effects of anomalies are seen during [color=#a4885c]pulses[/color] and [color=#a4885c]supercritical events[/color].
+## Pulsos e Eventos Supercríticos
+Os efeitos mais perigosos das anomalias são vistos durante [color=#a4885c]pulsos[/color] e [color=#a4885c]eventos supercríticos[/color].
 
-Pulses are semi-regular bursts of anomalous effects. They're moderately dangerous, scaling with both the severity and stability of an anomaly.
+Pulsos são explosões semirregulares de efeitos anômalos. Eles são moderadamente perigosos, aumentando de acordo com a gravidade e a estabilidade de uma anomalia.
 
-Supercritical events are only seen if an anomaly reaches 100% severity. If this happens, the anomaly will swell before disappearing into a catastrophic event. These should be avoided at all costs!
+Eventos supercríticos só ocorrem se uma anomalia atingir 100% de gravidade. Se isso acontecer, a anomalia aumentará antes de se transformar em um evento catastrófico. Esses eventos devem ser evitados a todo custo!
 
 </Document>

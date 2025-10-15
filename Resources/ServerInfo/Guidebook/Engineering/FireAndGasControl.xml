@@ -7,9 +7,9 @@ SPDX-License-Identifier: MIT
 -->
 
 <Document>
-  # Fire and Gas Control
-  Unfortunately, [textlink="fires" link="Fires"], [textlink="spacing" link="Spacing"], and other [textlink="atmospheric upsets" link="AtmosphericUpsets"] are a common occurrence on the station.
-  These upsets can quickly spread throughout the station and make the atmosphere uninhabitable for the crew.
+  # Controle de Incêndio e Gás
+  Infelizmente, [textlink="fires" link="Fires"], [textlink="spacing" link="Spacing"] e outros [textlink="atmospheric disturbs" link="AtmosphericUpsets"] são ocorrências comuns na estação.
+  Esses distúrbios podem se espalhar rapidamente por toda a estação e tornar a atmosfera inabitável para a tripulação.
 
   <Box>
     <GuideEntityEmbed Entity="Firelock"/>
@@ -18,33 +18,33 @@ SPDX-License-Identifier: MIT
     <GuideEntityEmbed Entity="FireAlarm"/>
   </Box>
 
-  To combat this, stations have a variety of devices to help prevent these upsets from spreading.
+  Para combater isso, as estações contam com uma variedade de dispositivos para ajudar a evitar que esses problemas se espalhem.
 
-  ## Firelocks
-  Firelocks are a simple and effective way to prevent fires from spreading throughout the station.
+  ## Travas de Incêndio
+  Travas de Incêndio são uma maneira simples e eficaz de evitar que incêndios se espalhem pela estação.
 
-  Based on conditions sensed by the firelock, or through instruction from a connected [textlink="air" link="AirAlarms"] or fire alarm, they can close off sections of the station to prevent the spread of dangerous conditions.
+  Com base nas condições detectadas pela câmara de incêndio, ou por meio de instruções de um [textlink="air" link="AirAlarms"] ou alarme de incêndio conectado, eles podem isolar seções da estação para evitar a propagação de condições perigosas.
 
-  ## Station Sectioning
-  Firelocks are intentionally placed in key areas to divide the station into sections. Open spaces like hallways or promenades are divided into smaller sections. This prevents the spread of dangerous conditions to the entire station through connected rooms, hallways, and other open spaces.
+  ## Seccionamento da Estação
+  As FireLocks são colocadas intencionalmente em áreas-chave para dividir a estação em seções. Espaços abertos, como corredores ou calçadas, são divididos em seções menores. Isso evita a propagação de condições perigosas para toda a estação por meio de salas, corredores e outros espaços abertos conectados.
 
-  ## Basic Operation
-  When not connected to an [textlink="air alarm" link="AirAlarms"] or fire alarm, firelocks will function based on the conditions they sense. Firelocks will drop (close) if:
-  - The temperature between the two sides of the firelock is different by [color=orange][protodata="Firelock" comp="Firelock" member="TemperatureThreshold"/] K[/color] or more.
-  - The pressure between the two sides of the firelock is different by [color=orange][protodata="Firelock" comp="Firelock" member="PressureThreshold"/] kPa[/color] or more.
+  ## Operação Básica
+  Quando não conectado a um [textlink="air alarm" link="AirAlarms"] ou alarme de incêndio, as eclusas de incêndio funcionarão com base nas condições detectadas. As eclusas de incêndio cairão (fecharão) se:
+  - A temperatura entre os dois lados da eclusa de incêndio for diferente em [color=orange][protodata="Firelock" comp="Firelock" member="TemperatureThreshold"/] K[/color] ou mais.
+  - A pressão entre os dois lados da eclusa de incêndio for diferente em [color=orange][protodata="Firelock" comp="Firelock" member="PressureThreshold"/] kPa[/color] ou mais.
 
-  If these conditions continue, the firelock will enter lockout mode. Firelocks in lockout mode will have [color=red]red[/color] lights and cannot be pried open by hand. They can only be opened by people with Engineering access or by using a crowbar.
+  Se essas condições persistirem, a câmara de fogo entrará em modo de bloqueio. FireLocks em modo de bloqueio terão luzes [color=red]vermelhas[/color] e não poderão ser abertas manualmente. Elas só podem ser abertas por pessoas com acesso de Engenharia ou usando um pé-de-cabra.
 
-  Firelocks in lockout mode cannot be opened by using Engineering access if they are unpowered. Only a crowbar can open an unpowered firelock in lockout mode.
+  FireLocks em modo de bloqueio não podem ser abertas usando acesso de Engenharia se estiverem sem energia. Somente um pé-de-cabra pode abrir uma câmara de fogo sem energia em modo de bloqueio.
 
-  If the conditions between the two sides of the firelock return to within acceptable differences, the firelock will disable lockout mode, and can be opened by anyone.
-  Note that this only means that the conditions are the same on both sides of the firelock, not that they are safe.
+  Se as condições entre os dois lados da câmara de fogo retornarem a diferenças aceitáveis, a câmara de fogo desativará o modo de bloqueio e poderá ser aberta por qualquer pessoa.
+  Observe que isso significa apenas que as condições são as mesmas em ambos os lados da câmara de fogo, não que elas são seguras.
 
-  A common example of this is a firelock that has released due to both sides being exposed to space.
+  Um exemplo comum disso é uma trava de incêndio que se soltou devido à exposição de ambos os lados ao espaço.
 
-  ## Connecting to Air and Fire Alarms
-  Firelocks can be connected to [textlink="air alarms" link="AirAlarms"] and fire alarms to receive instructions on when to drop.
-  Firelocks use the [textlink="List system" link="Networking"], and you can connect these devices using a multitool or network configurator.
+  ## Conexão com Alarmes de Ar e Incêndio
+  As travas de incêndio podem ser conectadas a [textlink="air alarms" link="AirAlarms"] e alarmes de incêndio para receber instruções sobre quando soltar.
+  As travas de incêndio usam o [textlink="List system" link="Networking"], e você pode conectar esses dispositivos usando uma multiferramenta ou um configurador de rede.
 
   <Box>
     <GuideEntityEmbed Entity="Firelock" Caption=""/>
@@ -54,32 +54,32 @@ SPDX-License-Identifier: MIT
     <GuideEntityEmbed Entity="AirAlarm" Caption=""/>
   </Box>
 
-  Each firelock has its own unique address. The process for connecting air vents, scrubbers, and sensors to air alarms is very similar.
+  Cada eclusa de incêndio possui seu próprio endereço exclusivo. O processo para conectar saídas de ar, depuradores e sensores a alarmes de ar é muito semelhante.
 
-  ## Operation Under Air Alarms
-  When connected to an air alarm, firelocks will also drop under the command of the connected [textlink="air alarm" link="AirAlarms"].
+  ## Operação em Alarmes de Ar
+  Quando conectadas a um alarme de ar, as eclusas de incêndio também serão acionadas sob o comando do [textlink="alarme de ar" link="AirAlarms"] conectado.
 
-  Firelocks will drop if the air alarm reaches a [color=red]Danger[/color] alert state. Firelocks will remain dropped until the air alarm returns to a [color=green]Green[/color] alert state.
+  As travas de segurança serão acionadas se o alarme de ar atingir o estado de alerta [color=red]Perigo[/color]. As travas de segurança permanecerão acionadas até que o alarme de ar retorne ao estado de alerta [color=green]Verde[/color].
 
-  Firelocks that are in lockout mode will not raise even if the air alarm returns to a [color=green]Green[/color] alert state. Even if the pressure difference is resolved, the firelock will remain dropped until the air alarm re-sends a green alert state.
+  As travas de segurança que estiverem em modo de bloqueio não serão acionadas mesmo que o alarme de ar retorne ao estado de alerta [color=green]Verde[/color]. Mesmo que a diferença de pressão seja resolvida, a trava de segurança permanecerá acionada até que o alarme de ar reenvie o estado de alerta verde.
 
-  ## Operation Under Fire Alarms
-  When connected to a fire alarm, firelocks will drop if the fire alarm is triggered. Firelocks will remain dropped until the fire alarm is reset.
+  ## Operação sob Alarmes de Incêndio
+  Quando conectado a um alarme de incêndio, as travas de segurança serão acionadas se o alarme de incêndio for acionado. As travas de segurança permanecerão acionadas até que o alarme de incêndio seja reiniciado.
 
-  ## Fire Alarms
-  Fire alarms are devices that can be used to centrally control all connected firelocks.
+  ## Alarmes de Incêndio
+  Alarmes de incêndio são dispositivos que podem ser usados ​​para controlar centralmente todas as eclusas de incêndio conectadas.
 
   <Box>
     <GuideEntityEmbed Entity="FireAlarm"/>
   </Box>
 
-  Devices with sensors can be [textlink="linked" link="Networking"] to fire alarms, which will trigger the fire alarm if the sensor enters the [color=red]Danger[/color] temperature threshold as defined by its sensors.
+  Dispositivos com sensores podem ser [textlink="linked" link="Networking"] para alarmes de incêndio, que dispararão o alarme de incêndio se o sensor atingir o limite de temperatura de [color=red]Perigo[/color], conforme definido por seus sensores.
 
-  When the fire alarm is triggered, all connected firelocks will be overridden with a [color=red]Danger[/color] alert state and will drop.
+  Quando o alarme de incêndio for disparado, todas as travas de incêndio conectadas serão substituídas por um estado de alerta de [color=red]Perigo[/color] e serão desativadas.
 
-  The alarm will automatically clear itself when the sensor returns to a [color=green]Normal[/color] temperature threshold.
+  O alarme será desativado automaticamente quando o sensor retornar ao limite de temperatura [color=green]Normal[/color].
 
-  You can trigger and reset a fire alarm manually by interacting with it.
+  Você pode disparar e redefinir um alarme de incêndio manualmente interagindo com ele.
 
-  This can be used to quickly drop firelocks in a room manually, or to raise them after an upset has been resolved.
+  Isso pode ser usado para desativar rapidamente travas de incêndio em uma sala manualmente ou para ativá-las após a resolução de um problema.
 </Document>

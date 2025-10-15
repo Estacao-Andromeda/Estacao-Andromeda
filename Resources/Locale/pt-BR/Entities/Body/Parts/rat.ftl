@@ -1,0 +1,1 @@
+ent-TorsoRat = Torso Animal

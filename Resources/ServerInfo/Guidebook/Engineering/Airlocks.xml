@@ -7,22 +7,22 @@ SPDX-License-Identifier: MIT
 -->
 
 <Document>
-  # Airlocks
-  Airlocks are used to control access to different areas of the station.
+  # AirLocks
+  As AirLocks são usadas para controlar o acesso a diferentes áreas da estação.
 
   <Box>
     <GuideEntityEmbed Entity="Airlock" Caption=""/>
     <GuideEntityEmbed Entity="AirlockGlass" Caption=""/>
   </Box>
 
-  Airlocks can be opened using either [color=yellow][bold][keybind="Use"][/bold][/color] with an empty hand, [color=yellow][bold][keybind="ActivateItemInWorld"][/bold][/color] if hands are full, or by colliding with the airlock.
+  As AirLocks podem ser abertas usando [color=yellow][bold][keybind="Use"][/bold][/color] com a mão vazia, [color=yellow][bold][keybind="ActivateItemInWorld"][/bold][/color] se as mãos estiverem ocupadas ou colidindo com a AirLock.
 
-  Airlocks will only open if you have an ID card with the correct access level.
-  The ID card must be in your hand or in your ID slot.
-  In the case of having multiple IDs, the airlock will check them all when you try to open it.
-  This behavior is also the same for IDs in a PDA.
+  As AirLocks só serão abertas se você tiver um cartão de identificação com o nível de acesso correto.
+  O cartão de identificação deve estar em sua mão ou no seu compartimento de identificação.
+  Caso tenha vários cartões de identificação, a AirLock verificará todos quando você tentar abri-la.
+  Esse comportamento também é o mesmo para cartões de identificação em um PDA.
 
-  The access level required to open the door can be modified using an Access Configurator, or by using a Multitool on the door electronics for the airlock (which requires deconstruction).
+  O nível de acesso necessário para abrir a porta pode ser modificado usando um Configurador de Acesso ou usando uma Multiferramenta na eletrônica da porta da AirLock (o que requer desconstrução).
 
   <Box>
     <GuideEntityEmbed Entity="AccessConfigurator" Caption=""/>
@@ -30,21 +30,21 @@ SPDX-License-Identifier: MIT
     <GuideEntityEmbed Entity="DoorElectronics" Caption=""/>
   </Box>
 
-  Airlocks block gas flow, so they can be used to seal off areas in case of a [textlink="hull breach" link="Spacing"] or a [textlink="fire." link="Fires"]
-  They also store gas on their tile, even when closed, so be careful when opening them during or after a gas leak.
+  As AirLocks bloqueiam o fluxo de gás, permitindo que sejam usadas para isolar áreas em caso de [textlink="ruptura do casco" link="Espaçamento"] ou [textlink="incêndio." link="Incêndios"]
+  Elas também armazenam gás em suas placas, mesmo quando fechadas, portanto, tenha cuidado ao abri-las durante ou após um vazamento de gás.
 
-  ## Bolting and Emergency Access
-  Airlocks can be bolted to prevent them from being opened or pried open by hand. When this occurs, the airlock will display red lights on the top of the door.
+  ## Travamento e Acesso de Emergência
+  As AirLocks podem ser travadas para evitar que sejam abertas ou arrombadas manualmente. Quando isso ocorre, a AirLock exibirá luzes vermelhas na parte superior da porta.
 
-  Airlocks can also be set to emergency access. In this mode, anyone can open the airlock, regardless of access level. When this occurs, the airlock will display flashing yellow lights on the top of the door.
+  As AirLocks também podem ser configuradas para acesso de emergência. Neste modo, qualquer pessoa pode abrir a AirLock, independentemente do nível de acesso. Quando isso ocorre, a AirLock exibirá luzes amarelas piscantes na parte superior da porta.
 
-  ## Remote Control
-  Airlocks can be controlled remotely, either by the station AI or by using a Door Remote.
+  ## Controle Remoto
+  As AirLocks podem ser controladas remotamente, pela IA da estação ou por um Controle Remoto de Porta.
   <Box>
     <GuideEntityEmbed Entity="PlayerStationAiEmpty" Caption=""/>
   </Box>
   <Box>
-    [color=#999999][italic]The Station AI, which has remote control over all airlocks[italic][/color]
+    [color=#999999][italic]A Estação AI, que tem controle remoto sobre todas as AirLocks[italic][/color]
   </Box>
 
   <Box>
@@ -56,20 +56,20 @@ SPDX-License-Identifier: MIT
     <GuideEntityEmbed Entity="DoorRemoteResearch" Caption=""/>
   </Box>
   <Box>
-    [color=#999999][italic]Precious door remotes. With unlimited power...[italic][/color]
+    [color=#999999][italic]Controles remotos preciosos para portas. Com potência ilimitada...[italic][/color]
   </Box>
 
 
-  Department heads usually get door remotes for their respective department.
+  Chefes de departamento geralmente recebem controles remotos para portas de seus respectivos departamentos.
 
-  They can open, close, bolt, and set to emergency access using these remotes.
+  Eles podem abrir, fechar, trancar e configurar o acesso de emergência usando esses controles remotos.
 
-  ## Linking
-  Airlocks can be linked using the [textlink="Link" link="Networking"] system to other devices.
-  This allows for proper station airlocks to space, or to link multiple airlocks together.
+  ## Conexão
+  As AirLocks podem ser conectadas usando o sistema [textlink="Link" link="Networking"] a outros dispositivos.
+  Isso permite a conexão adequada das AirLocks da estação ao espaço ou a conexão de várias AirLocks.
 
-  ## Styling
-  Airlocks can come in different styles to match station departments. The department style commonly reflects the required access level.
+  ## Estilo
+  As AirLocks podem ter estilos diferentes para combinar com os departamentos da estação. O estilo do departamento geralmente reflete o nível de acesso necessário.
 
   <Box>
     <GuideEntityEmbed Entity="Airlock" Caption=""/>
@@ -90,56 +90,56 @@ SPDX-License-Identifier: MIT
     <GuideEntityEmbed Entity="AirlockSecurityGlass" Caption=""/>
   </Box>
 
-  Airlocks can be repainted using a spray painter.
+  As AirLocks podem ser repintadas usando tinta spray.
   <Box>
     <GuideEntityEmbed Entity="SprayPainter" Caption=""/>
   </Box>
 
-  ## Wiring
-  Airlocks have internal wiring under their maintenance panel, which can be opened using a screwdriver.
-  Each wire controls some aspect of the airlock's functionality.
-  When you either pulse, cut, or mend the wire, it will affect the airlock in different ways.
+  ## Fiação
+  As AirLocks possuem fiação interna sob o painel de manutenção, que pode ser aberta com uma chave de fenda.
+  Cada fio controla algum aspecto da funcionalidade da AirLock.
+  Quando você pulsa, corta ou conserta o fio, isso afeta a AirLock de diferentes maneiras.
 
-  The lights next to the wires will indicate the status of the wire:
-  - A steady light indicates that the system is functioning as normal.
-  - A flashing light indicates that the system is malfunctioning. It is either not working or is behaving not as intended.
-  - No light indicates that the system is not powered.
+  As luzes ao lado dos fios indicam o status do fio:
+  - Uma luz fixa indica que o sistema está funcionando normalmente.
+  - Uma luz piscando indica que o sistema está com defeito. Ele não está funcionando ou não está se comportando como esperado.
+  - Nenhuma luz indica que o sistema não está energizado.
 
-  Below is a list of the wires and their functions:
+  Abaixo está uma lista dos fios e suas funções:
 
-  [color=#a4885c]Bolt Wire (BOLT)[/color]
-  - [color=yellow]Pulse the wire[/color]: Bolts or unbolts the door.
-  - [color=red]Cut the wire[/color]: Bolts the door.
-  - [color=green]Mend the wire[/color]: Does nothing.
+  [color=#a4885c]Fio do Parafuso (BOLT)[/color]
+  - [color=yellow]Pulsar o fio[/color]: Trava ou destrava a porta.
+  - [color=red]Cortar o fio[/color]: Trava a porta.
+  - [color=green]Consertar o fio[/color]: Não faz nada.
 
-  [color=#a4885c]Power Wire (POWR)[/color]
-  - [color=yellow]Pulse the wire[/color]: Cuts power to the door for a short time.
-  - [color=red]Cut the wire[/color]: Either cuts power to the door if both power wires are cut, or causes a short circuit if only one is cut, shocking people without insulated gloves.
-  - [color=green]Mend the wire[/color]: Either restores power to the door if both power wires are cut, or stops the short circuit if only one is cut.
+  [color=#a4885c]Fio de Energia (POWR)[/color]
+  - [color=yellow]Pulsar o fio[/color]: Corta a energia da porta por um curto período.
+  - [color=red]Cortar o fio[/color]: Corta a energia da porta se ambos os fios de energia forem cortados ou causa um curto-circuito se apenas um for cortado, causando choque em pessoas sem luvas isolantes.
+  - [color=green]Consertar o fio[/color]: Restaura a energia da porta se ambos os fios de energia forem cortados ou interrompe o curto-circuito se apenas um for cortado.
 
-  [color=#a4885c]Log Wire (LOG)[/color]
-  - [color=yellow]Pulse the wire[/color]: Temporary disables door logging.
-  - [color=red]Cut the wire[/color]: Disables door logging.
-  - [color=green]Mend the wire[/color]: Re-enables door logging.
+  [color=#a4885c]Fio de Registro (LOG)[/color]
+  - [color=yellow]Pulsar o fio[/color]: Desativa temporariamente o registro da porta.
+  - [color=red]Cortar o fio[/color]: Desativa o registro da porta.
+  - [color=green]Consertar o fio[/color]: Reativa o registro da porta.
 
-  [color=#a4885c]Bolt Light (BLIT)[/color]
-  - [color=yellow]Pulse the wire[/color]: Turns the system off temporarily, or turns it back on.
-  - [color=red]Cut the wire[/color]: Prevents the bolt light from turning on, which communicates if the door is bolted or not.
-  - [color=green]Mend the wire[/color]: Turns the system back on.
+  [color=#a4885c]Luz de Trava (BLIT)[/color]
+  - [color=yellow]Pulsar o fio[/color]: Desliga o sistema temporariamente ou o liga novamente.
+  - [color=red]Cortar o fio[/color]: Impede que a luz de trava acenda, o que comunica se a porta está trancada ou não.
+  - [color=green]Consertar o fio[/color]: Liga o sistema novamente.
 
-  [color=#a4885c]Timer Light (TIMR)[/color]
-  - [color=yellow]Pulse the wire[/color]: Reduces the door timer temporarily.
-  - [color=red]Cut the wire[/color]: Disables the timer. The door will close as soon as it is safe to do so.
-  - [color=green]Mend the wire[/color]: Re-enables the timer.
+  [color=#a4885c]Luz Temporizadora (TIMR)[/color]
+  - [color=yellow]Pulsar o fio[/color]: Reduz temporariamente o temporizador da porta.
+  - [color=red]Cortar o fio[/color]: Desativa o temporizador. A porta fechará assim que for seguro.
+  - [color=green]Consertar o fio[/color]: Reativa o temporizador.
 
-  [color=#a4885c]Safety Light (SAFE)[/color]
-  - [color=yellow]Pulse the wire[/color]: Disables the safety system temporarily.
-  - [color=red]Cut the wire[/color]: Disables the safety system. The door will close even if there is an obstruction.
-  - [color=green]Mend the wire[/color]: Re-enables the safety system.
+  [color=#a4885c]Luz de Segurança (SAFE)[/color]
+  - [color=yellow]Pulsar o fio[/color]: Desativa temporariamente o sistema de segurança.
+  - [color=red]Cortar o fio[/color]: Desativa o sistema de segurança. A porta fechará mesmo se houver uma obstrução.
+  - [color=green]Consertar o fio[/color]: Reativa o sistema de segurança.
 
-  [color=#a4885c]AI Access Light (AIA)[/color]
-  - [color=yellow]Pulse the wire[/color]: Does nothing.
-  - [color=red]Cut the wire[/color]: Disables AI access. The AI can no longer control the door.
-  - [color=green]Mend the wire[/color]: Re-enables AI access.
+  [color=#a4885c]Luz de Acesso à IA (AIA)[/color]
+  - [color=yellow]Pulsar o fio[/color]: Não faz nada.
+  - [color=red]Cortar o fio[/color]: Desativa o acesso à IA. A IA não pode mais controlar a porta.
+  - [color=green]Consertar o fio[/color]: Reativa o acesso à IA.
 
 </Document>

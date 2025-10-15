@@ -7,8 +7,8 @@ SPDX-License-Identifier: MIT
 -->
 
 <Document>
-  # Valves
-  Valves are a quick way to halt or permit gas flow through a [textlink="pipenet" link="PipeNetworks"].
+  # Válvulas
+  As válvulas são uma maneira rápida de interromper ou permitir o fluxo de gás através de uma [textlink="pipenet" link="PipeNetworks"].
   <Box>
     <GuideEntityEmbed Entity="GasValve"/>
     <GuideEntityEmbed Entity="SignalControlledValve"/>
@@ -16,9 +16,9 @@ SPDX-License-Identifier: MIT
     <GuideEntityEmbed Entity="GasPassiveGate"/>
     <GuideEntityEmbed Entity="GasPressureRegulator"/>
   </Box>
-  All valves do not require [textlink="power" link="Power"] to operate.
+  Nem todas as válvulas requerem [textlink="energia" link="Energia"] para operar.
 
-  Valves may look simple, but they can enable a wide variety of complex pipe systems, including:
-  - Signal valves responding to air alarm or logic gate outputs
-  - Pneumatic valves controlling variable venting of waste gasses from a burn chamber
+  As válvulas podem parecer simples, mas podem habilitar uma ampla variedade de sistemas de tubulação complexos, incluindo:
+  - Válvulas de sinalização que respondem a alarmes de ar ou saídas de porta lógica
+  - Válvulas pneumáticas que controlam a ventilação variável de gases residuais de uma câmara de combustão
 </Document>

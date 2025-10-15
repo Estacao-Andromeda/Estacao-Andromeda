@@ -10,50 +10,50 @@ SPDX-License-Identifier: MIT
 -->
 
 <Document>
-  # Thieves
+  # Criminosos
 
   <Box>
-    [color=#999999][italic]"Yoink! I'll be taking that! And that! Ooh, don't mind if I do!"[/italic][/color]
+    [color=#999999][italic]"Nossa! Vou levar isso! E aquilo! Ah, não se importe se eu levar!"[/italic][/color]
   </Box>
   <Box>
     <GuideEntityEmbed Entity="ClothingNeckCloakVoid" Caption=""/>
   </Box>
 
-  Thieves are petty yet crafty [color=green]criminals[/color] who can't keep their hands to themselves. You were forcefully given a [bold]pacifism implant[/bold] after your last arrest, but you won't let that stop you from trying to add to your collection.
+  Ladrões são [color=green]criminosos[/color] mesquinhos, porém astutos, que não conseguem se conter. Você recebeu à força um [bold]implante de pacifismo[/bold] após sua última prisão, mas não deixará que isso o impeça de tentar aumentar sua coleção.
 
-  ## Art of the Steal
-  Unlike other antagonists, [bold]staying out of trouble is almost a requirement for you[/bold] because of your implant.
-  You can only run if [color=#cb0000]Security[/color] picks a fight with you, and because you work alone you don't have any friends to pull you out of danger.
+  ## Arte do Roubo
+  Ao contrário de outros antagonistas, [bold]ficar longe de problemas é quase um requisito para você[/bold] por causa do seu implante.
+  Você só pode fugir se a [color=#cb0000]Segurança[/color] começar uma briga com você e, como trabalha sozinho, não tem amigos para tirá-lo do perigo.
 
-  But against all odds, you'll successfully swipe what you want using determination, sleight of hand, a few tools and your [color=cyan]thieving gloves.[/color]
+  Mas, contra todas as probabilidades, você conseguirá roubar o que quiser usando determinação, destreza manual, algumas ferramentas e suas [color=cyan]luvas de ladrão[/color]
 
-  The pair of gloves you have give you a major advantage: [bold]the ability to take things off of people without them even noticing.[/bold] With a little practice, you can steal their wallet and keep up a conversation at the same time.
+  O par de luvas que você tem lhe dá uma grande vantagem: [bold]a capacidade de tirar coisas das pessoas sem que elas percebam.[/bold] Com um pouco de prática, você pode roubar a carteira delas e manter uma conversa ao mesmo tempo.
 
-  They're also made of the highest quality [bold]holographic chameleon fibers[/bold] you could steal, but while they can take the appearance of insulated gloves you'll still need to find a real pair to keep your hands from burning.
+  Elas também são feitas das [bold]fibras de camaleão holográficas[/bold] da mais alta qualidade que você poderia roubar, mas, embora possam ter a aparência de luvas isolantes, você ainda precisará encontrar um par de verdade para evitar que suas mãos queimem.
 
-  ## Your Skills
+  ## Suas Habilidades
 
-  You've stolen a thing or two in various past lives, and you've gotten good at it.
+  Você roubou uma ou duas coisas em várias vidas passadas e se tornou bom nisso.
 
-  When chosen as a thief, you gain the ability to pickpocket people [bold]without[/bold] needing any fancy tools. Careful not to get caught though, as a Mind Shield will wipe any memory of you learning this extremely useful skill.
+  Ao ser escolhido como ladrão, você ganha a habilidade de roubar pessoas [bold]sem[/bold] precisar de ferramentas sofisticadas. Mas tome cuidado para não ser pego, pois um Escudo Mental apagará qualquer lembrança sua de ter aprendido essa habilidade extremamente útil.
 
   <Box>
     <GuideEntityEmbed Entity="ClothingHandsChameleonThief" Caption="your thieving gloves"/>
   </Box>
 
-  ## Tools of the Trade
-  You've got two more aces up your stolen sleeves: your [color=cyan]beacon[/color] and your [color=cyan]satchel.[/color]
+  ## Ferramentas do Ofício
+  Você tem mais dois trunfos na manga roubada: seu [color=cyan]sinalizador[/color] e sua [color=cyan]bolsa[/color]
 
-  Your [color=cyan]beacon[/color] provides safe passage home for trinkets that may not be easy to carry with you on the evac shuttle. Simply find a secluded part of the station to unfold the beacon, then set its coordinates to your hideout.
-  Any shinies near it will be [bold]teleported to your vault when the shift ends,[/bold] fulfilling your objectives.
+  Seu [color=cyan]sinalizador[/color] fornece uma passagem segura para casa para bugigangas que podem não ser fáceis de carregar com você no ônibus de evacuação. Basta encontrar um lugar isolado na estação para desdobrar o sinalizador e, em seguida, definir suas coordenadas para o seu esconderijo.
+  Quaisquer itens brilhantes perto dele serão [bold]teletransportados para o seu cofre quando o turno terminar,[/bold] cumprindo seus objetivos.
 
-  However, this will instantly out you if found and make it extremely easy for people to reclaim their "missing" possessions. [bold]Make sure to hide it well![/bold]
+  No entanto, isso o revelará imediatamente se for encontrado e tornará extremamente fácil para as pessoas recuperarem seus pertences "perdidos". [bold]Certifique-se de escondê-lo bem![/bold]
 
   <Box>
     <GuideEntityEmbed Entity="ThiefBeacon"/>
   </Box>
 
-  Your [color=cyan]satchel[/color] contains... well, whatever you remembered to pack. [bold]You can select two pre-made kits[/bold] to help you complete grander heists.
+  Sua [color=cyan]bolsa[/color] contém... bem, tudo o que você lembrou de levar. [bold]Você pode selecionar dois kits pré-fabricados[/bold] para ajudar você a completar assaltos maiores.
 
   <Box>
     <GuideEntityEmbed Entity="SatchelThief"/>
@@ -70,16 +70,16 @@ SPDX-License-Identifier: MIT
     <GuideEntityEmbed Entity="Telecrystal" Caption="Syndie"/>
   </Box>
 
-  ## Centerpiece of the Collection
-  Your kleptomania will take you places. One day, you'll feel like stealing a few figurines. Another day, you'll feel like stealing an industrial machine.
+  ## Peça Central da Coleção
+  Sua cleptomania o levará a lugares inimagináveis. Um dia, você terá vontade de roubar algumas estatuetas. No outro, terá vontade de roubar uma máquina industrial.
 
-  No matter. They'll all be a part of your collection within a matter of time.
+  Não importa. Todas elas farão parte da sua coleção em questão de tempo.
 
-  You can steal items by [bold]having them on your person[/bold] when you get to CentComm. Failing this, you can steal larger items by [bold]leaving them by your beacon.[/bold]
+  Você pode roubar itens [bold]tendo-os consigo[/bold] ao chegar ao Centro de Comunicações. Caso contrário, você pode roubar itens maiores [bold]deixando-os perto do seu sinalizador.[/bold]
 
-  Some of the more [italic]animate[/italic] objectives may not cooperate with you. Make sure they're alive and with you or your beacon when the shift ends.
+  Alguns dos objetivos mais [itálico]animados[/itálico] podem não cooperar com você. Certifique-se de que eles estejam vivos e com você ou seu sinalizador quando o turno terminar.
 
-  Things that you may desire include but are not limited to:
+  Coisas que você pode desejar incluem, mas não estão limitadas a:
 
   <Box>
    <GuideEntityEmbed Entity="ToyFigurineGreytider" Caption="Figurines"/>

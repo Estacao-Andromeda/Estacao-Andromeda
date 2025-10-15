@@ -7,17 +7,17 @@ SPDX-License-Identifier: MIT
 -->
 
 <Document>
-  # Passive Vent
-  The passive vent is an extremely basic vent.
-  It serves as a direct connection between the pipenet it's connected to and the atmosphere it's exposed to.
+  # Ventilação Passiva
+  A ventilação passiva é uma ventilação extremamente básica.
+  Ela serve como uma conexão direta entre a tubulação à qual está conectada e a atmosfera à qual está exposta.
   <Box>
     <GuideEntityEmbed Entity="GasPassiveVent"/>
   </Box>
-  Gasses are free to move between the passive vent and the atmosphere it's connected to.
-  The passive vent requires no [textlink="power" link="Power"] to function.
+  Os gases podem se mover livremente entre a ventilação passiva e a atmosfera à qual está conectada.
+  A ventilação passiva não requer [textlink="energia" link="Energia"] para funcionar.
 
-  This vent is commonly found in the station's [textlink="gas storage tanks" link="GasMiningAndStorage"] and connected to the station's wastenet.
-  It is a simple and reliable way to pull gasses from a gas miner, or to space unwanted gasses safely.
+  Esta ventilação é comumente encontrada nos [textlink="tanques de armazenamento de gás" link="GasMiningAndStorage"] da estação e conectada à rede de resíduos da estação.
+  É uma maneira simples e confiável de extrair gases de um minerador de gás ou de espaçar gases indesejados com segurança.
 
-  The passive vent can be welded with any welding tool to stop it from functioning.
+  A ventilação passiva pode ser soldada com qualquer ferramenta de solda para impedir seu funcionamento.
 </Document>

@@ -9,36 +9,36 @@ SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 -->
 
 <Document>
-  # Surgery
-  Your usual weekly activity. By performing surgical operations on your patients, you can heal wounds, remove or add body parts, organs, and more.
+  # Cirurgia
+  Sua atividade semanal habitual. Ao realizar operações cirúrgicas em seus pacientes, você pode curar feridas, remover ou adicionar partes do corpo, órgãos e muito mais.
 
-  ## The Basics
-  To start surgery your patient needs to be laying down, and ideally sedated.
+  ## O Básico
+  Para iniciar a cirurgia, seu paciente precisa estar deitado e, idealmente, sedado.
 
-  You will also need an operating table to perform more advanced surgeries, such as replacing limbs or organs. These can be made in Science if none are available.
-  You may also find spare Operating Tables in maintenance.
+  Você também precisará de uma mesa cirúrgica para realizar cirurgias mais avançadas, como substituição de membros ou órgãos. Elas podem ser feitas na Clínica, caso não haja nenhuma disponível.
+  Você também pode encontrar Mesas Cirúrgicas extras na manutenção.
 
   <Box>
     <GuideEntityEmbed Entity="OperatingTable" Caption="nitrous oxide"/>
   </Box>
 
-  If they are not sedated, they will be in a lot of pain, which decreases their mood, and will make surgical wounds worse.
+  Se não forem sedados, sentirão muita dor, o que diminui seu humor e piora as feridas cirúrgicas.
 
   <Box>
     <GuideEntityEmbed Entity="NitrousOxideTank" Caption="nitrous oxide"/>
     <GuideEntityEmbed Entity="ClothingMaskBreathMedical" Caption="any breathing tool"/>
   </Box>
 
-  You also need to wear protective gear such as a mask and gloves to prevent harming the patient due to contamination.
+  Você também precisa usar equipamentos de proteção, como máscara e luvas, para evitar danos ao paciente devido à contaminação.
 
   <Box>
     <GuideEntityEmbed Entity="ClothingMaskSterile" Caption="any mask"/>
     <GuideEntityEmbed Entity="ClothingHandsGlovesNitrile" Caption="any gloves"/>
   </Box>
 
-  ## Getting Started
+  ## Começando
 
-  To engage in surgery, you'll need a set of surgical tools.
+  Para realizar uma cirurgia, você precisará de um conjunto de instrumentos cirúrgicos.
 
   <Box>
     <GuideEntityEmbed Entity="Scalpel" Caption="scalpel"/>
@@ -53,25 +53,25 @@ SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
     <GuideEntityEmbed Entity="BoneGel" Caption="bone gel"/>
     </Box>
 
-  Once you've got tools in hand, interact with your patient to begin surgery. You'll be able to choose which part you want to operate on.
+  Com as ferramentas em mãos, interaja com o paciente para iniciar a cirurgia. Você poderá escolher qual parte deseja operar.
 
-  ## Sterility
+  ## Esterilidade
 
-  Your tools will accumulate dirt and grime while you use them, requiring you to clean them.
-  Unclean tools will cause your patient to take poison damage.
+  Seus instrumentos acumularão sujeira e fuligem enquanto você os utiliza, exigindo que você os limpe.
+  Ferramentas sujas farão com que seu paciente sofra dano por veneno.
 
   <Box>
     <GuideEntityEmbed Entity="SoapNT" Caption="soap" />
     <GuideEntityEmbed Entity="Scalpel" Caption="scalpel" />
   </Box>
 
-  You can clean your tools by using soap on them. Be sure to also regularly clean or change your mask and gloves, as well.
-  Using the same dirty tools between two or more patients will cause your tools to become filthy, so be sure to clean them regularly.
+  Você pode limpar seus instrumentos usando sabão. Certifique-se também de limpar ou trocar regularmente sua máscara e luvas.
+  Usar os mesmos instrumentos sujos entre dois ou mais pacientes fará com que seus instrumentos fiquem sujos, portanto, certifique-se de limpá-los regularmente.
 
-  ## Ghetto Surgery
+  ## Cirurgia do Gueto
 
-  Certain non-surgical tools can be used in a pinch, use the scalpel examine icon to see how good or bad something is.
-  An operating table is still required for certain medical procedures.
+  Certos instrumentos não cirúrgicos podem ser usados ​​em caso de emergência; use o ícone de bisturi para verificar se algo está bom ou ruim.
+  Uma mesa cirúrgica ainda é necessária para certos procedimentos médicos.
 
   <Box>
     <GuideEntityEmbed Entity="Welder" Caption="welder"/>
@@ -80,6 +80,6 @@ SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
     <GuideEntityEmbed Entity="Crowbar" Caption="crowbar"/>
   </Box>
 
-  They aren't ideal compared to real surgical equipment, but they'll do in a pinch!
+  Eles não são ideais se comparados aos equipamentos cirúrgicos reais, mas servem em caso de emergência!
 
 </Document>

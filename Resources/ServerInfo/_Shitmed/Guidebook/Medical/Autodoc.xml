@@ -10,44 +10,44 @@ SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 <Document>
 # Autodoc Mk.XIV
 
-With designs rescued from the derelict KC13, this powerhouse of a mechanical surgeon can be programmed to do just about anything.
+Com designs resgatados do KC13 abandonado, este poderoso cirurgião mecânico pode ser programado para fazer praticamente qualquer coisa.
 
-WARNING: Operation of this device requires proper medical certification and adherence to established medical protocols.
+AVISO: A operação deste dispositivo requer certificação médica adequada e adesão aos protocolos médicos estabelecidos.
 
-To get started, use a multitool to link it to a nearby operating table, once it detects a patient sleeping on it, you are ready to operate!
+Para começar, use uma ferramenta multifuncional para conectá-lo a uma mesa cirúrgica próxima. Assim que detectar um paciente dormindo sobre ela, você estará pronto para operar!
 
-Before operating put any items a program needs in its storage trays. The Autodoc cannot pick up items off your dirty, blood-stained floor.
+Antes de operar, coloque os itens necessários para o programa em suas bandejas de armazenamento. O Autodoc não consegue coletar itens do seu chão sujo e manchado de sangue.
 
-# How I make it do the thing help
+# Como faço para que ele faça isso? Ajuda
 
-An autodoc unit has a list of programs, which have steps that are completed in order until the program is complete.
+Uma unidade de autodoc possui uma lista de programas, cujas etapas são concluídas em ordem até que o programa seja concluído.
 
-Should any issues arise during these steps, it will immediately abort the procedure, unless the program has safety disabled.
+Caso surja algum problema durante essas etapas, o procedimento será interrompido imediatamente, a menos que o programa tenha a segurança desabilitada.
 
-To get started, create a new program with a memorable name, such as "organ stealy". Hit "ADD STEP" to add different kinds of steps:
-- PERFORM SURGERY, the beast itself. Can target any bodypart and complete any surgery. It is up to the programmer to ensure that compatible surgeries are selected, it's a bad idea to install a brain in someones feet.
-  You do not need to add prerequesites like opening the ribcage, they are automatically done.
-- GRAB ITEM, this will look in its item trays for an item with that exact name and grab it for use in surgeries. Use a hand labeler to distinguish multiple of the same item.
-- GRAB ORGAN, this is a shorthand to grab any kind of organ.
-- GRAB PART, this is a shorthand to grab any kind of bodypart.
-- STORE ITEM, this puts the held item in the item trays (if they aren't full). You have to do this after removing an item from the patient, or future operations will get dropped on the floor!
-- SET LABEL, gives the held item a short label. Extremely useful for organ transplants, where specific a organ is needed.
-- WAIT, this just waits a length of time before continuing.
+Para começar, crie um novo programa com um nome fácil de lembrar, como "roubo de órgãos". Clique em "ADICIONAR ETAPA" para adicionar diferentes tipos de etapas:
+- REALIZAR CIRURGIA, a fera em si. Pode atingir qualquer parte do corpo e concluir qualquer cirurgia. Cabe ao programador garantir que as cirurgias compatíveis sejam selecionadas; é uma má ideia instalar um cérebro nos pés de alguém.
+Você não precisa adicionar pré-requisitos como abrir a caixa torácica, eles são feitos automaticamente.
+- PEGAR ITEM, isso procurará em suas bandejas de itens por um item com esse nome exato e o pegará para uso em cirurgias. Use uma etiquetadora manual para distinguir vários itens do mesmo tipo.
+- PEGAR ÓRGÃO, isso é uma abreviação para pegar qualquer tipo de órgão.
+-PEGAR PARTE: esta é uma abreviação para pegar qualquer tipo de parte do corpo.
+- ARMAZENAR ITEM: esta ação coloca o item retido nas bandejas de itens (se não estiverem cheias). Você precisa fazer isso após remover um item do paciente, ou futuras operações serão descartadas!
+- DEFINIR ETIQUETA: atribui uma etiqueta curta ao item retido. Extremamente útil para transplantes de órgãos, onde um órgão específico é necessário.
+- ESPERAR: esta ação apenas aguarda um tempo antes de continuar.
 
-After each operation, remember to press "SANITIZE TOOLS" to clean off the contaminants from the previous patient!
+Após cada operação, lembre-se de pressionar "SANITIZE TOOLS" para limpar os contaminantes do paciente anterior!
 
-So what are you waiting for comrade? Commit war crimes today!
+Então, o que você está esperando, camarada? Cometa crimes de guerra hoje mesmo!
 
-# Additional program usage
+# Uso adicional de programas
 
-- Disabling a program's safety makes it skip failed steps instead of aborting the entire program.
-  Only do this if you know what you are doing!
-- Selecting a step lets you remove it or add a new step before it, instead of always inserting at the end.
+- Desativar a segurança de um programa faz com que ele ignore etapas com falha em vez de abortar o programa inteiro.
+Só faça isso se souber o que está fazendo!
+- Selecionar uma etapa permite removê-la ou adicionar uma nova etapa antes dela, em vez de sempre inserir no final.
 
-# Caveats
+# Advertências
 
-- Do not under any circumstances snip the machines SAFETY wire, automated personnel medical license would be void.
-  Anesthesia is REQUIRED for safe operation and disabling the need for it is highly unethical to patients.
-- Amputating legs or arms will detach their feet and hands to the floor. Manual intervention will be required, so cut them off first if you need them.
-- If the storage trays are filled, storing items will be impossible and the device will essentially seize up.
+- Em nenhuma circunstância corte o fio de SEGURANÇA da máquina; a licença médica do pessoal automatizado será anulada.
+- A anestesia é NECESSÁRIA para uma operação segura e desativar a necessidade dela é altamente antiético para os pacientes.
+- Amputar pernas ou braços fará com que seus pés e mãos se soltem do chão. Será necessária intervenção manual, portanto, corte-os primeiro, se necessário.
+- Se as bandejas de armazenamento estiverem cheias, o armazenamento de itens será impossível e o dispositivo basicamente travará.
 </Document>
