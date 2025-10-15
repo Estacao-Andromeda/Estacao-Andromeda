@@ -145,6 +145,10 @@
       - DoorBumpOpener
       - AnomalyHost
       - RodentEmotes
+    - type: PseudoItem # Andromeda - A volta das bags
+      storedOffset: 0,10
+      shape:
+        - 0,0,3,3
     - type: Vocal
       sounds:
         Male: MaleRodentia
