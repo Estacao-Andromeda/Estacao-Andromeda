@@ -985,6 +985,8 @@
   loadouts:
   - ResearchDirectorJumpsuit
   - ResearchDirectorJumpskirt
+  - SeniorResearcherJumpsuit
+  - SeniorResearcherJumpskirt
 
 - type: loadoutGroup
   id: ResearchDirectorOuterClothing
@@ -993,6 +995,7 @@
   loadouts:
   - ResearchDirectorLabCoat
   - ResearchDirectorWintercoat
+  - ClothingOuterCoatRndMysta
 
 - type: loadoutGroup
   id: ResearchDirectorShoes
@@ -1000,6 +1003,7 @@
   loadouts:
   - BrownShoes
   - ScienceWinterBoots
+  - ResearchDirectorWinterBoots
 
 - type: loadoutGroup
   id: ScientistHead
@@ -1056,6 +1060,7 @@
   - RoboticistLabCoat
   - RoboticistWintercoat
   - SeniorResearcherLabCoat
+  - ClothingOuterCoatEpi
 
 - type: loadoutGroup
   id: ScientistShoes

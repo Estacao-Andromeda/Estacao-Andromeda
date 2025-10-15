@@ -1,0 +1,40 @@
+- type: entity
+  parent: ClothingOuterStorageFoldableBase
+  id: ClothingOuterCoatRndMysta
+  name: jaleco de mistagogo
+  description: Semelhante ao modelo padrão, mas com mais roxo e dourado.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/OuterClothing/Coats/mystacoat.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/OuterClothing/Coats/mystacoat.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Caustic: 0.75
+        radiation: 0.9
+
+- type: entity
+  parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatRndMysta]
+  id: ClothingOuterCoatRndMystaOpened
+  name: jaleco de mistagogo
+
+- type: entity
+  parent: ClothingOuterStorageFoldableBase
+  id: ClothingOuterCoatEpi
+  name: jaleco de epistemologia
+  description: Um traje que protege contra pequenos derramamentos químicos. Possui uma faixa roxa no ombro.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/OuterClothing/Coats/epicoat.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/OuterClothing/Coats/epicoat.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Caustic: 0.75
+
+- type: entity
+  parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatEpi]
+  id: ClothingOuterCoatRndOpened
+  name: jaleco de epistemologia
