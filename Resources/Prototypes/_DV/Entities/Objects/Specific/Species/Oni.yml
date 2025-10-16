@@ -25,7 +25,7 @@
   parent: [DrinkOniGourd, BaseSyndicateContraband]
   id: BeastBloodGourd
   name: cabaça de sangue feral
-  description: Uma cabaça contendo uma mistura potente de álcool forte e estimulantes, perfeita para o demônio interior. Recarrega lentamente com o tempo.
+  description: Uma cabaça contendo uma mistura potente de álcool forte e estimulantes, perfeita para o demônio interior. Reabastece lentamente com o tempo.
   components:
   - type: Sprite
     state: icon
