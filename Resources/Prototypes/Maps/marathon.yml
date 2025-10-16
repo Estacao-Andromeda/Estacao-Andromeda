@@ -50,6 +50,7 @@
             NanotrasenRepresentative: [ 1, 1 ] # Funkystation
             InternalAffairsAgent: [ 2, 2 ] # Funkystation
             BlueshieldOfficer: [ 1, 1 ] # Funkystation
+            Magistrate: [ 1, 1 ]
             Captain: [ 1, 1 ]
             HeadOfPersonnel: [ 1, 1 ]
             Bartender: [ 2, 2 ]
