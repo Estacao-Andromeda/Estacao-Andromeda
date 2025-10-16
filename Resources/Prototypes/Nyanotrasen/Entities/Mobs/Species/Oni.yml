@@ -26,6 +26,7 @@
   - type: ClothingSlowResistance
     modifier: 0.15 # Slowdowns incurred by worn clothing are 15% less effective.
   - type: Damageable
+    damageContainer: BiologicalMetaphysical
     damageModifierSet: Oni
   - type: Body
     prototype: Oni

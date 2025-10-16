@@ -131,7 +131,7 @@
       - !type:HealthChange
         damage:
           types:
-            Cold: 3
+            Cold: 2
 
 - type: reagent
   id: UnholyWater # going to be renamed later alongside holy water
@@ -140,7 +140,7 @@
   desc: reagent-desc-unholy-water
   physicalDesc: reagent-physical-desc-menacing
   flavor: UnholyWater
-  color: "#1614143d"
+  color: "#4B3A6A"
   metabolisms:
     Medicine:
       effects:
