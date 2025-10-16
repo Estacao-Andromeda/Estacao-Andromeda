@@ -78,6 +78,8 @@
   parent: [PresentBase, BaseItem]
   suffix: Filled Safe
   components:
+  - type: Produce
+    seedId: gatfruit
   - type: SpawnItemsOnUse
     items:
       - id: PresentTrash
