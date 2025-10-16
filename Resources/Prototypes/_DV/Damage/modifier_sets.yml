@@ -53,5 +53,5 @@
     Blunt: 0.8
     Slash: 0.8
     Piercing: 0.8
-    Holy: 1
+    Holy: 1.6
   ignoreArmorPierceFlags: All # Goobstation
