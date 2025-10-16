@@ -1,0 +1,12 @@
+## Admeme
+
+- type: entity
+  parent: SeedBase
+  name: pacote de sementes de Fruta Natalis
+  description: "É natal!!"
+  id: frutaNatalisSeeds
+  components:
+    - type: Seed
+      seedId: presentFruit
+    - type: Sprite
+      sprite: _Andromeda/Objects/Specific/Hydroponics/present_pant.rsi

@@ -1482,6 +1482,20 @@
   - type: Sprite
     sprite: Objects/Fun/toys.rsi
     state: basketball
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape: !type:PhysShapeCircle
+          radius: 0.25
+        density: 20
+        mask:
+        - ItemMask
+        restitution: 0.8 # bouncy
+        friction: 0.2
+  - type: Catchable
+    catchChance: 0.8
+    catchSuccessSound:
+      path: /Audio/Effects/Footsteps/bounce.ogg
   - type: EmitSoundOnCollide
     sound:
       path: /Audio/Effects/Footsteps/bounce.ogg
@@ -1501,10 +1515,68 @@
   - type: Sprite
     sprite: Objects/Fun/toys.rsi
     state: football
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape: !type:PhysShapeCircle
+          radius: 0.25
+        density: 20
+        mask:
+        - ItemMask
+        restitution: 0.5 # a little bouncy
+        friction: 0.2
+  - type: Catchable
+    catchChance: 0.8
+    catchSuccessSound:
+      path: /Audio/Effects/Footsteps/bounce.ogg
+  - type: EmitSoundOnCollide
+    sound:
+      path: /Audio/Effects/Footsteps/bounce.ogg
   - type: Item
     size: Small
     sprite: Objects/Fun/toys.rsi
     heldPrefix: footb
+
+- type: entity
+  parent: BaseItem
+  id: TennisBall
+  name: tennis ball
+  description: A fuzzy orb of endless betrayal.
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/Balls/tennisball.rsi
+    state: icon
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape: !type:PhysShapeCircle
+          radius: 0.25
+        density: 20
+        mask:
+        - ItemMask
+        restitution: 0.5 # a little bouncy
+        friction: 0.2
+  - type: Catchable
+    catchChance: 0.8
+    catchSuccessSound:
+      path: /Audio/Effects/Footsteps/bounce.ogg
+  - type: EmitSoundOnCollide
+    sound:
+      path: /Audio/Effects/Footsteps/bounce.ogg
+  - type: Item
+    size: Small
+    sprite: Objects/Fun/Balls/tennisball.rsi
+  - type: EmitSoundOnUse
+    sound:
+      collection: ToySqueak
+      params:
+        volume: -4
+  - type: UseDelay
+  - type: Clothing
+    slots: [mask]
+  - type: Tag
+    tags:
+    - PetWearable
 
 - type: entity
   parent: BaseItem
@@ -1515,6 +1587,21 @@
   - type: Sprite
     sprite: Objects/Fun/toys.rsi
     state: beachball
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape: !type:PhysShapeCircle
+          radius: 0.3
+          position: "0,-0.2"
+        density: 20
+        mask:
+        - ItemMask
+        restitution: 0.1 # not bouncy
+        friction: 0.2
+  - type: Catchable
+    catchChance: 0.8
+    catchSuccessSound:
+      path: /Audio/Effects/Footsteps/bounce.ogg
   - type: EmitSoundOnCollide
     sound:
       path: /Audio/Effects/Footsteps/bounce.ogg

@@ -22,7 +22,7 @@ ent-ClothingOuterHardsuitMaxim = Traje Rígido Máximo do Recuperador
 ent-ClothingOuterHardsuitSecurity = Traje Rígido da Segurança
     .desc = Um traje especial que protege contra ambientes perigosos de baixa pressão. Possui uma camada adicional de blindagem.
 
-ent-ClothingOuterHardsuitBrigmedic = Traje Rígido da BrigMédica
+ent-ClothingOuterHardsuitBrigmedic = Traje Rígido de Médico da Brigada
     .desc = Traje Rígido especial do anjo da guarda da brigada. É a versão médica do traje rígido de segurança.
 
 ent-ClothingOuterHardsuitWarden = Traje Rígido do Carcereiro

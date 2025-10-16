@@ -1,16 +1,12 @@
 - type: soundCollection
   id: RodentFemaleScreams
   files:
-    - /Audio/Voice/Human/femalescream_3.ogg
-    - /Audio/Voice/Human/femalescream_5.ogg
     - /Audio/_Andromeda/Voice/Rodentia/Rodentia_scream.ogg
     - /Audio/_Andromeda/Voice/Rodentia/Rodentia_scream02.ogg
 
 - type: soundCollection
   id: RodentMaleScreams
   files:
-    - /Audio/Voice/Human/malescream_3.ogg
-    - /Audio/Voice/Human/malescream_5.ogg
     - /Audio/_Andromeda/Voice/Rodentia/Rodentia_scream.ogg
     - /Audio/_Andromeda/Voice/Rodentia/Rodentia_scream02.ogg
 
