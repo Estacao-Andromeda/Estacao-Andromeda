@@ -121,6 +121,7 @@
   physicalDesc: reagent-physical-desc-dark
   flavor: medicine
   color: "#211f3d"
+  worksOnTheDead: true
   metabolisms:
     Medicine:
       effects:
