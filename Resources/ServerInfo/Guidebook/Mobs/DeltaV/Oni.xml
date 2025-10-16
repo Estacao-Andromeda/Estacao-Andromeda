@@ -4,27 +4,23 @@
     <GuideEntityEmbed Entity="MobOni" Caption=""/>
   </Box>
 
-  Large, horned people that come in a variety of colors. Their accuracy with guns is terrible, but their physical strength brings them a lot of boons both in and out of combat.
+Pessoas grandes, com chifres, que aparecem em uma variedade de cores. A precisão delas com armas de fogo é terrível, mas sua força física traz muitas vantagens tanto dentro quanto fora de combate.
 
-  ## Diet
-  - Just about anything. Can even eat many things raw. Booze is a favorite.
+## Dieta
+- Quase qualquer coisa. Podem até comer muitos itens crus. Bebidas alcoólicas são uma preferência.
 
-  ## Benefits
-  - They take [color=#1e90ff]20% less Blunt, Slash, and Piercing damage[/color].
-  - Does more damage in melee; 30% more Blunt, Slash, Piece, Stamina, and Structural damage.
-  - Due to their big size, they can easily carry and pull any other species.
-  - They heal brute damage by drinking booze, and are far harder to get drunk
-  - Slightly more stamina than Humans.
-  - They are slowed down [color=#1e90ff]15% less[/color] by clothing.
-  - Deal [color=#1e90ff]25% more stamina damage[/color], excluding truncheons and similar.
-  - They have an easier time prying open doors, taking 50% less time than other species.
+## Benefícios
+- Eles recebem [color=#1e90ff]20% menos dano Contundente, Cortante e Perfurante[/color].
+- Causam mais dano em combate corpo a corpo; [color=#ff0000]30% mais dano Contundente, Cortante, Perfurante, de asfixia e Estrutural[/color].
+- Devido ao seu grande porte, conseguem facilmente carregar objetos e outras espécies com facilidade.
+- Curam dano bruto bebendo bebida alcoólica e são muito mais difíceis de embriagar.
+- Um pouco mais de estamina que Humanos.
+- São [color=#1e90ff]15% menos[/color] afetados por redução de velocidade causada por roupas.
+- Têm mais facilidade para arrombar portas, levando [color=#1e90ff]50% menos tempo[/color] que outras espécies.
 
-
-  ## Drawbacks
-  - They are too big and unwieldy, so usually they need an extra hand to use guns. If a gun already requires two hands, they are most likely unable to shoot it at all.
-  - Oni are unable to fire any weapons but shotguns with accuracy
-  - They are harder to carry and pull.
-  - They are bigger than Humans, making them easier to hit.
-  - Sources of holy damage are their bane, and will injure them greatly
+## Desvantagens
+- Oni são incapazes de disparar com precisão qualquer arma que não sejam escopetas.
+- São mais difíceis de carregar e puxar.
+- São maiores que Humanos, tornando-os mais fáceis de atingir.
 
 </Document>
