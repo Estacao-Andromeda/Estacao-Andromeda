@@ -147,6 +147,7 @@
     whitelist:
       components:
       - Item
+      - Goblin # NF
     blacklist:
       components:
       - EntityStorage
