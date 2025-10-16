@@ -209,3 +209,8 @@
     proto: SeniorResearcher
   equipment:
     id: SeniorResearcherPDA
+
+- type: loadout
+  id: ClothingOuterCoatEpi
+  equipment:
+    outerClothing: ClothingOuterCoatEpi

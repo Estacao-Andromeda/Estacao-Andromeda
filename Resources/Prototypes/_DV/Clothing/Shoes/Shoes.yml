@@ -1,0 +1,9 @@
+- type: entity
+  parent: ClothingShoesBaseWinterBoots
+  id: ClothingShoesBootsWinterMystagogue
+  name: botas de inverno de mistagogo
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Shoes/Boots/winterbootsrd.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Shoes/Boots/winterbootsrd.rsi
