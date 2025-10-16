@@ -220,6 +220,9 @@
         conditions:
         - !type:ReagentThreshold
           min: 15
+        - !type:OrganType # DeltaV - Reduced toxin damage for Oni
+          type: Oni
+          shouldHave: false
         - !type:OrganType
           type: Dwarf
           shouldHave: false
@@ -247,6 +250,25 @@
             Brute: -0.75
           types:
             Heat: -0.25
+  # Begin DeltaV Additons - Oni heal brute and take less poison
+      - !type:HealthChange
+        conditions:
+        - !type:OrganType
+          type: Oni
+        damage:
+          groups:
+            Brute: -3
+      - !type:HealthChange
+        conditions:
+        - !type:ReagentThreshold
+          min: 15
+        - !type:OrganType
+          type: Oni
+        damage:
+          types:
+            Poison: 0.2
+      # End DeltaV Additons
+
       - !type:ChemVomit
         probability: 0.04
         conditions:
@@ -257,6 +279,10 @@
         - !type:OrganType
           type: Dwarf
           shouldHave: false
+        - !type:OrganType # DeltaV - Oni Dont puke either
+          type: Oni
+          shouldHave: false
+
       - !type:Drunk
         boozePower: 2
 

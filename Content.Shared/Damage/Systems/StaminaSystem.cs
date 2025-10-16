@@ -209,7 +209,7 @@ public sealed partial class StaminaSystem : EntitySystem
         }
 
         // goobstation
-        
+
         foreach (var (ent, comp) in toHit)
         {
             var hitEvent = new TakeStaminaDamageEvent((ent, comp));

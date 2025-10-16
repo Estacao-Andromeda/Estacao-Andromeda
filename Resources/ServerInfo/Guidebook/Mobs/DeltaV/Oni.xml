@@ -1,0 +1,30 @@
+<Document>
+  # Onis
+  <Box>
+    <GuideEntityEmbed Entity="MobOni" Caption=""/>
+  </Box>
+
+  Large, horned people that come in a variety of colors. Their accuracy with guns is terrible, but their physical strength brings them a lot of boons both in and out of combat.
+
+  ## Diet
+  - Just about anything. Can even eat many things raw. Booze is a favorite.
+
+  ## Benefits
+  - They take [color=#1e90ff]20% less Blunt, Slash, and Piercing damage[/color].
+  - Does more damage in melee; 30% more Blunt, Slash, Piece, Stamina, and Structural damage.
+  - Due to their big size, they can easily carry and pull any other species.
+  - They heal brute damage by drinking booze, and are far harder to get drunk
+  - Slightly more stamina than Humans.
+  - They are slowed down [color=#1e90ff]25% less[/color] by clothing.
+  - Deal [color=#1e90ff]25% more stamina damage[/color], excluding truncheons and similar.
+  - They have an easier time prying open doors, taking 50% less time than other species.
+
+
+  ## Drawbacks
+  - They are too big and unwieldy, so usually they need an extra hand to use guns. If a gun already requires two hands, they are most likely unable to shoot it at all.
+  - Oni are unable to fire any weapons but shotguns with accuracy, with reports of bullets managing to fire even behind them
+  - They are harder to carry and pull.
+  - They are bigger than Humans, making them easier to hit.
+  - Sources of holy damage are their bane, and will injure them greatly
+
+</Document>

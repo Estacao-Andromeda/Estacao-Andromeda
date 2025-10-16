@@ -18,3 +18,6 @@ uplink-bionic-syrinx-implanter-desc = An implant that enhances a harpy's natural
 # Weapons
 uplink-home-run-bat-name = Home Run Bat
 uplink-home-run-bat-desc = Rigged bat pre-coated in blood for Syndicate tee-ball practice. Launch your foes!
+
+uplink-beast-gourd-name = Beast's Blood Gourd
+uplink-beast-gourd-desc = A gourd containing a potent mix of strong alcohol and stimulants, perfect for the demon within. Slowly refills over time

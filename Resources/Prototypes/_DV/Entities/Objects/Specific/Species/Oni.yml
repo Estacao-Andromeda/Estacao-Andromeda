@@ -1,0 +1,45 @@
+- type: entity
+  parent: FlaskBase
+  id: DrinkOniGourd
+  name: cabaça de saquê
+  description: Um recipiente tradicional para beber usado pelos oni. Diz-se que está cheio do melhor saquê.
+  components:
+  - type: Sprite
+    state: icon
+    sprite: _DV/Objects/Specific/Species/Oni/gourd.rsi
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        reagents:
+        - ReagentId: Sake
+          Quantity: 50
+  - type: SolutionRegeneration
+    solution: drink
+    generated:
+      reagents:
+      - ReagentId: Sake
+        Quantity: 2
+    duration: 10
+
+- type: entity
+  parent: [DrinkOniGourd, BaseSyndicateContraband]
+  id: BeastBloodGourd
+  name: cabaça de sangue feral
+  description: Uma cabaça contendo uma mistura potente de álcool forte e estimulantes, perfeita para o demônio interior. Recarrega lentamente com o tempo.
+  components:
+  - type: Sprite
+    state: icon
+    sprite: _DV/Objects/Specific/Species/Oni/cybergourd.rsi
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        reagents:
+        - ReagentId: BeastBlood
+          Quantity: 50
+  - type: SolutionRegeneration
+    solution: drink
+    generated:
+      reagents:
+      - ReagentId: BeastBlood
+        Quantity: 2
+    duration: 10

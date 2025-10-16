@@ -118,6 +118,7 @@
   - TowelColorYellow
   # Begin DeltaV Additions
   - TapeRecorder
+  - DrinkOniGourd
   # End DeltaV Additions
 
 - type: loadoutGroup
