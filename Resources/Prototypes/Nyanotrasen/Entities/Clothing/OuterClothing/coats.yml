@@ -36,5 +36,5 @@
 
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatEpi]
-  id: ClothingOuterCoatRndOpened
+  id: ClothingOuterCoatRndEpiOpened
   name: jaleco de epistemologia

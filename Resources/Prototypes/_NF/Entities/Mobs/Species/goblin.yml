@@ -46,7 +46,7 @@
   - type: PseudoItem
     size: Normal
   - type: PlayerAccuracyModifier
-    spreadMultiplier: 10
+    spreadMultiplier: 15
     maxSpreadAngle: 30
   - type: Vocal
     wilhelm: "/Audio/_NF/Voice/Goblin/goblin-cackle-05.ogg"

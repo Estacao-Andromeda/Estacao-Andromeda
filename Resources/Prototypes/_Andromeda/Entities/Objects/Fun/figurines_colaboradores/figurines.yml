@@ -20,6 +20,26 @@
 
 - type: entity
   parent: ToyFigurineExemploCatarse
+  id: ToyFigurineNegligencia
+  name: Negligência
+  description: Há uma assinatura na base.
+  components:
+  - type: Sprite
+    sprite: _Andromeda/misc/figures_colaboradores.rsi
+    state: Negligencia
+
+- type: entity
+  parent: ToyFigurineExemploCatarse
+  id: ToyFigurineMaggie
+  name: Maggie Garra-Fina
+  description: Há uma assinatura na base.
+  components:
+  - type: Sprite
+    sprite: _Andromeda/misc/figures_colaboradores.rsi
+    state: Maggie
+
+- type: entity
+  parent: ToyFigurineExemploCatarse
   id: ToyFigurineYvone
   name: Yvone Gooben
   description: Há uma assinatura na base.
