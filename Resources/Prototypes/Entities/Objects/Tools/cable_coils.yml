@@ -86,11 +86,11 @@
     - HumanoidSilicon # DeltaV
     damage:
       types: # these are all split across multiple types
-        Heat: -1.66
-        Shock: -1.66
-        Cold: -1.66 # DeltaV
-        Ion: -1.66
-        Caustic: -1.66 #funky
+        Heat: -3.22 # DeltaV was -1.66
+        Shock: -3.22 # DeltaV was -1.66
+        Cold: -3.22 # DeltaV
+        Ion: -3.22
+        Caustic: -3.22 #funky
   # EE Change End
   # FIXME: Used isnt actually implemented so its still unlimited.
   # Uncomment this when its implemented, and make sure it handles StackComponent right

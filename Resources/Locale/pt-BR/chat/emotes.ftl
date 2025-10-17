@@ -13,6 +13,7 @@ chat-emote-name-clap = Aplauso
 chat-emote-name-snap = Estalo
 chat-emote-name-salute = Saudação
 chat-emote-name-deathgasp = Suspiro de Morte
+chat-emote-name-deathgasp-silicon = Suspiro de Morte de Silício
 chat-emote-name-buzz = Zumbido
 chat-emote-name-weh = Weh
 chat-emote-name-chirp = Piar

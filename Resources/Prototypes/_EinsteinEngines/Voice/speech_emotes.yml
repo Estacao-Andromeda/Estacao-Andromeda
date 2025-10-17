@@ -7,7 +7,7 @@
 
 - type: emote
   id: SiliconDeathgasp
-  name: chat-emote-name-deathgasp
+  name: chat-emote-name-deathgasp-silicon
   whitelist:
     tags:
     - IPCEmotes
@@ -35,7 +35,7 @@
 
 - type: emote
   id: Whirr # uncategorized as it is generic
-  name: chat-emote-name-whirr
+  name: ranger engrenagem
   whitelist:
     tags:
     - IPCEmotes

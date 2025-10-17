@@ -106,10 +106,6 @@
           tags:
           - FoodSnack
           - BreadEmergency
-      oil:
-        whitelist:
-          tags:
-          - OilPack
       flare:
         whitelist:
           tags:
@@ -509,7 +505,6 @@
   components:
   - type: ContainerContainer
     containers:
-      oil: !type:ContainerSlot
       weldingmask: !type:ContainerSlot
       battery: !type:ContainerSlot
       flare: !type:ContainerSlot
@@ -517,11 +512,6 @@
       cable: !type:ContainerSlot
   - type: ItemSlots
     slots:
-      oil:
-        ejectOnInteract: false
-        whitelist:
-          tags:
-          - OilPack
       battery:
         ejectOnInteract: false
         whitelist:
@@ -549,8 +539,6 @@
           - CableCoil
   - type: ContainerFill
     containers:
-      oil:
-      - Oilpack1
       battery:
       - BatteryDisposable
       flare:
