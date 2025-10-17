@@ -29,7 +29,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 - type: entity
-  save: false
+  save: true
   name: Urist McRat
   parent: BaseMobSpeciesOrganic
   id: BaseMobRodentia
