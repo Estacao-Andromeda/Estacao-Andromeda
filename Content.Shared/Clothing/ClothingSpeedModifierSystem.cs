@@ -26,6 +26,7 @@ using Content.Shared.Verbs;
 using Robust.Shared.Containers;
 using Robust.Shared.GameStates;
 using Robust.Shared.Utility;
+using Content.Shared._DV.Clothing.Events;
 
 namespace Content.Shared.Clothing;
 
@@ -73,8 +74,22 @@ public sealed class ClothingSpeedModifierSystem : EntitySystem
 
     private void OnRefreshMoveSpeed(EntityUid uid, ClothingSpeedModifierComponent component, InventoryRelayedEvent<RefreshMovementSpeedModifiersEvent> args)
     {
-        if (_toggle.IsActivated(uid))
+        // DeltaV Start - Introduce ClothingSlowResistance to Species
+        if (!_toggle.IsActivated(uid))
+            return;
+
+        if (_container.TryGetContainingContainer((uid, null), out var container))
+        {
+            var ev = new ModifyClothingSlowdownEvent(component.WalkModifier, component.SprintModifier);
+            RaiseLocalEvent(container.Owner, ref ev);
+
+            args.Args.ModifySpeed(ev.WalkModifier, ev.RunModifier);
+        }
+        else
+        {
             args.Args.ModifySpeed(component.WalkModifier, component.SprintModifier);
+        }
+        // DeltaV End - Introduce ClothingSlowResistance to Species
     }
 
     private void OnClothingVerbExamine(EntityUid uid, ClothingSpeedModifierComponent component, GetVerbsEvent<ExamineVerb> args)

@@ -112,3 +112,54 @@
       - !type:MovespeedModifier
         walkSpeedModifier: 0.5
         sprintSpeedModifier: 0.5
+
+- type: reagent
+  id: Umbroxol
+  name: reagent-name-umbroxol
+  group: Medicine
+  desc: reagent-desc-umbroxol
+  physicalDesc: reagent-physical-desc-dark
+  flavor: medicine
+  color: "#211f3d"
+  worksOnTheDead: true
+  metabolisms:
+    Medicine:
+      effects:
+      - !type:HealthChange
+        damage:
+          types:
+            Holy: -2
+      - !type:AdjustTemperature
+        amount: -12000 # Funkychem
+      - !type:HealthChange
+        conditions:
+          - !type:ReagentThreshold
+            min: 15
+        damage:
+          types:
+            Cold: 2
+      - !type:AdjustTemperature
+        conditions:
+          - !type:ReagentThreshold
+            min: 15
+        amount: -24000
+      - !type:Jitter
+        conditions:
+          - !type:ReagentThreshold
+            min: 15
+
+- type: reagent
+  id: UnholyWater # going to be renamed later alongside holy water
+  name: reagent-name-unholy-water
+  group: Toxins
+  desc: reagent-desc-unholy-water
+  physicalDesc: reagent-physical-desc-menacing
+  flavor: UnholyWater
+  color: "#4B3A6A"
+  metabolisms:
+    Medicine:
+      effects:
+      - !type:HealthChange
+        damage:
+          types:
+            Cold: 1 # plan to change this when holy counterpart damage exists

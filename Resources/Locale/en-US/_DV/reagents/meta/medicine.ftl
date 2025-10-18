@@ -12,3 +12,9 @@ reagent-desc-cyanoxadone = A cryogenics chemical. Used to treat severe blood los
 
 reagent-name-anodynafil = anodynafil
 reagent-desc-anodynafil = An effective short-lasting anesthetic that doesn't interfere with consciousness, but results in prolonged pain suppression.
+
+reagent-name-umbroxol = umbroxol
+reagent-desc-umbroxol = An ominous chemical. Used to treat holy damage from those weak to the veil. Overdoses may leave patients feeling cold.
+
+reagent-name-unholy-water = unholy water
+reagent-desc-unholy-water = Water treated with blood and sulfur. Just looking at it chills you to the bone.

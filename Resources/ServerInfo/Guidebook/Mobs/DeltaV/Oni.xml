@@ -1,0 +1,26 @@
+<Document>
+  # Onis
+  <Box>
+    <GuideEntityEmbed Entity="MobOni" Caption=""/>
+  </Box>
+
+Pessoas grandes, com chifres, que aparecem em uma variedade de cores. A precisão delas com armas de fogo é terrível, mas sua força física traz muitas vantagens tanto dentro quanto fora de combate.
+
+## Dieta
+- Quase qualquer coisa. Podem até comer muitos itens crus. Bebidas alcoólicas são uma preferência.
+
+## Benefícios
+- Eles recebem [color=#1e90ff]20% menos dano Contundente, Cortante e Perfurante[/color].
+- Causam mais dano em combate corpo a corpo; [color=#ff0000]30% mais dano Contundente, Cortante, Perfurante, de asfixia e Estrutural[/color].
+- Devido ao seu grande porte, conseguem facilmente carregar objetos e outras espécies com facilidade.
+- Curam dano bruto bebendo bebida alcoólica e são muito mais difíceis de embriagar.
+- Um pouco mais de estamina que Humanos.
+- São [color=#1e90ff]15% menos[/color] afetados por redução de velocidade causada por roupas.
+- Têm mais facilidade para arrombar portas, levando [color=#1e90ff]50% menos tempo[/color] que outras espécies.
+
+## Desvantagens
+- Oni são incapazes de disparar com precisão qualquer arma que não sejam escopetas.
+- São mais difíceis de carregar e puxar.
+- São maiores que Humanos, tornando-os mais fáceis de atingir.
+- Oni recebem [color=#ff0000]50% mais dano sagrado[/color] que o normal.
+</Document>
