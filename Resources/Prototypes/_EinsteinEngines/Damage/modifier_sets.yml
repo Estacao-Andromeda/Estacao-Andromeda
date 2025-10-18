@@ -10,9 +10,9 @@
   id: IPC
   coefficients:
     Poison: 0
-    Cold: 0.5
-    Heat: 1.5
-    Shock: 2.0
+    Cold: 0.9
+    Heat: 1.1
+    Shock: 1.5
     Radiation: 0.5 # DeltaV - was not real
 
 - type: damageModifierSet

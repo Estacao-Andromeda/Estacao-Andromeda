@@ -1,0 +1,21 @@
+- type: entity
+  parent: SurgeryRemoveHeart
+  id: SurgeryRemovePump
+  name: Remove Pump
+  components:
+  - type: SurgeryOrganCondition
+    organSlot: pump
+
+- type: entity
+  parent: SurgeryInsertHeart
+  id: SurgeryInsertPump
+  name: Insert Pump
+  components:
+  - type: Surgery
+    requirement: SurgeryOpenRibcage
+    steps:
+    - SurgeryStepSawBones
+    - SurgeryStepInsertPump
+    - SurgeryStepSealOrganWound
+  - type: SurgeryOrganCondition
+    organSlot: pump

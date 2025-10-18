@@ -19,6 +19,7 @@
   parent: [BaseMob, MobDamageable, MobCombat, MobAtmosExposed, MobFlammable]
   abstract: true
   components:
+    - type: SiliconEmp # DeltaV - EMP damage
     - type: ContentEye
     - type: CameraRecoil
     - type: Reactive
@@ -47,6 +48,7 @@
     - type: ZombieImmune
     - type: DoAfter
     - type: RotationVisuals
+      defaultRotation: 90 # DeltaV
       horizontalRotation: 90
     - type: Examiner
     # - type: Recyclable
@@ -83,7 +85,7 @@
       specificHeat: 42
       coldDamage:
         types:
-          Cold: 0.5 #per second, scales with temperature & other constants
+          Cold: 0.1 #per second, scales with temperature & other constants
       heatDamage:
         types:
           Heat: 2 # DeltaV - was 3
@@ -179,32 +181,33 @@
     - type: CanEnterCryostorage # Goobstation
     - type: StatusIcon # Goobstation
       bounds: -0.5,-0.5,0.5,0.5
-    - type: Bloodstream # begin DeltaV - uncommented
-      damageBleedModifiers: BloodlossIPC
-      bloodReagent: MachineOil
-      bleedReductionAmount: 0
-      bloodMaxVolume: 100
-      chemicalMaxVolume: 0
-      bleedPuddleThreshold: 3
-      bloodRefreshAmount: 0
-      bloodlossThreshold: 0.8
-      maxBleedAmount: 2 # not a lot, but its hard to stop
-      bloodlossDamage:
-        types:
-          Blunt: 0.1 # lubricant is running low
-      bloodlossHealDamage:
-        types:
-          Burn: 0 # end DeltaV
+#    - type: Bloodstream # begin DeltaV - uncommented
+#      damageBleedModifiers: BloodlossIPC
+#      bloodReagent: MachineOil
+#      bleedReductionAmount: 0
+#      bloodMaxVolume: 100
+#      chemicalMaxVolume: 0
+#      bleedPuddleThreshold: 3
+#      bloodRefreshAmount: 0
+#      bloodlossThreshold: 0.8
+#      maxBleedAmount: 2 # not a lot, but its hard to stop
+#      bloodlossDamage:
+#        types:
+#          Blunt: 0.1 # lubricant is running low
+#      bloodlossHealDamage:
+#        types:
+#          Burn: 0 # end DeltaV
     - type: Flammable
       fireSpread: true
       canResistFire: true
       damage:
         types:
           Heat: 0 # GoobStation: Replaced fire damage with overheating shutdown
-    # - type: Barotrauma # Not particularly modifiable. In the future, some response to pressure changes would be nice.
-    #   damage:
-    #     types:
-    #       Blunt: 0.28 #per second, scales with pressure and other constants.
+    - type: Barotrauma # DeltaV - uncommented
+      damage:
+        types:
+          Blunt: 0.5 # DeltaV - was 0.28
+          Heat: 0.25 # DeltaV
     - type: Identity
     #  soundHit:
     #    path: /Audio/Effects/metalbreak.ogg

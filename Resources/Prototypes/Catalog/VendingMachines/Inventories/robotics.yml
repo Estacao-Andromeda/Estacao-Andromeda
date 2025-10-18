@@ -26,7 +26,6 @@
   startingInventory:
     CableApcStack: 4
     SciFlash: 4
-    Oilpack: 5 # Andromeda
     ProximitySensor: 3
     ClothingEyesHudDiagnostic: 2
     ClothingEyesEyepatchHudDiag: 2

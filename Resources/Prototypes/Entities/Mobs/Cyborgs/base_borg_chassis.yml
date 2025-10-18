@@ -58,6 +58,7 @@
   save: false
   abstract: true
   components:
+  - type: SiliconEmp # DeltaV - EMP damage
   - type: Reactive
     groups:
       Acidic: [Touch]
