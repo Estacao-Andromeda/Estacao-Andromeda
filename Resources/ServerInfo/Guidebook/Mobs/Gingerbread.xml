@@ -9,17 +9,17 @@ SPDX-License-Identifier: MIT
 -->
 
 <Document>
-  # Gingerbread
+  # Biscoitos de Gengibre
 
   <Box>
     <GuideEntityEmbed Entity="MobGingerbread" Caption=""/>
   </Box>
 
-  Gingerbreads are a species of sentient confectionary. They have sugar for blood, and can be butchered for cookies.
+  Biscoitos de gengibre são uma espécie de confeitaria senciente. Eles têm açúcar no lugar do sangue e podem ser cortados para fazer biscoitos.
 
-  ## Damage stats
+  ## Estatísticas de dano
 
-  Gingerbreads take 3x less heat damage than Humans, but take a lot of damage from being exposed to water externally.
-  They take 3x more damage from being exposed to water externally than Slimes.
+  Biscoitos de gengibre sofrem 3x menos dano de calor que humanos, mas sofrem muito dano por serem expostos à água externamente.
+  Eles sofrem 3x mais dano por serem expostos à água externamente do que Slimes.
 
 </Document>

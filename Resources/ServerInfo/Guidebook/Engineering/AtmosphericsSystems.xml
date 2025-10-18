@@ -7,11 +7,11 @@ SPDX-License-Identifier: MIT
 -->
 
 <Document>
-  # Atmospherics Systems
-  Atmos has a wide variety of devices catered to moving, managing, and otherwise manipulating gas.
-  These devices often work together to maintain a safe, breathable atmosphere for the crew, or to achieve a common task.
+  # Sistemas Atmosféricos
+  A Atmos possui uma ampla variedade de dispositivos destinados à movimentação, gerenciamento e manipulação de gás.
+  Esses dispositivos geralmente trabalham em conjunto para manter uma atmosfera segura e respirável para a tripulação ou para realizar uma tarefa comum.
 
-  This section delves into the various systems that Atmos has at their disposal, how they interconnect, and how they are ideally used.
+  Esta seção analisa os vários sistemas que a Atmos tem à sua disposição, como eles se interconectam e como são idealmente utilizados.
 
 
   <Box>
@@ -24,10 +24,10 @@ SPDX-License-Identifier: MIT
     <GuideEntityEmbed Entity="GasVolumePump" Caption=""/>
   </Box>
   <Box>
-    ## Pipe Networks
+    ## Redes de Tubulações
   </Box>
   <Box>
-    [color=#999999][italic]Interconnected pipes with a common task — commonly called Pipenets[italic][/color]
+    [color=#999999][italic]Tubos interconectados com uma tarefa comum — comumente chamados de Pipenets[italic][/color]
   </Box>
 
   <Box>
@@ -35,10 +35,10 @@ SPDX-License-Identifier: MIT
     <GuideEntityEmbed Entity="AirAlarm" Caption=""/>
   </Box>
   <Box>
-    ## Device Monitoring and Control
+    ## Monitoramento e controle de dispositivos
   </Box>
   <Box>
-    [color=#999999][italic]Monitoring and control over devices that manage a local atmosphere[italic][/color]
+    [color=#999999][italic]Monitoramento e controle sobre dispositivos que gerenciam uma atmosfera local[italic][/color]
   </Box>
 
   <Box>
@@ -46,10 +46,10 @@ SPDX-License-Identifier: MIT
     <GuideEntityEmbed Entity="FireAlarm" Caption=""/>
   </Box>
   <Box>
-    ## Fire and Gas Control
+    ## Controle de Incêndio e Gás
   </Box>
   <Box>
-    [color=#999999][italic]Devices to control and prevent gas leaks and fires[italic][/color]
+    [color=#999999][italic]Dispositivos para controlar e prevenir vazamentos de gás e incêndios[italic][/color]
   </Box>
 
   <Box>
@@ -57,10 +57,10 @@ SPDX-License-Identifier: MIT
     <GuideEntityEmbed Entity="AirCanister" Caption=""/>
   </Box>
   <Box>
-    ## Gas Mining and Storage
+    ## Mineração e Armazenamento de Gás
   </Box>
   <Box>
-    [color=#999999][italic] Devices to mine new gas for the station to use, and store it for later[italic][/color]
+    [color=#999999][italic]Dispositivos para extrair novo gás para uso da estação e armazená-lo para uso posterior[italic][/color]
   </Box>
 
 </Document>

@@ -7,52 +7,52 @@ SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 -->
 
 <Document>
-  # Supermatter Engine
+  # Motor de Supermatéria
 
-  The supermatter engine is an incredibly dangerous, volatile, and radioactive source of power. Without careful management, the supermatter chamber will fill with fire, lightning will arc out, and, eventually, an explosion will obliterate Engineering.
+  O motor de supermatéria é uma fonte de energia incrivelmente perigosa, volátil e radioativa. Sem um gerenciamento cuidadoso, a câmara de supermatéria se incendiará, raios surgirão e, eventualmente, uma explosão destruirá a Engenharia.
 
-  But with proper care and handling, the supermatter can be an incredibly potent power source for the station. While a basic setup will take care of the station's typical power load, the supermatter crystal is affected strongly by gases in many different ways — both beneficial and harmful.
+  Mas, com os devidos cuidados e manuseio, a supermatéria pode ser uma fonte de energia incrivelmente potente para a estação. Embora uma configuração básica atenda à carga típica de energia da estação, o cristal de supermatéria é fortemente afetado por gases de diversas maneiras — tanto benéficas quanto prejudiciais.
 
-  ## Precautions
+  ## Precauções
 
-  [bold][color=red]DO NOT INTENTIONALLY WALK INTO THE CRYSTAL BEFORE COOLING HAS BEEN SET UP OR YOU WILL BE BANNED.[/color][/bold]
+  [bold][color=red]NÃO ENTRE INTENCIONALMENTE NO CRISTAL ANTES QUE O RESFRIAMENTO TENHA SIDO CONFIGURADO OU VOCÊ SERÁ BANIDO.[/color][/bold]
 
-  Before stepping into the supermatter chamber, there are a few things to keep in mind to avert disaster and personal harm.
+  Antes de entrar na câmara de supermatéria, há algumas coisas a serem lembradas para evitar desastres e danos pessoais.
 
-  • Do not power the crystal before the cooling loop has been set up. [color=red]Do not touch the crystal. Do not walk into the crystal.[/color]
+  • Não ligue o cristal antes que o circuito de resfriamento tenha sido configurado. [color=red]Não toque no cristal. Não entre no cristal.[/color]
 
-  • Wear radiation protection around the crystal at all times.
+  • Use proteção contra radiação ao redor do cristal o tempo todo.
 
-  • Do not stare directly into the crystal. Engineering goggles will prevent hallucinations.
+  • Não olhe diretamente para o cristal. Óculos de engenharia evitarão alucinações.
 
-  • If you must approach the crystal, equip and enable magboots.
+  • Se precisar se aproximar do cristal, equipe e ative botas magnéticas.
 
-  ## Supermatter Crystal
+  ## Cristal de Supermatéria
 
   <GuideEntityEmbed Entity="Supermatter" Caption=""/>
 
-  The supermatter crystal is the main focus of the supermatter engine. It slowly siphons and reacts with gases around it, while emitting incredibly harmful — but lucrative — levels of radiation.
+  O cristal de supermatéria é o foco principal do motor de supermatéria. Ele lentamente sifona e reage com os gases ao seu redor, enquanto emite níveis de radiação incrivelmente prejudiciais — mas lucrativos.
 
-  When powered — usually by emitters — the intensity of its radiation will grow, as hot oxygen and plasma are released as waste. To top it all off, [color=red]anything that touches the crystal is instantly vaporized[/color].
+  Quando alimentado — geralmente por emissores — a intensidade de sua radiação aumenta, à medida que oxigênio quente e plasma são liberados como resíduos. Para completar, [color=red]qualquer coisa que toque o cristal é instantaneamente vaporizada[/color].
 
-  ## Radiation Collectors
+  ## Coletores de Radiação
 
   <Box>
     <GuideEntityEmbed Entity="RadiationCollectorNoTank"/>
     <GuideEntityEmbed Entity="PlasmaTank"/>
   </Box>
 
-  To harness the radioactive potential of the crystal, radiation collectors are placed nearby. These connect to HV cables, generating power for the station.
+  Para aproveitar o potencial radioativo do cristal, coletores de radiação são colocados nas proximidades. Estes se conectam a cabos de alta tensão, gerando energia para a estação.
 
-  Radiation collectors require a filled tank of plasma gas to operate, which will need to be replaced periodically to maintain power generation.
+  Os coletores de radiação requerem um tanque cheio de gás de plasma para operar, que precisará ser substituído periodicamente para manter a geração de energia.
 
-  ## Cooling Loop
+  ## Circuito de Resfriamento
 
-  At the most fundamental level, the supermatter crystal is kept stable with a "loop" of atmospheric pipes. The chamber is filled with safe, cold gas, whilst any harmful or unwanted byproducts are filtered out of the system.
+  No nível mais fundamental, o cristal de supermatéria é mantido estável por um "circuito" de tubos atmosféricos. A câmara é preenchida com gás frio e seguro, enquanto quaisquer subprodutos nocivos ou indesejados são filtrados do sistema.
 
   <GuideEntityEmbed Entity="NitrogenCanister"/>
 
-  Most stations will come with pre-supplied nitrogen canisters: the supermatter reacts very safely with nitrogen, which makes it an ideal gas for a basic setup.
+  A maioria das estações vem com recipientes de nitrogênio pré-fornecidos: a supermatéria reage com muita segurança com o nitrogênio, o que a torna um gás ideal para uma configuração básica.
 
   <Box>
     <GuideEntityEmbed Entity="GasPort"/>
@@ -60,49 +60,48 @@ SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
     <GuideEntityEmbed Entity="GasFilter"/>
   </Box>
 
-  To set up the cooling loop, anchor the nitrogen canisters to the input connector ports and enable the respective gas pumps. Follow the pipes, enabling gas pumps and filters as you go.
+  Para configurar o circuito de resfriamento, fixe os cilindros de nitrogênio nas portas do conector de entrada e habilite as respectivas bombas de gás. Siga os tubos, habilitando as bombas de gás e os filtros à medida que avança.
 
-  Be careful not to activate the gas pumps inside the interior chamber's airlocks before the full cooling loop is set up. A bypass gas pump is located outside the external airlock; use this to keep gas flowing as you work.
+  Tenha cuidado para não ativar as bombas de gás dentro das câmaras de ar da câmara interna antes que o circuito de resfriamento completo esteja configurado. Uma bomba de gás de bypass está localizada fora da câmara de ar externa; use-a para manter o gás fluindo enquanto você trabalha.
 
-  At least one of the filters that feeds back into the loop should be set to filter nitrogen. This will keep the cooled nitrogen in the loop, ensuring the crystal is kept at safe parameters.
+  Pelo menos um dos filtros que retornam ao circuito deve ser configurado para filtrar nitrogênio. Isso manterá o nitrogênio resfriado no circuito, garantindo que o cristal seja mantido em parâmetros seguros.
 
   <GuideEntityEmbed Entity="GasAnalyzer"/>
 
-  Once the full cooling loop has been set up, check with a gas analyzer to make sure the gas is not trapped at any point in the system. Disable the bypass gas pump by the airlocks, enable the interior gas pumps, and configure the air alarm.
+  Após a configuração completa do circuito de resfriamento, verifique com um analisador de gases para garantir que o gás não esteja preso em nenhum ponto do sistema. Desative a bomba de gás de bypass próxima às câmaras de ar, ative as bombas de gás internas e configure o alarme de ar.
 
-  ## Air Alarm Configuration
+  ## Configuração do Alarme de Ar
 
   <GuideEntityEmbed Entity="AirAlarm" Caption=""/>
 
-  Most air alarms are access-restricted to atmospheric technicians. The supermatter's air alarm is unique, and can be configured by station engineers.
+  A maioria dos alarmes de ar tem acesso restrito a técnicos atmosféricos. O alarme de ar da supermatéria é exclusivo e pode ser configurado pelos engenheiros da estação.
 
   <Box>
     <GuideEntityEmbed Entity="GasVentPump"/>
     <GuideEntityEmbed Entity="GasVentScrubber"/>
   </Box>
 
-  By default, the air vents in the supermatter's chamber will only output up to 101.3 kPa of gas, and adhere to pressure lockout parameters.
+  Por padrão, as saídas de ar na câmara da supermatéria só liberam até 101,3 kPa de gás e obedecem aos parâmetros de bloqueio de pressão.
 
-  Using the air alarm, increase the output threshold of each vent, or switch them to internal pressure bounds. The pressure lockout features of each vent should also be disabled.
+  Usando o alarme de ar, aumente o limite de saída de cada saída ou altere-os para limites de pressão interna. Os recursos de bloqueio de pressão de cada saída também devem ser desativados.
 
-  The air scrubbers also need adjustment from their default configuration. Ensure each scrubber is set to filter all gases, and that the WideNet feature is enabled for maximum efficiency.
+  Os depuradores de ar também precisam ser ajustados em relação à sua configuração padrão. Certifique-se de que cada depurador esteja configurado para filtrar todos os gases e que o recurso WideNet esteja habilitado para máxima eficiência.
 
-  ## Emitters
+  ## Emissores
 
   <GuideEntityEmbed Entity="Emitter"/>
 
-  Once the cooling loop is fully set up and the radiation collectors are filled, the supermatter engine is ready to start up.
+  Assim que o circuito de resfriamento estiver totalmente configurado e os coletores de radiação preenchidos, o motor de supermatéria estará pronto para ser acionado.
 
-  Emitters are the most common way of kickstarting the supermatter and keeping its internal energy high. Interact with an emitter to toggle it on, and it will begin firing lasers at the crystal.
+  Emissores são a maneira mais comum de dar a partida na supermatéria e manter sua energia interna alta. Interaja com um emissor para ligá-lo, e ele começará a disparar lasers no cristal.
 
-  ## Experimentation
+  ## Experimentação
 
   <GuideEntityEmbed Entity="ComputerSupermatter"/>
 
-  Although nitrogen is good at keeping the supermatter safe and stable, it also hinders the supermatter crystal's power generation.
+  Embora o nitrogênio seja eficaz em manter a supermatéria segura e estável, ele também prejudica a geração de energia do cristal de supermatéria.
 
-  The supermatter monitoring console allows close observation of the crystal and the effects that gases have on it. This is a key piece of equipment for safely experimenting with the supermatter.
-
+  O console de monitoramento de supermatéria permite a observação atenta do cristal e dos efeitos que os gases exercem sobre ele. Este é um equipamento essencial para experimentos seguros com a supermatéria.
   <Box>
     <GuideEntityEmbed Entity="CarbonDioxideCanister" Caption=""/>
     <GuideEntityEmbed Entity="PlasmaCanister" Caption=""/>
@@ -115,5 +114,5 @@ SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
     <GuideEntityEmbed Entity="PluoxiumCanister" Caption=""/>
   </Box>
 
-  Try out different gas mixes and see what happens!
+  Experimente diferentes misturas de gases e veja o que acontece!
 </Document>

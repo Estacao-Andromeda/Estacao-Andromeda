@@ -7,26 +7,26 @@ SPDX-License-Identifier: MIT
 -->
 
 <Document>
-## Anomaly Scanner
+  ## Scanner de Anomalias
 
-The Anomaly Scanner is used to gather various information on anomalies. They can be found inside of the lockers in the science department.
+  O Scanner de Anomalias é usado para coletar diversas informações sobre anomalias. Ele pode ser encontrado dentro dos armários do departamento de epistêmica.
 
 <Box>
 <GuideEntityEmbed Entity="AnomalyScanner"/>
 </Box>
 
-Scanning an anomaly shows the severity, general stability, approximate point output, reactions with particle types, and time until the next pulse. The reaction types, specifically, can be used in conjunction with the A.P.E. to manipulate anomalies.
+  A varredura de uma anomalia mostra a gravidade, a estabilidade geral, a saída aproximada do ponto, as reações com os tipos de partículas e o tempo até o próximo pulso. Os tipos de reação, especificamente, podem ser usados ​​em conjunto com o A.P.E. para manipular anomalias.
 
-## Anomaly Vessel
+  ## Vaso de Anomalias
 
-The anomaly vessel is a machine that generates points from anomalies. Use the anomaly scanner on an empty vessel, and the anomaly that was last scanned will be synced with the vessel.
+  O vaso de anomalias é uma máquina que gera pontos a partir de anomalias. Use o scanner de anomalias em um vaso vazio e a anomalia que foi varrida pela última vez será sincronizada com o vaso.
 
 <Box>
 <GuideEntityEmbed Entity="MachineAnomalyVessel"/>
 </Box>
 
-The amount of points a vessel generates per second is based on the severity, stability, and health of an anomaly. The higher each of these values, the higher the point output will be.
+  A quantidade de pontos que uma nave gera por segundo depende da gravidade, estabilidade e integridade de uma anomalia. Quanto maior cada um desses valores, maior será a pontuação gerada.
 
-Be careful: if an anomaly goes [color=#a4885c]supercritical[/color], the vessel it is linked to will explode. This may damage the station and nearby equipment.
+  Cuidado: se uma anomalia atingir [color=#a4885c]supercrítica[/color], a nave à qual ela está conectada explodirá. Isso pode danificar a estação e os equipamentos próximos.
 
 </Document>

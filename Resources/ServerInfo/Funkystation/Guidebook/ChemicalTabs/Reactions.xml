@@ -6,51 +6,50 @@ SPDX-License-Identifier: MIT
 -->
 
 <Document>
-  # Reactions
-  Here are some chemicals that, when utilized properly, have unique effects!
+  # Reações
+  Aqui estão alguns produtos químicos que, quando utilizados corretamente, têm efeitos únicos!
+
+  #Reações de Criação
+
+  Ao misturar alguns produtos químicos, itens podem ser criados!
+
+  Algumas das receitas mais fáceis para um aspirante a químico entender são as receitas simples que ajudam na fabricação de itens.
 
 
-  #Creation reactions
-
-  When mixing some chemicals, items can be created!
-
-  Some of the easiest recipes for an aspiring chemist to understand are the simple recipes that help with making items.
-
-
-  ##Soap
+  ##Sabão
   <Box>
     <GuideEntityEmbed Entity="Soap" Caption="Soap"/>
     <GuideEntityEmbed Entity="SoapHomemade" Caption="Homemade Soap"/>
   </Box>
-  Soap can be made with the following reagents:
+  O sabão pode ser feito com os seguintes reagentes:
 
-  -15u Fat
-  -10u Table Salt
-  -10u Water (or) 10u Blood
-  
-  You can also make a homemade variant by swapping out water with blood!
+  -15u de Gordura
+  -10u de Sal de Cozinha
+  -10u de Água (ou) 10u de Sangue
 
-  ##Meat
+  Você também pode fazer uma variante caseira trocando água por sangue!
+
+  ##Carne
   <Box>
     <GuideEntityEmbed Entity="FoodMeat" Caption="Meat"/>
   </Box>
-  You can make synthetic meat with:
-  -25u Fat
-  -5u Nutriment
-  -10u Blood
-  -10u Carbon
+  Você pode fazer carne sintética com:
+  -25u de Gordura
+  -5u de Nutrientes
+  -10u de Sangue
+  -10u de Carbono
 
-  ##Plastic
+  ##Plástico
   <Box>
     <GuideEntityEmbed Entity="SheetPlastic" Caption="Plastic"/>
   </Box>
-  You can make plastic by heating the following reagents to 374K:
+  Você pode fazer plástico aquecendo os seguintes reagentes a 374 K:
 
-  -5u Oil
-  -3u Ash
-  -2u Sulfuric Acid
+  -5 u Óleo
+  -3 u Cinzas
+  -2 u Ácido Sulfúrico
 
-  ##Crystals
+  ##Cristais
 
   <Box>
     <GuideEntityEmbed Entity="ShardCrystalGreen" Caption="Green Crystal"/>
@@ -59,65 +58,64 @@ SPDX-License-Identifier: MIT
     <GuideEntityEmbed Entity="ShardCrystalRed" Caption="Red Crystal"/>
     <GuideEntityEmbed Entity="ShardCrystalOrange" Caption="Orange Crystal"/>
   </Box>
-  You can create synthetic crystals for decoration by mixing and heating to 374k:
+  Você pode criar cristais sintéticos para decoração misturando e aquecendo a 374k:
 
-  -15u Sugar
-  -15u Water
-  -5u Ethanol
+  -15u Açúcar
+  -15u Água
+  -5u Etanol
 
-  ##Gunpowder
+  ##Pólvora
   <Box>
     <GuideEntityEmbed Entity="MaterialGunpowder" Caption="Gunpowder"/>
   </Box>
-  You can create gunpowder, a component used in improvised explosives, by mixing:
-  -6u Potassium
-  -2u Sulfur
-  -2u Charcoal
+  Você pode criar pólvora, um componente usado em explosivos improvisados, misturando:
+  -6u Potássio
+  -2u Enxofre
+  -2u Carvão
 
-  ##Solidification
+  ##Solidificação
   <Box>
     <GuideEntityEmbed Entity="IngotGold1" Caption="Gold"/>
     <GuideEntityEmbed Entity="IngotSilver1" Caption="Silver"/>
   </Box>
-  You can solidify reagents such as silver and gold into bars by using:
-  -10u Metal (silver or gold)
-  -5u Frost Oil
+  Você pode solidificar reagentes como prata e ouro em barras usando:
+  -10u Metal (prata ou ouro)
+  -5u Óleo de Gelo
 
+  # Reações gasosas
 
-  # Gas reactions
+  Ao misturar alguns produtos químicos, pode-se criar gás!
 
-  When mixing some chemicals, gas can be created!
+  Isso pode ser benéfico ou [color=red]ALTAMENTE PERIGOSO[/color] dependendo do contexto em que for usado!
 
-  This can be beneficial or [color=red]HIGHLY DANGEROUS[/color] depending on the context in which it is used!
-
-  ## Plasma Gas
+  ## Gás de Plasma
   <Box>
     <GuideEntityEmbed Entity="PlasmaCanister" Caption="Plasma Gas"/>
   </Box>
-  One of the most basic and dangerous gas reactions is the gaseous plasma that is made while mixing Phlogiston.
+  Uma das reações gasosas mais básicas e perigosas é o plasma gasoso produzido durante a mistura do Flogisto.
 
-  The recipe to make this (and release the gas) is:
+  A receita para fazer isso (e liberar o gás) é:
 
-  -1 part Plasma
-  -1 part Phosphorus
-  -1 part Sulfuric Acid
+  -1 parte de Plasma
+  -1 parte de Fósforo
+  -1 parte de Ácido Sulfúrico
 
   ## Frezon
   <Box>
     <GuideEntityEmbed Entity="FrezonCanister" Caption="Frezon Gas"/>
   </Box>
-  Another effect can be used to make Frezon gas, which is very damaging to the stations atmosphere. Please wear your winter coats!
+  Outro efeito pode ser usado para produzir gás Frezon, que é muito prejudicial à atmosfera da estação. Por favor, vistam seus casacos de inverno!
 
-  The reaction to create Frezon gas is:
+  A reação para criar gás Frezon é:
 
-  -1 part Fresium
-  -1 part Water
+  -1 parte de Frésio
+  -1 parte de Água
 
-  # Foam reactions
+  # Reações de espuma
 
-  There are two types of [color=cyan]foam[/color] reactions.
+  Existem dois tipos de reações de [color=cyan]espuma[/color].
 
-  ##Reagent Foam
+  ##Espuma Reagente
 
   <Box>
     <GuideEntityEmbed Entity="Beaker" Caption="Fluorosurfactant"/>
@@ -125,69 +123,66 @@ SPDX-License-Identifier: MIT
     <GuideEntityEmbed Entity="Beaker" Caption="(Optional) reagent(s)"/>
   </Box>
 
-  [color=cyan]Reagent[/color] foam applies whatever chemical is in the solution to those within it's radius- this is different from [color=cyan]smoke[/color] because it can apply reagents topically as well.
+  A espuma [color=cyan]reagente[/color] aplica qualquer produto químico presente na solução àqueles dentro de seu raio de ação — diferente da [color=cyan]fumaça[/color], pois também pode aplicar reagentes topicamente.
 
-  Reagent foam leaves residue on the floor when utilized with drinks or other liquids, so be sure to take this into account while making mixes!
+  A espuma reagente deixa resíduos no chão quando utilizada com bebidas ou outros líquidos, portanto, leve isso em consideração ao preparar as misturas!
 
-  More Fluorosurfactant and water mean more spread- but be aware this doesn't increase the potency of the foam, which depends on how much of the reagent you put in the solution.
-  Enjoy mixing and creating your own foam!
+  Mais fluorosurfactante e água significam mais espalhamento — mas lembre-se de que isso não aumenta a potência da espuma, que depende da quantidade de reagente que você colocar na solução.
+  Divirta-se misturando e criando sua própria espuma!
 
-  To make reagent foam you mix:
+  Para fazer espuma reagente, misture:
 
-  -1 part Fluorosurfactant
-  -1 part Water
-  -(Optional) Any amount of Reagent
+  -1 parte de fluorosurfactante
+  -1 parte de água
+  -(Opcional) Qualquer quantidade de reagente
 
-
-  ## Metal Foam
+  ## Espuma Metálica
   <Box>
     <GuideEntityEmbed Entity="MetalFoamGrenade" Caption="Metal Foam"/>
     <GuideEntityEmbed Entity="FoamedIronMetal" Caption="Foamed Iron"/>
     <GuideEntityEmbed Entity="FoamedAluminiumMetal" Caption="Foamed Aluminum"/>
   </Box>
-  [color=cyan]Metal[/color] foam creates fairly sturdy walls made of solidified foam metal. This also can be utilized for a variety of purposes, such as sealing hallways, hull breaches, and more!
-  To make metal foam you mix:
+  A espuma metálica [color=cyan] cria paredes bastante resistentes feitas de espuma metálica solidificada. Ela também pode ser utilizada para diversos fins, como vedação de corredores, brechas em cascos e muito mais!
+  Para fazer espuma metálica, misture:
 
-  -3 parts metal (Iron, Aluminum)
-  -1 part Foaming Agent
-  -1 part Fluorosulfuric acid
+  -3 partes de metal (Ferro, Alumínio)
+  -1 parte de Agente Espumante
+  -1 parte de Ácido Fluorossulfúrico
 
-  Be aware that the fluorosulfuric acid will hurt anyone near it before it solidifies!
-  Increasing the reactants will increase the size of the foam area.
+  Esteja ciente de que o ácido fluorossulfúrico causará danos a qualquer pessoa próxima a ele antes de solidificar!
+  Aumentar os reagentes aumentará o tamanho da área de espuma.
 
-
-  # Smoke reactions
+  # Reações à fumaça
   <Box>
     <GuideEntityEmbed Entity="SmokeGrenade" Caption="Smoke Grenade"/>
   </Box>
-  When mixing some chemicals, smoke can coat the area!
+  Ao misturar alguns produtos químicos, a fumaça pode cobrir a área!
 
-  This causes any [color=cyan]reagents[/color] within the mix to be ingested by anyone who breathes it in, which can result in many fun (or deadly!) effects!
+  Isso faz com que qualquer [color=cyan]reagente[/color] presente na mistura seja ingerido por qualquer pessoa que o inale, o que pode resultar em muitos efeitos divertidos (ou fatais!)!
 
-  The basic recipe to mix smoke is:
-  -1 part Phosphorous
-  -1 part Potassium
-  -1 part Sugar
-  -(Optional) Any amount of reagent
+  A receita básica para misturar fumaça é:
+  -1 parte de Fósforo
+  -1 parte de Potássio
+  -1 parte de Açúcar
+  -(Opcional) Qualquer quantidade de reagente
 
-  More of the reagents mean a larger area of effect, and adding more reagents will result in larger quantities of whatever is in solution being inhaled by those without internals on.
+  Mais reagentes significam uma área de efeito maior, e adicionar mais reagentes resultará em maiores quantidades do que estiver na solução sendo inalado por aqueles sem os componentes internos.
 
-  # Explosive reactions
+  # Reações explosivas
 
-  When mixing some chemicals, explosions can be caused!
+  Ao misturar alguns produtos químicos, podem ocorrer explosões!
 
-  ##Potassium and Water
+  ##Potássio e Água
   <Box>
     <GuideEntityEmbed Entity="Beaker" Caption="Potassium"/>
     <GuideEntityEmbed Entity="Beaker" Caption="Water"/>
   </Box>
-  The most basic of explosions is mixing:
+  A mais básica das explosões é misturar:
 
-  -1 Part Potassium
-  -1 Part Water
+  -1 Parte de Potássio
+  -1 Parte de Água
 
-  This will instantly cause a small but easily scalable explosion, which releases heat and can shatter windows! This can be used for chaining effects together with larger explosive payloads, such as CLF3!
-
+  Isso causará instantaneamente uma explosão pequena, mas facilmente escalável, que libera calor e pode estilhaçar janelas! Isso pode ser usado para encadear efeitos com cargas explosivas maiores, como CLF3!
 
   ##CLF3
   <Box>
@@ -195,36 +190,36 @@ SPDX-License-Identifier: MIT
     <GuideEntityEmbed Entity="Beaker" Caption="Fluorine"/>
   </Box>
 
-  Some more advanced explosions can be formed by mixing and then heating to 370K:
-  -1 part Chlorine
-  -3 parts Fluorine
+  Algumas explosões mais avançadas podem ser formadas misturando e aquecendo a 370 K:
+  -1 parte de Cloro
+  -3 partes de Flúor
 
-  Be aware that this WILL cause an explosion as soon as the CLF3 is hot enough to be made! This will likely result in it's loss unless precautions are taken.
+  Esteja ciente de que isso CAUSARÁ uma explosão assim que o CLF3 estiver quente o suficiente para ser produzido! Isso provavelmente resultará em sua perda, a menos que precauções sejam tomadas.
 
 
   ##EMPs
   <Box>
     <GuideEntityEmbed Entity="EmpGrenade" Caption="Emp"/>
   </Box>
-  To make a homemade EMP, which will immediately knock out any electronics in the area; you use:
+  Para fazer um PEM caseiro, que destruirá imediatamente qualquer dispositivo eletrônico na área, você precisa de:
 
-  -1 part Aluminum
-  -1 part Iron
-  -1 part Uranium
+  -1 parte de Alumínio
+  -1 parte de Ferro
+  -1 parte de Urânio
 
-  As with other area of effect tools, the size and will increase the more reagents you use.
+  Assim como outras ferramentas de área de efeito, o tamanho aumentará com a quantidade de reagentes usados.
 
-  ##Flashbangs
+  ##Granada de luz
   <Box>
     <GuideEntityEmbed Entity="GrenadeFlashBang" Caption="Flashbang"/>
   </Box>
-  To make a homemade flashbang, capable of disorienting and confusing people within it's radius, you use:
+  Para fazer uma granada de luz caseira, capaz de desorientar e confundir as pessoas em seu raio de ação, você usa:
 
-  -1 part Aluminum
-  -1 part Potassium
-  -1 part Sulfur
+  -1 parte de Alumínio
+  -1 parte de Potássio
+  -1 parte de Enxofre
 
-  Size and radius increase with the reagent amounts.
+  O tamanho e o raio aumentam com a quantidade de reagentes.
 
 
 

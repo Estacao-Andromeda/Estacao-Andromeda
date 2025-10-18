@@ -10,30 +10,31 @@ SPDX-License-Identifier: MIT
 -->
 
 <Document>
-# Science
-[color=#c96dbf]Science[/color], often called Research and Development, is a job made up of both generating research points to unlock new technologies as well as using said technologies to produce new items at lathes to help out the station.
+# Epistêmica
 
-## Personnel
-[color=#c96dbf]Science[/color]'s staff is made up of Research Assistants and Scientists. [color=#c96dbf]Science[/color] is run by the Research Director.
+  Epistêmica, frequentemente chamada de Pesquisa e Desenvolvimento, é um trabalho que consiste tanto na geração de pontos de pesquisa para desbloquear novas tecnologias quanto na utilização dessas tecnologias para produzir novos itens em tornos mecânicos para auxiliar a estação.
+
+## Pessoal
+A equipe da [color=#c96dbf]Ciência[/color] é composta por Assistentes de Pesquisa e Cientistas. A [color=#c96dbf]Ciência[/color] é administrada pelo Diretor de Pesquisa.
 
   <Box>
    <GuideEntityEmbed Entity="ToyFigurineScientist" Caption="Scientist"/>
    <GuideEntityEmbed Entity="ToyFigurineResearchDirector" Caption="RD"/>
   </Box>
-  
-## Technologies
+
+## Tecnologias
   <Box>
     <GuideEntityEmbed Entity="ComputerResearchAndDevelopment"/>
     <GuideEntityEmbed Entity="ResearchAndDevelopmentServer"/>
   </Box>
-The most important thing inside your department is the R&D server, which stores unlocked technologies, and the R&D computer, which allows you to unlock [color=#a4885c]technologies[/color].
+  O item mais importante dentro do seu departamento é o servidor de P&D, que armazena tecnologias desbloqueadas, e o computador de P&D, que permite desbloquear tecnologias.
 
-Each technology costs [color=#a4885c]Research Points[/color] and unlocks recipes at lathes. Some technologies will also have prerequisites you have to unlock before you can research them.
+  Cada tecnologia custa [color=#a4885c]Pontos de Pesquisa[/color] e desbloqueia receitas em tornos. Algumas tecnologias também terão pré-requisitos que você precisará desbloquear antes de poder pesquisá-las.
 
-[textlink="Click here to see a list of technologies." link="Technologies"].
+  Informações sobre as diferentes tecnologias podem ser visualizadas [textlink="na página do guia de tecnologia" link="Tecnologias"].
 
-## Disciplines
-Technologies are spread over 4 different Disciplines:
+  ## Disciplinas
+  As tecnologias são divididas em 5 Disciplinas diferentes:
   <Box>
     <GuideEntityEmbed Entity="Wrench" Caption="Industrial"/>
     <GuideEntityEmbed Entity="WeaponTetherGun" Caption="Experimental"/>
@@ -43,14 +44,14 @@ Technologies are spread over 4 different Disciplines:
 
 <GuideEntityEmbed Entity="ComputerResearchAndDevelopment"/> Use your nearest R&D console to take note of which kind of research is locked behind each Discipline tree.
 
-## Tiers
-Each Discipline tree has up to 3 tiers of technologies. At the start the only tier that is open and available for you is tier 1.
+## Níveis
+  Cada árvore de Disciplina tem até 3 níveis de tecnologias. No início, o único nível aberto e disponível para você é o nível 1.
 
-In order to progress further, you have to research up to [color=brown]75%[/color] of the current tier to move to the next one. So in order to unlock T2 researches you need to research 75% of T1.
+  Para progredir, você precisa pesquisar até [color=brown]75%[/color] do nível atual para avançar para o próximo. Portanto, para desbloquear pesquisas de Nível 2, você precisa pesquisar 75% do Nível 1.
 
-Now [color=green]Tier 3[/color] is where it gets interesting. If you research a T3 tech, you [color=brown]lock out[/color] T3 techs from other Discipline trees. That is, unless... you find some other way around it, probably should ask your [color=purple]Research Director[/color].
+  Agora, o [color=green]Nível 3[/color] é onde a coisa fica interessante. Se você pesquisar uma tecnologia de Nível 3, você [color=brown]bloqueia[/color] tecnologias de Nível 3 de outras árvores de Disciplina. Isto é, a menos que... você encontre outra maneira de contornar isso, provavelmente deveria perguntar ao seu [color=purple]Mistagogo[/color].
 
-## Lathes
+  ## Tornos
   <Box>
     <GuideEntityEmbed Entity="Protolathe"/>
     <GuideEntityEmbed Entity="CircuitImprinter"/>
@@ -60,6 +61,6 @@ Now [color=green]Tier 3[/color] is where it gets interesting. If you research a 
     <GuideEntityEmbed Entity="MedicalTechFab"/>
     <GuideEntityEmbed Entity="SecurityTechFab"/>
   </Box>
-At a lathe, you can choose a server to allow it print whatever recipes you have unlocked. Recipes require various materials (steel, glass, plastic, gold, plasma) which can be acquired at Cargo or Salvage.
+  Em um torno, você pode escolher um servidor para permitir a impressão de quaisquer receitas que você tenha desbloqueado. As receitas requerem vários materiais (aço, vidro, plástico, ouro, plasma), que podem ser adquiridos na Logística ou no Depósito.
 
 </Document>

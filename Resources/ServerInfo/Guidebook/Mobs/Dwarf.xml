@@ -6,13 +6,13 @@ SPDX-License-Identifier: MIT
 -->
 
 <Document>
-  # Dwarves
+  # Anões
 
   <Box>
     <GuideEntityEmbed Entity="MobDwarf" Caption=""/>
   </Box>
 
-  Dwarves are similar to humans in most respect, but tolerate alcohol better and are healed by it.
+  Os anões são semelhantes aos humanos em muitos aspectos, mas toleram melhor o álcool e são curados por ele.
 
 
 </Document>

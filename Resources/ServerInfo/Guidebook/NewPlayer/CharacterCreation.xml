@@ -8,76 +8,76 @@ SPDX-License-Identifier: MIT
 -->
 
 <Document>
-# Important Character Creation Tips
-This is a guide for the parts of character creation that effect gameplay.
+# Dicas Importantes para a Criação de Personagens
+Este é um guia para as partes da criação de personagens que afetam a jogabilidade.
 
-[textlink="For a guide on making cosmetic changes, click here." link="YourFirstCharacter"]
+[textlink="Para um guia sobre como fazer mudanças cosméticas, clique aqui." link="YourFirstCharacter"]
 
-## Spawn Priority
-This affects where you spawn in upon joining the game after the round has already started.
+## Prioridade de Início
+Isso afeta o local onde você entra no jogo após a rodada já ter começado.
 
-Choosing "Arrivals" will spawn you on a separate station where you wait for a shuttle to arrive to ship you to the main station.
+Ao escolher "Chegadas", você será gerado em uma estação separada, onde aguardará a chegada de uma nave auxiliar para levá-lo à estação principal.
 
-Choosing "Cryosleep" will have you wake up in a cryosleep chamber already on the station.
+Ao escolher "Sono Criogênico", você acordará em uma câmara de sono criogênico já existente na estação.
 
-Choosing "None" will either pick for you or choose the only spawn option available for the current station.
+Ao escolher "Nenhum", você escolherá a única opção de início disponível para a estação atual ou a que você escolher.
 
-This is a mostly arbitrary choice. You can safely leave this on "None" and you won't suffer any real inconveniences.
+Esta é uma escolha bastante arbitrária. Você pode deixar a opção "Nenhum" com segurança e não sofrerá nenhum inconveniente real.
 
-## Jobs
-You can set your job preferences in the lobby. While these don't [color=#a4885c]guarantee[/color] your position, someone who wants the job will be [color=#a4885c]randomly[/color] selected at the start of the round.
-You are given a chance at being chosen for your high priority job first, then your medium priorities, then your low priorities.
-You also given an option to automatically be a passenger or to be sent back to the lobby if you don't get chosen for any of your preferred jobs.
+## Empregos
+Você pode definir suas preferências de emprego no lobby. Embora isso não [color=#a4885c]garanta[/color] sua posição, alguém que queira o emprego será [color=#a4885c]selecionado aleatoriamente[/color] no início da rodada.
+Você tem a chance de ser escolhido primeiro para o seu emprego de alta prioridade, depois para os de média prioridade e, por fim, para os de baixa prioridade.
+Você também tem a opção de ser automaticamente um passageiro ou ser enviado de volta ao lobby se não for escolhido para nenhum dos seus empregos preferidos.
 
-  All command jobs are rolled first, regardless of priority. For example, if you select Chemist on High and Captain on low, Captain will roll first. If you do not want to play Command, be sure to set every Command role on None!
+Todos os empregos de comando são sorteados primeiro, independentemente da prioridade. Por exemplo, se você selecionar Químico em Alta e Capitão em Baixa, Capitão será o primeiro a rolar. Se você não quiser jogar Comando, certifique-se de definir todas as funções de Comando como Nenhuma!
 
-  Antagonists are also chosen first. If you are selected as an antagonist but picked Captain on high priority, you will spawn as an assistant with your rolled antagonist.
+Os Antagonistas também são escolhidos primeiro. Se você for selecionado como antagonista, mas escolher Capitão em Alta prioridade, você surgirá como assistente com o antagonista sorteado.
 
-Some jobs are locked until you've played long enough as other entry level jobs.
+Algumas profissões ficam bloqueadas até que você jogue por tempo suficiente, assim como outras profissões de nível básico.
 
-[textlink="For more infomation about jobs, click here." link="Jobs"]
+[textlink="Para mais informações sobre profissões, clique aqui." link="Empregos"]
 
-## Job Loadouts
-You may also choose [color=#a4885c]loadouts[/color] for each job. Loadouts are the clothing items and trinkets that you spawn with upon joining the game. Some loadout items are locked behind playtime restrictions.
-This may have various effects on gameplay, as some clothing items have [color=#a4885c]armor protection[/color] or [color=#a4885c]slow down your movement speed[/color]. This applies especially to Command and Security.
+## Equipamentos de Trabalho
+Você também pode escolher [color=#a4885c]equipamentos[/color] para cada trabalho. Equipamentos são os itens de vestuário e bugigangas com os quais você aparece ao entrar no jogo. Alguns itens de equipamento são bloqueados por restrições de tempo de jogo.
+Isso pode ter vários efeitos na jogabilidade, já que alguns itens de vestuário têm [color=#a4885c]proteção de armadura[/color] ou [color=#a4885c]reduzem sua velocidade de movimento[/color]. Isso se aplica especialmente a Comando e Segurança.
 
-You may also choose what bag you spawn in with.
-[color=#a4885c]Backpacks[/color] are medium sized but can carry large items easier. [color=#a4885c]Satchels[/color] have more total space than backpacks but have trouble carrying large items. [color=#a4885c]Duffel bags[/color] are large but incur a movement penalty.
+Você também pode escolher com qual mochila você aparece.
+[color=#a4885c]Mochilas[/color] são de tamanho médio, mas podem carregar itens grandes com mais facilidade. [color=#a4885c]Sacolas[/color] têm mais espaço total do que mochilas, mas têm dificuldade para carregar itens grandes. [color=#a4885c]Mochilas esportivas[/color] são grandes, mas incorrem em uma penalidade de movimento.
 
 ## Antags
-Turning on an [color=#a4885c]antagonist[/color] toggle will put you on the list of potentional antags at the start of the round. They do not guarantee your antagonist role, don't use this as an excuse to self-antag!
-Instead, like job priorities, a handful of players are chosen randomly from eligible players. If you are a command member or security officer, you cannot be chosen for an antag role.
+Ativar a opção [color=#a4885c]antagonista[/color] colocará você na lista de potenciais antags no início da rodada. Eles não garantem sua função de antagonista, então não use isso como desculpa para se auto-anttagar!
+Em vez disso, assim como nas prioridades de trabalho, alguns jogadores são escolhidos aleatoriamente entre os elegíveis. Se você for um membro do comando ou um oficial de segurança, não poderá ser escolhido para uma função de antag.
 
-[textlink="For more information about antagonists, click here." link="Antagonists"]
+[textlink="Para mais informações sobre antagonistas, clique aqui." link="Antagonistas"]
 
-Joining multiple games or ghosting/disconnecting/commiting suicide upon not being chosen for an antag role is referred to as "antag-rolling" and it is against the rules.
-Plenty of people patiently wait for their turn to be antagonists, so [color=#a4885c]we kindly ask you to refrain from opting-in to an antagonist role if you aren't ready[/color].
+Participar de várias partidas ou desaparecer/desconectar-se/suicidar-se ao não ser escolhido para um papel de antagonista é chamado de "rolar antagonista" e é contra as regras.
+Muitas pessoas esperam pacientemente pela sua vez de serem antagonistas, então [color=#a4885c]pedimos gentilmente que você não opte por um papel de antagonista se não estiver pronto[/color].
 
-## Traits
-Speech traits alter your speech, sometimes to an extreme degree.
+## Traços
+Traços de fala alteram sua fala, às vezes em um grau extremo.
 
-They include:
-- Accentless (disables the accent of your selected species)
-- Cowboy accent (word replacement, partner)
-- Frontal lisp ("s" is replaced with "th")
-- Italian accent (Mamma-mia, word replacement)
-- Pathological liar (word replacement, changes words like "yes" to "no")
-- Pirate accent (Arrgh, word replacement)
-- Social anxiety (s-s-stutter)
-- Southern Drawl (replaces "-ing" with "-in'" and similar changes)
+Eles incluem:
+- Sem sotaque (desativa o sotaque da espécie selecionada)
+- Sotaque de cowboy (substituição de palavras, parceiro)
+- Ceceio frontal (o "s" é substituído por "th")
+- Sotaque italiano (Mamma-mia, substituição de palavras)
+- Mentiroso patológico (substituição de palavras, muda palavras como "sim" para "não")
+- Sotaque de pirata (Arrgh, substituição de palavras)
+- Ansiedade social (gagueira s-s)
+- Sotaque sulista (substitui "-ing" por "-in'" e alterações semelhantes)
 
-You should be comfortable with talking normally or with a minor accent such as Social anxiety or Southern drawl before taking heavy accents like Italian or Cowboy.
+Você deve se sentir confortável falando normalmente ou com um leve sotaque, como ansiedade social ou sotaque sulista, antes de adotar sotaques fortes, como italiano ou caubói.
 
-There are also disabilty traits. Familiarize yourself with the game and the game's flow before taking one of these, as some may become difficult for beginners to deal with.
+Há também características de deficiência. Familiarize-se com o jogo e seu fluxo antes de adotar uma dessas, pois algumas podem ser difíceis para iniciantes.
 
-They include:
-- Blindness (severely limits your vision)
-- Lightweight drunk (you get drunk faster and you suffer more from the ill-effects of alcohol)
-- Muted (you cannot talk or whisper, but you can still communicate via emotes and pen and paper)
-- Narcolepsy (you randomly fall asleep at unpredictable and often inconvenient times)
-- Pacifist (you cannot hit, shoot, or throw sharp objects at people)
-- Paracusia (you sometimes hear noises that aren't real)
-- Short-sighted (somewhat limits your vision without prescription glasses)
-- Snoring (you make loud snoring sounds when asleep)
-- Unrevivable (you cannot be resuscitated when you meet your untimely demise)
+Elas incluem:
+- Cegueira (limita severamente sua visão)
+- Embriaguez leve (você fica bêbado mais rápido e sofre mais com os efeitos nocivos do álcool)
+- Mudo (você não consegue falar ou sussurrar, mas ainda consegue se comunicar por meio de emotes, caneta e papel)
+- Narcolepsia (você adormece aleatoriamente em horários imprevisíveis e muitas vezes inconvenientes)
+- Pacifista (você não consegue bater, atirar ou atirar objetos pontiagudos nas pessoas)
+- Paracusia (você às vezes ouve ruídos que não são reais)
+- Miopia (limita um pouco sua visão sem óculos de grau)
+- Ronco (você emite sons altos de ronco enquanto dorme)
+- Insustentável (você não pode ser ressuscitado quando encontra sua morte prematura)
 </Document>

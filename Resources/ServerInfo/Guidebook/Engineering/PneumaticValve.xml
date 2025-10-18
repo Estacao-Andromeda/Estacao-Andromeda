@@ -7,14 +7,14 @@ SPDX-License-Identifier: MIT
 -->
 
 <Document>
-  # Pneumatic Valve
-  The pneumatic valve is a bidirectional valve controlled via a pressure input.
+  # Válvula Pneumática
+  A válvula pneumática é uma válvula bidirecional controlada por uma entrada de pressão.
   <Box>
     <GuideEntityEmbed Entity="PressureControlledValve"/>
   </Box>
 
-  The pneumatic valve has 3 connections: input, output, and control.
-  The "input" side will be the input/output connection with the highest pressure, and can switch sides, making the valve bidirectional.
+  A válvula pneumática possui 3 conexões: entrada, saída e controle.
+  O lado de "entrada" será a conexão de entrada/saída com a maior pressão e pode alternar os lados, tornando a válvula bidirecional.
 
   <Box>
     <GuideEntityEmbed Entity="GasPipeStraight" Caption="Input/Output"/>
@@ -28,24 +28,24 @@ SPDX-License-Identifier: MIT
     <GuideEntityEmbed Entity="GasPipeStraight" Caption="Input/Output"/>
   </Box>
 
-  The valve will [color=green]open[/color] when the pressure on the output side is lower than the pressure on the control side by [color=orange][protodata="PressureControlledValve" comp="PressureControlledValve" member="Threshold"/] kPa[/color].
+  A válvula [color=green]abrirá[/color] quando a pressão no lado de saída for menor que a pressão no lado de controle em [color=orange][protodata="PressureControlledValve" comp="PressureControlledValve" member="Threshold"/] kPa[/color].
 
-  The valve will [color=red]close[/color] when the pressure of the output side reaches the pressure of the control side within [color=orange][protodata="PressureControlledValve" comp="PressureControlledValve" member="Threshold"/] kPa[/color].
+  A válvula [color=red]fechará[/color] quando a pressão no lado de saída atingir a pressão no lado de controle dentro de [color=orange][protodata="PressureControlledValve" comp="PressureControlledValve" member="Threshold"/] kPa[/color].
 
-  For example, a pneumatic valve with a control pressure of 500 kPa will open when the output pressure is 500 kPa - [color=orange][protodata="PressureControlledValve" comp="PressureControlledValve" member="Threshold"/] kPa[/color] or lower, and it will close when the output pressure is 500 kPa - [color=orange][protodata="PressureControlledValve" comp="PressureControlledValve" member="Threshold"/] kPa[/color] or higher.
+  Por exemplo, uma válvula pneumática com pressão de controle de 500 kPa abrirá quando a pressão de saída for de 500 kPa - [color=orange][protodata="PressureControlledValve" comp="PressureControlledValve" member="Threshold"/] kPa[/color] ou inferior, e fechará quando a pressão de saída for de 500 kPa - [color=orange][protodata="PressureControlledValve" comp="PressureControlledValve" member="Threshold"/] kPa[/color] ou superior.
 
-  The valve's control pressure is determined by a pipenet connection, and as such can be adjusted on the fly by a [textlink="pump" link="Pumps"] or another source of pressure control.
+  A pressão de controle da válvula é determinada por uma conexão de tubulação e, como tal, pode ser ajustada em tempo real por uma [textlink="pump" link="Pumps"] ou outra fonte de controle de pressão.
 
-  ## Differences to Pumps
+  ## Diferenças com Bombas
 
-  The pneumatic valve is different from a [textlink="pump" link="Pumps"] which moves gas via work.
-  The pneumatic valve is a passive device that moves gas based on the higher pressure of the input gas, and as such it can sometimes fill volumes faster than a [textlink="pump" link="Pumps"] can.
+  A válvula pneumática é diferente de uma [textlink="pump" link="Pumps"] que movimenta o gás por meio de trabalho.
+  A válvula pneumática é um dispositivo passivo que movimenta o gás com base na pressão mais alta do gás de entrada e, como tal, pode, às vezes, encher volumes mais rapidamente do que uma [textlink="pump" link="Pumps"].
 
-  For example, a pneumatic valve with a control pressure of 500 kPa will fill a volume faster than a pressure [textlink="pump" link="Pumps"] set to 500 kPa.
-  However, the [textlink="pump" link="Pumps"] will be able to maintain the pressure in the volume more accurately.
+  Por exemplo, uma válvula pneumática com uma pressão de controle de 500 kPa encherá um volume mais rapidamente do que uma pressão [textlink="pump" link="Pumps"] ajustada para 500 kPa.
+  No entanto, a [textlink="pump" link="Pumps"] será capaz de manter a pressão no volume com mais precisão.
 
-  The pneumatic valve can be used in a variety of applications, for example:
-  - To automatically vent gasses in a burn chamber based on control input
-  - The filling of a volume quickly, based on a customizable control pressure
+  A válvula pneumática pode ser usada em uma variedade de aplicações, por exemplo:
+  - Para ventilar automaticamente gases em uma câmara de combustão com base na entrada de controle
+  - O enchimento rápido de um volume, com base em uma pressão de controle personalizável
 
 </Document>

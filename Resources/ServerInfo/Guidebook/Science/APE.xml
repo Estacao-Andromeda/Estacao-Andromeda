@@ -12,21 +12,21 @@ SPDX-License-Identifier: MIT
 <Document>
 # A.P.E.
 
-The Anomalous Particle Emitter is a machine used to interface with anomalies. It is the primary way of manipulating the stats of an anomaly.
+O Emissor de Partículas Anômalas é uma máquina usada para interagir com anomalias. É a principal forma de manipular as estatísticas de uma anomalia.
 
 <Box>
 <GuideEntityEmbed Entity="MachineAPE"/>
 </Box>
 
-The A.P.E. can shoot four different kinds of anomalous particles: Delta, Epsilon, Sigma and Zeta. Each particle type has certain effects:
+O A.P.E. pode disparar quatro tipos diferentes de partículas anômalas: Delta, Epsilon, Sigma e Zeta. Cada tipo de partícula tem efeitos específicos:
 
-- [color=crimson]Danger:[/color] Increases the severity of an anomaly.
-- [color=plum]Unstable:[/color] Increases the instability of an anomaly.
-- [color=goldenrod]Containment:[/color] Increases anomaly stability at the cost of its health - if an anomaly is struck by too many containment particles, it will collapse, leaving behind an anomaly core.
-- [color=#6b75fa]Transformation:[/color] Increases anomaly severity with a chance of changing its behavior.
+- [color=crimson]Perigo:[/color] Aumenta a gravidade de uma anomalia.
+- [color=plum]Instável:[/color] Aumenta a instabilidade de uma anomalia.
+- [color=goldenrod]Contenção:[/color] Aumenta a estabilidade da anomalia ao custo de sua saúde - se uma anomalia for atingida por muitas partículas de contenção, ela entrará em colapso, deixando para trás um núcleo de anomalia.
+- [color=#6b75fa]Transformação:[/color] Aumenta a gravidade da anomalia com a chance de alterar seu comportamento.
 
-Which particle type corresponds to each effect is unique and can be learned by scanning the anomaly.
+O tipo de partícula correspondente a cada efeito é único e pode ser descoberto escaneando a anomalia.
 
-The A.P.E. can also be locked by anyone with science access, which prevents it from being deconstructed, turned on or off, or having the particle type switched.
+O A.P.E. também pode ser bloqueado por qualquer pessoa com acesso científico, o que impede que ele seja desconstruído, ligado ou desligado, ou que o tipo de partícula seja alterado.
 
 </Document>

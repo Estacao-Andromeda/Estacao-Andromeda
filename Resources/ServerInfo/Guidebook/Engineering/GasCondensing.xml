@@ -7,24 +7,24 @@ SPDX-License-Identifier: MIT
 -->
 
 <Document>
-  # Gas Condensing
-  Gas condensers take gasses and condense them into their liquid (reagent) forms.
+  # Condensação de Gás
+  Os condensadores de gás pegam gases e os condensam em suas formas líquidas (reagentes).
 
   <Box>
     <GuideEntityEmbed Entity="BaseGasCondenser"/>
   </Box>
 
-  For example, water vapor can be condensed into liquid water, oxygen into liquid oxygen, and so on.
+  Por exemplo, o vapor de água pode ser condensado em água líquida, o oxigênio em oxigênio líquido e assim por diante.
 
-  It has a [textlink="pipenet" link="PipeNetworks"] connection to input gas, and an internal tank to store the condensed liquid.
+  Ele possui uma conexão [textlink="pipenet" link="PipeNetworks"] para o gás de entrada e um tanque interno para armazenar o líquido condensado.
 
-  A condensor will stop condensing gas if the tank is full.
-  You can take liquid out of the condenser by interacting with it using any empty container.
+  Um condensador interromperá a condensação do gás se o tanque estiver cheio.
+  Você pode extrair líquido do condensador interagindo com ele usando qualquer recipiente vazio.
 
-  Gas condensors can take multiple gasses as input, and will condense them into their liquid forms.
-  For example, if you input a mixture of oxygen and nitrogen, you will get liquid oxygen and liquid nitrogen in the output tank.
+  Os condensadores de gás podem receber múltiplos gases como entrada e condensá-los em suas formas líquidas.
+  Por exemplo, se você inserir uma mistura de oxigênio e nitrogênio, obterá oxigênio líquido e nitrogênio líquido no tanque de saída.
 
-  Because [textlink="Chemistry" link="Chemist"] works with limited reagents in liquid form, they will highly appreciate the work of a skilled atmospherics technician who can provide them with the reagents they need.
+  Como [textlink="Química" link="Químico"] trabalha com reagentes limitados na forma líquida, eles apreciarão muito o trabalho de um técnico atmosférico qualificado que possa fornecer os reagentes necessários.
 
 
 

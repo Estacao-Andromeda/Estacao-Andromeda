@@ -15,9 +15,8 @@ SPDX-License-Identifier: MIT
 -->
 
 <Document>
-  # Species
-
-  Nanotrasen employs a variety of sapient species.
+  # Espécies
+  A Nanotrasen emprega uma variedade de espécies inteligentes.
 
   <Box>
   <GuideEntityEmbed Entity="MobArachnid" Caption="Arachnid"/>

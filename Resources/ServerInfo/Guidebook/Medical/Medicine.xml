@@ -11,9 +11,9 @@ SPDX-License-Identifier: MIT
 
 <Document>
 
-# Core Medications
+# Medicamentos Essenciais
 
-These medications are almost always useful to medbay in one way or another.
+Esses medicamentos são quase sempre úteis para o Medbay de uma forma ou de outra.
 
 <GuideReagentEmbed Reagent="Libital"/>
 <GuideReagentEmbed Reagent="Probital"/>
@@ -25,9 +25,9 @@ These medications are almost always useful to medbay in one way or another.
 <GuideReagentEmbed Reagent="Salbutamol"/>
 <GuideReagentEmbed Reagent="Inaprovaline"/>
 
-# Specialty Medications
+# Medicamentos Especiais
 
-These medications tend to have specific use cases.
+Esses medicamentos tendem a ter casos de uso específicos.
 
 <GuideReagentEmbed Reagent="Cryoxadone"/>
 <GuideReagentEmbed Reagent="Epinephrine"/>
@@ -39,9 +39,9 @@ These medications tend to have specific use cases.
 <GuideReagentEmbed Reagent="Ambuzol"/>
 <GuideReagentEmbed Reagent="Oculine"/>
 
-# All Medications
+# Todos os Medicamentos
 
-This is a list of -all- medications available, including ones previously listed.
+Esta é uma lista de todos os medicamentos disponíveis, incluindo os listados anteriormente.
 
 <GuideReagentGroupEmbed Group="Medicine"/>
 

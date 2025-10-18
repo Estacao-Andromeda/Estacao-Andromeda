@@ -7,10 +7,10 @@ SPDX-License-Identifier: MIT
 -->
 
 <Document>
-  # Wire Panels
-  Some station devices like airlocks, vending machines, and arcade consoles have wire panels, which control certain aspects of their functionality.
+  # Painéis de Fios
+  Alguns dispositivos de estação, como câmaras de descompressão, máquinas de venda automática e consoles de fliperama, possuem painéis de fios, que controlam certos aspectos de sua funcionalidade.
 
-  These panels can be opened using a screwdriver to access the wiring inside.
+  Esses painéis podem ser abertos usando uma chave de fenda para acessar a fiação interna.
 
   <Box>
     <GuideEntityEmbed Entity="Wirecutter"/>
@@ -18,20 +18,20 @@ SPDX-License-Identifier: MIT
     <GuideEntityEmbed Entity="Multitool"/>
   </Box>
 
-  From here you can use wirecutters and a multitool to interact with the wiring. Note that interacting with the wiring often requires insulated gloves, as if the wire is live, you can get shocked.
+  A partir daqui, você pode usar um alicate de corte e uma ferramenta multifuncional para interagir com a fiação. Observe que a interação com a fiação geralmente requer o uso de luvas isolantes, pois, se o fio estiver energizado, você pode levar um choque.
 
   <Box>
     <GuideEntityEmbed Entity="ClothingHandsGlovesColorYellow"/>
   </Box>
 
-  You can cut and mend wires using the wirecutters and pulse wires using the multitool.
+  Você pode cortar e consertar fios usando o alicate de corte e pulsar fios usando a multiferramenta.
 
-  Cutting wires often completely disables or restores functionality to a device.
-  It may also trigger unintended functionality like shocking people, dropping door bolts, or exploding.
+  Cortar fios geralmente desabilita ou restaura completamente a funcionalidade de um dispositivo.
+  Também pode desencadear funcionalidades indesejadas, como dar choques em pessoas, derrubar trincos de portas ou explodir.
 
-  Pulsing wires can have a variety of effects, but oftentimes it either temporarily disables or enables functionality.
+  Pulsar fios pode ter uma variedade de efeitos, mas muitas vezes desabilita ou habilita temporariamente a funcionalidade.
 
-  You can't pulse wires if the wire you're trying to pulse is cut. You have to mend the wire first.
+  Você não pode pulsar fios se o fio que você está tentando pulsar estiver cortado. Você precisa consertar o fio primeiro.
 
 
 </Document>

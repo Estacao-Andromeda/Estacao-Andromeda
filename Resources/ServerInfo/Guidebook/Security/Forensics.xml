@@ -13,48 +13,48 @@ SPDX-License-Identifier: MIT
 -->
 
 <Document>
-  # Forensics
+  # Forense
 
-  There are a lot of tools to help you gather and examine the evidence at your disposal
+  Existem muitas ferramentas para ajudar você a reunir e examinar as evidências à sua disposição.
 
-  # Log probe
+  # Sonda de Registro
 
-  This little add-on to your PDA is incredibly useful, just install the cartridge and your PDA will acquire the ability to scan anything with access (like airlocks) and see who has used them recently.
+  Este pequeno complemento para o seu PDA é incrivelmente útil: basta instalar o cartucho e seu PDA adquirirá a capacidade de escanear qualquer coisa com acesso (como câmaras de descompressão) e ver quem as utilizou recentemente.
 
-  You can normally find it inside the detective locker. After inserting it on your PDA, go to the programs tab and the log probe application should be there, to use the application you just have to interact with anything that requires access with your PDA while the application is open and the information will be instantly displayed in it.
+  Normalmente, você pode encontrá-lo dentro do armário de detetives. Após inseri-lo no seu PDA, acesse a aba de programas e o aplicativo Log Probe deverá estar lá. Para usar o aplicativo, basta interagir com qualquer dispositivo que exija acesso ao seu PDA enquanto o aplicativo estiver aberto e as informações serão exibidas instantaneamente.
 
-  It should be noted that the name shown in the application is not to be trusted 100% of the time since it gets the name from the identification card of whoever used the thing we are scanning, so if for example someone opened an airlock with no card the application would display "Unknown" as the name.
+  Observe que o nome exibido no aplicativo não é 100% confiável, pois ele obtém o nome do cartão de identificação de quem usou o objeto que estamos escaneando. Portanto, se, por exemplo, alguém abrisse uma câmara de descompressão sem cartão, o aplicativo exibiria "Desconhecido" como nome.
 
   <Box>
     <GuideEntityEmbed Entity="LockerDetective"/>
     <GuideEntityEmbed Entity="LogProbeCartridge"/>
   </Box>
 
-  # DNA and Fingerprints
+  # DNA e Impressões Digitais
 
-  ## How to get someone’s DNA?
+  ## Como obter o DNA de alguém?
 
-  You can scan blood puddles, vomit, glasses, bottles, cans and other liquid containers using the [color=#a4885c]forensic scanner[/color] to get DNA of any person.
+  Você pode escanear poças de sangue, vômito, copos, garrafas, latas e outros recipientes com líquidos usando o [color=#a4885c]scanner forense[/color] para obter o DNA de qualquer pessoa.
   <Box>
     <GuideEntityEmbed Entity="ForensicScanner"/>
   </Box>
-  So be careful before fighting with someone.
+  Portanto, tenha cuidado antes de brigar com alguém.
 
-  Same scanner can also get fingerprint information about who touched pretty much any object. If the possible perpetrator was using gloves, then your scanner will print out which fibers were left on the crimescene.
+  O mesmo scanner também pode obter informações de impressão digital sobre quem tocou em praticamente qualquer objeto. Se o possível criminoso estava usando luvas, o scanner imprimirá quais fibras foram deixadas na cena do crime.
 
-  ## I got DNA. How do I recognize whose it is?
+  ## Eu obtive DNA. Como posso saber de quem é?
 
-  You can print the forensic information of the object you scanned so you never miss it. Now with the paper containing DNA you can simply find a [color=#a4885c]Station Records Computer[/color] and look for a person whose DNA matches. Same applies to finding whose fingerprint is is.
+  Você pode imprimir as informações forenses do objeto que digitalizou para nunca perdê-las. Agora, com o papel contendo DNA, você pode simplesmente encontrar um [color=#a4885c]Computador de Registros da Estação[/color] e procurar uma pessoa cujo DNA corresponda. O mesmo se aplica para descobrir a impressão digital de quem é.
 
-  ## Taking Fingerprints
-  It is also possible to take someone's fingerprints while on scene if you make them take off their gloves and apply a forensic pad to their fingers. No need to run back to [color=#a4885c]Station Records Computer[/color] to check if the butler did it!
+  ## Coletando Impressões Digitais
+  Também é possível coletar as impressões digitais de alguém no local, se você pedir que a pessoa tire as luvas e coloque uma compressa forense nos dedos. Não precisa correr de volta para o [color=#a4885c]Computador de Registros da Estação[/color] para verificar se foi o mordomo!
 
   <GuideEntityEmbed Entity="ForensicPad"/>
 
-  ## Fibers
-  Whenenever people wearing gloves touch anything on the station, they are bound to leave behind some fibers. This complicates things, but nothing is unsolvable for a real detective.
+  ## Fibras
+  Sempre que pessoas usando luvas tocam em qualquer coisa na delegacia, elas certamente deixam algumas fibras para trás. Isso complica as coisas, mas nada é insolúvel para um detetive de verdade.
 
-  There are up to [color=red]26[/color] different types of fibers possible. Can that stop you from solving the case?
+  Existem até [color=red]26[/color] tipos diferentes de fibras possíveis. Isso pode impedi-lo de resolver o caso?
 
   <Box>
     <GuideEntityEmbed Entity="ComputerStationRecords"/>

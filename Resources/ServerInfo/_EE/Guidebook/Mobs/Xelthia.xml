@@ -4,24 +4,24 @@
   <Box>
     <GuideEntityEmbed Entity="MobXelthia" Caption=""/>
   </Box>
-  
-  ## Gameplay Information
-  
-  [color=#00cc00][bold]Positives:[/bold][/color]
-  
-  - Due to having tentacles, are able to drop and regrow their arms as needed; dropped arms can be cooked and eaten if desired.
-  - Have a higher-than-average heat tolerance, and take [color=#ffa500]less Heat damage[/color] overall.
-  - Have slippery, [color=#bbff00]Acidic blood[/color].
-  - Immune to most sources of [color=#bbff00]Caustic damage[/color].
-  
-  [color=red][bold]Negatives:[/bold][/color]
-  
-  - Carnivores; can only eat foods containing meat.
-  - Thanks to having tentacles for arms, they [color=red]can't wear gloves[/color]. If you want [color=yellow]electrical insulation[/color], you'll have to track down an [color=yellow]insulated jacket[/color]!
-  - Have worse-than average cold tolerance, and take more [color=#1e90ff]Cold damage[/color] overall.
-  
-  ## Background Information
-  To sum them up briefly, Xelthia are a species that have only had their first contact with humans around 25 years ago. They tend to be foodies, and aren't fans of wasting things, going as far with it as to often eat their own dead— though cooked. Xelthia generally tend to fall into two camps: those who are extremely driven to do things and accomplish their own goals, and those who just want to blend in with the crowd, sometimes lacking a drive to do much more than simply work as a janitor.
-  
-  [color=#878787](More in-depth lore is to be written at a later date, though some details include that they're originally from a swamp planet and the specific year of their first contact is likely around 2424. This existing summary will stay regardless for those who aren't as interested or are in a rush.)[/color]
+
+## Informações de Jogabilidade
+
+  [color=#00cc00][bold]Pontos Positivos:[/bold][/color]
+
+  - Por possuírem tentáculos, conseguem soltar e regenerar seus braços conforme necessário; os braços soltos podem ser cozidos e comidos, se desejado.
+  - Possuem uma tolerância ao calor acima da média e sofrem [color=#ffa500]menos dano de Calor[/color] no geral.
+  - Possuem sangue escorregadio e [color=#bbff00]ácido[/color].
+  - Imune à maioria das fontes de [color=#bbff00]dano cáustico[/color].
+
+  [color=red][bold]Pontos Negativos:[/bold][/color]
+
+  - Carnívoros; só podem comer alimentos que contenham carne.
+  - Por possuírem tentáculos no lugar dos braços, eles [color=red]não podem usar luvas[/color]. Se você quer [color=yellow]isolamento elétrico[/color], terá que encontrar uma [color=yellow]jaqueta isolante[/color]!
+  - Têm tolerância ao frio abaixo da média e sofrem mais [color=#1e90ff]dano por frio[/color] no geral.
+
+  ## Informações Gerais
+  Resumindo, os Xelthia são uma espécie que só teve seu primeiro contato com humanos há cerca de 100 anos. Eles tendem a ser comilões e não gostam de desperdiçar coisas, chegando a ponto de comer seus próprios mortos — mesmo que cozidos. Os Xelthia geralmente se dividem em dois grupos: aqueles que são extremamente motivados a fazer as coisas e alcançar seus próprios objetivos, e aqueles que só querem se misturar à multidão, às vezes sem vontade de fazer muito mais do que simplesmente trabalhar como zeladores.
+
+  [color=#878787](Mais detalhes serão escritos posteriormente, embora alguns detalhes incluam que eles são originalmente de um mundo pantanoso e o ano específico de seu primeiro contato é provavelmente por volta de 2347. Este resumo existente permanecerá para aqueles que não estão tão interessados ou estão com pressa.)[/color]
 </Document>

@@ -7,7 +7,7 @@ SPDX-License-Identifier: MIT
 -->
 
 <Document>
-  # Gas Canisters
+  # Botijões de Gás
   <Box>
     <GuideEntityEmbed Entity="AirCanister"/>
     <GuideEntityEmbed Entity="OxygenCanister"/>
@@ -19,20 +19,20 @@ SPDX-License-Identifier: MIT
     <GuideEntityEmbed Entity="GasPort"/>
   </Box>
 
-  Gas canisters are a way to store gas in a portable container for easy transport.
-  They can store [color=orange][protodata="StorageCanister" comp="GasCanister" member="Volume"/] liters[/color] of gas.
+  Botijões de gás são uma forma de armazenar gás em um recipiente portátil para facilitar o transporte.
+  Eles podem armazenar [color=orange][protodata="StorageCanister" comp="GasCanister" member="Volume"/] litros[/color] de gás.
 
-  You can connect handheld tanks to a gas canister to refill them using the release valve on the canister.
-  The release valve also has a adjustable pressure regulator to control the pressure of the handheld tank connected.
+  Você pode conectar botijões portáteis a um botijão de gás para reabastecê-los usando a válvula de liberação do botijão.
+  A válvula de liberação também possui um regulador de pressão ajustável para controlar a pressão do botijão portátil conectado.
 
-  Opening the release valve on a canister with no handheld tank connected will release gas into the atmosphere, at the specified regulator pressure.
+  Abrir a válvula de liberação em um botijão sem um botijão portátil conectado liberará gás na atmosfera, na pressão especificada do regulador.
 
-  [bold]Be sure to close the release valve before you eject your handheld tank![/bold]
+  [bold]Certifique-se de fechar a válvula de liberação antes de ejetar seu botijão portátil![/bold]
 
-  ## Connector Ports
-  Gas canisters and [textlink="portable scrubbers" link="PortableScrubber"] can be connected to a [textlink="pipenet" link="PipeNetworks"] by anchoring (wrenching) the device on top of a connector.
-  When connected, gas will be free to move in and out of the canister to balance pressure, temperature, and composition.
+  ## Portas de Conexão
+  Botijões de gás e [textlink="portable scrubbers" link="PortableScrubber"] podem ser conectados a uma [textlink="pipenet" link="PipeNetworks"] ancorando (torcendo) o dispositivo na parte superior de um conector.
+  Quando conectado, o gás estará livre para entrar e sair do botijão para equilibrar pressão, temperatura e composição.
 
-  A pump can be used to insert or extract gas from a canister, useful for filling or emptying a canister entirely.
+  Uma bomba pode ser usada para inserir ou extrair gás de um botijão, útil para encher ou esvaziar completamente o botijão.
 
 </Document>

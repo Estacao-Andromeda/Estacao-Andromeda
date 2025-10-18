@@ -7,28 +7,28 @@ SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 -->
 
 <Document>
-  # Deconversion
+  # Desconversão
   <Box>
     <GuideEntityEmbed Entity="Bible" Caption=""/>
     <GuideEntityEmbed Entity="CosmicCenser" Caption=""/>
   </Box>
 
-  When mounting an effort to thwart the [color=#4cabb3]Cosmic Cult[/color], there are several methods the crew might employ to ensure their survival and safety. One of these methods is [color=Yellow]Deconversion[/color].
+  Ao organizar um esforço para frustrar o [color=#4cabb3]Culto Cósmico[/color], existem vários métodos que a tripulação pode empregar para garantir sua sobrevivência e segurança. Um desses métodos é a [color=Yellow]Desconversão[/color].
 
-  To [color=Yellow]Deconvert[/color] a cosmic cultist, a [bold]Censer[/bold] must be used. Censers are fueled with Holy Water, which can be procured from:
-  - Usage of a Bible by a Chaplain on most containers of water will bless the water, turning it into Holy Water.
+  Para [color=Yellow]Desconverter[/color] um cultista cósmico, um [bold]Incensário[/bold] deve ser usado. Incensários são abastecidos com Água Benta, que pode ser obtida de:
+  - O uso de uma Bíblia por um Capelão na maioria dos recipientes de água abençoará a água, transformando-a em Água Benta.
 
-  ## Suppression Methods
+  ## Métodos de Supressão
   <Box>
     <GuideEntityEmbed Entity="Bible" Caption=""/>
     <GuideEntityEmbed Entity="MindShieldImplanter" Caption=""/>
     <GuideEntityEmbed Entity="CosmicCenser" Caption=""/>
   </Box>
 
-  Deconversion is but one method for dealing with an encroaching cult. Crew aboard the station may alternatively wish to invest in [color=Green]Mindshield[/color] implanters.
+  A desconversão é apenas um método para lidar com um culto invasor. A tripulação a bordo da estação pode, alternativamente, investir em implantadores de [color=Green]Escudo Mental[/color].
 
-  These state-of-the-art devices can prevent outside influences from brainwashing crewmembers, providing a powerful utility against the cult's influence.
+  Esses dispositivos de última geração podem impedir que influências externas realizem lavagem cerebral nos tripulantes, fornecendo uma poderosa ferramenta contra a influência do culto.
 
-  The [color=Yellow]Chaplain[/color]'s holy attuning renders them immune to nearly all of the cosmic cult's powers.
+  A sintonia sagrada do [color=Yellow]Capelão[/color] os torna imunes a quase todos os poderes do culto cósmico.
 
 </Document>

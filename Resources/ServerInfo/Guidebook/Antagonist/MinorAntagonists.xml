@@ -17,17 +17,17 @@ SPDX-License-Identifier: MIT
 -->
 
 <Document>
-  # Minor Antagonists
+  # Antagonistas Menores
 
-  Most if not all Minor Antagonists are ghost-controlled roles that gives dead people new ways to cause chaos around the station. They are spawned by random events.
+  A maioria, se não todos, dos Antagonistas Menores são personagens controlados por fantasmas que dão aos mortos novas maneiras de causar o caos na estação. Eles surgem por eventos aleatórios.
 
-  # Paradox Clone
+  # Clone do Paradoxo
 
   <Box>
     <GuideEntityEmbed Entity="ParadoxCloneDummy"/>
   </Box>
 
-  A perfect copy of a random crewmember that was thrown into our universe by a space-time anomaly. To fix the paradox and survive they have to find and kill their original counterpart. They have no special abilities, but are have identical appearance, DNA, fingerprints, clothing, equipment and IDs, making it hard to figure out who is the orginal and who is the clone, unless you know your fellow crewmembers well.
+  Uma cópia perfeita de um tripulante aleatório que foi lançado em nosso universo por uma anomalia espaço-temporal. Para resolver o paradoxo e sobreviver, eles precisam encontrar e matar sua contraparte original. Eles não possuem habilidades especiais, mas têm aparência, DNA, impressões digitais, roupas, equipamentos e identidades idênticas, o que torna difícil descobrir quem é o original e quem é o clone, a menos que você conheça bem seus companheiros de tripulação.
 
   # Revenant
 
@@ -35,14 +35,14 @@ SPDX-License-Identifier: MIT
     <GuideEntityEmbed Entity="MobRevenant"/>
   </Box>
 
-  Revenants are ethereal beings made of ectoplasm that haunt the crew and steal [color=#8f63e6]life essence[/color] from them.
-  - Your essence is your very own [bold]life force[/bold]. Taking damage reduces your essence.
-  - Essence is also spent to use [bold]abilities[/bold].
-  - To gain essence you first [bold]inspect[/bold] various souls for their worth. More worthy souls grant more essence. Then you must [bold]siphon[/bold] it either when the victim is crit, dead or asleep. All of this is done with [color=yellow][bold][keybind="Use"][/bold][/color].
-  - [bold]Stolen essence[/bold] is used to purchase new abilities to incapacitate the crew easier.
-  - You are [bold]vulnerable[/bold] to attacks when you siphon a soul or use an ability. You can tell when you are vulnerable when you have a [color=#8f63e6][italic]Corporeal[/italic][/color] status effect.
+  Revenants são seres etéreos feitos de ectoplasma que assombram a tripulação e roubam [color=#8f63e6]essência vital[/color] deles.
+  - Sua essência é sua própria [bold]força vital[/bold]. Receber dano reduz sua essência.
+  - Essência também é gasta para usar [bold]habilidades[/bold].
+  - Para obter essência, você primeiro [bold]inspeciona[/bold] várias almas para verificar seu valor. Almas mais valiosas concedem mais essência. Então você deve [bold]sugá-la[/bold] quando a vítima estiver com dano crítico, morta ou dormindo. Tudo isso é feito com [color=yellow][bold][keybind="Use"][/bold][/color].
+  - [bold]Essência roubada[/bold] é usada para comprar novas habilidades para incapacitar a tripulação mais facilmente.
+  - Você fica [bold]vulnerável[/bold] a ataques ao sugar uma alma ou usar uma habilidade. Você pode saber quando está vulnerável quando tem um efeito de status [color=#8f63e6][italic]Corpóreo[/italic][/color].
 
-  # Rat King
+  # Rato Rei
 
   <Box>
     <GuideEntityEmbed Entity="MobRatServant" Caption=""/>
@@ -52,15 +52,15 @@ SPDX-License-Identifier: MIT
     <GuideEntityEmbed Entity="MobRatServant" Caption=""/>
   </Box>
 
-  Rat kings are abnormally large rodents capable of [color=yellow]raising huge rat armies[/color] by eating equally huge amounts of food.
-  - You have several abilities that come at the cost of your [bold]hunger.[/bold]
-  - One such ability is [color=yellow][italic]Raise Army[/italic][/color], which summons a [bold]Rat Servant[/bold]. You can [bold]command[/bold] your servants to stay in place, follow you, attack a target of your choice or attack indiscriminately.
-  - You can conjure a cloud of [color=#77b58e]ammonia[/color] using [color=purple][italic]Rat King's Domain[/italic][/color]. This purple gas is mildly poisonous to humans but heals rats.
-  - [color=#9daa98][italic]Rummage[/italic][/color] through a disposal unit by using the context menu. Use this to find [bold]scraps of food[/bold] to grow your army.
-  - Besides your abilities, [bold]you are stronger than most other animals.[/bold] You and your servants are capable of speech and you're both small enough to fit under airlocks and tables.
-  - [bold]Your underlings are still very fragile![/bold] Beware of spacings, explosions and the buisness end of a melee weapon.
+  Ratos Reis são roedores anormalmente grandes, capazes de [color=yellow]criar enormes exércitos de ratos[/color] comendo quantidades igualmente enormes de comida.
+  - Você tem várias habilidades que vêm à custa da sua [bold]fome[/bold]
+  - Uma dessas habilidades é [color=yellow][italic]Criar Exército[/italic][/color], que invoca um [bold]Servo Rato[/bold]. Você pode [bold]comandar[/bold] seus servos para permanecerem no mesmo lugar, segui-lo, atacar um alvo de sua escolha ou atacar indiscriminadamente.
+  - Você pode conjurar uma nuvem de [color=#77b58e]amônia[/color] usando [color=purple][italic]Domínio do Rei Rato[/italic][/color]. Este gás roxo é levemente venenoso para humanos, mas cura ratos.
+  - [color=#9daa98][italic]Vasculhe[/italic][/color] uma unidade de descarte usando o menu de contexto. Use isso para encontrar [bold]restos de comida[/bold] para aumentar seu exército.
+  - Além de suas habilidades, [bold]você é mais forte do que a maioria dos outros animais.[/bold] Você e seus servos são capazes de falar e ambos são pequenos o suficiente para caber sob câmaras de descompressão e mesas.
+  - [bold]Seus subordinados ainda são muito frágeis![/bold] Cuidado com espaçamentos, explosões e a extremidade ofensiva de uma arma corpo a corpo.
 
-  # Space Dragon
+  # Dragão Espacial
 
   <Box>
     <GuideEntityEmbed Entity="MobCarp" Caption=""/>
@@ -70,23 +70,23 @@ SPDX-License-Identifier: MIT
     <GuideEntityEmbed Entity="MobCarp" Caption=""/>
   </Box>
 
-  Space dragons are giant extradimensional fish that can [color=red]eat crew[/color] and create [color=#4b7fcc]carp rifts.[/color]
-  - Dragons have powerful jaws that allow them to [color=red][italic]Devour[/italic][/color] infrastructure such as doors, windows, and walls.
-  - They can also heal themselves by using [color=red][italic]Devour[/italic][/color] on crew members that have gone unconscious or have died.
-  - Your [color=orange][italic]Dragon's Breath[/italic][/color] is a [bold]flaming projectile[/bold] which travels a straight flight path, exploding multiple times and igniting things along the way. Try not to hit your carps with this!
-  - You have the ability to [color=#4b7fcc][italic]Summon a Carp Rift[/italic][/color]. Rifts periodically spawn [bold]space carp[/bold] and charge up energy over a period of 5 minutes, [bold]which is when it's vulnerable.[/bold] After 5 minutes, it becomes invulnerable and will continue summoning carp as long as the dragon lives.
-  - You'll suffer a [bold]temporary debilitating feedback effect[/bold] if one of your rifts are destroyed before it's done charging.
-  - If a period of five minutes passes since your spawn or since the last time a rift was charging, [bold]you'll disappear.[/bold]
-  - Dragons who have the maximum of 3 fully charged rifts will [bold]never disappear[/bold], but they are still mortal.
+  Dragões espaciais são peixes gigantes extradimensionais que podem [color=red]comer tripulantes[/color] e criar [color=#4b7fcc]fendas de carpas[/color]
+  - Os dragões têm mandíbulas poderosas que lhes permitem [color=red][italic]devorar[/italic][/color] infraestrutura, como portas, janelas e paredes.
+  - Eles também podem se curar usando [color=red][italic]devorar[/italic][/color] em tripulantes que ficaram inconscientes ou morreram.
+  - Seu [color=orange][italic]Sopro do Dragão[/italic][/color] é um [bold]projétil flamejante[/bold] que percorre uma trajetória reta, explodindo várias vezes e incendiando tudo ao longo do caminho. Tente não atingir suas carpas com isso!
+  - Você tem a habilidade de [color=#4b7fcc][italic]Invocar uma Fenda de Carpa[/italic][/color]. Fendas geram periodicamente [bold]carpas espaciais[/bold] e carregam energia por um período de 5 minutos, [bold]que é quando elas ficam vulneráveis.[/bold] Após 5 minutos, elas se tornam invulneráveis ​​e continuarão invocando carpas enquanto o dragão viver.
+  - Você sofrerá um [bold]efeito de feedback debilitante temporário[/bold] se uma de suas fendas for destruída antes de terminar de carregar.
+  - Se passarem cinco minutos desde o seu surgimento ou desde a última vez que uma fenda foi carregada, [bold]você desaparecerá.[/bold]
+  - Dragões que tiverem no máximo 3 fendas totalmente carregadas [bold]nunca desaparecerão[/bold], mas ainda são mortais.
 
-  # Slimes and Spiders
+  # Slimes e Aranhas
 
   <Box>
     <GuideEntityEmbed Entity="MobAdultSlimesBlueAngry" Caption=""/>
     <GuideEntityEmbed Entity="MobGiantSpiderAngry" Caption=""/>
   </Box>
 
-  Slimes and spiders have no remarkable features, but will [color=cyan]infest the station[/color] from time to time regardless. Both will give chase and attack anything they see.
-  - Slimes may [bold]deal extra cellular or poison damage[/bold], based upon their color. Water hurts them just as it would hurt a slime person.
-  - Spiders have a venomous bite and can [bold]create webs[/bold] that are hard to move though. Webs are easily destroyed with a blade. They can also pry open airlocks.
+  Slimes e aranhas não têm características marcantes, mas irão [color=cyan]infestar a estação[/color] de vez em quando. Ambos perseguirão e atacarão qualquer coisa que virem.
+  - Slimes podem [bold]causar dano celular extra ou dano de veneno[/bold], dependendo de sua cor. Água os fere da mesma forma que feriria uma pessoa slime.
+  - Aranhas têm uma picada venenosa e podem [bold]criar teias[/bold] difíceis de mover. Teias são facilmente destruídas com uma lâmina. Elas também podem abrir AirLocks.
 </Document>

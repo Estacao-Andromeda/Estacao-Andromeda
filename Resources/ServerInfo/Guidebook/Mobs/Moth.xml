@@ -6,17 +6,17 @@ SPDX-License-Identifier: MIT
 -->
 
 <Document>
-  # Moth People
+  # Pessoa Mariposa
 
   <Box>
     <GuideEntityEmbed Entity="MobMoth" Caption=""/>
   </Box>
 
-  They can eat cotton, fabrics and clothing, but virtually none of the food that others would consider "edible". They prefer a somewhat lower temperature range than humans.
-  Their Insect Blood can't be metabolised from Iron like normal blood.
+  Eles podem comer algodão, tecidos e roupas, mas praticamente nenhum alimento que outros considerariam "comestível". Preferem uma faixa de temperatura um pouco mais baixa que a dos humanos.
+  Seu Sangue de Inseto não pode ser metabolizado a partir do Ferro como o sangue normal.
 
-  Their wings give them better acceleration if there is no gravity on the station, but they still can't move without equipment when floating out in space.
+  Suas asas lhes dão melhor aceleração se não houver gravidade na estação, mas eles ainda não conseguem se mover sem equipamento quando flutuam no espaço.
 
-  They take [color=#1e90ff]30% less Cold damage[/color] but [color=#ffa500]30% more Heat damage, and catch on fire more easily[/color].
+  Eles sofrem [color=#1e90ff]30% menos dano de frio [/color], porém [color=#ffa500]30% mais dano de calor e pega fogo mais facilmente[/color].
 
 </Document>

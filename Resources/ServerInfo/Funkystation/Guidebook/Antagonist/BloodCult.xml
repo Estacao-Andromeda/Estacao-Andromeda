@@ -7,26 +7,26 @@ SPDX-License-Identifier: MIT
 -->
 
 <Document>
-# Blood Cult
+# Culto do Sangue
 
-[color=#ff3333][italic]The oldest and strongest emotion of mankind is fear, and the oldest and strongest kind of fear is fear of the unknown.[/italic][/color]
+[color=#ff3333][italic]A emoção mais antiga e forte da humanidade é o medo, e o tipo mais antigo e forte de medo é o medo do desconhecido.[/italic][/color]
 
-The blood cult is a loosely-organized group of acolytes dedicated to an interdimensional being: [color=#ff3333]Nar'Sie, the Geometer of Blood[/color]. For as long as its existence has been documented, its main goal has been to identify a location suitable for the barriers between spatio-temporal dimensions -- the "veil" -- to be broken down. It is theorized that, if they were to accomplish this, an [color=#ff3333]unspeakable horror of ancient power[/color] that wishes to bring ruin to the universe and shape it into their image would be brought forth into our reality.
+O culto do sangue é um grupo vagamente organizado de acólitos dedicados a um ser interdimensional: [color=#ff3333]Nar'Sie, o Geômetra do Sangue[/color]. Desde que sua existência é documentada, seu principal objetivo tem sido identificar um local adequado para a quebra das barreiras entre as dimensões espaço-temporais — o "véu". Teoriza-se que, se conseguissem isso, um [color=#ff3333]horror indizível de poder ancestral[/color] que deseja destruir o universo e moldá-lo à sua imagem seria trazido à nossa realidade.
 
-Obviously, this cannot be allowed to occur.
+Obviamente, isso não pode acontecer.
 
-Unfortunately for the station, it looks like Nanotrasen accidentally positioned it near an undetectable weak point in time and space. Whoops. Who would've known?
+Infelizmente para a estação, parece que Nanotrasen a posicionou acidentalmente perto de um ponto fraco indetectável no tempo e no espaço. Ops. Quem diria?
   <Box>
     <GuideEntityEmbed Entity="TearVeilRune" Caption="The sigil of Nar'Sie."/>
   </Box>
 
-As a blood cultist, the only being you love more than your fellow acolytes is [color=#ff3333]Nar'Sie Herself[/color]. Be kind to one another, teach each other the tricks and tools of the trade, and remember that only through complete co-operation can you achieve your [color=#dd55aa]goal[/color].
+Como um cultista do sangue, o único ser que você ama mais do que seus companheiros acólitos é a [color=#ff3333]Nar'Sie[/color]. Sejam gentis uns com os outros, ensinem uns aos outros os truques e ferramentas do ofício e lembrem-se de que somente através da cooperação completa vocês poderão atingir seu [color=#dd55aa]objetivo[/color].
 
-You can become a blood cultist both at the beginning of the round and by being converted by existing acolytes. Cultists may also, instead, choose to trap your soul in a stone to do their bidding.
+Você pode se tornar um cultista do sangue tanto no início da rodada quanto sendo convertido por acólitos existentes. Cultistas também podem, em vez disso, optar por aprisionar sua alma em uma pedra para cumprir suas ordens.
 
-## Abilities
+## Habilidades
 
-[color=#ff3333]Your patron[/color] has seen fit to empower [color=#ff3333]Her[/color] blood cultists with several basic abilities to help you on your quest.
+[color=#ff3333]Seu patrono[/color] decidiu capacitar [color=#ff3333]Seus[/color] cultistas do sangue com diversas habilidades básicas para ajudá-lo em sua jornada.
 
 <Box>
     <GuideEntityEmbed Entity="ActionCultistCommune" Caption="Commune"/>
@@ -34,16 +34,16 @@ You can become a blood cultist both at the beginning of the round and by being c
     <GuideEntityEmbed Entity="ActionCultistSpellsSelect" Caption="Prepare Spell"/>
   </Box>
 
-The [bold]Commune[/bold] ability allows a cultist to speak to their fellow acolytes over any distance. However, an incantation will be audibly whispered. Beware of alerting the crew to your cult's presence too early through unwise use of this ability.
+A habilidade [bold]Comunhão[/bold] permite que um cultista fale com seus companheiros acólitos a qualquer distância. No entanto, um encantamento será sussurrado em voz alta. Cuidado para não alertar a tripulação sobre a presença do seu culto muito cedo, usando essa habilidade de forma imprudente.
 
-The [bold]Study Veil[/bold] ability allows a cultist to hear [color=#ff3333]the Geometer[/color]'s voice. Recieve your instructions through the use of this ability.
+A habilidade [bold]Véu de Estudo[/bold] permite que um cultista ouça a voz do [color=#ff3333]Geômetra[/color]. Receba suas instruções por meio dessa habilidade.
 
-The [bold]Prepare Spell[/bold] ability allows [color=#ff3333]your patron[/color] to reach forth and carve [bold]Blood Spell[/bold] sigils onto your flesh. Only one blood spell may be prepared at a time, unless the user is standing atop an [color=#ff6666]empowering rune[/color].
+A habilidade [bold]Preparar Feitiço[/bold] permite que [color=#ff3333]seu patrono[/color] estenda a mão e grave sigilos de [bold]Feitiço de Sangue[/bold] em sua carne. Apenas um feitiço de sangue pode ser preparado por vez, a menos que o usuário esteja sobre uma [color=#ff6666]runa de fortalecimento[/color].
 
-## Runes
+## Runas
 
-Your bread-and-butter as a cultist are your [color=#ff6666]Runes.[/color] These sigils, painted in your own wrist's blood, allow acolytes to draw upon the power of [color=#ff3333]Nar'Sie[/color] at a concentrated physical location.
-
+Seu ganha-pão como cultista são suas [color=#ff6666]Runas[/color]. Esses sigilos, pintados com o sangue do seu próprio pulso, permitem que acólitos extraiam o poder de [color=#ff3333]Nar'Sie[/color] em um local físico concentrado.
+  
   <Box>
     <GuideEntityEmbed Entity="OfferingRune" Caption="the"/>
 	<GuideEntityEmbed Entity="EmpoweringRune" Caption="runes"/>
@@ -51,113 +51,113 @@ Your bread-and-butter as a cultist are your [color=#ff6666]Runes.[/color] These 
     <GuideEntityEmbed Entity="BarrierRune" Caption="your cult"/>
   </Box>
 
-[color=#ff6666]Runes[/color] can be drawn at your feet by activating a cult dagger in your hand, selecting a rune from the radial menu that appears, and then using the dagger on yourself. Beware -- this will hurt.
+[color=#ff6666]Runas[/color] podem ser desenhadas aos seus pés ativando uma adaga de culto em sua mão, selecionando uma runa no menu radial que aparece e, em seguida, usando a adaga em si mesmo. Cuidado — isso vai doer.
 
-The most important runes you have available are the [color=#ff6666]offering rune[/color] and the [color=#ff6666]empowering rune[/color]. With these runes placed in a safe location, cultists may begin enacting [color=#dd55aa]the will of their mistress[/color].
-
+As runas mais importantes que você tem disponíveis são a [color=#ff6666]runa de oferenda[/color] e a [color=#ff6666]runa de fortalecimento[/color]. Com essas runas colocadas em um local seguro, os cultistas podem começar a realizar [color=#dd55aa]a vontade de sua mestra[/color].
+  
   <Box>
     <GuideEntityEmbed Entity="OfferingRune" Caption="offering rune"/>
   </Box>
 
-The [bold][color=#ff6666]offering rune[/color][/bold] allows cultists to convert the weak-minded to their cause as well as sacrifice the dead, the mindshielded, and those whose souls the [color=#ff3333]Geometer[/color] desires.
-- [color=#99CC99]Sacrificing[/color] an unimportant dead person is a simple task, and can be performed by as few as a single acolyte. To accomplish this, merely drag the dead person's body, severed head, or brain onto an [color=#ff6666]offering rune[/color], then activate the rune by clicking it with an empty hand or by pressing E on it. Performing this ritual will trap the victim's soul in a soul stone, which may be found among the blood and offal atop the rune.
-- [color=#EEEE33]Converting[/color] a living, weak-minded individual to your cause -- an individual who is not mindshielded, not a Chaplain, and not the [color=#dd55aa]target[/color] designated by your [color=#ff3333]master[/color] -- is marginally more complex in its execution than sacrificing an insignificant crewmember. The victim must be dragged onto the [color=#ff6666]offering rune[/color] while still alive. At least [bold]two (2)[/bold] cultists must stand on the tiles adjacent to the [color=#ff6666]rune[/color] before activating it. A successful ritual will produce a new acolyte to the [color=#ff3333]Geometer[/color] and significantly replenish their health.
-- [color=#99CC99]Sacrificing[/color] your [color=#dd55aa]target[/color] -- a crewmember whose identity may be told to you by the [color=#ff3333]Geometer[/color] herself through the use of the [bold]Study Veil[/bold] ability -- is a similar process to [color=#99CC99]sacrificing[/color] an unimportant crewmember. However, as this [color=#dd55aa]individual[/color] possesses a soul of surpassing might, [bold]three (3)[/bold] cultists must be standing around the [color=#ff6666]rune[/color] to perform the ritual. If successful, the veil will be weakened, and you will be given a new [color=#dd55aa]assignment[/color].
+A [bold][color=#ff6666]runa de oferenda[/color][/bold] permite que os cultistas convertam os fracos de espírito à sua causa, bem como sacrifiquem os mortos, os protegidos pela mente e aqueles cujas almas o [color=#ff3333]Geômetra[/color] deseja.
+- [color=#99CC99]Sacrificar[/color] um morto sem importância é uma tarefa simples e pode ser realizada por apenas um acólito. Para isso, basta arrastar o corpo, a cabeça decepada ou o cérebro do morto para uma [color=#ff6666]runa de oferenda[/color] e, em seguida, ativar a runa clicando nela com a mão vazia ou pressionando E. Realizar este ritual aprisionará a alma da vítima em uma pedra da alma, que pode ser encontrada entre o sangue e as vísceras sobre a runa.
+- [color=#EEEE33]Converter[/color] um indivíduo vivo e de mente fraca para a sua causa — um indivíduo sem escudo mental, que não seja um Capelão e que não seja o [color=#dd55aa]alvo[/color] designado pelo seu [color=#ff3333]mestre[/color] — é um pouco mais complexo em sua execução do que sacrificar um tripulante insignificante. A vítima deve ser arrastada para a [color=#ff6666]runa de oferenda[/color] enquanto ainda estiver viva. Pelo menos [bold]dois (2)[/bold] cultistas devem estar nos quadrados adjacentes à [color=#ff6666]runa[/color] antes de ativá-la. Um ritual bem-sucedido produzirá um novo acólito para o [color=#ff3333]Geômetra[/color] e restaurará significativamente sua saúde.
+- [color=#99CC99]Sacrificar[/color] seu [color=#dd55aa]alvo[/color] — um membro da tripulação cuja identidade pode ser revelada a você pela própria [color=#ff3333]Geômetra[/color] através do uso da habilidade [bold]Véu de Estudo[/bold] — é um processo semelhante a [color=#99CC99]sacrificar[/color] um membro da tripulação sem importância. No entanto, como este [color=#dd55aa]indivíduo[/color] possui uma alma de poder insuperável, [bold]três (3)[/bold] cultistas devem estar ao redor da [color=#ff6666]runa[/color] para realizar o ritual. Se for bem-sucedido, o véu será enfraquecido e você receberá uma nova [color=#dd55aa]missão[/color].
 
   <Box>
     <GuideEntityEmbed Entity="EmpoweringRune" Caption="empowering rune"/>
   </Box>
 
-The [bold][color=#ff6666]empowering rune[/color][/bold] allows a cultist standing on it to prepare more than one blood spell at a time. In addition, the preparation of these spells will result in far less physical trauma to the envoker, and will be performed significantly faster.
+A [bold][color=#ff6666]runa de fortalecimento[/color][/bold] permite que um cultista sobre ela prepare mais de um feitiço de sangue ao mesmo tempo. Além disso, a preparação desses feitiços resultará em muito menos trauma físico para o invocador e será realizada significativamente mais rápido.
 
   <Box>
     <GuideEntityEmbed Entity="ReviveRune" Caption="revive rune"/>
   </Box>
 
-The [bold][color=#ff6666]revive rune[/color][/bold] may be used by cultists to ask [color=#ff3333]Nar'Sie[/color] to restore the soul of a lost acolyte. A dead cultist may be dragged on top of this rune, and the rune subsequently activated, to make this request. However, [color=#ff3333]She[/color] may demand further sacrifices be made before deigning [color=#ff3333]herself[/color] to fetch this lost soul. A lesser-known function of the [color=#ff6666]revive rune[/color] is that it may be used to grant a new soul to an entirely catatonic acolyte -- one for whom no pre-existing soul still exists. Any random soul of the dead may inhabit this body.
+A [bold][color=#ff6666]runa de reviver[/color][/bold] pode ser usada por cultistas para pedir a [color=#ff3333]Nar'Sie[/color] que restaure a alma de um acólito perdido. Um cultista morto pode ser arrastado para cima desta runa, e a runa subsequentemente ativada, para fazer este pedido. No entanto, [color=#ff3333]Ela[/color] pode exigir que mais sacrifícios sejam feitos antes de se dignar [color=#ff3333]a si mesma[/color] a buscar esta alma perdida. Uma função menos conhecida da [color=#ff6666]runa de reviver[/color] é que ela pode ser usada para conceder uma nova alma a um acólito completamente catatônico — alguém para quem nenhuma alma preexistente ainda existe. Qualquer alma aleatória dos mortos pode habitar este corpo.
 
   <Box>
     <GuideEntityEmbed Entity="BarrierRune" Caption="barrier rune"/>
   </Box>
 
-The [bold][color=#ff6666]barrier rune[/color][/bold] allows the [color=#ff3333]Geometer[/color] to physically defend [color=#ff3333]Her[/color] followers through the use of magical barriers. When activated, an impenetrable forcefield will temporarily manifest above it, and any adjacent [color=#ff3333]barrier runes[/color] will be activated as well. There is no limit to the length of this chain, save for the fortitude of the invoker -- their blood will be drained for the ritual at a rate determined by the number of barriers produced.
+A [bold][color=#ff6666]runa de barreira[/color][/bold] permite que a [color=#ff3333]Geômetra[/color] defenda fisicamente [color=#ff3333]Seus[/color] seguidores através do uso de barreiras mágicas. Quando ativada, um campo de força impenetrável se manifestará temporariamente acima dele, e quaisquer [color=#ff3333]runas de barreira[/color] adjacentes também serão ativadas. Não há limite para o comprimento desta corrente, exceto pela fortitude do invocador — seu sangue será drenado para o ritual a uma taxa determinada pelo número de barreiras produzidas.
 
-## Blood Spells
+## Feitiços de Sangue
 
-Blood spells are incantations that must be physically carved into the invoker's skin by a [color=#ff3333]higher entity[/color] prior to their use. Fortunately for you, as the veil is thin in this sector of space, [color=#ff3333]your Patron[/color] is capable of reaching forth and etching the appropriate sigils onto your person without your hands needing to be free or unrestrained. Without the aid of an [color=#ff6666]empowering rune[/color], however, the carving will have to be a crude one, and there may only be enough room on your body for one sigil at a time.
+Feitiços de sangue são encantamentos que devem ser fisicamente esculpidos na pele do invocador por uma [color=#ff3333]entidade superior[/color] antes de serem usados. Felizmente para você, como o véu é tênue neste setor do espaço, [color=#ff3333]seu Patrono[/color] é capaz de estender a mão e gravar os sigilos apropriados em você sem que suas mãos precisem estar livres ou descontroladas. Sem o auxílio de uma [color=#ff6666]runa de poder[/color], no entanto, a gravação terá que ser rudimentar, e pode haver espaço suficiente em seu corpo para apenas um sigilo por vez.
 
   <Box>
     <GuideEntityEmbed Entity="ActionCultistSummonDagger" Caption="Summon Dagger"/>
   </Box>
 
-The summon dagger spell allows a cultist to instantly grant themselves a weapon and a rune-carving tool. Useful for new devotees and those who have lost their old daggers.
+A magia de invocação de adaga permite que um cultista receba instantaneamente uma arma e uma ferramenta para esculpir runas. Útil para novos devotos e para aqueles que perderam suas adagas antigas.
 
   <Box>
     <GuideEntityEmbed Entity="ActionCultistStun" Caption="Stun"/>
   </Box>
 
-The stun spell will temporarilly knock over, drain the stamina of, silence, and mark a victim. A marked victim may be struck once with a cult dagger to enhance the effects of a stun. This spell may also be used to EMP Cyborgs.
+O feitiço de atordoamento derrubará temporariamente, drenará a resistência, silenciará e marcará a vítima. Uma vítima marcada pode ser atingida uma vez com uma adaga do culto para aumentar os efeitos do atordoamento. Este feitiço também pode ser usado para causar PEM em Ciborgues.
 
-This spell may permit you to silently and more efficiently kidnap those your cult requires, giving you ample time to strip them of their suit coordinates and communications headset prior to abduction. It is recommended that all cultists keep a stun spell prepared when roaming beyond their selected base of operations, [bold]just in case.[/bold]
+Este feitiço pode permitir que você sequestre silenciosamente e com mais eficiência aqueles que seu culto precisa, dando a você tempo suficiente para retirar suas coordenadas de traje e fone de ouvido de comunicação antes do sequestro. Recomenda-se que todos os cultistas mantenham um feitiço de atordoamento preparado ao vagar além de sua base de operações selecionada, [bold]por precaução.[/bold]
 
   <Box>
     <GuideEntityEmbed Entity="ActionCultistTwistedConstruction" Caption="Twisted Construction"/>
   </Box>
 
-The twisted construction spell allows cultists to convert stacks of plasteel into [color=#bbbbbb]runed metal[/color].
+O feitiço de construção distorcida permite que os cultistas convertam pilhas de plasteel em [color=#bbbbbb]metal rúnico[/color].
 
-## Structures
+## Estruturas
 
   <Box>
     <GuideEntityEmbed Entity="CultPylon" Caption="Pylon"/>
 	<GuideEntityEmbed Entity="CultJuggernautShell" Caption="Juggernaut Shell"/>
   </Box>
 
-Structures are worldly objects that possess a mere drop of [color=#ff3333]Her[/color] being. Constructable using [color=#bbbbbb]runed metal[/color] via the crafting menu (the "G" key), these objects are a great boon to a developed cult.
+Estruturas são objetos mundanos que possuem uma mera gota de [color=#ff3333]Seu[/color] ser. Construíveis usando [color=#bbbbbb]metal rúnico[/color] através do menu de criação (tecla "G"), esses objetos são uma grande dádiva para um culto desenvolvido.
 
-Pylons will gradually heal those devoted to [color=#ff3333]Nar'Sie[/color], including inhabited constructs. By merely existing near them, living devotees will continuously receive [color=#ff3333]Her[/color] blessing, knitting bone and sinew and undoing any half-baked attempts at deconversion.
+Pilones curam gradualmente aqueles devotos de [color=#ff3333]Nar'Sie[/color], incluindo constructos habitados. Apenas por existirem perto deles, devotos vivos receberão continuamente a [color=#ff3333]Sua[/color] bênção, unindo ossos e tendões e desfazendo qualquer tentativa malfeita de desconversão.
 
-Juggernaut shells are inert statues of [color=#bbbbbb]runed metal[/color]. They are completely useless... until an inhabited soul stone is inserted, at least.
+Cascas de Juggernaut são estátuas inertes de [color=#bbbbbb]metal rúnico[/color]. Elas são completamente inúteis... até que uma pedra da alma habitada seja inserida, pelo menos.
 
-## Constructs
+## Construtos
 
   <Box>
     <GuideEntityEmbed Entity="MobBloodCultShade" Caption="Shade"/>
 	<GuideEntityEmbed Entity="MobBloodCultJuggernaut" Caption="Juggernaut"/>
   </Box>
 
-Constructs are non-verbal, barely-sentient minions of the blood cult. Made from the twisted souls sacrificed to the [color=#ff3333]Geometer[/color], these entities count towards completing rituals with [color=#ff6666]runes[/color], and may be used in place of living cultists in a pinch.
+Construtos são lacaios não verbais e quase insensíveis do culto do sangue. Feitos a partir das almas distorcidas sacrificadas ao [color=#ff3333]Geômetra[/color], essas entidades contam para a conclusão de rituais com [color=#ff6666]runas[/color] e podem ser usados ​​no lugar de cultistas vivos em caso de emergência.
 
-Shades are mostly-physical spirits produced by activating an inhabited soul stone in one's hand. Loyal to the one who freed them, Shades will stop at nothing to see their master's will enacted. What they lack in physical strength they make up for in speed and endurance -- a Shade may be re-captured in an empty soul stone to rejuvinate their health.
+Sombras são espíritos, em sua maioria físicos, produzidos pela ativação de uma pedra da alma habitada na mão. Leais àquele que os libertou, Sombras não medirão esforços para ver a vontade de seu mestre cumprida. O que lhes falta em força física, compensam em velocidade e resistência — uma Sombra pode ser recapturada em uma pedra da alma vazia para rejuvenescer sua saúde.
 
-Juggernauts are hulking beasts made from juggernaut shells, awakened through the insertion of an inhabited soul stone. Slow and meticulous, these monstrosities are completely immune to weak attacks, and are capable of breaking down even the strongest of walls. An invaluable asset to a cult whose presence aboard the station is already known.
+Juggernauts são bestas enormes feitas de cascos de juggernaut, despertadas pela inserção de uma pedra da alma habitada. Lentos e meticulosos, essas monstruosidades são completamente imunes a ataques fracos e são capazes de derrubar até mesmo as paredes mais fortes. Um recurso inestimável para um culto cuja presença a bordo da estação já é conhecida.
 
-## The Final Ritual
+## O Ritual Final
 
-When the veil has been sufficiently weakened, and your cult has grown sufficiently expanded, it will be time to summon [color=#ff3333]your master.[/color]
+Quando o véu estiver suficientemente enfraquecido e seu culto tiver se expandido o suficiente, será hora de invocar [color=#ff3333]seu mestre[/color]
 
-A new rune may be drawn at any of the three designated locations [color=#ff3333]She[/color] will tell you about. This rune will take a long time to prepare.
+Uma nova runa pode ser desenhada em qualquer um dos três locais designados que [color=#ff3333]ela[/color] lhe indicará. Esta runa levará muito tempo para ser preparada.
 
-Once the process begins, Nanotrasen sensors are likely to pick up the exact location of your summoning attempt, and the crew will be alerted. Once the final rune is drawn, have [bold]at least nine (9)[/bold] cultists stand on top of it, spread out to cover as much surface area as possible.
+Assim que o processo começar, os sensores de Nanotrasen provavelmente detectarão o local exato da sua tentativa de invocação, e a tripulação será alertada. Assim que a runa final for desenhada, faça com que [bold]pelo menos nove (9)[/bold] cultistas fiquem em cima dela, espalhados para cobrir o máximo de área possível.
 
-Activate the rune once your fellow acolytes are appropriately perched upon it, and the process will be complete.
+Ative a runa assim que seus companheiros acólitos estiverem devidamente posicionados sobre ela, e o processo estará completo.
 
-## Course of the Round
+## Curso da Rodada
 
-As the cult expands, the situation aboard the station will pass through several stages.
+À medida que o culto se expande, a situação a bordo da estação passará por várias fases.
 
-- 1. [color=#a4885c]Silent stage[/color] - The cult is still capable of existing in secrecy, and must sacrifice up to two [color=#dd55aa]targets[/color] designated by [color=#ff3333]Nar'Sie[/color].
-- 2. [color=#a4885c]Risen cult[/color] - Either the cult has expanded significantly in size, or the [color=#dd55aa]targets[/color] have all been sacrificed. The cultists can no longer hide their true nature.
-- 3. [color=#a4885c]Veil sunderance[/color] - The cult has chosen a location to perform [color=#dd55aa]the final ritual.[/color] Nanotrasen sensors have detected the veil's collapse and will alert the crew.
-- 4. [italic][color=#ff3333]she is here[/color][/italic] - [italic][color=#ff3333]despair[/color][italic]
+- 1. [color=#a4885c]Fase silenciosa[/color] - O culto ainda é capaz de existir em segredo e deve sacrificar até dois [color=#dd55aa]alvos[/color] designados por [color=#ff3333]Nar'Sie[/color].
+- 2. [color=#a4885c]Culto ressuscitado[/color] - Ou o culto expandiu significativamente em tamanho ou todos os [color=#dd55aa]alvos[/color] foram sacrificados. Os cultistas não podem mais esconder sua verdadeira natureza.
+- 3. [color=#a4885c]Separação do véu[/color] - O culto escolheu um local para realizar o [color=#dd55aa]ritual final.[/color] Sensores de nanotrasen detectaram o colapso do véu e alertarão a tripulação.
+- 4. [italic][color=#ff3333]ela está aqui[/color][/italic] - [italic][color=#ff3333]desespero[/color][italic]
 
-## Combatting the Cult
+## Combatendo o Culto
 
-The only known method of deconverting a blood cultist is through the forced imbibement of [color=#4466ff]holy water[/color] (at least 40u).
+O único método conhecido para desconverter um cultista do sangue é através da ingestão forçada de [color=#4466ff]água benta[/color] (pelo menos 40u).
 
-Your Chaplain, a holy being, is largely immune to the more [italic]persuasive[/italic] aspects of the blood cult's methods, and is the only crewmember who may be trusted absolutely once the cult's presence is known. Chaplains are also resistant to blood magic and cult-manufactured weaponry, rendering the offensive abilities of most cultists useless against them -- unless the cultists resort to more traditional methods of attack.
+Seu Capelão, um ser sagrado, é amplamente imune aos aspectos mais [italic]persuasivos[/italic] dos métodos do culto do sangue e é o único membro da tripulação em quem se pode confiar totalmente uma vez que a presença do culto seja descoberta. Capelães também são resistentes à magia do sangue e às armas fabricadas pelo culto, tornando as habilidades ofensivas da maioria dos cultistas inúteis contra eles — a menos que os cultistas recorram a métodos de ataque mais tradicionais.
 
-Protect the Chaplain, for their holy water is the only thing that stands between you and [bold][color=#ff3333]consumption[/color][/bold].
+Proteja o Capelão, pois sua água benta é a única coisa que o separa do [bold][color=#ff3333]consumo[/color][/bold].
 
   <Box>
     <GuideEntityEmbed Entity="RandomHumanoidVisitorChaplain" Caption="Your sole line of defense. God help you."/>

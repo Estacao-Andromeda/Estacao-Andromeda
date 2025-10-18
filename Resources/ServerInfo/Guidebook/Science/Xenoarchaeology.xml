@@ -12,59 +12,59 @@ SPDX-License-Identifier: MIT
 -->
 
 <Document>
-# Xenoarchaeology
-Xenoarchaeology is a science subdepartment focused on researching and experimenting on alien artifacts.
+# Xenoarqueologia
+  Xenoarqueologia é um subdepartamento de epistêmica focado em pesquisar e experimentar artefatos alienígenas.
 
-At the start of each shift, the Science department will usually have access to at least two artifacts to experiment on. You can buy more by talking to the Cargo department.
+  No início de cada turno, o departamento de Ciências geralmente terá acesso a pelo menos dois artefatos para experimentos. Você pode comprar mais conversando com o departamento de Carga.
 
-By researching the unique things each artifact can do, you gain Research Points, increase the artifact's sale value, and potentially discover a useful ability or two that can help your department or the whole station!
+  Ao pesquisar as funções únicas de cada artefato, você ganha Pontos de Pesquisa, aumenta o valor de venda do artefato e, potencialmente, descobre uma ou duas habilidades úteis que podem ajudar seu departamento ou toda a estação!
 
-## Artifact Nodes
+  ## Nós de Artefato
 <Box>
 <GuideEntityEmbed Entity="ComplexXenoArtifact" Caption=""/>
 <GuideEntityEmbed Entity="ComplexXenoArtifactItem" Caption=""/>
 </Box>
-Artifacts consist of a randomly-generated tree of nodes. These nodes have a "[color=#a4885c]depth[/color]", representing how dangerous the node is, and the number of other nodes connected to it, called "[color=#a4885c]edges[/color]",
+Artefatos consistem em uma árvore de nós gerada aleatoriamente. Esses nós têm uma "[color=#a4885c]profundidade[/color]", que representa o quão perigoso o nó é, e o número de outros nós conectados a ele, chamados de "[color=#a4885c]arestas[/color]".
 
-Artifacts always start at depth zero, the root of the tree. Travelling the tree to find as many nodes as possible is the main goal of the scientists working on them. Knowledge is extracted from nodes to gain Research Points and increase the artifact's sale value.
+  Artefatos sempre começam na profundidade zero, a raiz da árvore. Percorrer a árvore para encontrar o máximo de nós possível é o principal objetivo dos cientistas que trabalham neles. Conhecimento é extraído dos nós para ganhar Pontos de Pesquisa e aumentar o valor de venda do artefato.
 
-Each node has two components: its [color=#a4885c]stimulus[/color] and a [color=#a4885c]reaction[/color].
+  Cada nó tem dois componentes: seu [color=#a4885c]estímulo[/color] e uma [color=#a4885c]reação[/color].
 
-A stimulus is the external behavior that triggers the reaction. There's a variety of these, and higher depth nodes have more difficult to accomplish stimuli. Some stimuli will need improvisation to trigger, and you may need to talk to other departments to get everything you need.
+  Um estímulo é o comportamento externo que desencadeia a reação. Há uma variedade deles, e nós com profundidades maiores têm estímulos mais difíceis de realizar. Alguns estímulos precisarão de improvisação para serem acionados, e você pode precisar conversar com outros departamentos para obter tudo o que precisa.
 
-Some reactions are instantaneous effects while others are permanent changes. Once an artifact is triggered, the reaction causes the artifact to randomly move to another node it is linked to.
+  Algumas reações são efeitos instantâneos, enquanto outras são mudanças permanentes. Assim que um artefato é acionado, a reação faz com que o artefato se mova aleatoriamente para outro nó ao qual está vinculado.
 
-With some experimental science, you can begin to grasp how the different nodes of an artifact are connected, and how to move between them by repeatedly activating nodes.
+  Com um pouco de ciência experimental, você pode começar a entender como os diferentes nós de um artefato estão conectados e como se mover entre eles ativando nós repetidamente.
 
-All non-zero-depth nodes will have exactly one edge that leads up to its parent node. All other edges a node has lead down to the next depth.
+  Todos os nós com profundidade diferente de zero terão exatamente uma aresta que leva até seu nó pai. Todas as outras arestas de um nó levam até a próxima profundidade.
 
-## Artifact Analyzer and Analysis Console
+  ## Analisador de Artefatos e Console de Análise
 <Box>
 <GuideEntityEmbed Entity="MachineArtifactAnalyzer"/>
 <GuideEntityEmbed Entity="ComputerAnalysisConsole"/>
 </Box>
-The main equipment that you'll be using for Xenoarchaeology is the [color=#a4885c]artifact analyzer[/color] and the [color=#a4885c]analysis console[/color]. You can use these to create reports that contain valuable information about an artifact.
+Os principais equipamentos que você usará em Xenoarqueologia são o [color=#a4885c]analisador de artefatos[/color] e o [color=#a4885c]console de análise[/color]. Você pode usá-los para criar relatórios que contêm informações valiosas sobre um artefato.
 
-To set them up, simply link them with a network configurator and set an artifact on top of the analyzer. Every station has at least one of these machines already set up.
+  Para configurá-los, basta conectá-los a um configurador de rede e configurar um artefato sobre o analisador. Cada estação já possui pelo menos uma dessas máquinas configuradas.
 
-Use the console's [color=#a4885c]scan[/color] button to discover what stimulus the artifact needs and what its reaction will do. Scanning takes thirty seconds.
+  Use o botão [color=#a4885c]scan[/color] do console para descobrir qual estímulo o artefato precisa e qual será sua reação. O scan leva trinta segundos.
 
-Use the [color=#a4885c]print[/color] button to save the scan result, so you can refer to it later.
+  Use o botão [color=#a4885c]imprimir[/color] para salvar o resultado do scan, para que você possa consultá-lo mais tarde.
 
-Once you've discovered a new node, you can extract points from the artifact using the [color=#a4885c]Extract[/color] button.
+  Após descobrir um novo nó, você pode extrair pontos do artefato usando o botão [color=#a4885c]Extrair[/color].
 
-## Assembling Artifacts
+  ## Montando Artefatos
 <GuideEntityEmbed Entity="ArtifactFragment" Caption="Artifact Fragment"/>
 
-It is possible to gather multiple artifact fragments and assemble them into a working artifact. You can ask for these from Salvage, who usually find these while mining asteroids or on Expeditions.
+É possível reunir vários fragmentos de artefatos e montá-los para formar um artefato funcional. Você pode solicitá-los à equipe de Recuperação, que geralmente os encontra durante a mineração de asteroides ou em Expedições.
 
-## Traversal Bias
+  ## Desvio de Travessia
 <Box>
   <GuideEntityEmbed Entity="MachineArtifactAnalyzer"/>
 </Box>
-Artifacts placed on top of a powered artifact analyzer are subjected to a bias which affects which node they will move to after being activated. The bias can be set in the artifact console.
+Artefatos colocados sobre um analisador de artefatos energizado são submetidos a uma polarização que afeta para qual nó eles se moverão após serem ativados. A polarização pode ser definida no console de artefatos.
 
-There are two types of biases:
-- [color=#a4885c]Up:[/color] favors nodes closer to the origin. Results in a decrease of depth.
-- [color=#a4885c]Down:[/color] favors nodes farther away from the origin. Results in an increase of depth.
+  Existem dois tipos de polarização:
+  - [color=#a4885c]Para cima:[/color] favorece os nós mais próximos da origem. Resulta em uma diminuição da profundidade.
+  - [color=#a4885c]Para baixo:[/color] favorece os nós mais distantes da origem. Resulta em um aumento da profundidade.
 </Document>
