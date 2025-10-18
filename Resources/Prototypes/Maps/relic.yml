@@ -51,7 +51,12 @@
           path: /Maps/Shuttles/cargo_relic.yml
         - type: StationJobs
           availableJobs:
-            #command
+            #CC
+            BlueshieldOfficer: [ 1, 1 ]
+            NanotrasenRepresentative: [ 1, 1 ]
+            Magistrate: [ 1, 1 ]
+            InternalAffairsAgent: [ 1, 1 ]
+            #Comand
             Captain: [ 1, 1 ]
             #service
             HeadOfPersonnel: [ 1, 1 ]

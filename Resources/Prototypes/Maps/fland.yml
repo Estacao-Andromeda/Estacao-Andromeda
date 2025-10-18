@@ -56,6 +56,7 @@
         - type: StationJobs
           availableJobs:
             Captain: [ 1, 1 ]
+            BlueshieldOfficer: [ 1, 1 ]
             NanotrasenRepresentative: [ 1, 1 ]
             InternalAffairsAgent: [ 2, 2 ]
             Magistrate: [ 1, 1 ]

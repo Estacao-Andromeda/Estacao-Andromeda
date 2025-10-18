@@ -51,6 +51,8 @@
             # Goobstation - TODO: add bso and ntr
             Captain: [ 1, 1 ]
             HeadOfPersonnel: [ 1, 1 ]
+            NanotrasenRepresentative: [ 1, 1 ]
+            Magistrate: [ 1, 1 ]
             InternalAffairsAgent: [ 1, 1 ]
             Bartender: [ 1, 1 ]
             Botanist: [ 1, 2 ]
