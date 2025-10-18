@@ -33,6 +33,7 @@
 # SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+# SPDX-FileCopyrightText: 2025 FoxtrotBelial <vroutlog2@gmail.com>
 
 - type: entity
   parent: ClothingNeckBase
@@ -45,7 +46,7 @@
   - type: StealTarget
     stealGroup: HeadCloak # leaving this here because I suppose it might be interesting?
   - type: Item
-    size: Normal
+    size: Small
   - type: TemperatureProtection
     heatingCoefficient: 1.1
     coolingCoefficient: 0.1
@@ -53,7 +54,6 @@
     modifiers:
       coefficients:
         Heat: 0.90
-        Slash: 0.90
 - type: entity
   parent: [ClothingNeckBase, BaseCommandContraband]
   id: ClothingNeckCloakCap
@@ -65,7 +65,7 @@
   - type: StealTarget
     stealGroup: HeadCloak
   - type: Item
-    size: Normal
+    size: Small
   - type: TemperatureProtection
     heatingCoefficient: 1.1
     coolingCoefficient: 0.1
@@ -73,7 +73,6 @@
     modifiers:
       coefficients:
         Heat: 0.90
-        Slash: 0.90
 - type: entity
   parent: [ClothingNeckBase, BaseCommandContraband]
   id: ClothingNeckCloakHos
@@ -85,7 +84,7 @@
   - type: StealTarget
     stealGroup: HeadCloak
   - type: Item
-    size: Normal
+    size: Small
   - type: TemperatureProtection
     heatingCoefficient: 1.1
     coolingCoefficient: 0.1
@@ -93,7 +92,6 @@
     modifiers:
       coefficients:
         Heat: 0.90
-        Slash: 0.90
 
 - type: entity
   parent: [ClothingNeckBase, BaseCommandContraband]
@@ -106,7 +104,7 @@
   - type: StealTarget
     stealGroup: HeadCloak
   - type: Item
-    size: Normal
+    size: Small
   - type: TemperatureProtection
     heatingCoefficient: 1.1
     coolingCoefficient: 0.1
@@ -126,7 +124,7 @@
   - type: StealTarget
     stealGroup: HeadCloak
   - type: Item
-    size: Normal
+    size: Small
   - type: TemperatureProtection
     heatingCoefficient: 1.1
     coolingCoefficient: 0.1
@@ -146,7 +144,7 @@
   - type: StealTarget
     stealGroup: HeadCloak
   - type: Item
-    size: Normal
+    size: Small
   - type: TemperatureProtection
     heatingCoefficient: 1.1
     coolingCoefficient: 0.1
@@ -166,7 +164,7 @@
   - type: StealTarget
     stealGroup: HeadCloak
   - type: Item
-    size: Normal
+    size: Small
   - type: TemperatureProtection
     heatingCoefficient: 1.1
     coolingCoefficient: 0.1
@@ -186,7 +184,7 @@
   - type: StealTarget
     stealGroup: HeadCloak
   - type: Item
-    size: Normal
+    size: Small
   - type: TemperatureProtection
     heatingCoefficient: 1.1
     coolingCoefficient: 0.1
@@ -213,7 +211,7 @@
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/nanotrasen.rsi
   - type: Item
-    size: Normal
+    size: Small
   - type: TemperatureProtection
     heatingCoefficient: 1.1
     coolingCoefficient: 0.1
@@ -233,7 +231,7 @@
   - type: StealTarget
     stealGroup: HeadCloak
   - type: Item
-    size: Normal
+    size: Small
   - type: TemperatureProtection
     heatingCoefficient: 1.1
     coolingCoefficient: 0.1
@@ -253,7 +251,7 @@
   - type: StealTarget
     stealGroup: HeadCloak
   - type: Item
-    size: Normal
+    size: Small
   - type: TemperatureProtection
     heatingCoefficient: 1.1
     coolingCoefficient: 0.1
