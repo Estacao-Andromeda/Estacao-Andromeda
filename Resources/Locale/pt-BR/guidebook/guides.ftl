@@ -142,9 +142,7 @@ guide-entry-charactercreation = Criando Personagens
 guide-entry-yourfirstcharacter = Seu primeiro Personagem
 
 guide-entry-references = Tabelas & Referências
-guide-entry-chemicals = Químicos
 guide-entry-drinks = Bebidas
-guide-entry-foodrecipes = Receita de Comida
 
 guide-entry-writing = Escrita
 guide-entry-IPCs = IPCs
