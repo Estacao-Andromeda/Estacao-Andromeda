@@ -396,7 +396,7 @@
       color: "#f7d61a"
   - type: GuideHelp
     guides:
-    - SpaceLaw Initial
+    - SpaceLaw_Initial
     - SOP101
 
 - type: entity
