@@ -54,4 +54,4 @@
     Slash: 0.8
     Piercing: 0.8
     Holy: 1.5
-  ignoreArmorPierceFlags: All # Goobstation
+  #ignoreArmorPierceFlags: All # Goobstation

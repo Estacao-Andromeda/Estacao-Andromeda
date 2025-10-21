@@ -52,7 +52,7 @@
     - type: Speech
       speechSounds: Vulpkanin
       speechVerb: Vulpkanin
-      allowedEmotes: ["Yap", "Yip", "Fwhine", "Gekker"]
+      allowedEmotes: ["Yap", "Yip", "Whines", "Gekker"]
     - type: Sprite
       netsync: false
       noRot: true

@@ -8,7 +8,7 @@
   color: "#00FF69"
   recognizable: true
   physicalDesc: reagent-physical-desc-strong-smelling
-  slippery: true
+  friction: 0.4
   plantMetabolism:
   - !type:PlantAdjustToxins
     amount: 20
