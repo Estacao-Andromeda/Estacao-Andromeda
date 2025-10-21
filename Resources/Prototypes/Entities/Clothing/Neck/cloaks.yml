@@ -46,7 +46,6 @@
   - type: StealTarget
     stealGroup: HeadCloak # leaving this here because I suppose it might be interesting?
   - type: Item
-    size: Small
   - type: TemperatureProtection
     heatingCoefficient: 1.1
     coolingCoefficient: 0.1
@@ -65,7 +64,6 @@
   - type: StealTarget
     stealGroup: HeadCloak
   - type: Item
-    size: Small
   - type: TemperatureProtection
     heatingCoefficient: 1.1
     coolingCoefficient: 0.1
@@ -84,7 +82,6 @@
   - type: StealTarget
     stealGroup: HeadCloak
   - type: Item
-    size: Small
   - type: TemperatureProtection
     heatingCoefficient: 1.1
     coolingCoefficient: 0.1
@@ -104,7 +101,6 @@
   - type: StealTarget
     stealGroup: HeadCloak
   - type: Item
-    size: Small
   - type: TemperatureProtection
     heatingCoefficient: 1.1
     coolingCoefficient: 0.1
@@ -124,7 +120,6 @@
   - type: StealTarget
     stealGroup: HeadCloak
   - type: Item
-    size: Small
   - type: TemperatureProtection
     heatingCoefficient: 1.1
     coolingCoefficient: 0.1
@@ -144,7 +139,6 @@
   - type: StealTarget
     stealGroup: HeadCloak
   - type: Item
-    size: Small
   - type: TemperatureProtection
     heatingCoefficient: 1.1
     coolingCoefficient: 0.1
@@ -164,7 +158,6 @@
   - type: StealTarget
     stealGroup: HeadCloak
   - type: Item
-    size: Small
   - type: TemperatureProtection
     heatingCoefficient: 1.1
     coolingCoefficient: 0.1
@@ -184,7 +177,6 @@
   - type: StealTarget
     stealGroup: HeadCloak
   - type: Item
-    size: Small
   - type: TemperatureProtection
     heatingCoefficient: 1.1
     coolingCoefficient: 0.1
@@ -211,7 +203,6 @@
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/nanotrasen.rsi
   - type: Item
-    size: Small
   - type: TemperatureProtection
     heatingCoefficient: 1.1
     coolingCoefficient: 0.1
@@ -231,7 +222,6 @@
   - type: StealTarget
     stealGroup: HeadCloak
   - type: Item
-    size: Small
   - type: TemperatureProtection
     heatingCoefficient: 1.1
     coolingCoefficient: 0.1
@@ -251,7 +241,6 @@
   - type: StealTarget
     stealGroup: HeadCloak
   - type: Item
-    size: Small
   - type: TemperatureProtection
     heatingCoefficient: 1.1
     coolingCoefficient: 0.1

@@ -23,7 +23,6 @@
   - type: Clothing
     sprite: Clothing/Neck/mantles/capmantle.rsi
   - type: Item
-    size: Small
   - type: TemperatureProtection
     heatingCoefficient: 1.1
     coolingCoefficient: 0.1
@@ -43,7 +42,6 @@
   - type: Clothing
     sprite: Clothing/Neck/mantles/cemantle.rsi
   - type: Item
-    size: Small
   - type: TemperatureProtection
     heatingCoefficient: 1.1
     coolingCoefficient: 0.1
@@ -63,7 +61,6 @@
   - type: Clothing
     sprite: Clothing/Neck/mantles/cmomantle.rsi
   - type: Item
-    size: Small
   - type: TemperatureProtection
     heatingCoefficient: 1.1
     coolingCoefficient: 0.1
@@ -82,7 +79,6 @@
   - type: Clothing
     sprite: Clothing/Neck/mantles/hopmantle.rsi
   - type: Item
-    size: Small
   - type: TemperatureProtection
     heatingCoefficient: 1.1
     coolingCoefficient: 0.1
@@ -101,7 +97,6 @@
   - type: Clothing
     sprite: Clothing/Neck/mantles/hosmantle.rsi
   - type: Item
-    size: Small
   - type: TemperatureProtection
     heatingCoefficient: 1.1
     coolingCoefficient: 0.1
@@ -120,7 +115,6 @@
   - type: Clothing
     sprite: Clothing/Neck/mantles/rdmantle.rsi
   - type: Item
-    size: Small
   - type: TemperatureProtection
     heatingCoefficient: 1.1
     coolingCoefficient: 0.1
@@ -139,7 +133,6 @@
   - type: Clothing
     sprite: Clothing/Neck/mantles/qmmantle.rsi
   - type: Item
-    size: Small
   - type: TemperatureProtection
     heatingCoefficient: 1.1
     coolingCoefficient: 0.1
