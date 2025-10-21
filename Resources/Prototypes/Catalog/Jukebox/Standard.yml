@@ -143,7 +143,7 @@
     path: "/Audio/Jukebox/Countdown Pok\xE9mon RBY - Lavender Town [Remix].ogg"
   type: jukebox
 
-- id: DawsonsChristian(RetroFilkMix)(feat.KristophKlover)
+- id: DawsonsChristian(RetroFilkMix)(feat_KristophKlover)
   name: Dawsons Christian (Retro Filk Mix) (feat. Kristoph Klover)
   path:
     path: /Audio/Jukebox/Dawsons Christian (Retro Filk Mix) (feat. Kristoph Klover).ogg
@@ -209,7 +209,7 @@
     path: /Audio/Jukebox/Liberation - Revolutionary's theme.ogg
   type: jukebox
 
-- id: M.O.O.NDust(Synthwave)
+- id: M_O_O_NDust(Synthwave)
   name: M.O.O.N Dust (Synthwave)
   path:
     path: /Audio/Jukebox/M.O.O.N Dust (Synthwave).ogg
@@ -227,25 +227,25 @@
     path: /Audio/Jukebox/Minus Ten and Counting 04 Toast for Unsung Heroes (New).ogg
   type: jukebox
 
-- id: Mr.KittyAfterDark
+- id: Mr_KittyAfterDark
   name: Mr.Kitty After Dark
   path:
     path: /Audio/Jukebox/Mr.Kitty After Dark.ogg
   type: jukebox
 
-- id: Mr.Kitty-Habits-GHOST
+- id: Mr_Kitty-Habits-GHOST
   name: Mr.Kitty-Habits-GHOST
   path:
     path: /Audio/Jukebox/Mr.Kitty-Habits-GHOST.ogg
   type: jukebox
 
-- id: Mr.Kitty-Hollow
+- id: Mr_Kitty-Hollow
   name: Mr.Kitty-Hollow
   path:
     path: /Audio/Jukebox/Mr.Kitty-Hollow.ogg
   type: jukebox
 
-- id: Mr.Kitty-Pathogen
+- id: Mr_Kitty-Pathogen
   name: Mr.Kitty-Pathogen
   path:
     path: /Audio/Jukebox/Mr.Kitty-Pathogen.ogg
@@ -341,7 +341,7 @@
     path: "/Audio/Jukebox/Revolu\xE7\xE3o Fan-Made - SS14 Song.ogg"
   type: jukebox
 
-- id: RunningIn-NukeOpsTheme-byQntum(FeatZ.W.E.I.)
+- id: RunningIn-NukeOpsTheme-byQntum(FeatZ_W_E_I_)
   name: Running In - Nuke Ops Theme - by Qntum (Feat Z.W.E.I.)
   path:
     path: /Audio/Jukebox/Running In - Nuke Ops Theme - by Qntum (Feat Z.W.E.I.).ogg
@@ -444,7 +444,7 @@
 #    path: /Audio/Jukebox/Undefined Theory - SS13 Fan Track.ogg
 #  type: jukebox
 
-- id: VIOLET(alt.version)bymrjajkes
+- id: VIOLET(alt_version)bymrjajkes
   name: VIOLET (alt. version) by mrjajkes
   path:
     path: /Audio/Jukebox/VIOLET (alt. version) by mrjajkes.ogg
@@ -486,19 +486,19 @@
     path: /Audio/Jukebox/BlackStone Ambience-Sleep.ogg
   type: jukebox
 
-- id: "BoleroFt.Esta\xE7\xE3oPirata"
+- id: "BoleroFt_Esta\xE7\xE3oPirata"
   name: "Bolero Ft.Esta\xE7\xE3o Pirata"
   path:
     path: "/Audio/Jukebox/Bolero Ft.Esta\xE7\xE3o Pirata.ogg"
   type: jukebox
 
-- id: "DanteFt.Esta\xE7\xE3oPirata"
+- id: "DanteFt_Esta\xE7\xE3oPirata"
   name: "Dante Ft.Esta\xE7\xE3o Pirata"
   path:
     path: "/Audio/Jukebox/Dante Ft.Esta\xE7\xE3o Pirata.ogg"
   type: jukebox
 
-- id: "DarkCelloFt.Esta\xE7\xE3oPirata"
+- id: "DarkCelloFt_Esta\xE7\xE3oPirata"
   name: "Dark Cello Ft.Esta\xE7\xE3o Pirata"
   path:
     path: "/Audio/Jukebox/Dark Cello Ft.Esta\xE7\xE3o Pirata.ogg"
@@ -510,49 +510,49 @@
     path: /Audio/Jukebox/Deltarune - My Castle Town.ogg
   type: jukebox
 
-- id: "DiscoSeafortFt.Esta\xE7\xE3oPirata"
+- id: "DiscoSeafortFt_Esta\xE7\xE3oPirata"
   name: "Disco Seafort Ft.Esta\xE7\xE3o Pirata"
   path:
     path: "/Audio/Jukebox/Disco Seafort Ft.Esta\xE7\xE3o Pirata.ogg"
   type: jukebox
 
-- id: "DrunkenFt.Esta\xE7\xE3oPirata"
+- id: "DrunkenFt_Esta\xE7\xE3oPirata"
   name: "Drunken Ft.Esta\xE7\xE3o Pirata"
   path:
     path: "/Audio/Jukebox/Drunken Ft.Esta\xE7\xE3o Pirata.ogg"
   type: jukebox
 
-- id: "FollowStreamFt.Esta\xE7\xE3oPirata"
+- id: "FollowStreamFt_Esta\xE7\xE3oPirata"
   name: "Follow Stream Ft.Esta\xE7\xE3o Pirata"
   path:
     path: "/Audio/Jukebox/Follow Stream Ft.Esta\xE7\xE3o Pirata.ogg"
   type: jukebox
 
-- id: "ForcesFt.Esta\xE7\xE3oPirata"
+- id: "ForcesFt_Esta\xE7\xE3oPirata"
   name: "Forces Ft.Esta\xE7\xE3o Pirata"
   path:
     path: "/Audio/Jukebox/Forces Ft.Esta\xE7\xE3o Pirata.ogg"
   type: jukebox
 
-- id: "FourWindsFt.Esta\xE7\xE3oPirata"
+- id: "FourWindsFt_Esta\xE7\xE3oPirata"
   name: "Four Winds Ft.Esta\xE7\xE3o Pirata"
   path:
     path: "/Audio/Jukebox/Four Winds Ft.Esta\xE7\xE3o Pirata.ogg"
   type: jukebox
 
-- id: "FukaiFt.Esta\xE7\xE3oPirata"
+- id: "FukaiFt_Esta\xE7\xE3oPirata"
   name: "Fukai Ft.Esta\xE7\xE3o Pirata"
   path:
     path: "/Audio/Jukebox/Fukai Ft.Esta\xE7\xE3o Pirata.ogg"
   type: jukebox
 
-- id: "HeidelsFt.Esta\xE7\xE3oPirata"
+- id: "HeidelsFt_Esta\xE7\xE3oPirata"
   name: "Heidels Ft.Esta\xE7\xE3o Pirata"
   path:
     path: "/Audio/Jukebox/Heidels Ft.Esta\xE7\xE3o Pirata.ogg"
   type: jukebox
 
-- id: "OuterWildsOrchestralFt.Esta\xE7\xE3oPirata"
+- id: "OuterWildsOrchestralFt_Esta\xE7\xE3oPirata"
   name: "Outer Wilds Orchestral Ft.Esta\xE7\xE3o Pirata"
   path:
     path: "/Audio/Jukebox/Outer Wilds Orchestral Ft.Esta\xE7\xE3o Pirata.ogg"
@@ -570,7 +570,7 @@
     path: /Audio/Jukebox/Undertale Fallen Down (Custom Slowed).ogg
   type: jukebox
 
-- id: "VeniceViolinsFt.Esta\xE7\xE3oPirata"
+- id: "VeniceViolinsFt_Esta\xE7\xE3oPirata"
   name: "Venice Violins Ft.Esta\xE7\xE3o Pirata"
   path:
     path: "/Audio/Jukebox/Venice Violins Ft.Esta\xE7\xE3o Pirata.ogg"
@@ -590,7 +590,7 @@
   path:
     path: /Audio/Jukebox/Aero Elite Combat Academy - New Generation - Opening.ogg
   type: jukebox
-- id: Amorous_-_4U_-_Long_Gone_(ft._Medicinal)
+- id: Amorous_-_4U_-_Long_Gone_(ft__Medicinal)
   name: Amorous - 4U - Long Gone (ft. Medicinal)
   path:
     path: /Audio/Jukebox/Amorous - 4U - Long Gone (ft. Medicinal).ogg
@@ -748,7 +748,7 @@
   path:
     path: /Audio/Jukebox/Eurobeat Initial D - RUNNING IN THE 90'S.ogg
   type: jukebox
-- id: Eurobeat_Sands_Of_Time_2020.Ver_-_J._Stebbins_(Odyssey_Eurobeat)
+- id: Eurobeat_Sands_Of_Time_2020_Ver_-_J__Stebbins_(Odyssey_Eurobeat)
   name: Eurobeat Sands Of Time 2020.Ver - J. Stebbins (Odyssey Eurobeat)
   path:
     path: /Audio/Jukebox/Eurobeat Sands Of Time 2020.Ver - J. Stebbins (Odyssey Eurobeat).ogg
@@ -858,7 +858,7 @@
   path:
     path: /Audio/Jukebox/Kickstart My Heart - By Sticky Jams.ogg
   type: jukebox
-- id: KISS_ME_(CALVINLOVEMAIL_VER.)
+- id: KISS_ME_(CALVINLOVEMAIL_VER_)
   name: KISS ME (CALVINLOVEMAIL VER.)
   path:
     path: /Audio/Jukebox/KISS ME (CALVINLOVEMAIL VER.).ogg
@@ -933,7 +933,7 @@
   path:
     path: /Audio/Jukebox/Minecraft - Fallen Kingdom - CaptainSparklez.ogg
   type: jukebox
-- id: Moonlight_Shadow_-_Mike_Oldfield_ft._Maggie_Reilly
+- id: Moonlight_Shadow_-_Mike_Oldfield_ft__Maggie_Reilly
   name: Moonlight Shadow - Mike Oldfield ft. Maggie Reilly
   path:
     path: /Audio/Jukebox/Moonlight Shadow - Mike Oldfield ft. Maggie Reilly.ogg
@@ -943,12 +943,12 @@
   path:
     path: /Audio/Jukebox/Netsky - Your Way.ogg
   type: jukebox
-- id: Nightcore_-_Moonlight_Shadow_[_ezmp3.cc_]
+- id: Nightcore_-_Moonlight_Shadow_[_ezmp3_cc_]
   name: Nightcore - Moonlight Shadow [ ezmp3.cc ]
   path:
     path: /Audio/Jukebox/Nightcore - Moonlight Shadow [ ezmp3.cc ].ogg
   type: jukebox
-- id: Nightcore_Around_The_World_[_ezmp3.cc_]
+- id: Nightcore_Around_The_World_[_ezmp3_cc_]
   name: Nightcore Around The World [ ezmp3.cc ]
   path:
     path: /Audio/Jukebox/Nightcore Around The World [ ezmp3.cc ].ogg
@@ -968,7 +968,7 @@
   path:
     path: /Audio/Jukebox/Pizza Tower - It's Pizza Time!.ogg
   type: jukebox
-- id: Pizza_Tower_-_Unexpectancy_Pt.3
+- id: Pizza_Tower_-_Unexpectancy_Pt_3
   name: Pizza Tower - Unexpectancy Pt.3
   path:
     path: /Audio/Jukebox/Pizza Tower - Unexpectancy Pt.3.ogg
@@ -1070,7 +1070,7 @@
   path:
     path: /Audio/Jukebox/Space Station 13 Music - Drifting.ogg
   type: jukebox
-- id: Space_Station_13_Music_-_Endless_Space_[_ezmp3.cc_]
+- id: Space_Station_13_Music_-_Endless_Space_[_ezmp3_cc_]
   name: Space Station 13 Music - Endless Space [ ezmp3.cc ]
   path:
     path: /Audio/Jukebox/Space Station 13 Music - Endless Space [ ezmp3.cc ].ogg
@@ -1100,7 +1100,7 @@
   path:
     path: /Audio/Jukebox/Take On Me - By a-ha.ogg
   type: jukebox
-- id: Tenchu_Wrath_of_Heaven_-_Decisive_Battle.
+- id: Tenchu_Wrath_of_Heaven_-_Decisive_Battle_
   name: Tenchu Wrath of Heaven - Decisive Battle.
   path:
     path: /Audio/Jukebox/Tenchu Wrath of Heaven - Decisive Battle..ogg
@@ -1110,7 +1110,7 @@
   path:
     path: /Audio/Jukebox/Tenchu Wrath of Heaven - Fate Sadame.ogg
   type: jukebox
-- id: Terraria_-_Dig_Deeper_-_J.T._Machinima
+- id: Terraria_-_Dig_Deeper_-_J_T__Machinima
   name: Terraria - Dig Deeper - J.T. Machinima
   path:
     path: /Audio/Jukebox/Terraria - Dig Deeper - J.T. Machinima.ogg
@@ -1120,7 +1120,7 @@
   path:
     path: /Audio/Jukebox/The Godfather Theme Song.ogg
   type: jukebox
-- id: The_Model__-_Astrophysics_feat._Hatsune_Miku
+- id: The_Model__-_Astrophysics_feat__Hatsune_Miku
   name: The Model  - Astrophysics feat. Hatsune Miku
   path:
     path: /Audio/Jukebox/The Model  - Astrophysics feat. Hatsune Miku.ogg
@@ -1130,7 +1130,7 @@
   path:
     path: /Audio/Jukebox/The Phantom of the Opera - Steve Harley and Sarah Brightman.ogg
   type: jukebox
-- id: Touhou_6_Flandre's_Theme_-_U.N._Owen_was_her
+- id: Touhou_6_Flandre's_Theme_-_U_N__Owen_was_her
   name: Touhou 6 Flandre's Theme - U.N. Owen was her
   path:
     path: /Audio/Jukebox/Touhou 6 Flandre's Theme - U.N. Owen was her.ogg
