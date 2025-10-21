@@ -236,7 +236,10 @@ namespace Content.Server.Forensics
                 return;
             }
 
-            _metaData.SetEntityName(printed, Loc.GetString("forensic-scanner-report-title", ("entity", component.LastScannedName)));
+            // Add a suffix to the paper's name showing which entity was analysed.
+            var title = Loc.GetString("forensic-scanner-report-title", ("entity", component.LastScannedName));
+            var suffix = string.IsNullOrWhiteSpace(component.LastScannedName) ? "" : $" - {component.LastScannedName}";
+            _metaData.SetEntityName(printed, title + suffix);
 
             var text = new StringBuilder();
 
