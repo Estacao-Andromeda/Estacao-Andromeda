@@ -2,236 +2,236 @@
 
 # Main Directory
 - type: guideEntry
-  id: SpaceLaw Initial
+  id: SpaceLaw_Initial
   name: guide-entry-spacelaw-folder
   text: "/ServerInfo/Guidebook/SpaceLaw/SpaceLaw_Initial.xml"
   priority: 1 # Added to make it anchor above others
   children:
-  - SpaceLaw CrimeChart
-  - SpaceLaw Procedures
-  - SpaceLaw Trials
-  - SpaceLaw CourtRulings
-  - SpaceLaw Contraband
+  - SpaceLaw_CrimeChart
+  - SpaceLaw_Procedures
+  - SpaceLaw_Trials
+  - SpaceLaw_CourtRulings
+  - SpaceLaw_Contraband
 
 # Subdirectories
 - type: guideEntry
-  id: SpaceLaw Contraband
+  id: SpaceLaw_Contraband
   name: guide-entry-spacelaw-contraband
   text: "/ServerInfo/Guidebook/SpaceLaw/Contraband/SpaceLaw_Contraband.xml"
   priority: 40
   children:
-  - Substances SpaceLaw
-  - Gear SpaceLaw
-  - Weapons SpaceLaw
+  - Substances_SpaceLaw
+  - Gear_Spacelaw
+  - Weapons_Spacelaw
 
 - type: guideEntry
-  id: SpaceLaw Trials
+  id: SpaceLaw_Trials
   name: guide-entry-spacelaw-trials
   text: "/ServerInfo/Guidebook/SpaceLaw/Trials/SpaceLaw_Trials.xml"
   priority: 30
   children:
-  - EscalationPolicy SpaceLaw
-  - TrialPolicy SpaceLaw
-  - PrisonerRequest SpaceLaw
+  - EscalationPolicy_Spacelaw
+  - TrialPolicy_Spacelaw
+  - PrisonerRequest_Spacelaw
 
 - type: guideEntry
-  id: SpaceLaw Procedures
+  id: SpaceLaw_Procedures
   name: guide-entry-spacelaw-procedures
   text: "/ServerInfo/Guidebook/SpaceLaw/Procedures/SpaceLaw_Procedures.xml"
   priority: 20
   children:
-  - Sentencing SpaceLaw
-  - Treatment SpaceLaw
-  - Implantation SpaceLaw
-  - ImplantRemoval SpaceLaw
-  - Searching SpaceLaw
+  - Sentencing_Spacelaw
+  - Treatment_Spacelaw
+  - Implantation_Spacelaw
+  - ImplantRemoval_Spacelaw
+  - Searching_Spacelaw
 
 - type: guideEntry
-  id: SpaceLaw CrimeChart
+  id: SpaceLaw_CrimeChart
   name: guide-entry-spacelaw-crimechart
   text: "/ServerInfo/Guidebook/SpaceLaw/CrimeList/SpaceLaw_CrimeChart.xml"
   priority: 10
   children:
-  - SpaceLaw Modifiers
-  - SpaceLaw Categories
+  - SpaceLaw_Modifiers
+  - SpaceLaw_Categories
 
 - type: guideEntry
-  id: SpaceLaw CourtRulings
+  id: SpaceLaw_CourtRulings
   name: guide-entry-spacelaw-courtrulings
   text: "/ServerInfo/Guidebook/SpaceLaw/CourtRulings/SpaceLaw_CourtRulings.xml"
   priority: 15
   children:
-  - IPC CourtRulings
-  - Cultist CourtRulings
-  - Sacrifice CourtRulings
-#  - Carpa courtrulings # Desabilitado porque não tem mais carpa ;-;
+  - IPC_CourtRulings
+  - Cultist_CourtRulings
+  - Sacrifice_CourtRulings
+#  - Carpa_courtrulings # Desabilitado porque não tem mais carpa ;-;
 
 - type: guideEntry
-  id: SpaceLaw Categories
+  id: SpaceLaw_Categories
   name: guide-entry-spacelaw-categories
   text: "/ServerInfo/Guidebook/SpaceLaw/CrimeList/CrimeGroups/SpaceLaw_CrimeCategories.xml"
   children:
-  - Animal SpaceLaw
-  - Assault SpaceLaw
-  - Contraband SpaceLaw
-  - Disruption SpaceLaw
-  - Drugs SpaceLaw
-  - HostileAgent SpaceLaw
-  - Negligence SpaceLaw
-  - Psionics SpaceLaw
-  - Rioting SpaceLaw
-  - Sabotage SpaceLaw
-  - Thievery SpaceLaw
-  - Trespassing SpaceLaw
-  - Ungrouped SpaceLaw
+  - Animal_Spacelaw
+  - Assault_Spacelaw
+  - Contraband_Spacelaw
+  - Disruption_Spacelaw
+  - Drugs_Spacelaw
+  - HostileAgent_Spacelaw
+  - Negligence_Spacelaw
+  - Psionics_Spacelaw
+  - Rioting_Spacelaw
+  - Sabotage_Spacelaw
+  - Thievery_Spacelaw
+  - Trespassing_Spacelaw
+  - Ungrouped_Spacelaw
 
 # Standalone Entries
 - type: guideEntry
-  id: SpaceLaw Modifiers
+  id: SpaceLaw_Modifiers
   name: guide-entry-spacelaw-modifiers
   text: "/ServerInfo/Guidebook/SpaceLaw/CrimeList/SL_Modifiers.xml"
 
 # Contraband
 - type: guideEntry
-  id: Substances SpaceLaw
+  id: Substances_SpaceLaw
   name: guide-entry-spacelaw-contraband-substances
   text: "/ServerInfo/Guidebook/SpaceLaw/Contraband/SL_Substances.xml"
 
 - type: guideEntry
-  id: Gear SpaceLaw
+  id: Gear_Spacelaw
   name: guide-entry-spacelaw-contraband-gear
   text: "/ServerInfo/Guidebook/SpaceLaw/Contraband/SL_Gear.xml"
 
 - type: guideEntry
-  id: Weapons SpaceLaw
+  id: Weapons_Spacelaw
   name: guide-entry-spacelaw-contraband-weapons
   text: "/ServerInfo/Guidebook/SpaceLaw/Contraband/SL_Weapons.xml"
 
 # Procedures
 - type: guideEntry
-  id: Sentencing SpaceLaw
+  id: Sentencing_Spacelaw
   name: guide-entry-spacelaw-procedures-sentencing
   text: "/ServerInfo/Guidebook/SpaceLaw/Procedures/SL_Sentencing.xml"
 
 - type: guideEntry
-  id: Treatment SpaceLaw
+  id: Treatment_Spacelaw
   name: guide-entry-spacelaw-procedures-treatment
   text: "/ServerInfo/Guidebook/SpaceLaw/Procedures/SL_Treatment.xml"
 
 - type: guideEntry
-  id: Implantation SpaceLaw
+  id: Implantation_Spacelaw
   name: guide-entry-spacelaw-procedures-implantation
   text: "/ServerInfo/Guidebook/SpaceLaw/Procedures/SL_Implantation.xml"
 
 - type: guideEntry
-  id: ImplantRemoval SpaceLaw
+  id: ImplantRemoval_Spacelaw
   name: guide-entry-spacelaw-procedures-implantremoval
   text: "/ServerInfo/Guidebook/SpaceLaw/Procedures/SL_ImplantRemoval.xml"
 
 - type: guideEntry
-  id: Searching SpaceLaw
+  id: Searching_Spacelaw
   name: guide-entry-spacelaw-procedures-searching
   text: "/ServerInfo/Guidebook/SpaceLaw/Procedures/SL_Searching.xml"
 
 # Trials
 - type: guideEntry
-  id: EscalationPolicy SpaceLaw
+  id: EscalationPolicy_Spacelaw
   name: guide-entry-spacelaw-trials-escalationpolicy
   text: "/ServerInfo/Guidebook/SpaceLaw/Trials/SL_EscalationPolicy.xml"
 
 - type: guideEntry
-  id: TrialPolicy SpaceLaw
+  id: TrialPolicy_Spacelaw
   name: guide-entry-spacelaw-trials-trialpolicy
   text: "/ServerInfo/Guidebook/SpaceLaw/Trials/SL_TrialPolicy.xml"
 
 - type: guideEntry
-  id: PrisonerRequest SpaceLaw
+  id: PrisonerRequest_Spacelaw
   name: guide-entry-spacelaw-trials-prisonerrequest
   text: "/ServerInfo/Guidebook/SpaceLaw/Trials/SL_PrisonerRequest.xml"
 
 # Court Rulings
 - type: guideEntry
-  id: IPC CourtRulings
+  id: IPC_CourtRulings
   name: guide-entry-spacelaw-courtrulings-ipcbattery
   text: "/ServerInfo/Guidebook/SpaceLaw/CourtRulings/SL_IPC-Battery.xml"
 
 - type: guideEntry
-  id: Cultist CourtRulings
+  id: Cultist_CourtRulings
   name: guide-entry-spacelaw-courtrulings-cults
   text: "/ServerInfo/Guidebook/SpaceLaw/CourtRulings/SL_Cultists.xml"
 
 - type: guideEntry
-  id: Sacrifice CourtRulings
+  id: Sacrifice_CourtRulings
   name: guide-entry-spacelaw-courtrulings-sacrifices
   text: "/ServerInfo/Guidebook/SpaceLaw/CourtRulings/SL_Sacrifices.xml"
 
 - type: guideEntry
-  id: Carpa courtrulings
+  id: Carpa_courtrulings
   name: guide-entry-spacelaw-courtrulings-carpa
   text: "/ServerInfo/Guidebook/SpaceLaw/CourtRulings/SL_Carpa.xml"
 
 # Categories
 - type: guideEntry
-  id: Animal SpaceLaw
+  id: Animal_Spacelaw
   name: guide-entry-spacelaw-groups-animal
   text: "/ServerInfo/Guidebook/SpaceLaw/CrimeList/CrimeGroups/SL_Animal.xml"
 
 - type: guideEntry
-  id: Assault SpaceLaw
+  id: Assault_Spacelaw
   name: guide-entry-spacelaw-groups-assault
   text: "/ServerInfo/Guidebook/SpaceLaw/CrimeList/CrimeGroups/SL_Assault.xml"
 
 - type: guideEntry
-  id: Contraband SpaceLaw
+  id: Contraband_Spacelaw
   name: guide-entry-spacelaw-groups-contraband
   text: "/ServerInfo/Guidebook/SpaceLaw/CrimeList/CrimeGroups/SL_Contraband.xml"
 
 - type: guideEntry
-  id: Disruption SpaceLaw
+  id: Disruption_Spacelaw
   name: guide-entry-spacelaw-groups-disruption
   text: "/ServerInfo/Guidebook/SpaceLaw/CrimeList/CrimeGroups/SL_Disruption.xml"
 
 - type: guideEntry
-  id: Drugs SpaceLaw
+  id: Drugs_Spacelaw
   name: guide-entry-spacelaw-groups-drugs
   text: "/ServerInfo/Guidebook/SpaceLaw/CrimeList/CrimeGroups/SL_Drugs.xml"
 
 - type: guideEntry
-  id: HostileAgent SpaceLaw
+  id: HostileAgent_Spacelaw
   name: guide-entry-spacelaw-groups-hostileagent
   text: "/ServerInfo/Guidebook/SpaceLaw/CrimeList/CrimeGroups/SL_HostileAgent.xml"
 
 - type: guideEntry
-  id: Negligence SpaceLaw
+  id: Negligence_Spacelaw
   name: guide-entry-spacelaw-groups-negligence
   text: "/ServerInfo/Guidebook/SpaceLaw/CrimeList/CrimeGroups/SL_Negligence.xml"
 
 - type: guideEntry
-  id: Psionics SpaceLaw
+  id: Psionics_Spacelaw
   name: guide-entry-spacelaw-groups-psionics
   text: "/ServerInfo/Guidebook/SpaceLaw/CrimeList/CrimeGroups/SL_Psionics.xml"
 
 - type: guideEntry
-  id: Rioting SpaceLaw
+  id: Rioting_Spacelaw
   name: guide-entry-spacelaw-groups-rioting
   text: "/ServerInfo/Guidebook/SpaceLaw/CrimeList/CrimeGroups/SL_Rioting.xml"
 
 - type: guideEntry
-  id: Sabotage SpaceLaw
+  id: Sabotage_Spacelaw
   name: guide-entry-spacelaw-groups-sabotage
   text: "/ServerInfo/Guidebook/SpaceLaw/CrimeList/CrimeGroups/SL_Sabotage.xml"
 
 - type: guideEntry
-  id: Thievery SpaceLaw
+  id: Thievery_Spacelaw
   name: guide-entry-spacelaw-groups-thievery
   text: "/ServerInfo/Guidebook/SpaceLaw/CrimeList/CrimeGroups/SL_Thievery.xml"
 
 - type: guideEntry
-  id: Trespassing SpaceLaw
+  id: Trespassing_Spacelaw
   name: guide-entry-spacelaw-groups-trespassing
   text: "/ServerInfo/Guidebook/SpaceLaw/CrimeList/CrimeGroups/SL_Trespassing.xml"
 
 - type: guideEntry
-  id: Ungrouped SpaceLaw
+  id: Ungrouped_Spacelaw
   name: guide-entry-spacelaw-groups-ungrouped
   text: "/ServerInfo/Guidebook/SpaceLaw/CrimeList/CrimeGroups/SL_Ungrouped.xml"

@@ -8,7 +8,7 @@
   color: "#364500"
   recognizable: true
   physicalDesc: reagent-physical-desc-pungent
-  slippery: false
+  friction: 0.4
   footstepSound:
     collection: FootstepBlood
     params:

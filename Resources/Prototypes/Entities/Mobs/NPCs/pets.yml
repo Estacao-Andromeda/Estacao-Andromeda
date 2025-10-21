@@ -713,7 +713,6 @@
     sound:
       path: "/Audio/Animals/mouse_squeak.ogg"
     positional: true
-    predicted: true
 
 - type: entity
   name: Shiva

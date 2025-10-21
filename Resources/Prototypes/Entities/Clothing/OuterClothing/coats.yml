@@ -126,8 +126,6 @@
         Caustic: 0.7 # not the full 90% from ss13 because of the head
   - type: ExplosionResistance
     damageCoefficient: 0.9
-  - type: StaminaResistance
-    staminaCoefficient: 0.85
 
 - type: entity
   abstract: true
@@ -143,8 +141,6 @@
         Heat: 0.7
   - type: ExplosionResistance
     damageCoefficient: 0.9
-  - type: StaminaResistance
-    staminaCoefficient: 0.85
 
 - type: entity
   parent: [ClothingOuterArmorHoS, ClothingOuterStorageBase, BaseSecurityCommandContraband]
@@ -474,8 +470,6 @@
         Caustic: 0.7
   - type: ExplosionResistance
     damageCoefficient: 0.9
-  - type: StaminaResistance
-    staminaCoefficient: 0.85
 
 - type: entity
   parent: ClothingOuterStorageFoldableBase

@@ -231,7 +231,7 @@
     contents:
         - id: OxygenTankFilled
         - id: NitrogenTankFilled
-        - id: ClothingOuterHardsuitBrigMedic
+        #- id: ClothingOuterHardsuitBrigMedic ## Até descobrir o erro
         - id: ClothingMaskGasSwat
   - type: AccessReader
     access: [["Security"]]
