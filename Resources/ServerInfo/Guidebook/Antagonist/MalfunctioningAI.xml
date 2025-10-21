@@ -28,7 +28,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
     <GuideEntityEmbed Entity="BorgChassisGeneric" Caption=""/>
   </Box>
   Hackear ciborgues é a chave para interagir com partes da estação que você não conseguiria de outra forma. Você pode hackear ciborgues através do console de robótica, o que os adicionará ao seu
-  menu Ciborgues com Malfuncionamento.
+  menu Ciborgues com Malfuncionamento. Hackear um ciborgue custa 25 CPU por ciborgue.
 
   Você pode alterar as leis diretamente, teletransportar seu olho e sincronizar ciborgues hackeados com o [color=#0000FF]CONJUNTO DE LEIS MESTRE[/color]
 
