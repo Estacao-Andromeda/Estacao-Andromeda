@@ -2,7 +2,7 @@
   id: MobCargorillaGear
   equipment:
     ears: ClothingHeadsetCargo
-    id: CargorillaIDCard
+    # id: CargorillaIDCard
 
 - type: startingGear
   id: GoblinRobeOSP

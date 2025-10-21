@@ -5,9 +5,9 @@
   productEntity: ClothingBeltRealFoamSheathFilled
   icon:
     entity: RealFoamSabre
-  discountCategory: usualDiscounts
-  discountDownTo:
-    Telecrystal: 20
+  # discountCategory: usualDiscounts
+  # discountDownTo:
+  #   Telecrystal: 20
   cost:
     Telecrystal: 30
   categories:

@@ -20,7 +20,7 @@
   text: "/ServerInfo/Guidebook/SpaceLaw/Contraband/SpaceLaw_Contraband.xml"
   priority: 40
   children:
-  - Substances_Spacelaw
+  - Substances_SpaceLaw
   - Gear_Spacelaw
   - Weapons_Spacelaw
 

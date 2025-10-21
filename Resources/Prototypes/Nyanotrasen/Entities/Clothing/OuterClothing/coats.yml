@@ -12,7 +12,7 @@
     modifiers:
       coefficients:
         Caustic: 0.75
-        radiation: 0.9
+        #radiation: 0.9
 
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatRndMysta]
