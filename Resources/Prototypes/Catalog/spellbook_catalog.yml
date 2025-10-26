@@ -25,19 +25,19 @@
   - !type:ListingLimitedStockCondition
     stock: 1
 
-- type: listing
-  id: SpellbookSmite
-  name: spellbook-smite-name
-  description: spellbook-smite-desc
-  productAction: ActionSmite
-  cost:
-    WizCoin: 3
-  categories:
-  - SpellbookOffensive
-  conditions:
-  - !type:ListingLimitedStockCondition
-    stock: 1
-
+#- type: listing
+#  id: SpellbookSmite
+#  name: spellbook-smite-name
+#  description: spellbook-smite-desc
+#  productAction: ActionSmite
+#  cost:
+#   WizCoin: 3
+#  categories:
+#  - SpellbookOffensive
+#  conditions:
+#  - !type:ListingLimitedStockCondition
+#    stock: 1
+# Matar amiguinho com smite é feio, não faça isso.
 - type: listing
   id: SpellbookCluwne
   name: spellbook-cluwne-name
