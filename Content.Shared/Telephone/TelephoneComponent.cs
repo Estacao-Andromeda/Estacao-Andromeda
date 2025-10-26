@@ -48,7 +48,7 @@ public sealed partial class TelephoneComponent : Component
     /// Sets the number of seconds before the next ring tone is played
     /// </summary>
     [DataField]
-    public float RingInterval = 2f;
+    public float RingInterval = 15f;
 
     /// <summary>
     /// The time at which the next tone will be played

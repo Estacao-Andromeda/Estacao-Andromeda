@@ -79,7 +79,7 @@
     speechSounds: Borg
     speechBubbleOffset: 0.45
   - type: Telephone
-    ringTone: /Audio/Machines/double_ring.ogg
+    ringTone: /Audio/_Andromeda/Eventos/Machines/double_ring.ogg
     listeningRange: 2.5
     speakerVolume: Speak
   - type: AccessReader
