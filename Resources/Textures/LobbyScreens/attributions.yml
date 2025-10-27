@@ -189,14 +189,16 @@
   copyright: "basil"
   source: "https://www.tumblr.com/koboldbartender08"
 
-
+- files: ["TERMINA.webp"]
+  license: "CC-BY-NC-3.0"
+  copyright: "frogoo"
+  source: "https://funkystation.org"
 
 # Andromeda
 
 - files: [omg_chloe_sec.webp]
   license: "CC-BY-NC-3.0"
   copyright: "schloeboloe"
-
 
 - files: [rev_forever.webp]
   license: "CC-BY-NC-3.0"

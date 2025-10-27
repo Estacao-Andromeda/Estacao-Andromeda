@@ -43,6 +43,7 @@ public sealed class JukeboxSystem : SharedJukeboxSystem
         SubscribeLocalEvent<JukeboxComponent, JukeboxPauseMessage>(OnJukeboxPause);
         SubscribeLocalEvent<JukeboxComponent, JukeboxStopMessage>(OnJukeboxStop);
         SubscribeLocalEvent<JukeboxComponent, JukeboxSetTimeMessage>(OnJukeboxSetTime);
+        SubscribeLocalEvent<JukeboxComponent, JukeboxSetVolumeMessage>(OnJukeboxSetVolume);
         SubscribeLocalEvent<JukeboxComponent, ComponentInit>(OnComponentInit);
         SubscribeLocalEvent<JukeboxComponent, ComponentShutdown>(OnComponentShutdown);
         SubscribeLocalEvent<JukeboxComponent, PowerChangedEvent>(OnPowerChanged);
@@ -77,7 +78,7 @@ public sealed class JukeboxSystem : SharedJukeboxSystem
                 return;
             }
 
-            component.AudioStream = Audio.PlayPvs(jukeboxProto.Path, uid, AudioParams.Default.WithMaxDistance(10f))?.Entity;
+            component.AudioStream = Audio.PlayPvs(jukeboxProto.Path, uid, AudioParams.Default.WithMaxDistance(10f).WithVolume(MapToRange(component.Volume, component.MinSlider, component.MaxSlider, component.MinVolume, component.MaxVolume)))?.Entity;
             EnsureComp<ActiveInstrumentComponent>(uid);
             Dirty(uid, component);
         }
@@ -96,6 +97,16 @@ public sealed class JukeboxSystem : SharedJukeboxSystem
             var offset = actorComp.PlayerSession.Channel.Ping * 1.5f / 1000f;
             Audio.SetPlaybackPosition(component.AudioStream, args.SongTime + offset);
         }
+    }
+
+    private void OnJukeboxSetVolume(EntityUid uid, JukeboxComponent component, JukeboxSetVolumeMessage args)
+    {
+        SetJukeboxVolume(uid, component, args.Volume);
+
+        if (!TryComp<AudioComponent>(component.AudioStream, out var audioComponent))
+            return;
+
+        Audio.SetVolume(component.AudioStream, MapToRange(args.Volume, component.MinSlider, component.MaxSlider, component.MinVolume, component.MaxVolume));
     }
 
     private void OnPowerChanged(Entity<JukeboxComponent> entity, ref PowerChangedEvent args)
@@ -152,6 +163,12 @@ public sealed class JukeboxSystem : SharedJukeboxSystem
                 }
             }
         }
+    }
+
+    private void SetJukeboxVolume(EntityUid uid, JukeboxComponent component, float volume)
+    {
+        component.Volume = volume;
+        Dirty(uid, component);
     }
 
     private void OnComponentShutdown(EntityUid uid, JukeboxComponent component, ComponentShutdown args)

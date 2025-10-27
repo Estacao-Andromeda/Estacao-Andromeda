@@ -171,3 +171,7 @@
 - type: lobbyBackground
   id: No-Ro
   background: /Textures/LobbyScreens/NO-RO.webp
+  
+- type: lobbyBackground
+  id: termina
+  background: /Textures/LobbyScreens/TERMINA.webp

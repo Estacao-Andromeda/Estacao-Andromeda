@@ -1,6 +1,7 @@
 # SPDX-FileCopyrightText: 2024 heree <79546981+hereelabs@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2024 hereelabs <hahmorm@gmail.com>
 # SPDX-FileCopyrightText: 2025 Catazeus <200477155+Catazeus@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 ThatOneMoon <juozas.dringelis@gmail.com>
 # SPDX-FileCopyrightText: 2025 mkanke-real <mikekanke@gmail.com>
 # SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
 #
@@ -50,3 +51,19 @@
     sprite: _Funkystation/Clothing/Head/Hats/bsotacticalmaidheadband.rsi
   - type: Clothing
     sprite: _Funkystation/Clothing/Head/Hats/bsotacticalmaidheadband.rsi
+# quartermaster formal tophat (by Frogoo)
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatQMFormal
+  name: quartermaster's top hat
+  description: "A hat as big as your bank account."
+  components:
+  - type: Sprite
+    sprite: _Funkystation/Clothing/Head/Hats/qm_tophat.rsi
+  - type: Clothing
+    sprite: _Funkystation/Clothing/Head/Hats/qm_tophat.rsi
+    clothingVisuals:
+      head:
+      - state: equipped-HELMET
+        offset: "0, 0.16"
