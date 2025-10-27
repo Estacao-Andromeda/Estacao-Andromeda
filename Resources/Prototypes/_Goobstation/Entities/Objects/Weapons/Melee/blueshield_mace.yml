@@ -38,12 +38,13 @@
       types:
         Blunt: 13 # Unlucky number
         Slash: 7 # Lucky number
+        Structural: 20 #Uso de arrombamento
     animation: WeaponArcThrust
   - type: StaminaDamageOnHit
-    damage: 40
+    damage: 50 #Ajuste de Code compensando dano stun overtime e balanceamento.
     sound: /Audio/Weapons/egloves.ogg
   - type: StaminaDamageOnCollide
-    damage: 40
+    damage: 50 #Ajuste de Code compensando dano stun overtime e balanceamento.
     sound: /Audio/Weapons/egloves.ogg
   - type: LandAtCursor
   - type: Battery
