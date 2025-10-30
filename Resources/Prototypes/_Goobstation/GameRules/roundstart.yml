@@ -197,7 +197,7 @@
   components:
   - type: BlobRule
   - type: GameRule
-    minPlayers: 20
+    minPlayers: 25
     delay: # 7-10 minutes
       min: 420
       max: 600
@@ -227,7 +227,7 @@
     weight: 5
     duration: 1
     earliestStart: 50
-    minimumPlayers: 25
+    minimumPlayers: 30
     maxOccurrences: 2
     chaos:
       Hostile: 150
