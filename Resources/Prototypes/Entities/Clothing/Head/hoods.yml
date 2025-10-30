@@ -169,9 +169,6 @@
     tags:
     - HamsterWearable
     - WhitelistChameleon
-  - type: HideLayerClothing
-    slots:
-    - Hair
 
 - type: entity
   parent: ClothingHeadBase
