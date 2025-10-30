@@ -183,7 +183,7 @@
       collection: Whistles
     Weh:
       collection: Weh
-    Growl:
+    GrowlVulp:
       collection: VulpkaninGrowls
     Snarl:
       collection: VulpkaninSnarls
@@ -235,7 +235,7 @@
       collection: Whistles
     Weh:
       collection: Weh
-    Growl:
+    GrowlVulp:
       collection: VulpkaninGrowls
     Snarl:
       collection: VulpkaninSnarls
@@ -265,7 +265,7 @@
   params:
     variation: 0.125
   sounds:
-    Growl:
+    GrowlVulp:
       collection: VulpkaninGrowls
     Snarl:
       collection: VulpkaninSnarls

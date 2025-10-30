@@ -112,3 +112,24 @@
     - purrs
     - purring
     - purred
+
+- type: emote
+  id: GrowlVulp
+  name: Growl
+  category: Vocal
+  icon: _Goobstation/Interface/Emotes/snarl.png
+  whitelist:
+    tags:
+    - VulpEmotes
+    - HarpyEmotes
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: [rosna.]
+  chatTriggers:
+    - growl
+    - growls
+    - growling
+    - growled
+    - rosna
+    - rosna para você
