@@ -54,7 +54,7 @@
     startingCharge: 1000
   - type: BatterySelfRecharger
     autoRecharge: true
-    autoRechargeRate: 20
+    autoRechargeRate: 10
   - type: UseDelay
   - type: Item
     heldPrefix: off
