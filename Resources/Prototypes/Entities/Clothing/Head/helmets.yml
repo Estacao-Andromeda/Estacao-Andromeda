@@ -82,13 +82,6 @@
     sound:
       path: /Audio/_Goobstation/Items/handling/helmet_drop.ogg
   # Goobstation edit end
-  - type: Tag
-    tags:
-    - WhitelistChameleon
-  - type: HideLayerClothing
-    layers:
-      HeadTop : HEAD
-      HeadSide : HEAD
   - type: Armor #Values seem to let the user survive one extra hit if attacked consistently.
     modifiers:
       coefficients:

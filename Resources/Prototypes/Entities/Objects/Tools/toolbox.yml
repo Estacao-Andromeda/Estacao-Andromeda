@@ -45,8 +45,8 @@
   parent: BaseStorageItem
   abstract: true
   components:
-  - type: EmitSoundOnPickup
-    sound: /Audio/SimpleStation14/Items/Handling/toolbox_pickup.ogg
+#  - type: EmitSoundOnPickup
+#    sound: /Audio/SimpleStation14/Items/Handling/toolbox_pickup.ogg
   - type: Sprite
     layers:
       - map: [ base ]
