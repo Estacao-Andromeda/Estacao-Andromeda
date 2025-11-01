@@ -62,6 +62,11 @@
   - ChaplainBibleChristian
   - ChaplainBibleAtheist
   - ChaplainBibleBhuddhist
+  - BibleNanoTrasen
+  - BibleDruid
+  - BibleHonk
+  - BibleRatvar
+  - BibleNarsie
 
 - type: loadoutGroup
   id: MagistrateJumpsuit
