@@ -48,11 +48,14 @@ SPDX-License-Identifier: MIT
     <GuideEntityEmbed Entity="ComputerPalletConsole"/>
     <GuideEntityEmbed Entity="CargoPalletSell"/>
     <GuideEntityEmbed Entity="ComputerCargoOrders"/>
+    <GuideEntityEmbed Entity="ComputerFundingAllocation"/>
   </Box>
 
   Após o carregamento da nave, voe com ela até a Estação de Comércio. Lá, mova os itens vendáveis ​​para as [color=cyan]Paletes de Venda de Carga[/color] verdes e, em seguida, vá até o [color=cyan]Computador de Venda de Carga[/color] e clique em [italic]"Vender"[/italic].
 
-  Agora, você pode pegar esses itens especiais e trazê-los de volta para a estação e depositá-los no [color=cyan]Computador de Solicitação de Carga[/color].
+  Os [color=cyan]spesos[/color] da venda serão distribuídos entre o Departamento de Carga e todos os outros departamentos, seguindo a distribuição no [color=cyan]Console de Alocação de Fundos[/color] do Chefe de Polícia.
+
+  Spesos [color=cyan]soltos[/color] podem ser depositados no [color=cyan]Computador de Solicitação de Carga[/color].
 
   Você também pode ganhar ainda mais dinheiro completando [textlink="bounties" link="CargoBounties"] ou vendendo itens valiosos em [textlink="salvage" link="Salvage"].
 
