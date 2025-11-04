@@ -30,6 +30,7 @@
 - type: vendingMachineInventory
   id: SecDrobeInventory
   startingInventory:
+    ClothingUniformJumpsuitSecSummer: 3 # Loadouts Rework Addition - Nyanotrasen
     ClothingBackpackSecurity: 3
     ClothingBackpackSatchelSecurity: 3
     ClothingBackpackDuffelSecurity: 3

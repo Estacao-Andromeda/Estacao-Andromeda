@@ -58,6 +58,26 @@
     ClothingOuterWinterClown: 1
     ClothingOuterWinterMime: 1
     ClothingHeadHatCangaceiro: 2 # Andromeda - Pega o lambião Fia
+    # Loadouts Rework Stuff Start
+    ClothingUniformMNKOfficeSkirt: 2 # Loadouts Rework addition - Nyanotrasen
+    ClothingUniformMNKUnderGarment: 2 # Loadouts Rework addition - Nyanotrasen
+    ClothingUniformMNKGymBra: 2 # Loadouts Rework addition - Nyanotrasen
+    ClothingUniformMNKDressBlack: 2 # Loadouts Rework addition - Nyanotrasen
+    ClothingUniformMNKBlackShoulder: 2 # Loadouts Rework addition - Nyanotrasen
+    ClothingUniformMNKTracksuitBlack: 2 # Loadouts Rework addition - Nyanotrasen
+    ClothingHeadHatBunny: 1 # Goobstation
+    ClothingCostumeBunnySuit: 1 # Goobstation - If you want it, you'll have to take it
+    UniformGeisha: 1 # Loadouts Rework addition - Nyanotrasen
+    ClothingCostumeMioSkirt: 1 # Loadouts Rework addition - Nyanotrasen
+    ClothingCostumeNaota: 1 # Loadouts Rework addition - Nyanotrasen
+    ClothingUniformRat: 1 # Loadouts Rework addition - Nyanotrasen - The fucking rat that I hate
+    ClothingUniformDressRed: 1 # Loadouts Rework addition - Nyanotrasen
+    ClothingUniformKendoHakama: 1 # Loadouts Rework addition - Nyanotrasen
+    ClothingKimonoBlue: 1 # Loadouts Rework addition - Nyanotrasen
+    ClothingKimonoPink: 1 # Loadouts Rework addition - Nyanotrasen
+    ClothingKimonoSky: 1 # Loadouts Rework addition - Nyanotrasen
+    ClothingKimonoGreen: 1 # Loadouts Rework addition - Nyanotrasen
+    # Loadouts Rework Stuff End
     ClothingOuterWinterMusician: 1
     ClothingMaskJoy: 2
     ClothingOuterSuitCarp: 1
@@ -118,6 +138,12 @@
     ClothingHeadHatRichard: 1
     ToyFigurineBoxer: 1
     ToyFigurineMusician: 1
+    WeaponLauncherTaiwanPond: 1 # Goobstation
+    GrenadeToy: 5 # Goobstation
+    ClothingShoesResonant: 1 # Goobstation
+    ClothingNeckCloakResonant: 1 # Goobstation
+    ClothingUniformJumpsuitResonant: 1 # Goobstation
+    ClothingCostumeArcDress: 1 # Seal away the beast
     ClothingUniformHitmanSuit: 1 #imp
     ClothingUniformHitmanSuitSkirt: 1 #imp
     ClothingUniformBrosBlazer: 1 #imp
@@ -129,3 +155,4 @@
     ClothingMaskBlushingClown: 1
     ClothingMaskBlushingMime: 1
     ClothingHeadHatCowboyBountyHunter: 1
+    ClothingUniformSwimsuitBlue: 1 # Goobstation - It came in the trash

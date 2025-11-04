@@ -21,7 +21,8 @@
     ClothingNeckScarfStripedOrange: 3
     ClothingNeckScarfStripedPurple: 3
     ClothingOuterCoatTrench: 4 #funky
-    ClothingOuterWinterCoat: 4 
+    ClothingOuterCoatGentle: 3 # goob start
+    ClothingOuterWinterCoat: 4
     ClothingOuterWinterColorRed: 2
     ClothingOuterWinterColorOrange: 2
     ClothingOuterWinterColorYellow: 2
@@ -33,6 +34,14 @@
     ClothingOuterWinterColorBlack: 2
     ClothingOuterWinterColorGray: 2
     ClothingOuterWinterColorWhite: 2 #funky
+    # Loadouts Rework Stuff Start
+    ClothingOuterDenimJacket: 2 # Loadouts Rework addition - DeltaV
+    ClothingOuterCoatLettermanBlue: 1 # Loadouts Rework addition - Nyanotrasen
+    ClothingOuterCoatLettermanRed: 1 # Loadouts Rework addition - Nyanotrasen
+    ClothingOuterCoatHyenhSweater: 1 # Loadouts Rework addition - Nyanotrasen
+    ClothingOuterWinterCoatLong: 1 # Loadouts Rework addition - Nyanotrasen
+    ClothingOuterWinterCoatPlaid: 1 # Loadouts Rework addition - Nyanotrasen
+    # Loadouts Rework Stuff End
     ClothingShoesBootsWinter: 6
     ClothingOuterFlannelRed: 2
     ClothingOuterFlannelBlue: 2

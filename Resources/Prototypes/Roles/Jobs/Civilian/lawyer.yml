@@ -36,8 +36,8 @@
   description: job-description-lawyer
   playTimeTracker: JobLawyer
   requirements:
-    - !type:OverallPlaytimeRequirement
-      time: 7200 #2 hrs
+  - !type:OverallPlaytimeRequirement
+    time: 7200 #2 hrs
   startingGear: LawyerGear
   icon: "JobIconLawyer"
   supervisors: job-supervisors-hop
@@ -50,11 +50,10 @@
 - type: startingGear
   id: LawyerGear
   equipment:
-    shoes: ClothingShoesBootsLaceup
     id: LawyerPDA
     ears: ClothingHeadsetService
   inhand:
-    - BriefcaseBrownFilled
+  - BriefcaseBrownFilled
   storage:
     back:
     - RubberStampLawyer

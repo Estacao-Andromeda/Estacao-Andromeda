@@ -80,7 +80,10 @@
   - Headphones
   - PlushieLizard
   - PlushieSpaceLizard
+  - PersonalAI # Goobstation
+  - GoldPersonalAI # Goobstation
   - PlushieCirno
+  - ThreeCandles
   - Lighter
   - CigPackGreen
   - CigPackRed
@@ -92,19 +95,25 @@
   - ClothingNeckAllyPin
   - ClothingNeckAromanticPin
   - ClothingNeckAsexualPin
+  - ClothingNeckAroacePin
   - ClothingNeckBisexualPin
   - ClothingNeckGayPin
   - ClothingNeckIntersexPin
   - ClothingNeckLesbianPin
   - ClothingNeckNonBinaryPin
   - ClothingNeckPansexualPin
+  - ClothingNeckPluralPin
   - ClothingNeckOmnisexualPin
   - ClothingNeckGenderqueerPin
+  - ClothingNeckGenderfluidPin
   - ClothingNeckTransPin
   - ClothingNeckAutismPin
   - ClothingNeckGoldAutismPin
-  - CardBoxBlack # goobstation
-  - CardBoxNanotrasen # goobstation
+  - CardBoxBlack # GoobStation
+  - CardBoxNanotrasen # GoobStation
+  - FoodSnackLollypopWrapped # Goobstation
+  - FoodSnackLollypopWrappedRainbow # Goobstation
+  - FoodSnackLollypopWrappedCarp # Goobstation
   - TowelColorBlack
   - TowelColorDarkBlue
   - TowelColorCentcom #funkystation
@@ -123,6 +132,10 @@
   - TowelColorWhite
   - TowelColorYellow
   # Begin DeltaV Additions
+  - GoldRing
+  - SilverRing
+  - Cane
+  - WhiteCane
   - TapeRecorder
   - DrinkOniGourd
   # End DeltaV Additions
@@ -135,6 +148,7 @@
   - Glasses
   - GlassesJamjar
   - GlassesJensen
+  - CheapSunglasses # Goobstation
   - BlindfoldFake # Andromeda
 
 - type: loadoutGroup
@@ -198,6 +212,8 @@
   - CaptainJumpskirt
   - CaptainFormalSuit
   - CaptainFormalSkirt
+  minLimit: 1
+  exclusiveWith: INNERCLOTHING # Goobstation
 
 - type: loadoutGroup
   id: CaptainNeck
@@ -215,10 +231,12 @@
   - CaptainBackpack
   - CaptainSatchel
   - CaptainDuffel
+  exclusiveWith: BACK # Goobstation
 
 - type: loadoutGroup
   id: CaptainOuterClothing
   name: loadout-group-captain-outerclothing
+  minLimit: 0
   loadouts:
   - CaptainOuterClothing
   - CaptainWintercoat
@@ -236,6 +254,8 @@
   loadouts:
   - HoPJumpsuit
   - HoPJumpskirt
+  minLimit: 1
+  exclusiveWith: INNERCLOTHING # Goobstation
 
 - type: loadoutGroup
   id: HoPNeck
@@ -253,6 +273,7 @@
   - CommonSatchel
   - CommonDuffel
   - HoPBackpackIan
+  exclusiveWith: BACK # Goobstation
 
 - type: loadoutGroup
   id: HoPOuterClothing
@@ -261,59 +282,260 @@
   loadouts:
   - HoPWintercoat
 
-
 # Civilian
 - type: loadoutGroup
-  id: PassengerJumpsuit
-  name: loadout-group-passenger-jumpsuit
+  id: CivilianJumpsuit
+  name: loadout-group-civilian-jumpsuit
+  minLimit: 0
+  exclusiveWith: INNERCLOTHING # Goobstation
   loadouts:
   - GreyJumpsuit
   - GreyJumpskirt
   - AncientJumpsuit
   - RainbowJumpsuit
+  - RainbowJumpskirt
+  # Goobstation Loadout Rework Start
+  - AssymetricDress # EE
+  - EveningDress # EE
+  - MidiDress # EE
+  - TeaDress # EE
+  - SlevelessDress # EE
+  - LongSleeveDress # EE
+  - BlackNGoldDress # EE
+  - TangoDress # EE
+  - CheonsamGreenDress # EE
+  - CheonsamPurpleDress # EE
+  - CheonsamRedDress # EE
+  - CheonsamWhiteDress # EE
+  - BlueSundress # EE
+  - ClubDress # EE
+  - CovetDress # EE
+  - FlamencoDress # EE
+  - FireDress # EE
+  - OrangeDress # EE
+  - YellowDress # EE
+  - FlowergirlDress # EE
+  - FluffyDress # EE
+  - FormalRedDress # EE
+  - GothicDress # EE
+  - OutfitKimono # EE
+  - LacyGownDress # EE
+  - LongLongDress # EE
+  - FlaredDressOutfit # EE]
+  - QipaoOutfit # EE
+  - QipaoOutfitSlim # EE
+  - RedSweptDressOutfit # EE
+  - GymBraOutfit # EE
+  - PuffyDressOutfit # EE
+  - SailorDress # EE
+  - StripedDress # EE
+  - SundressOutfit # EE
+  - SundressOutfitWhite # EE
+  - VictorianBlackDress # EE
+  - VictorianRedDress # EE
+  - YellowSwoopDress # EE
+  - NekoArcCurse # Nyanotrasen
+  - GeishaOutfit # Nyanotrasen
+  - JumpsuitTShirtJeans # Nyanotrasen
+  - JumpsuitTShirtJeansGray # Nyanotrasen
+  - JumpsuitTShirtJeansKhaki # Nyanotrasen
+  - JumpsuitTShirtJeansPeach # Nyanotrasen
+  - FlannelJeansJumpsuit # EE
+  - BlackFlannelJeansJumpsuit # EE
+  - BlackKhakiFlannelJeansJumpsuit # EE
+  - BlueBlazerJumpsuit # EE
+  - CheckeredSuitOutfit # EE
+  - OliveSweaterOutfit # EE
+  - VictorianBlackRedVest # EE
+  - VictorianRedVest # EE
+  - VictorianVest # EE
+  - GymBra # EE
+  - RippedPunk # EE
+  - ClothingCostumeMioSkirtOutfit # Nyanotrasen
+  - ClothingCostumeNaotaOutfit # Nyanotrasen
+  - ClothingUniformRatOutfit # Nyanotrasen
+  - ClothingUniformDressRedOutfit # Nyanotrasen
+  - ClothingUniformKendoHakamaOutfit # Nyanotrasen
+  - ClothingKimonoBlueOutfit # Nyanotrasen
+  - ClothingKimonoPinkOutfit # Nyanotrasen
+  - ClothingKimonoPurpleOutfit # Nyanotrasen
+  - ClothingKimonoSkyOutfit # Nyanotrasen
+  - ClothingKimonoGreenOutfit # Nyanotrasen
+  - UniformSchoolgirlDuskOutfit # Nyanotrasen
+  - UniformSchoolgirlBlazerTanOutfit # Nyanotrasen
+  - ClothingUniformMNKOfficeSkirtOutfit # Nyanotrasen
+  - ClothingUniformMNKUnderGarmentOutfit # Nyanotrasen
+  - ClothingUniformMNKGymBraOutfit # Nyanotrasen
+  - ClothingUniformMNKDressBlackOutfit # Nyanotrasen
+  - ClothingUniformMNKBlackOverallsOutfit # Nyanotrasen
+  - ClothingUniformMNKBlackShoulderOutfit # Nyanotrasen
+  - ClothingUniformMNKTracksuitBlackOutfit # Nyanotrasen
+# Goobstation Loadout Rework End
 
 - type: loadoutGroup
-  id: PassengerFace
-  name: loadout-group-passenger-mask
+  id: CivilianJumpsuitRequired #Passengers need to be forced to spawn with clothes.
+  parent: CivilianJumpsuit #They can have the same clothes as everyone else.
+  minLimit: 1 #But they better have clothes on.
+
+- type: loadoutGroup
+  id: CivilianHat
+  name: loadout-group-civilian-hat
+  minLimit: 0
+  loadouts: [ HeadbandBlack ]
+
+- type: loadoutGroup
+  id: CivilianFace
+  name: loadout-group-civilian-mask
+  minLimit: 0
+  loadouts: [ GreyTiderMask ]
+
+- type: loadoutGroup
+  id: CivilianGloves
+  name: loadout-group-civilian-gloves
   minLimit: 0
   loadouts:
-  - PassengerFace
+  - GreyTiderGloves
+  #Goobstation Loadout Rework Start
+  - BlackGloves
+  - WhiteGloves
+  - PurpleGloves
+  - RedGloves
+  - BlueGloves
+  - TealGloves
+  - BrownGloves
+  - GrayGloves
+  - GreenGloves
+  - LightBrownGloves
+  - OrangeGloves
+  #Goobstation Loadout Rework End
 
 - type: loadoutGroup
-  id: PassengerGloves
-  name: loadout-group-passenger-gloves
-  minLimit: 0
-  loadouts:
-  - PassengerGloves
-
-- type: loadoutGroup
-  id: CommonBackpack
+  id: CivilianBackpack
   name: loadout-group-backpack
+  exclusiveWith: BACK # Goobstation
   loadouts:
   - CommonBackpack
   - CommonSatchel
   - CommonDuffel
+  - CommonMessenger # Frontier
+  # Goobstation Loadout Rework Start
+  - ClothingPurse # EE Stuff
+  - LeatherSatchel
+  # Goobstation Loadout Rework End
 
 - type: loadoutGroup
-  id: PassengerNeck
-  name: loadout-group-passenger-neck
+  id: CivilianNeck
+  name: loadout-group-civilian-neck
   minLimit: 0
   loadouts:
   - Mantle
+  - OldNeckWrap # EE
+  # Goobstation Loadout Rework Start
+  - FurWrap # EE
+  - NeckScarfBlack
+  - NeckScarfBlue
+  - NeckScarfGreen
+  - NeckScarfOrange
+  - NeckScarfRed
+  - NeckScarfPurple
+  - NeckTieRed
+  # Goobstation Loadout Rework End
 
 - type: loadoutGroup
-  id: PassengerOuterClothing
-  name: loadout-group-passenger-outerclothing
+  id: CivilianOuterClothing
+  name: loadout-group-civilian-outerclothing
   minLimit: 0
   loadouts:
   - PassengerWintercoat
+  # Goobstation Loadout Rework Start
+  - PassengerRedVictorianCoat # EE
+  - PassengerBlackVictorianCoat # EE
+  - LettermanJacketBlue # Nyanotrasen
+  - LettermanJacketRed # Nyanotrasen
+  - PassengerWinterCoatLong # Nyanotrasen
+  - PassengerWinterCoatPlaid # Nyanotrasen
+  - LettermanJacketBrown
+  - LettermanJacketMagenta
+  - Bomber
+  - BomberAerostatic # Frontier
+  - BomberPunkRed # Frontier
+  - BomberPinkSleeves # Frontier
+  - HoodieBlack
+  - HoodieGrey
+  - HyenhSweater # Nyanotrasen
+  - Vest
+  - VestThick # EE
+  - MNKWhiteHoodie # Nyanotrasen
+  - MNKBlackTopCoat # Nyanotrasen
+  - MNKBlackJacket # Nyanotrasen
+  - DenimJacket # DV
+  - FlannelRed
+  - FlannelGreen
+  - FlannelBlue
+  - Trench
+  - Jensen
+  - Gentle
+  - Inspector # EE
+  - Overcoat # DV
+  - JacketLeather # Frontier
+  - JacketBiker # Frontier
+  - JacketJamrock # Frontier
+  - AcidRaincoat # Frontier
+  - AcidRaincoatBlue # Frontier
+  - AcidRaincoatGreen # Frontier
+  - AcidRaincoatMagenta # Frontier
+  - AcidRaincoatYellow # Frontier
+  - SuitJacket # EE
+  - Modern # EE
+  - Tailcoat # EE
+  - Cardigan # EE
+  - CardiganArgyle # EE
+  - CardiganSweater # EE
+  - CowboyDuster
+  - Blazer # EE
+  - BlazerLong # EE
+  - BlazerFormal # EE
+  - BlazerLooseSleeve # EE
+  - BlazerFlatCollar # EE
+  - BlazerPosh
+  - CoatPeacoat # EE
+  - CoatAsymmetric # EE
+  - CoatSubmariner # EE
+  - CoatExpensive
+  - SuitWitchRobes
+  # Goobstation Loadout Rework End
 
 - type: loadoutGroup
-  id: PassengerShoes
-  name: loadout-group-passenger-shoes
+  id: CivilianBelt # Goobstation Loadout Rework Addition
+  name: loadout-group-civilian-belt
+  minLimit: 0
+  loadouts: [ WaistLeatherBag ]
+
+- type: loadoutGroup
+  id: CivilianShoes
+  name: loadout-group-civilian-shoes
+  minLimit: 0
+  exclusiveWith: FEET #Goostation
   loadouts:
   - BlackShoes
   - WinterBoots
+  # Goob Loadouts Rework Start
+  - LoadoutWorkBoots
+  - LoadoutSalvageBoots
+  - LaceupShoes
+  - JackBootsFake
+  - CombatBootsFake
+  - MercBootsFake
+  - CowboyBootsBrown
+  - CowboyBootsBlack
+  - CowboyBootsWhite
+  - CowboyBootsFancy
+  # Goob Loadouts Rework End
+
+- type: loadoutGroup
+  id: CivilianShoesRequired
+  parent: CivilianShoes
+  minLimit: 1 #Passengers also need to be forced to wear shoes.
 
 - type: loadoutGroup
   id: BartenderHead
@@ -963,7 +1185,7 @@
   name: loadout-group-atmospheric-technician-head
   minLimit: 0
   loadouts:
-  - SeniorEngineerBeret   # Goobstation
+  - SeniorEngineerBeret # Goobstation
 
 - type: loadoutGroup
   id: AtmosphericTechnicianJumpsuit
@@ -972,8 +1194,8 @@
   - AtmosphericTechnicianJumpsuit
   - AtmosphericTechnicianJumpskirt
   - AtmosphericTechnicianJumpsuitCasual
-  - SeniorEngineerJumpskirt  # Goobstation
-  - SeniorEngineerJumpsuit   # Goobstation
+  - SeniorEngineerJumpskirt # Goobstation
+  - SeniorEngineerJumpsuit # Goobstation
 
 - type: loadoutGroup
   id: AtmosphericTechnicianOuterClothing
@@ -1242,10 +1464,10 @@
   name: loadout-group-security-glasses
   minLimit: 1
   loadouts:
-    - SecurityNormGlasses
-    - SecurityHud
-    - SecurityEyepatch
-    - SecurityJamjarGlasses
+  - SecurityNormGlasses
+  - SecurityHud
+  - SecurityEyepatch
+  - SecurityJamjarGlasses
 
 - type: loadoutGroup
   id: SecurityJumpsuit
@@ -1397,8 +1619,8 @@
   name: loadout-group-detective-weapon
   minLimit: 1
   loadouts:
-    - DetectiveEnergyRevolver
-    - DetectiveRevolver
+  - DetectiveEnergyRevolver
+  - DetectiveRevolver
 
 # Medical
 - type: loadoutGroup
@@ -1460,9 +1682,9 @@
   name: loadout-group-medical-doctor-glasses
   minLimit: 1
   loadouts:
-    - MedicalNormGlasses
-    - MedicalJamjarGlasses
-    - MedicalGlasses
+  - MedicalNormGlasses
+  - MedicalJamjarGlasses
+  - MedicalGlasses
 
 - type: loadoutGroup
   id: MedicalDoctorJumpsuit
@@ -1541,8 +1763,8 @@
   name: loadout-group-medical-chemist-glasses
   minLimit: 1
   loadouts:
-    - MedicalChemistNormGlasses
-    - MedicalChemistJamjarGlasses
+  - MedicalChemistNormGlasses
+  - MedicalChemistJamjarGlasses
 
 - type: loadoutGroup
   id: ChemistJumpsuit
