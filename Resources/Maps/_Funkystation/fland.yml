@@ -74,8 +74,8 @@ meta:
   engineVersion: 266.0.0
   forkId: ""
   forkVersion: ""
-  time: 11/04/2025 09:34:19
-  entityCount: 36316
+  time: 11/05/2025 17:50:19
+  entityCount: 36310
 maps:
 - 22578
 grids:
@@ -19989,12 +19989,12 @@ entities:
   - uid: 472
     components:
     - type: Transform
-      pos: 40.5,-1.5
+      pos: 40.5,-0.5
       parent: 2
   - uid: 473
     components:
     - type: Transform
-      pos: 40.5,-0.5
+      pos: 40.5,-1.5
       parent: 2
   - uid: 474
     components:
@@ -21204,7 +21204,7 @@ entities:
       pos: 72.5,-11.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -119773.78
+      secondsUntilStateChange: -119909.35
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -36670,16 +36670,6 @@ entities:
     - type: Transform
       pos: 28.5,2.5
       parent: 2
-  - uid: 3580
-    components:
-    - type: Transform
-      pos: 33.5,0.5
-      parent: 2
-  - uid: 3581
-    components:
-    - type: Transform
-      pos: 34.5,0.5
-      parent: 2
   - uid: 3582
     components:
     - type: Transform
@@ -36709,26 +36699,6 @@ entities:
     components:
     - type: Transform
       pos: 29.5,2.5
-      parent: 2
-  - uid: 3591
-    components:
-    - type: Transform
-      pos: 37.5,0.5
-      parent: 2
-  - uid: 3592
-    components:
-    - type: Transform
-      pos: 36.5,0.5
-      parent: 2
-  - uid: 3593
-    components:
-    - type: Transform
-      pos: 38.5,0.5
-      parent: 2
-  - uid: 3594
-    components:
-    - type: Transform
-      pos: 39.5,0.5
       parent: 2
   - uid: 3598
     components:
@@ -231192,7 +231162,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -42699.062
+      secondsUntilStateChange: -42834.63
       state: Opening
     - type: Airlock
       autoClose: False
