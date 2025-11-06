@@ -61,6 +61,7 @@
 # SPDX-FileCopyrightText: 2025 mkanke-real <mikekanke@gmail.com>
 # SPDX-FileCopyrightText: 2025 rottenheadphones <juaelwe@outlook.com>
 # SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+# SPDX-FileCopyrightText: 2025 tea <xerithin@gmail.com>
 # SPDX-FileCopyrightText: 2025 willow <willowzeta632146@proton.me>
 # SPDX-FileCopyrightText: 2025 wilowzeta <willowzeta632146@proton.me>
 #
@@ -97964,7 +97965,7 @@ entities:
     - type: Transform
       pos: 49.406124,42.36985
       parent: 2
-- proto: ClothingHeadBandBotany
+- proto: ClothingHeadBandGreen
   entities:
   - uid: 11054
     components:
