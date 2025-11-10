@@ -39,6 +39,8 @@
     ClothingUniformJumpskirtPsychologist: 4
     ClothingBeltMedical: 4
     ClothingHeadHatBeretMedic: 4
+    ClothingBackpackMessengerMedical: 4 # Frontier
+    ClothingUniformJumpskirtNurse: 4 # Loadout Reworks Addition - Nyanotrasen
     ClothingHeadNurseHat: 4
     ClothingOuterCoatLab: 4
     ClothingShoesColorWhite: 4

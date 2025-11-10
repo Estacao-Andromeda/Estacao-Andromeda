@@ -14,8 +14,7 @@
   id: BronzeJanitorial
   effects:
   - !type:JobRequirementLoadoutEffect
-    requirement:
-      !type:RoleTimeRequirement
+    requirement: !type:RoleTimeRequirement
       role: JobJanitor
       time: 36000 #10 hrs
 
@@ -23,8 +22,7 @@
   id: SilverJanitorial
   effects:
   - !type:JobRequirementLoadoutEffect
-    requirement:
-      !type:RoleTimeRequirement
+    requirement: !type:RoleTimeRequirement
       role: JobJanitor
       time: 90000 #25 hrs
 
@@ -32,8 +30,7 @@
   id: GoldJanitorial
   effects:
   - !type:JobRequirementLoadoutEffect
-    requirement:
-      !type:RoleTimeRequirement
+    requirement: !type:RoleTimeRequirement
       role: JobJanitor
       time: 252000 #70 hrs
 
@@ -41,8 +38,7 @@
   id: PlatinumJanitorial
   effects:
   - !type:JobRequirementLoadoutEffect
-    requirement:
-      !type:RoleTimeRequirement
+    requirement: !type:RoleTimeRequirement
       role: JobJanitor
       time: 630000 #175 hrs
 
@@ -50,8 +46,7 @@
   id: RubyJanitorial
   effects:
   - !type:JobRequirementLoadoutEffect
-    requirement:
-      !type:RoleTimeRequirement
+    requirement: !type:RoleTimeRequirement
       role: JobJanitor
       time: 1260000 #350 hrs
 
@@ -59,8 +54,7 @@
   id: AmethystJanitorial
   effects:
   - !type:JobRequirementLoadoutEffect
-    requirement:
-      !type:RoleTimeRequirement
+    requirement: !type:RoleTimeRequirement
       role: JobJanitor
       time: 2160000 #600 hrs
 
@@ -68,8 +62,7 @@
   id: EmeraldJanitorial
   effects:
   - !type:JobRequirementLoadoutEffect
-    requirement:
-      !type:RoleTimeRequirement
+    requirement: !type:RoleTimeRequirement
       role: JobJanitor
       time: 3600000 #1000 hrs
 
@@ -77,8 +70,7 @@
   id: PrismaticJanitorial
   effects:
   - !type:JobRequirementLoadoutEffect
-    requirement:
-      !type:RoleTimeRequirement
+    requirement: !type:RoleTimeRequirement
       role: JobJanitor
       time: 5400000 #1500 hrs
 
@@ -86,8 +78,7 @@
   id: JanitorMaidOutfit
   effects:
   - !type:JobRequirementLoadoutEffect
-    requirement:
-      !type:RoleTimeRequirement
+    requirement: !type:RoleTimeRequirement
       role: JobJanitor
       time: 36000 #10 hrs
 
@@ -95,8 +86,7 @@
   id: JanitorMaidOutfitmini
   effects:
   - !type:JobRequirementLoadoutEffect
-    requirement:
-      !type:RoleTimeRequirement
+    requirement: !type:RoleTimeRequirement
       role: JobJanitor
       time: 36000 #10 hrs
 

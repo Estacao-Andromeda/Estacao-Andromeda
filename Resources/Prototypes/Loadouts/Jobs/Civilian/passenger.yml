@@ -12,8 +12,7 @@
   id: GreyTider
   effects:
   - !type:JobRequirementLoadoutEffect
-    requirement:
-      !type:RoleTimeRequirement
+    requirement: !type:RoleTimeRequirement
       role: JobPassenger
       time: 36000 #10 hrs, silly reward for people who play passenger a lot
 
@@ -22,14 +21,18 @@
   id: MasterGrey
   effects:
   - !type:JobRequirementLoadoutEffect
-    requirement:
-      !type:RoleTimeRequirement
+    requirement: !type:RoleTimeRequirement
       role: JobPassenger
       time: 72000 #20 hrs, fun mantle for the most experienced greytiders
 
+- type: loadout
+  id: HeadbandBlack
+  equipment:
+    head: ClothingHeadBandBlack
+
 # Face
 - type: loadout
-  id: PassengerFace
+  id: GreyTiderMask
   effects:
   - !type:GroupLoadoutEffect
     proto: GreyTider
@@ -96,6 +99,11 @@
   equipment:
     back: ClothingBackpackDuffel
 
+- type: loadout
+  id: LeatherSatchel
+  equipment:
+    back: ClothingBackpackSatchelLeather
+
 # Gloves
 - type: loadout
   id: PassengerGloves
@@ -110,6 +118,16 @@
   id: PassengerWintercoat
   equipment:
     outerClothing: ClothingOuterWinterCoat
+
+- type: loadout
+  id: SuitWitchRobes
+  equipment:
+    outerClothing: ClothingOuterSuitWitchRobes
+
+- type: loadout
+  id: Bomber
+  equipment:
+    outerClothing: ClothingOuterCoatBomber
 
 # Shoes
 - type: loadout

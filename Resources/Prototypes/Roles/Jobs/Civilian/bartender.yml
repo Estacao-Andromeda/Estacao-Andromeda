@@ -49,9 +49,8 @@
 - type: startingGear
   id: BartenderGear
   equipment:
-    shoes: ClothingShoesColorBlack
     id: BartenderPDA
     ears: ClothingHeadsetService
-  #storage:
+    #storage:
     #back:
     #- Stuff
