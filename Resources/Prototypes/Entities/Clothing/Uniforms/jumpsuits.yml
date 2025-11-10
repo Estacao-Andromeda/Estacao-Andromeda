@@ -675,20 +675,6 @@
     sprite: _DV/Clothing/Uniforms/Jumpsuit/security.rsi # DeltaV - resprite
   - type: Clothing
     sprite: _DV/Clothing/Uniforms/Jumpsuit/security.rsi # DeltaV - resprite
-  - type: Item
-    inhandVisuals:
-      left:
-      - state: inhand-left
-        color: "#C12D30"
-        sprite: Clothing/Uniforms/Jumpsuit/color.rsi
-      - state: overlay-inhand-left
-        sprite: _DV/Clothing/Uniforms/Jumpsuit/security.rsi # DeltaV - resprite
-      right:
-      - state: inhand-right
-        color: "#C12D30"
-        sprite: Clothing/Uniforms/Jumpsuit/color.rsi
-      - state: overlay-inhand-right
-        sprite: _DV/Clothing/Uniforms/Jumpsuit/security.rsi # DeltaV - resprite
 
 - type: entity
   parent: ClothingUniformBase
