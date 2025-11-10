@@ -19,7 +19,7 @@ SPDX-License-Identifier: MIT
   As configurações atmosféricas são essenciais para o seu conforto a longo prazo, mas geralmente são pouco documentadas, o que as torna um pouco complicadas de configurar. As instruções a seguir abordam o básico.
 
   ## Mistura Padrão
-  Respirar O2 puro ou N2 puro geralmente é prejudicial à saúde da sua tripulação, e é recomendável, em vez disso, buscar uma mistura de [color=#a4885c]78% N2 e 22% O2 a 101,24 kPa.[/color] Recomenda-se que a configuração do seu misturador de gás seja configurada para uma saída de pelo menos 300 kPA para uma repressurização mais rápida das salas, sem representar um risco muito grande de superpressurização, caso traidores sabotem a distribuição.
+  Respirar O2 puro ou N2 puro geralmente é prejudicial à saúde da sua tripulação, e é recomendável, em vez disso, buscar uma mistura de [color=#a4885c]74% N2 e 26% O2 a 101,24 kPa.[/color] Recomenda-se que a configuração do seu misturador de gás seja configurada para uma saída de pelo menos 300 kPA para uma repressurização mais rápida das salas, sem representar um risco muito grande de superpressurização, caso traidores sabotem a distribuição.
   <Box>
     <GuideEntityEmbed Entity="OxygenCanister"/>
     <GuideEntityEmbed Entity="NitrogenCanister"/>

@@ -23,7 +23,7 @@ SPDX-License-Identifier: MIT
 
   - Imprimir a etiqueta fornece um [color=cyan]Manifesto de Bountys[/color] listando as mercadorias que precisam ser adquiridas. Você pode imprimir infinitos Manifestos de Bountys, portanto, certifique-se de não repetir o mesmo trabalho de outro Técnico de Carga.
 
-  - Ignorar uma caçada a substitui por uma nova, pois só pode haver seis caçadas ativas por vez. Ignorar tem um tempo de espera de 15 minutos e anula a caçada, o que pode irritar outros Técnicos de Carga que estejam trabalhando nela.
+  - Ignorar uma caçada a substitui por uma nova, pois só pode haver seis caçadas ativas por vez. Ignorar tem um tempo de espera de 3 minutos e anula a caçada, o que pode irritar outros Técnicos de Carga que estejam trabalhando nela.
 
   ## Cumprindo bounty
 
