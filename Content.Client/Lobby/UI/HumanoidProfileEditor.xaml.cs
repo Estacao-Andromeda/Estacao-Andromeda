@@ -106,6 +106,9 @@ using Content.Client._Funkystation.Medical.Records.UI;
 using Content.Shared._Funkystation.Records;
 // End CD - Character Records
 
+using Direction = Robust.Shared.Maths.Direction;
+using Content.Goobstation.Common.CCVar; // Goob Station - Barks
+using Content.Goobstation.Common.Barks; // Goob Station - Barks
 namespace Content.Client.Lobby.UI
 {
     [GenerateTypedNameReferences]
@@ -298,6 +301,17 @@ namespace Content.Client.Lobby.UI
             };
 
             #endregion Gender
+
+            // Goob Station
+            #region Barks
+
+            if (configurationManager.GetCVar(GoobCVars.BarksEnabled))
+            {
+                BarksContainer.Visible = true;
+                InitializeBarkVoice();
+            }
+
+            #endregion
 
             RefreshSpecies();
 
@@ -858,6 +872,7 @@ namespace Content.Client.Lobby.UI
             UpdateEyePickers();
             UpdateSaveButton();
             UpdateMarkings();
+            UpdateBarkVoice(); // Goob Station - Barks
             UpdateHairPickers();
             UpdateCMarkingsHair();
             UpdateCMarkingsFacialHair();
@@ -1324,6 +1339,7 @@ namespace Content.Client.Lobby.UI
             UpdateSexControls(); // update sex for new species
             UpdateSpeciesGuidebookIcon();
             ReloadPreview();
+            UpdateBarkVoice(); // Goob Station - Barks
         }
 
         private void SetName(string newName)
@@ -1342,6 +1358,14 @@ namespace Content.Client.Lobby.UI
             Profile = Profile?.WithSpawnPriorityPreference(newSpawnPriority);
             SetDirty();
         }
+
+        // Goob Station - Start
+        private void SetBarkVoice(BarkPrototype newVoice)
+        {
+            Profile = Profile?.WithBarkVoice(newVoice);
+            IsDirty = true;
+        }
+        // Goob Station - End
 
         public bool IsDirty
         {
