@@ -2,8 +2,9 @@
 SPDX-FileCopyrightText: 2025 Skye <57879983+Rainbeon@users.noreply.github.com>
 SPDX-FileCopyrightText: 2025 kbarkevich <24629810+kbarkevich@users.noreply.github.com>
 SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+SPDX-FileCopyrightText: 2025 Terkala <appleorange64@gmail.com>
 
-SPDX-License-Identifier: MIT
+SPDX-License-Identifier: AGPL-3.0-or-later OR MIT
 -->
 
 <Document>
@@ -34,7 +35,7 @@ Você pode se tornar um cultista do sangue tanto no início da rodada quanto sen
     <GuideEntityEmbed Entity="ActionCultistSpellsSelect" Caption="Prepare Spell"/>
   </Box>
 
-A habilidade [bold]Comunhão[/bold] permite que um cultista fale com seus companheiros acólitos a qualquer distância. No entanto, um encantamento será sussurrado em voz alta. Cuidado para não alertar a tripulação sobre a presença do seu culto muito cedo, usando essa habilidade de forma imprudente.
+A habilidade [bold]Comunhão[/bold] permite que um cultista fale com seus companheiros acólitos a qualquer distância. No entanto, um encantamento será sussurrado em voz alta. Tenha cuidado para não alertar a tripulação sobre a presença do seu culto muito cedo, usando essa habilidade de forma imprudente. Se o véu tiver sido rasgado, esse encantamento será audível para aqueles ao seu redor.
 
 A habilidade [bold]Véu de Estudo[/bold] permite que um cultista ouça a voz do [color=#ff3333]Geômetra[/color]. Receba suas instruções por meio dessa habilidade.
 
@@ -59,10 +60,9 @@ As runas mais importantes que você tem disponíveis são a [color=#ff6666]runa 
     <GuideEntityEmbed Entity="OfferingRune" Caption="offering rune"/>
   </Box>
 
-A [bold][color=#ff6666]runa de oferenda[/color][/bold] permite que os cultistas convertam os fracos de espírito à sua causa, bem como sacrifiquem os mortos, os protegidos pela mente e aqueles cujas almas o [color=#ff3333]Geômetra[/color] deseja.
-- [color=#99CC99]Sacrificar[/color] um morto sem importância é uma tarefa simples e pode ser realizada por apenas um acólito. Para isso, basta arrastar o corpo, a cabeça decepada ou o cérebro do morto para uma [color=#ff6666]runa de oferenda[/color] e, em seguida, ativar a runa clicando nela com a mão vazia ou pressionando E. Realizar este ritual aprisionará a alma da vítima em uma pedra da alma, que pode ser encontrada entre o sangue e as vísceras sobre a runa.
-- [color=#EEEE33]Converter[/color] um indivíduo vivo e de mente fraca para a sua causa — um indivíduo sem escudo mental, que não seja um Capelão e que não seja o [color=#dd55aa]alvo[/color] designado pelo seu [color=#ff3333]mestre[/color] — é um pouco mais complexo em sua execução do que sacrificar um tripulante insignificante. A vítima deve ser arrastada para a [color=#ff6666]runa de oferenda[/color] enquanto ainda estiver viva. Pelo menos [bold]dois (2)[/bold] cultistas devem estar nos quadrados adjacentes à [color=#ff6666]runa[/color] antes de ativá-la. Um ritual bem-sucedido produzirá um novo acólito para o [color=#ff3333]Geômetra[/color] e restaurará significativamente sua saúde.
-- [color=#99CC99]Sacrificar[/color] seu [color=#dd55aa]alvo[/color] — um membro da tripulação cuja identidade pode ser revelada a você pela própria [color=#ff3333]Geômetra[/color] através do uso da habilidade [bold]Véu de Estudo[/bold] — é um processo semelhante a [color=#99CC99]sacrificar[/color] um membro da tripulação sem importância. No entanto, como este [color=#dd55aa]indivíduo[/color] possui uma alma de poder insuperável, [bold]três (3)[/bold] cultistas devem estar ao redor da [color=#ff6666]runa[/color] para realizar o ritual. Se for bem-sucedido, o véu será enfraquecido e você receberá uma nova [color=#dd55aa]missão[/color].
+A [bold][color=#ff6666]runa da oferenda[/color][/bold] permite que os cultistas convertam os indivíduos de mente fraca para a sua causa. Assim que a [color=#ff3333]Geômetra[/color] tiver ascendido, o poder dela pode destruir as proteções mentais daqueles que lhe foram oferecidos.
+- [color=#EEEE33]Convertendo[/color] um indivíduo vivo de mente fraca para a sua causa — um indivíduo que não possua escudo mental, e não é um Capelão.
+- [color=#99CC99]Quebrando[/color] o escudo mental de suas proteções mentais só pode ser feito se a [color=#ff3333]Geômetra[/color] tiver ascendido.
 
   <Box>
     <GuideEntityEmbed Entity="EmpoweringRune" Caption="empowering rune"/>
@@ -74,7 +74,8 @@ A [bold][color=#ff6666]runa de fortalecimento[/color][/bold] permite que um cult
     <GuideEntityEmbed Entity="ReviveRune" Caption="revive rune"/>
   </Box>
 
-A [bold][color=#ff6666]runa de reviver[/color][/bold] pode ser usada por cultistas para pedir a [color=#ff3333]Nar'Sie[/color] que restaure a alma de um acólito perdido. Um cultista morto pode ser arrastado para cima desta runa, e a runa subsequentemente ativada, para fazer este pedido. No entanto, [color=#ff3333]Ela[/color] pode exigir que mais sacrifícios sejam feitos antes de se dignar [color=#ff3333]a si mesma[/color] a buscar esta alma perdida. Uma função menos conhecida da [color=#ff6666]runa de reviver[/color] é que ela pode ser usada para conceder uma nova alma a um acólito completamente catatônico — alguém para quem nenhuma alma preexistente ainda existe. Qualquer alma aleatória dos mortos pode habitar este corpo.
+A runa [bold][color=#ff6666]reviver[/color][/bold] pode ser usada por cultistas para pedir a [color=#ff3333]Nar'Sie[/color] que restaure a alma de um acólito perdido. Um cultista morto pode ser arrastado para cima desta runa, e a runa subsequentemente ativada, para fazer este pedido. No entanto, [color=#ff3333]Ela[/color] pode exigir que mais sacrifícios sejam feitos antes de se dignar [color=#ff3333]a si mesma[/color] a buscar esta alma perdida.
+- A runa [color=#ff6666]reviver[/color] também pode reviver não adoradores de [color=#ff3333]Nar'Sie[/color]. Ela exige um dízimo de sangue por este serviço e não os curará completamente até que suas almas lhe sejam oferecidas.
 
   <Box>
     <GuideEntityEmbed Entity="BarrierRune" Caption="barrier rune"/>
@@ -93,18 +94,18 @@ Feitiços de sangue são encantamentos que devem ser fisicamente esculpidos na p
 A magia de invocação de adaga permite que um cultista receba instantaneamente uma arma e uma ferramenta para esculpir runas. Útil para novos devotos e para aqueles que perderam suas adagas antigas.
 
   <Box>
-    <GuideEntityEmbed Entity="ActionCultistStun" Caption="Stun"/>
+    <GuideEntityEmbed Entity="ActionCultistSanguineDream" Caption="Sanguine Dream"/>
   </Box>
 
-O feitiço de atordoamento derrubará temporariamente, drenará a resistência, silenciará e marcará a vítima. Uma vítima marcada pode ser atingida uma vez com uma adaga do culto para aumentar os efeitos do atordoamento. Este feitiço também pode ser usado para causar PEM em Ciborgues.
+O feitiço Sonho Sanguíneo mergulha a vítima em um sono repleto de pesadelos, onde ela sonha com facas ensanguentadas. Ele também drena a energia de entidades cibernéticas.
 
-Este feitiço pode permitir que você sequestre silenciosamente e com mais eficiência aqueles que seu culto precisa, dando a você tempo suficiente para retirar suas coordenadas de traje e fone de ouvido de comunicação antes do sequestro. Recomenda-se que todos os cultistas mantenham um feitiço de atordoamento preparado ao vagar além de sua base de operações selecionada, [bold]por precaução.[/bold]
+Este feitiço pode permitir que você sequestre silenciosamente e com mais eficiência aqueles que seu culto precisa. Ele não funcionará em pessoas com a mind-shield. Recomenda-se que todos os cultistas mantenham um feitiço Sonho Sanguíneo preparado ao se aventurarem além de sua base de operações, [bold]por precaução.[/bold]"
 
   <Box>
     <GuideEntityEmbed Entity="ActionCultistTwistedConstruction" Caption="Twisted Construction"/>
   </Box>
 
-O feitiço de construção distorcida permite que os cultistas convertam pilhas de plasteel em [color=#bbbbbb]metal rúnico[/color].
+O feitiço de construção distorcida permite que os cultistas arranquem plastiaço das próprias paredes da estação, sem gastar o feitiço. Mas o verdadeiro poder vem da conversão de pilhas de plastiaço em [color=#bbbbbb]metal rúnico[/color], o que de fato gasta o feitiço.
 
 ## Estruturas
 
@@ -132,28 +133,40 @@ Sombras são espíritos, em sua maioria físicos, produzidos pela ativação de 
 
 Juggernauts são bestas enormes feitas de cascos de juggernaut, despertadas pela inserção de uma pedra da alma habitada. Lentos e meticulosos, essas monstruosidades são completamente imunes a ataques fracos e são capazes de derrubar até mesmo as paredes mais fortes. Um recurso inestimável para um culto cuja presença a bordo da estação já é conhecida.
 
-## O Ritual Final
 
-Quando o véu estiver suficientemente enfraquecido e seu culto tiver se expandido o suficiente, será hora de invocar [color=#ff3333]seu mestre[/color]
+### Rasgando o Véu
 
-Uma nova runa pode ser desenhada em qualquer um dos três locais designados que [color=#ff3333]ela[/color] lhe indicará. Esta runa levará muito tempo para ser preparada.
+Quando o véu estiver suficientemente enfraquecido e seu culto tiver crescido o suficiente, será a hora de invocar [color=#ff3333]seu mestre.[/color]
 
-Assim que o processo começar, os sensores de Nanotrasen provavelmente detectarão o local exato da sua tentativa de invocação, e a tripulação será alertada. Assim que a runa final for desenhada, faça com que [bold]pelo menos nove (9)[/bold] cultistas fiquem em cima dela, espalhados para cobrir o máximo de área possível.
+Uma nova runa poderá ser desenhada em qualquer um dos três locais designados que [color=#ff3333]Ela[/color] lhe indicará. A preparação desta runa levará bastante tempo.
 
-Ative a runa assim que seus companheiros acólitos estiverem devidamente posicionados sobre ela, e o processo estará completo.
+Assim que o véu for rasgado, a seita será conhecida pela tripulação e não poderá mais se esconder de forma alguma.
+
+### Invocando Nar'Sie
+
+Assim que o véu for rasgado, a geômetra iniciará sua jornada para este plano de existência. Ela encontrará o ponto mais frágil no tecido do espaço-tempo e o romperá.
+Isso se manifestará em nossa realidade como um rasgo sangrento. Encontre esse rasgo e realize o ritual final, rompendo as barreiras da realidade.
+
+Você precisará de vários cultistas para se posicionarem sobre as runas de oferenda e realizarem o ritual final. Se as runas tiverem sido apagadas, você poderá redesenhá-las.
+
+Este ritual final terá um custo sombrio para os cultistas que o realizarem, mas culminará em seu glorioso retorno.
 
 ## Curso da Rodada
 
 À medida que o culto se expande, a situação a bordo da estação passará por várias fases.
 
-- 1. [color=#a4885c]Fase silenciosa[/color] - O culto ainda é capaz de existir em segredo e deve sacrificar até dois [color=#dd55aa]alvos[/color] designados por [color=#ff3333]Nar'Sie[/color].
-- 2. [color=#a4885c]Culto ressuscitado[/color] - Ou o culto expandiu significativamente em tamanho ou todos os [color=#dd55aa]alvos[/color] foram sacrificados. Os cultistas não podem mais esconder sua verdadeira natureza.
-- 3. [color=#a4885c]Separação do véu[/color] - O culto escolheu um local para realizar o [color=#dd55aa]ritual final.[/color] Sensores de nanotrasen detectaram o colapso do véu e alertarão a tripulação.
-- 4. [italic][color=#ff3333]ela está aqui[/color][/italic] - [italic][color=#ff3333]desespero[/color][italic]
+- 1. [color=#a4885c]Silenciosa[/color] - O culto começa a se expandir, poucos se juntaram a ele. O véu ainda está forte.
+- 2. [color=#a4885c]Olhos[/color] - Os olhos dela estão sobre você. Ela está observando. Ela está esperando. Seu poder vazará através do véu e brilhará fracamente nos olhos dos cultistas.
+- 3. [color=#a4885c]Ascensão[/color] - Ela despertou completamente. Seu poder cresceu e ela pode usar toda a sua força para quebrar as frágeis proteções mentais daqueles que lhe são oferecidos.
+- 4. [color=#a4885c]Véu[/color] - O véu foi enfraquecido. O culto pode começar a realizar o ritual final assim que sua fenda estiver visível.
+- 5. [italic][color=#ff3333]Ela está aqui.[/color][/italic] - [italic][color=#ff3333]desespero[/color][italic]
 
 ## Combatendo o Culto
 
-O único método conhecido para desconverter um cultista do sangue é através da ingestão forçada de [color=#4466ff]água benta[/color] (pelo menos 40u).
+A desconversão de um cultista de sangue pode ocorrer de três maneiras:
+1. Através da ingestão forçada de [color=#4466ff]água benta[/color] (pelo menos 40u).
+2. Usando um [color=#4466ff]incensário[/color] no cultista.
+3. Jogando um recipiente com água benta sobre o sangue derramado pelo culto. Isso formará uma névoa sagrada que queimará e purificará os cultistas.
 
 Seu Capelão, um ser sagrado, é amplamente imune aos aspectos mais [italic]persuasivos[/italic] dos métodos do culto do sangue e é o único membro da tripulação em quem se pode confiar totalmente uma vez que a presença do culto seja descoberta. Capelães também são resistentes à magia do sangue e às armas fabricadas pelo culto, tornando as habilidades ofensivas da maioria dos cultistas inúteis contra eles — a menos que os cultistas recorram a métodos de ataque mais tradicionais.
 
