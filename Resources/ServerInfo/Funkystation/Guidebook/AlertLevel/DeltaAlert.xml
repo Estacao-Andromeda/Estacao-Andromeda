@@ -3,41 +3,39 @@ SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
 
 SPDX-License-Identifier: MIT
 -->
-
 <Document>
   # Código de Alerta - Delta
 
   <Box>
-    [italic]Declarado por: Mau funcionamento da Unidade IA, Delaminamento da Supermatéria, ou o dispositivo de fissão nuclear sendo ativado a bordo.[/italic]
+    [italic]A estação está à beira da destruição. Aja com decisão para resolver a situação. Qualquer custo é justificado para atingir esse objetivo.[/italic]
+
   </Box>
 
-  [bold]Situações:[/bold]
+  Há risco iminente de destruição da estação ou perda de toda a tripulação. A omissão levará a consequências catastróficas.
 
-  A Unidade IA com mau funcionamento jogou fora o seu semblante furtivo e ativou seu Mechanismo de Substituição.
+  [bold]Segurança:[/bold]
 
-  [bold]OU[/bold]
+  A lei marcial está em vigor. Os procedimentos operacionais padrão estão suspensos. O pessoal de segurança tem permissão total para fazer o que for necessário para garantir a segurança da estação e da tripulação. O pessoal que interferir nos procedimentos de emergência poderá ser removido conforme a situação exigir. A segurança está autorizada a usar força letal em resposta a qualquer ameaça física. A agressão ao comando ou à Equipe de Resposta a Emergências (ERT) poderá ser punida com execução imediata em campo.
 
-  O dispositivo de fissão nuclear a bordo foi ativado pelo Comando ou pelos membros do Comando Central. No entanto isso não ativa o Código Delta, o Código só é declarado quando um Agente Nuclear ativa o dispositivo de fissão nuclear da estação.
+  Buscas aleatórias são totalmente permitidas, autorizadas e incentivadas. O pessoal de segurança poderá deter qualquer membro da tripulação que se recusar a ser submetido a uma busca aleatória para realizar a referida busca;
 
-  [bold]OU[/bold]
+  O pessoal de segurança deve cooperar plenamente com qualquer membro da equipe de comando central (como as Equipes de Resposta a Emergências) para eliminar a ameaça à estação.
 
-  A Supermatéria está em processo de delaminação. Isso é uma ameaça a estação inteira.
-
-  [bold]Seguranças:[/bold]
-
-  Em caso de mau funcionamento da IA, toda a equipe de segurança deve parar o que estão fazendo e começar o procedimento de neutralizar a unidade de IA. Qualquer ajuda relevante dos tripulantes da estação (como engenheiros e cientistas) não deve ser descartada;
-
-  Caso o Comando Central autorize a ativação do dispositivo de fissão nuclear a bordo, toda a equipe de segurança devem abaixar suas armas e não resistir. Desistam.
+  No caso de uma ativação do Dispositivo de Fissão Nuclear a bordo autorizada pelo Comando Central, todo o pessoal de segurança deve proteger o dispositivo.
 
   [bold]Áreas Restristas:[/bold]
 
-  O Armazém de EVA, Armazém de Tecnologia, Gerador de Gravidade, Armazém restrito de Engenharia, Upload da IA, Cofre, Portal(Gateway), e qualquer outro lugar que precise do acesso nível comando que não é frequentemente usado.
+  Em qualquer lugar que exija acesso de Comando ou Segurança. Quaisquer locais designados pelo Comando.
 
-  Procedimentos são irrelevantes.
+  [bold]Tripulação Geral:[/bold]
 
-  [bold]Tripulantes em Geral:[/bold]
+  Todos os tripulantes devem maximizar os sensores de seus trajes espaciais;
 
-  Em caso de mau funcionamento da unidade IA ou Agentes Nucleares que armaram o dispositivo nuclear, todos os tripulantes não vitais devem evacuar para fora da estação imediatamente;
+  Todos os tripulantes devem fazer tudo o que estiver ao seu alcance para conter a ameaça à estação. A tripulação deve seguir todas as ordens dadas pela Segurança, Comando ou Equipe do Comando Central.
 
-  Caso o Comando Central autorize a ativação do dispositivo de fissão nuclear a bordo, todos os tripulantes devem desstir de suas vidas e não resistirem.
+  Visitantes da estação (qualquer pessoa com acesso de nível Civil) devem permanecer dentro do Bar, Biblioteca ou Dormitórios, a menos que sejam instruídos de outra forma pela Segurança, Comando ou Equipe do Comando Central.
+
+  Em caso de uma ameaça infecciosa ou de absorção incontrolável, a tripulação deve garantir que os procedimentos de quarentena sejam seguidos e que a ameaça permaneça contida na estação, mesmo que isso custe suas vidas.
+
+  Em caso de ativação do Dispositivo de Fissão Nuclear a bordo, autorizada pelo Comando Central, todos os tripulantes devem se retirar e seguir as diretrizes do Comando Central.
 </Document>

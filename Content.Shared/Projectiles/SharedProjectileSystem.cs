@@ -138,7 +138,7 @@ public abstract partial class SharedProjectileSystem : EntitySystem
             ? _transform.ToCoordinates(collisionCoordinates.Value)
             : Transform(projectile).Coordinates;
         var otherName = ToPrettyString(target);
-        
+
         // Calculate direction for camera recoil, ensuring it's valid
         var velocity = ourBody.LinearVelocity;
         Vector2 direction = Vector2.Zero;
@@ -150,7 +150,7 @@ public abstract partial class SharedProjectileSystem : EntitySystem
             if (!float.IsFinite(direction.X) || !float.IsFinite(direction.Y))
                 direction = Vector2.Zero;
         }
-        
+
         var modifiedDamage = _net.IsServer
             ? _damageableSystem.TryChangeDamage(target,
                 ev.Damage,
@@ -178,7 +178,7 @@ public abstract partial class SharedProjectileSystem : EntitySystem
             var shooterOrWeapon = EntityManager.EntityExists(component.Shooter) ? component.Shooter!.Value : component.Weapon!.Value;
 
             _adminLogger.Add(LogType.BulletHit,
-                HasComp<ActorComponent>(target) ? LogImpact.Extreme : LogImpact.High,
+                HasComp<ActorComponent>(target) ? LogImpact.Low : LogImpact.Medium,
                 $"Projectile {ToPrettyString(uid):projectile} shot by {ToPrettyString(shooterOrWeapon):source} hit {otherName:target} and dealt {modifiedDamage.GetTotal():damage} damage");
         }
 
