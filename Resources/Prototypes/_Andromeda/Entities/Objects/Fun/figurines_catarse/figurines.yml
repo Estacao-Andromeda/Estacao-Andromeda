@@ -138,6 +138,18 @@
     pack: FigurinesGertulio
 
 - type: entity
+  parent: ToyFigurineExemploCatarse
+  id: ToyFigurineGabrielHawkins
+  name: Gabriel Hawkins
+  description: "O que deseja hoje?"
+  components:
+  - type: Sprite
+    sprite: _Andromeda/misc/figures_catarse.rsi
+    state: gabriel_hawkins
+  - type: SpeakOnTrigger
+    pack: FigurinesGabrielHawkins
+
+- type: entity
   parent: [ToyFigurineExemploCatarse,  BaseSyndicateContraband ]
   id: ToyFigurinePax
   name: Pax Kally

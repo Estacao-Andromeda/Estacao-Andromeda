@@ -47,6 +47,12 @@
     count: 36
 
 - type: localizedDataset
+  id: FigurinesGabrielHawkins
+  values:
+    prefix: figurines-gabriel-
+    count: 80
+
+- type: localizedDataset
   id: FigurinesPax
   values:
     prefix: figurines-pax-
