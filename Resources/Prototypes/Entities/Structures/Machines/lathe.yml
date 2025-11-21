@@ -496,6 +496,7 @@
     - CassetteTape
     - TapeRecorder
     # End Delta-V additions
+    - SurveillanceWirelessCameraBodyEntertainment #funk
     - UtilityKnife #funk
     dynamicRecipes:
     - BoomboxRed
@@ -1183,6 +1184,7 @@
     - autoInjectorCartridgeCase
     - autoInjectorCartridgeCaseSoft
     - MagazineBoxSpecial # Andromeda
+    - SurveillanceWirelessCameraBodySecurity #funk
     - ClothingHandsSecurityKnuckleDusters #funk
     dynamicRecipes:
     - BoxBeanbag
