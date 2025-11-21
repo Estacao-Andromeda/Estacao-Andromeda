@@ -34,6 +34,7 @@
 # SPDX-FileCopyrightText: 2024 themias <89101928+themias@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 88tv <131759102+88tv@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 8tv <eightev@gmail.com>
+# SPDX-FileCopyrightText: 2025 ArtisticRoomba <145879011+ArtisticRoomba@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 AtlasHD <99688062+AtlasHDD@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 Cthyga <41489382+Cthyga@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 FeelFlows <1493889+FeelFlows@users.noreply.github.com>
@@ -234,6 +235,13 @@
   - CaptainOuterClothing
   - CaptainWintercoat
 
+- type: loadoutGroup #WizDen Weh Job Plush
+  id: CaptainJobTrinkets
+  name: loadout-group-jobtrinkets
+  minLimit: 0
+  loadouts:
+  - LizardPlushieCaptain
+
 - type: loadoutGroup
   id: HoPHead
   name: loadout-group-hop-head
@@ -272,6 +280,12 @@
   loadouts:
   - HoPWintercoat
 
+- type: loadoutGroup #WizDen Weh Job Plush
+  id: HoPJobTrinkets
+  name: loadout-group-jobtrinkets
+  minLimit: 0
+  loadouts:
+  - LizardPlushieHeadOfPersonnel
 
 # Civilian
 - type: loadoutGroup
@@ -326,6 +340,13 @@
   - BlackShoes
   - WinterBoots
 
+- type: loadoutGroup #WizDen Weh Job Plush
+  id: PassengerJobTrinkets
+  name: loadout-group-jobtrinkets
+  minLimit: 0
+  loadouts:
+  - LizardPlushiePassenger
+
 - type: loadoutGroup
   id: BartenderHead
   name: loadout-group-bartender-head
@@ -353,6 +374,20 @@
   loadouts:
   - BartenderApron
   - BartenderWintercoat
+
+- type: loadoutGroup #WizDen Weh Job Plush
+  id: BartenderJobTrinkets
+  name: loadout-group-jobtrinkets
+  minLimit: 0
+  loadouts:
+  - LizardPlushieBartender
+
+- type: loadoutGroup #WizDen Weh Job Plush
+  id: ServiceWorkerJobTrinkets
+  name: loadout-group-jobtrinkets
+  minLimit: 0
+  loadouts:
+  - LizardPlushieServiceWorker
 
 - type: loadoutGroup
   id: ChefHead
@@ -384,6 +419,13 @@
   - ChefJacket
   - ChefWintercoat
 
+- type: loadoutGroup #WizDen Weh Job Plush
+  id: ChefJobTrinkets
+  name: loadout-group-jobtrinkets
+  minLimit: 0
+  loadouts:
+  - LizardPlushieChef
+
 - type: loadoutGroup
   id: LibrarianJumpsuit
   name: loadout-group-librarian-jumpsuit
@@ -394,6 +436,13 @@
   - CuratorJumpskirt
   - ClothingUniformBrownSuit #imp
   - ClothingUniformBrownSuitSkirt #imp
+
+- type: loadoutGroup #WizDen Weh Job Plush
+  id: LibrarianJobTrinkets
+  name: loadout-group-jobtrinkets
+  minLimit: 0
+  loadouts:
+  - LizardPlushieLibrarian
 
 - type: loadoutGroup
   id: LawyerJumpsuit
@@ -418,6 +467,13 @@
   minLimit: 0
   loadouts:
   - LawyerNeck
+
+- type: loadoutGroup #WizDen Weh Job Plush
+  id: LawyerJobTrinkets
+  name: loadout-group-jobtrinkets
+  minLimit: 0
+  loadouts:
+  - LizardPlushieLawyer
 
 - type: loadoutGroup
   id: ChaplainHead
@@ -486,19 +542,12 @@
   - ChaplainNeckSun # imp
   - ChaplainNeckTidal # imp
 
-#- type: loadoutGroup
-#  id: ChaplainBible
-#  name: loadout-group-chaplain-bible
-#  minLimit: 1
-#  loadouts:
-#  - Bible
-#  - BibleNanoTrasen
-#  - BibleDruid
-#  - BibleSatanic
-#  - BibleTanakh
-#  - BibleHonk
-#  - BibleRatvar
-#  - BibleNarsie
+- type: loadoutGroup #WizDen Weh Job Plush
+  id: ChaplainJobTrinkets
+  name: loadout-group-jobtrinkets
+  minLimit: 0
+  loadouts:
+  - LizardPlushieChaplain
 
 - type: loadoutGroup
   id: JanitorHead
@@ -546,6 +595,13 @@
   - JanitorEmeraldPlunger
   - JanitorPrismaticPlunger
 
+- type: loadoutGroup #WizDen Weh Job Plush
+  id: JanitorJobTrinkets
+  name: loadout-group-jobtrinkets
+  minLimit: 0
+  loadouts:
+  - LizardPlushieJanitor
+
 - type: loadoutGroup
   id: BotanistHead
   name: loadout-group-botanist-head
@@ -583,6 +639,13 @@
   loadouts:
   - BotanistApron
   - BotanistWintercoat
+
+- type: loadoutGroup #WizDen Weh Job Plush
+  id: BotanistJobTrinkets
+  name: loadout-group-jobtrinkets
+  minLimit: 0
+  loadouts:
+  - LizardPlushieBotanist
 
 - type: loadoutGroup
   id: ClownHead
@@ -644,6 +707,13 @@
   - LoadoutSpeciesVoxNitrogen
   - EmergencySilicon
 
+- type: loadoutGroup #WizDen Weh Job Plush
+  id: ClownJobTrinkets
+  name: loadout-group-jobtrinkets
+  minLimit: 0
+  loadouts:
+  - LizardPlushieClown
+
 - type: loadoutGroup
   id: MimeHead
   name: loadout-group-mime-head
@@ -703,6 +773,13 @@
   - LoadoutSpeciesVoxNitrogen
   - EmergencySilicon
 
+- type: loadoutGroup #WizDen Weh Job Plush
+  id: MimeJobTrinkets
+  name: loadout-group-jobtrinkets
+  minLimit: 0
+  loadouts:
+  - LizardPlushieMime
+
 - type: loadoutGroup
   id: MusicianJumpsuit
   name: loadout-group-musician-jumpsuit
@@ -754,6 +831,13 @@
   - Ocarina
   - Bagpipe
 
+- type: loadoutGroup #WizDen Weh Job Plush
+  id: MusicianJobTrinkets
+  name: loadout-group-jobtrinkets
+  minLimit: 0
+  loadouts:
+  - LizardPlushieMusician
+
 # Cargo
 - type: loadoutGroup
   id: QuartermasterHead
@@ -797,6 +881,13 @@
   loadouts:
   - BrownShoes
   - CargoWinterBoots
+
+- type: loadoutGroup #WizDen Weh Job Plush
+  id: QuartermasterJobTrinkets
+  name: loadout-group-jobtrinkets
+  minLimit: 0
+  loadouts:
+  - LizardPlushieQuartermaster
 
 - type: loadoutGroup
   id: CargoTechnicianHead
@@ -848,6 +939,13 @@
   - BlackShoes
   - CargoWinterBoots
 
+- type: loadoutGroup #WizDen Weh Job Plush
+  id: CargoTechnicianJobTrinkets
+  name: loadout-group-jobtrinkets
+  minLimit: 0
+  loadouts:
+  - LizardPlushieCargoTechnician
+
 - type: loadoutGroup
   id: SalvageSpecialistBackpack
   name: loadout-group-salvage-specialist-backpack
@@ -869,6 +967,13 @@
   loadouts:
   - SalvageBoots
   - CargoWinterBoots
+
+- type: loadoutGroup #WizDen Weh Job Plush
+  id: SalvageSpecialistJobTrinkets
+  name: loadout-group-jobtrinkets
+  minLimit: 0
+  loadouts:
+  - LizardPlushieSalvageSpecialist
 
 # Engineering
 - type: loadoutGroup
@@ -909,6 +1014,13 @@
   loadouts:
   - BrownShoes
   - EngineeringWinterBoots
+
+- type: loadoutGroup #WizDen Weh Job Plush
+  id: ChiefEngineerJobTrinkets
+  name: loadout-group-jobtrinkets
+  minLimit: 0
+  loadouts:
+  - LizardPlushieChiefEngineer
 
 - type: loadoutGroup
   id: TechnicalAssistantJumpsuit
@@ -975,6 +1087,13 @@
   - StationEngineerPDA
   - SeniorEngineerPDA
 
+- type: loadoutGroup #WizDen Weh Job Plush
+  id: StationEngineerJobTrinkets
+  name: loadout-group-jobtrinkets
+  minLimit: 0
+  loadouts:
+  - LizardPlushieStationEngineer
+
 - type: loadoutGroup
   id: AtmosphericTechnicianHead
   name: loadout-group-atmospheric-technician-head
@@ -1013,6 +1132,13 @@
   loadouts:
   - WhiteShoes
   - EngineeringWinterBoots
+
+- type: loadoutGroup #WizDen Weh Job Plush
+  id: AtmosphericTechnicianJobTrinkets
+  name: loadout-group-jobtrinkets
+  minLimit: 0
+  loadouts:
+  - LizardPlushieAtmosphericTechnician
 
 - type: loadoutGroup
   id: SurvivalExtended
@@ -1066,6 +1192,13 @@
   - BrownShoes
   - ScienceWinterBoots
   - ResearchDirectorWinterBoots
+
+- type: loadoutGroup #WizDen Weh Job Plush
+  id: ResearchDirectorJobTrinkets
+  name: loadout-group-jobtrinkets
+  minLimit: 0
+  loadouts:
+  - LizardPlushieResearchDirector
 
 - type: loadoutGroup
   id: ScientistHead
@@ -1155,6 +1288,13 @@
   - RoboticsPDA
   - SeniorResearcherPDA
 
+- type: loadoutGroup #WizDen Weh Job Plush
+  id: ScientistJobTrinkets
+  name: loadout-group-jobtrinkets
+  minLimit: 0
+  loadouts:
+  - LizardPlushieScientist
+
 - type: loadoutGroup
   id: ResearchAssistantJumpsuit
   name: loadout-group-research-assistant-jumpsuit
@@ -1205,6 +1345,13 @@
   - HeadofSecurityWinterCoat
   - StasecWinterCoatHoS # DeltaV
 
+- type: loadoutGroup #WizDen Weh Job Plush
+  id: HeadofSecurityJobTrinkets
+  name: loadout-group-jobtrinkets
+  minLimit: 0
+  loadouts:
+  - LizardPlushieHeadofSecurity
+
 - type: loadoutGroup
   id: WardenHead
   name: loadout-group-warden-head
@@ -1243,6 +1390,13 @@
   - WardenCoat
   - WardenArmoredWinterCoat
   - StasecWinterCoatWarden # DeltaV
+
+- type: loadoutGroup #WizDen Weh Job Plush
+  id: WardenJobTrinkets
+  name: loadout-group-jobtrinkets
+  minLimit: 0
+  loadouts:
+  - LizardPlushieWarden
 
 - type: loadoutGroup
   id: SecurityHead
@@ -1336,6 +1490,13 @@
   - SecurityPDA
   - SeniorOfficerPDA
 
+- type: loadoutGroup #WizDen Weh Job Plush
+  id: SecurityJobTrinkets
+  name: loadout-group-jobtrinkets
+  minLimit: 0
+  loadouts:
+  - LizardPlushieSecurity
+
 # Funkystation
 - type: loadoutGroup
   id: DetectivePDA
@@ -1383,6 +1544,13 @@
   - DetectiveCoatGrey
   - StasecWinterCoatDet # DeltaV
   - DetPlatedCoat # DeltaV
+
+- type: loadoutGroup #WizDen Weh Job Plush
+  id: DetectiveJobTrinkets
+  name: loadout-group-jobtrinkets
+  minLimit: 0
+  loadouts:
+  - LizardPlushieDetective
 
 - type: loadoutGroup
   id: SecurityCadetJumpsuit
@@ -1458,6 +1626,13 @@
   loadouts:
   - BrownShoes
   - MedicalWinterBoots
+
+- type: loadoutGroup #WizDen Weh Job Plush
+  id: ChiefMedicalOfficerJobTrinkets
+  name: loadout-group-jobtrinkets
+  minLimit: 0
+  loadouts:
+  - LizardPlushieChiefMedicalOfficer
 
 - type: loadoutGroup
   id: MedicalDoctorHead
@@ -1546,6 +1721,13 @@
   loadouts:
   - SterileMask
 
+- type: loadoutGroup #WizDen Weh Job Plush
+  id: MedicalDoctorJobTrinkets
+  name: loadout-group-jobtrinkets
+  minLimit: 0
+  loadouts:
+  - LizardPlushieMedicalDoctor
+
 - type: loadoutGroup
   id: MedicalInternJumpsuit
   name: loadout-group-medical-intern-jumpsuit
@@ -1594,6 +1776,13 @@
   - ChemistSatchel
   - ChemistDuffel
 
+- type: loadoutGroup #WizDen Weh Job Plush
+  id: ChemistJobTrinkets
+  name: loadout-group-jobtrinkets
+  minLimit: 0
+  loadouts:
+  - LizardPlushieChemist
+
 - type: loadoutGroup
   id: ParamedicHead
   name: loadout-group-paramedic-head
@@ -1624,6 +1813,13 @@
   - WhiteShoes
   - MedicalWinterBoots
 
+- type: loadoutGroup #WizDen Weh Job Plush
+  id: ParamedicJobTrinkets
+  name: loadout-group-jobtrinkets
+  minLimit: 0
+  loadouts:
+  - LizardPlushieParamedic
+
 - type: loadoutGroup
   id: SurvivalMedical
   name: loadout-group-survival-medical
@@ -1645,12 +1841,26 @@
   - ClothingUniformBrosBlazer #imp
   - ClothingUniformBrosBlazerSkirt #imp
 
+- type: loadoutGroup #WizDen Weh Job Plush
+  id: ReporterJobTrinkets
+  name: loadout-group-jobtrinkets
+  minLimit: 0
+  loadouts:
+  - LizardPlushieReporter
+
 - type: loadoutGroup
   id: PsychologistJumpsuit
   name: loadout-group-psychologist-jumpsuit
   loadouts:
   - PsychologistJumpsuit
   - PsychologistJumpskirt
+
+- type: loadoutGroup #WizDen Weh Job Plush
+  id: PsychologistJobTrinkets
+  name: loadout-group-jobtrinkets
+  minLimit: 0
+  loadouts:
+  - LizardPlushiePsychologist
 
 - type: loadoutGroup
   id: BoxerJumpsuit
@@ -1667,6 +1877,20 @@
   - BlueBoxingGloves
   - GreenBoxingGloves
   - YellowBoxingGloves
+
+- type: loadoutGroup #WizDen Weh Job Plush
+  id: BoxerJobTrinkets
+  name: loadout-group-jobtrinkets
+  minLimit: 0
+  loadouts:
+  - LizardPlushieBoxer
+
+- type: loadoutGroup #WizDen Weh Job Plush
+  id: ZookeeperJobTrinkets
+  name: loadout-group-jobtrinkets
+  minLimit: 0
+  loadouts:
+  - LizardPlushieZookeeper
 
 # Other
 - type: loadoutGroup
