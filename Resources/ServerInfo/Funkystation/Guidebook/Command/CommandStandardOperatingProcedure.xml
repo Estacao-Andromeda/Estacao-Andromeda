@@ -121,7 +121,12 @@ SPDX-License-Identifier: MIT
 
   Pode ser porque este é um documento em constante atualização, e o Procedimento Operacional Padrão (POP) ainda não foi finalizado. Os seguintes documentos da POP já estão concluídos para outros Chefes de Departamento;
 
-  -[textlink="Head of Security SOP" link="SecuritySOP"]
+  -[textlink="Security SOP" link="SecuritySOP"]
+  -[textlink="Engineering SOP" link="EngineeringSOP"]
+  -[textlink="Medical SOP" link="MedicalSOP"]
+  -[textlink="Science SOP" link="ScienceSOP"]
+  -[textlink="Service SOP" link="ServiceSOP"]
+  -[textlink="Legal SOP" link="LegalSOP"]
 
   Glória a Nanotrasen!
 </Document>
