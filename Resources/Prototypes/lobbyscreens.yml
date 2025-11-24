@@ -126,6 +126,10 @@
   id: usualsuspects
   background: /Textures/LobbyScreens/usualsuspects.webp
 
+- type: lobbyBackground
+  id: ratburgers
+  background: /Textures/LobbyScreens/ratburgers.webp
+
 # Andromeda
 
 - type: lobbyBackground

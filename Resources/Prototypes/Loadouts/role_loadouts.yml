@@ -21,9 +21,15 @@
 # SPDX-FileCopyrightText: 2024 themias <89101928+themias@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 88tv <131759102+88tv@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 8tv <eightev@gmail.com>
+# SPDX-FileCopyrightText: 2025 ArtisticRoomba <145879011+ArtisticRoomba@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Dani <57107055+wgreen84@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Dani Green <wgreen84gamergame@gmail.com>
+# SPDX-FileCopyrightText: 2025 Fr0goo <153249069+Fr0goo@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Fr0goo <frogoofrog@outlook.com>
 # SPDX-FileCopyrightText: 2025 Icepick <122653407+Icepicked@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 MaiaArai <158123176+YaraaraY@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 PoquitoDondito <danielchristianstone@gmail.com>
+# SPDX-FileCopyrightText: 2025 Princess Cheeseballs <66055347+Princess-Cheeseballs@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 SaffronFennec <firefoxwolf2020@protonmail.com>
 # SPDX-FileCopyrightText: 2025 SigmaTheDragon <162711378+SigmaTheDragon@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 Tay <td12233a@gmail.com>
@@ -37,8 +43,10 @@
 # SPDX-FileCopyrightText: 2025 ferynn <117872973+ferynn@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 lolmatdi <59433122+lolmatdi@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 pa.pecherskij <pa.pecherskij@interfax.ru>
+# SPDX-FileCopyrightText: 2025 puuupy <59433122+lolmatdi@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 slarticodefast <161409025+slarticodefast@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+# SPDX-FileCopyrightText: 2025 vectorassembly <vectorassembly@icloud.com>
 # SPDX-FileCopyrightText: 2025 w.xyz() <84605679+pirakaplant@users.noreply.github.com>
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
@@ -54,6 +62,7 @@
     - CaptainOuterClothing
     - Survival
     - Trinkets
+    - CaptainJobTrinkets
     - ApoiadoresGroup # Andromeda
     - GroupSpeciesBreathTool
     - ShocksGroup
@@ -71,6 +80,7 @@
     - Glasses
     - Survival
     - Trinkets
+    - HoPJobTrinkets
     - ApoiadoresGroup # Andromeda
     - GroupSpeciesBreathTool
     - ShocksGroup
@@ -102,6 +112,7 @@
     - Glasses
     - Survival
     - Trinkets
+    - PassengerJobTrinkets
     - ApoiadoresGroup # Andromeda
     - GroupSpeciesBreathTool
     - ShocksGroup
@@ -118,6 +129,7 @@
     - Glasses
     - Survival
     - Trinkets
+    - BartenderJobTrinkets
     - ApoiadoresGroup # Andromeda    - GroupSpeciesBreathTool
     - ShocksGroup
     - UnderPantsGroup
@@ -131,6 +143,7 @@
     - Glasses
     - Survival
     - Trinkets
+    - ServiceWorkerJobTrinkets
     - ApoiadoresGroup # Andromeda
     - GroupSpeciesBreathTool
     - ShocksGroup
@@ -148,6 +161,7 @@
     - Glasses
     - Survival
     - Trinkets
+    - ChefJobTrinkets
     - ApoiadoresGroup # Andromeda
     - GroupSpeciesBreathTool
     - ShocksGroup
@@ -162,6 +176,7 @@
     - Glasses
     - Survival
     - Trinkets
+    - LibrarianJobTrinkets
     - ApoiadoresGroup # Andromeda
     - GroupSpeciesBreathTool
     - ShocksGroup
@@ -177,6 +192,7 @@
     - Glasses
     - Survival
     - Trinkets
+    - LawyerJobTrinkets
     - ApoiadoresGroup # Andromeda
     - GroupSpeciesBreathTool
     - ShocksGroup
@@ -198,6 +214,7 @@
     - Survival
     - ChaplainBible # Funky
     - Trinkets
+    - ChaplainJobTrinkets
     - ApoiadoresGroup # Andromeda
     - GroupSpeciesBreathTool
     - ShocksGroup
@@ -212,9 +229,11 @@
     - JanitorGloves
     - CommonBackpack
     - JanitorOuterClothing
+    - JanitorShoes
     - Glasses
     - Survival
     - Trinkets
+    - JanitorJobTrinkets
     - ApoiadoresGroup # Andromeda
     - JanitorPlunger
     - GroupSpeciesBreathTool
@@ -232,6 +251,7 @@
     - Glasses
     - Survival
     - Trinkets
+    - BotanistJobTrinkets
     - ApoiadoresGroup # Andromeda
     - GroupSpeciesBreathTool
     - ShocksGroup
@@ -250,6 +270,7 @@
     - ClownShoes
     - Glasses
     - SurvivalClown
+    - ClownJobTrinkets
     - Trinkets
     - ApoiadoresGroup # Andromeda
     - ShocksGroup
@@ -269,6 +290,7 @@
     - Glasses
     - SurvivalMime
     - Trinkets
+    - MimeJobTrinkets
     - ApoiadoresGroup # Andromeda
     - ShocksGroup
     - UnderPantsGroup
@@ -284,6 +306,7 @@
     - Glasses
     - Survival
     - Trinkets
+    - MusicianJobTrinkets
     - Instruments
     - ApoiadoresGroup # Andromeda
     - GroupSpeciesBreathTool
@@ -304,6 +327,7 @@
     - Glasses
     - Survival
     - Trinkets
+    - QuartermasterJobTrinkets
     - ApoiadoresGroup # Andromeda
     - GroupSpeciesBreathTool
     - ShocksGroup
@@ -314,6 +338,7 @@
   id: JobCargoTechnician
   groups:
     - CargoTechnicianHead
+    - CargoTechnicianNeck
     - CargoTechnicianJumpsuit
     - CargoTechnicianBackpack
     - CargoTechnicianOuterClothing
@@ -322,6 +347,7 @@
     - Glasses
     - Survival
     - Trinkets
+    - CargoTechnicianJobTrinkets
     - ApoiadoresGroup # Andromeda
     - GroupSpeciesBreathTool
     - ShocksGroup
@@ -331,12 +357,14 @@
 - type: roleLoadout
   id: JobSalvageSpecialist
   groups:
+    - SalvageSpecialistHead
     - SalvageSpecialistBackpack
     - SalvageSpecialistOuterClothing
     - SalvageSpecialistShoes
     - Glasses
     - Survival
     - Trinkets
+    - SalvageSpecialistJobTrinkets
     - ApoiadoresGroup # Andromeda
     - GroupSpeciesBreathTool
     - ShocksGroup
@@ -353,9 +381,11 @@
     - StationEngineerBackpack
     - ChiefEngineerNeck
     - ChiefEngineerOuterClothing
+    - ChiefEngineerBelt
     - ChiefEngineerShoes
     - SurvivalExtended
     - Trinkets
+    - ChiefEngineerJobTrinkets
     - ApoiadoresGroup # Andromeda
     - GroupSpeciesBreathTool
     - ShocksGroup
@@ -383,10 +413,12 @@
     - StationEngineerJumpsuit
     - StationEngineerBackpack
     - StationEngineerOuterClothing
+    - StationEngineerBelt
     - StationEngineerShoes
     - StationEngineerID
     - SurvivalExtended
     - Trinkets
+    - StationEngineerJobTrinkets
     - ApoiadoresGroup # Andromeda
     - GroupSpeciesBreathTool
     - ShocksGroup
@@ -401,9 +433,11 @@
     - AtmosphericTechnicianJumpsuit
     - AtmosphericTechnicianBackpack
     - AtmosphericTechnicianOuterClothing
+    - AtmosphericTechnicianBelt
     - AtmosphericTechnicianShoes
     - SurvivalExtended
     - Trinkets
+    - AtmosphericTechnicianJobTrinkets
     - ApoiadoresGroup # Andromeda
     - GroupSpeciesBreathTool
     - ShocksGroup
@@ -425,6 +459,7 @@
     - Glasses
     - Survival
     - Trinkets
+    - ResearchDirectorJobTrinkets
     - ApoiadoresGroup # Andromeda
     - GroupSpeciesBreathTool
     - ShocksGroup
@@ -446,6 +481,7 @@
     - Glasses
     - Survival
     - Trinkets
+    - ScientistJobTrinkets
     - ApoiadoresGroup # Andromeda
     - GroupSpeciesBreathTool
     - ShocksGroup
@@ -483,6 +519,7 @@
     - SecurityArmas # Andromeda
     - SecurityAllAmmo # Andromeda
     - Trinkets
+    - HeadofSecurityJobTrinkets
     - SecurityStar
     - ApoiadoresGroup # Andromeda
     - GroupSpeciesBreathToolSecurity
@@ -505,6 +542,7 @@
     - SecurityArmas # Andromeda
     - SecurityAllAmmo # Andromeda
     - Trinkets
+    - WardenJobTrinkets
     - SecurityStar
     - ApoiadoresGroup # Andromeda
     - GroupSpeciesBreathToolSecurity
@@ -529,6 +567,7 @@
     - SecurityArmas # Andromeda
     - SecurityAllAmmo # Andromeda
     - Trinkets
+    - SecurityJobTrinkets
     - SecurityStar
     - ApoiadoresGroup # Andromeda
     - GroupSpeciesBreathToolSecurity
@@ -549,6 +588,7 @@
   - DetectivePDA # funkystation
   - SurvivalSecurity
   - Trinkets
+  - DetectiveJobTrinkets
   - SecurityStar
   - GroupSpeciesBreathToolSecurity
   - SecurityArmas # Andromeda
@@ -592,6 +632,7 @@
     - Glasses
     - SurvivalMedical
     - Trinkets
+    - ChiefMedicalOfficerJobTrinkets
     - ApoiadoresGroup # Andromeda
     - GroupSpeciesBreathToolMedical
     - ShocksGroup
@@ -615,6 +656,7 @@
     - Glasses
     - SurvivalMedical
     - Trinkets
+    - MedicalDoctorJobTrinkets
     - ApoiadoresGroup # Andromeda
     - GroupSpeciesBreathToolMedical
     - ShocksGroup
@@ -650,6 +692,7 @@
     - MedicalShoes
     - SurvivalMedical
     - Trinkets
+    - ChemistJobTrinkets
     - ApoiadoresGroup # Andromeda
     - GroupSpeciesBreathToolMedical
     - ShocksGroup
@@ -672,6 +715,7 @@
     - Glasses
     - SurvivalMedical
     - Trinkets
+    - ParamedicJobTrinkets
     - ApoiadoresGroup # Andromeda
     - GroupSpeciesBreathToolMedical
     - ShocksGroup
@@ -686,6 +730,7 @@
     - Glasses
     - Survival
     - Trinkets
+    - ZookeeperJobTrinkets
     - ApoiadoresGroup # Andromeda
     - GroupSpeciesBreathTool
     - ShocksGroup
@@ -701,6 +746,7 @@
     - Glasses
     - Survival
     - Trinkets
+    - ReporterJobTrinkets
     - ApoiadoresGroup # Andromeda
     - GroupSpeciesBreathTool
     - ShocksGroup
@@ -716,6 +762,7 @@
     - Glasses
     - Survival
     - Trinkets
+    - PsychologistJobTrinkets
     - ApoiadoresGroup # Andromeda
     - GroupSpeciesBreathTool
     - ShocksGroup
@@ -731,6 +778,7 @@
     - Glasses
     - Survival
     - Trinkets
+    - BoxerJobTrinkets
     - ApoiadoresGroup # Andromeda
     - GroupSpeciesBreathTool
     - ShocksGroup
