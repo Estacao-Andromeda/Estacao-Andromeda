@@ -83,6 +83,13 @@ A runa [bold][color=#ff6666]reviver[/color][/bold] pode ser usada por cultistas 
 
 A [bold][color=#ff6666]runa de barreira[/color][/bold] permite que a [color=#ff3333]Geômetra[/color] defenda fisicamente [color=#ff3333]Seus[/color] seguidores através do uso de barreiras mágicas. Quando ativada, um campo de força impenetrável se manifestará temporariamente acima dele, e quaisquer [color=#ff3333]runas de barreira[/color] adjacentes também serão ativadas. Não há limite para o comprimento desta corrente, exceto pela fortitude do invocador — seu sangue será drenado para o ritual a uma taxa determinada pelo número de barreiras produzidas.
 
+  <Box>
+    <GuideEntityEmbed Entity="SummoningRune" Caption="runa de invocação"/>
+  </Box>
+
+A [bold][color=#ff6666]runa de invocação[/color][/bold] permite que a [color=#ff3333]Geômetro[/color] manifeste fisicamente [color=#ff3333]Suas[/color] estruturas e servos de seu reino para o nosso. Quando ativada, uma runa de invocação trará uma [color=#ff3333]Caraca de Juggernaut[/color] ou um [color=#ff3333]Pilar[/color] à realidade, usando metal ou vidro rúnico.
+
+
 ## Feitiços de Sangue
 
 Feitiços de sangue são encantamentos que devem ser fisicamente esculpidos na pele do invocador por uma [color=#ff3333]entidade superior[/color] antes de serem usados. Felizmente para você, como o véu é tênue neste setor do espaço, [color=#ff3333]seu Patrono[/color] é capaz de estender a mão e gravar os sigilos apropriados em você sem que suas mãos precisem estar livres ou descontroladas. Sem o auxílio de uma [color=#ff6666]runa de poder[/color], no entanto, a gravação terá que ser rudimentar, e pode haver espaço suficiente em seu corpo para apenas um sigilo por vez.
@@ -105,7 +112,7 @@ Este feitiço pode permitir que você sequestre silenciosamente e com mais efici
     <GuideEntityEmbed Entity="ActionCultistTwistedConstruction" Caption="Twisted Construction"/>
   </Box>
 
-O feitiço de construção distorcida permite que os cultistas arranquem plastiaço das próprias paredes da estação, sem gastar o feitiço. Mas o verdadeiro poder vem da conversão de pilhas de plastiaço em [color=#bbbbbb]metal rúnico[/color], o que de fato gasta o feitiço.
+O feitiço de construção distorcida permite que os cultistas convertam pilhas de aço ou vidro em [color=#bbbbbb]metal rúnico[/color] ou [color=#bbbbbb]vidro rúnico[/color].
 
 ## Estruturas
 
