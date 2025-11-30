@@ -52,7 +52,6 @@ SPDX-License-Identifier: MIT
   Módulos [color=#a4885c]genéricos[/color] adicionam versatilidade. Eles podem ser encaixados em qualquer chassi, garantindo ferramentas úteis como pés de cabra, GPS e a capacidade de interagir com cabos. [bold]O chassi genérico do ciborgue pode acomodar até cinco módulos adicionais.[/bold]
   <Box>
     <GuideEntityEmbed Entity="BorgModuleCable" Caption="Cable"/>
-    <GuideEntityEmbed Entity="BorgModuleGPS" Caption="GPS"/>
     <GuideEntityEmbed Entity="BorgModuleFireExtinguisher" Caption="Fire Extinguisher"/>
   </Box>
   <Box>
@@ -66,7 +65,7 @@ SPDX-License-Identifier: MIT
     <GuideEntityEmbed Entity="BorgModuleMining" Caption="Mining"/>
     <GuideEntityEmbed Entity="BorgModuleCleaning" Caption="Cleaning"/>
     <GuideEntityEmbed Entity="BorgModuleService" Caption="Service"/>
-    <GuideEntityEmbed Entity="BorgModuleTreatment" Caption="Treatment"/>
+    <GuideEntityEmbed Entity="BorgModuleChemical" Caption="Chemical"/>
   </Box>
   <Box>
     [italic]Exemplos de módulos especializados. Observe as cores do invólucro e da placa de circuito.[/italic]
