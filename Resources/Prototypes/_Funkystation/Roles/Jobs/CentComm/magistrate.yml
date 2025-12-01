@@ -58,8 +58,9 @@
   equipment:
     id: MagistratePDA
     eyes: ClothingEyesGlassesSecurity
-    ears: ClothingHeadsetCentCom
+    ears: ClothingHeadsetAltCentCom
     pocket2: RubberStampMagistrate
+    belt: ClothingBeltStorageWaistbag
   inhand:
   - BriefcaseBrownFilled
   storage:
@@ -67,3 +68,4 @@
     - Flash
     - BookSpaceLaw
     - BluespaceLifelineImplanter
+    - BoxFolderCentComClipboard

@@ -77,6 +77,7 @@
     - HoPJumpsuit
     - HoPBackpack
     - HoPOuterClothing
+    - GenericShoes
     - Glasses
     - Survival
     - Trinkets
@@ -126,6 +127,7 @@
     - BartenderJumpsuit
     - CommonBackpack
     - BartenderOuterClothing
+    - GenericShoes
     - Glasses
     - Survival
     - Trinkets
@@ -138,8 +140,9 @@
 - type: roleLoadout
   id: JobServiceWorker
   groups:
-    - BartenderJumpsuit
+    - ServiceJumpsuit
     - CommonBackpack
+    - GenericShoes
     - Glasses
     - Survival
     - Trinkets
@@ -158,6 +161,7 @@
     - ChefJumpsuit
     - CommonBackpack
     - ChefOuterClothing
+    - GenericShoes
     - Glasses
     - Survival
     - Trinkets
@@ -173,6 +177,7 @@
   groups:
     - LibrarianJumpsuit
     - CommonBackpack
+    - GenericShoes
     - Glasses
     - Survival
     - Trinkets
@@ -189,6 +194,7 @@
     - LawyerNeck
     - LawyerJumpsuit
     - CommonBackpack
+    - GenericShoes
     - Glasses
     - Survival
     - Trinkets
@@ -210,6 +216,7 @@
     - CommonBackpack
     - ChaplainOuterClothing
     - ChaplainBelt # imp
+    - GenericShoes
     - Glasses
     - Survival
     - ChaplainBible # Funky
@@ -303,6 +310,7 @@
     - MusicianJumpsuit
     - CommonBackpack
     - MusicianOuterClothing
+    - GenericShoes
     - Glasses
     - Survival
     - Trinkets
