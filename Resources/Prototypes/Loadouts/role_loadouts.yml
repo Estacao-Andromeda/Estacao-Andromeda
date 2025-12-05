@@ -631,11 +631,11 @@
     - MedicalMask
     - MedicalDoctorGlasses #Funky
     - ChiefMedicalOfficerJumpsuit
-    - MedicalGloves
+    - ChemistGloves
     - MedicalBackpack
     - ChiefMedicalOfficerOuterClothing
     - ChiefMedicalOfficerNeck
-    - ChiefMedicalOfficerShoes
+    - ChemistShoes
     - MedicalItensLoadout # Andromeda
     - Glasses
     - SurvivalMedical
@@ -693,11 +693,10 @@
     - MedicalMask
     - MedicalChemistGlasses #Funky
     - ChemistJumpsuit
-    - MedicalGloves
+    - ChemistGloves
     - ChemistBackpack
-    - MedicalNeck
     - ChemistOuterClothing
-    - MedicalShoes
+    - ChemistShoes
     - SurvivalMedical
     - Trinkets
     - ChemistJobTrinkets
