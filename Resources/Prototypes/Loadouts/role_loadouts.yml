@@ -333,7 +333,7 @@
     - QuartermasterOuterClothing
     - QuartermasterShoes
     - Glasses
-    - Survival
+    - SurvivalSalvageExtended
     - Trinkets
     - QuartermasterJobTrinkets
     - ApoiadoresGroup # Andromeda
@@ -366,11 +366,12 @@
   id: JobSalvageSpecialist
   groups:
     - SalvageSpecialistHead
+    - SalvageSpecialistJumpsuit
     - SalvageSpecialistBackpack
     - SalvageSpecialistOuterClothing
     - SalvageSpecialistShoes
     - Glasses
-    - Survival
+    - SurvivalSalvageExtended
     - Trinkets
     - SalvageSpecialistJobTrinkets
     - ApoiadoresGroup # Andromeda
