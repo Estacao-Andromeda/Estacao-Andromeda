@@ -136,7 +136,7 @@
     closeSound:
       path: /Audio/Machines/airlock_close.ogg
     denySound:
-      path: /Audio/Machines/airlock_deny.ogg
+      path: /Audio/_Andromeda/Eventos/Machines/airlock_deny.ogg
   - type: ContainerContainer
     containers:
       board: !type:Container
