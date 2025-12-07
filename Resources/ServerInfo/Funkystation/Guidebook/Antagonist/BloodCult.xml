@@ -121,11 +121,11 @@ O feitiço de construção distorcida permite que os cultistas convertam pilhas 
 	<GuideEntityEmbed Entity="CultJuggernautShell" Caption="Juggernaut Shell"/>
   </Box>
 
-Estruturas são objetos mundanos que possuem uma mera gota de [color=#ff3333]Seu[/color] ser. Construíveis usando [color=#bbbbbb]metal rúnico[/color] através do menu de criação (tecla "G"), esses objetos são uma grande dádiva para um culto desenvolvido.
+As estruturas são objetos mundanos que possuem uma mera gota de [color=#ff3333]seu[/color] ser. Podem ser construídas usando [color=#bbbbbb]aço rúnico[/color] através de uma runa de invocação. Coloque os materiais sobre a runa para invocá-las. Esses objetos são uma grande dádiva para um culto desenvolvido.
 
 Pilones curam gradualmente aqueles devotos de [color=#ff3333]Nar'Sie[/color], incluindo constructos habitados. Apenas por existirem perto deles, devotos vivos receberão continuamente a [color=#ff3333]Sua[/color] bênção, unindo ossos e tendões e desfazendo qualquer tentativa malfeita de desconversão.
 
-Cascas de Juggernaut são estátuas inertes de [color=#bbbbbb]metal rúnico[/color]. Elas são completamente inúteis... até que uma pedra da alma habitada seja inserida, pelo menos.
+Cascas de Juggernaut são estátuas inertes de [color=#bbbbbb]aço rúnico[/color]. Elas são completamente inúteis... até que uma pedra da alma habitada ou um cadáver seja inserida, pelo menos.
 
 ## Construtos
 
@@ -138,8 +138,28 @@ Construtos são lacaios não verbais e quase insensíveis do culto do sangue. Fe
 
 Sombras são espíritos, em sua maioria físicos, produzidos pela ativação de uma pedra da alma habitada na mão. Leais àquele que os libertou, Sombras não medirão esforços para ver a vontade de seu mestre cumprida. O que lhes falta em força física, compensam em velocidade e resistência — uma Sombra pode ser recapturada em uma pedra da alma vazia para rejuvenescer sua saúde.
 
-Juggernauts são bestas enormes feitas de cascos de juggernaut, despertadas pela inserção de uma pedra da alma habitada. Lentos e meticulosos, essas monstruosidades são completamente imunes a ataques fracos e são capazes de derrubar até mesmo as paredes mais fortes. Um recurso inestimável para um culto cuja presença a bordo da estação já é conhecida.
+Os Juggernauts são bestas gigantescas feitas de cascos de Juggernauts, despertadas pela inserção de uma pedra da alma habitada ou de um cadáver. Lentas e meticulosas, essas monstruosidades são completamente imunes a ataques fracos e capazes de derrubar até mesmo as paredes mais resistentes. Um recurso inestimável para um culto cuja presença a bordo da estação já é conhecida.
+- Os Juggernauts podem ser rejuvenescidos ao absorverem sangue de poças abaixo deles, e cascos inativos podem ser reparados inserindo uma pedra da alma ou um corpo e também permitindo que absorvam sangue de poças abaixo deles.
 
+## Itens
+
+  <Box>
+  <GuideEntityEmbed Entity="CultDaggerCurved" Caption="Cult Dagger"/>
+	<GuideEntityEmbed Entity="ClothingOuterArmorCult" Caption="Acolyte Armor"/>
+	<GuideEntityEmbed Entity="ClothingHeadHelmetCult" Caption="Cult Helmet"/>
+	<GuideEntityEmbed Entity="ClothingShoesBootsForsaken" Caption="Forsaken Boots"/>
+  </Box>
+
+Um culto está incompleto sem suas ferramentas. A mais importante delas é a sua Adaga do Culto. Você pode invocar adagas através da sua habilidade de seleção de feitiços.
+A adaga do culto é uma arma corpo a corpo decente que pode ser usada para atacar inimigos e gravar runas. Ela é incapaz de ferir outros membros do culto, então você pode atacar livremente sem o risco de ferir seus aliados.
+
+Os itens a seguir são todos construídos através de uma runa de invocação. Coloque os materiais sobre a runa para invocá-los.
+
+A Armadura de Acólito é um conjunto de armadura que o protegerá da maioria dos ataques. Ela é feita de plastiaço rúnico e roupas externas para sustentar as placas da armadura. Seu feitiço Construção Distorcida permite que você converta plastiaço em plastiaço rúnico.
+
+O Elmo do Culto é como você esperaria e é construído ao mesmo tempo que a Armadura de Acólito.
+
+As Botas Abandonadas são muito importantes para um cultista. Elas permitem que suas botas se agarrem ao chão com uma força sobrenatural e evitam que você escorregue. Elas podem ser feitas com 5 peças de plástico e 5 de tecido, ou simplesmente com 5 peças de durathread.
 
 ### Rasgando o Véu
 
