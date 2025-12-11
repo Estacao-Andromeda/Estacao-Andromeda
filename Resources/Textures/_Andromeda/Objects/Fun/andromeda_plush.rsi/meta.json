@@ -1,0 +1,32 @@
+{
+    "version": 1,
+    "license": "CC-BY-NC-SA-4.0",
+    "copyright": "Cosmos",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "janie"
+        },
+        {
+            "name": "kali"
+        },
+        {
+            "name": "podro"
+        },
+        {
+            "name": "apolo"
+        },
+        {
+            "name": "seal"
+        },
+        {
+            "name": "wells_chibi"
+        },
+        {
+            "name": "phill_pelucia"
+        }
+    ]
+}

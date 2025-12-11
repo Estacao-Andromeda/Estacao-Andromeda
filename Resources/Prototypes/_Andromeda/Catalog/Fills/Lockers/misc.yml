@@ -1,0 +1,25 @@
+- type: entityTable
+  id: AndromedaMaintLoot
+  table: !type:GroupSelector
+    children:
+    - !type:EntSelector
+      id: PlushieJanie
+      weight: 10
+    - !type:EntSelector
+      id: KaliPlushie
+      weight: 10
+    - !type:EntSelector
+      id: PodroPlushie
+      weight: 10
+    - !type:EntSelector
+      id: ApoloPlushie
+      weight: 5
+    - !type:EntSelector
+      id: AndroSealPlushie
+      weight: 20
+    - !type:EntSelector
+      id: WellsPlushie
+      weight: 10
+    - !type:EntSelector
+      id: PhilMalPlushie
+      weight: 10
