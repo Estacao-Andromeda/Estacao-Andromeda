@@ -1,0 +1,190 @@
+- type: entity
+  parent: BaseItem
+  id: BasePlushieVulp
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/toys.rsi
+  - type: Tag
+    tags:
+      - Payload
+      - ClothMade
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Effects/silence.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Effects/silence.ogg
+  - type: EmitSoundOnCollide
+    sound:
+      path: /Audio/Effects/silence.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Effects/silence.ogg
+  - type: EmitSoundOnTrigger
+    sound:
+      path: /Audio/Effects/silence.ogg
+  - type: UseDelay
+    delay: 1.0
+  - type: MeleeWeapon
+    wideAnimationRotation: 180
+    soundHit:
+      path: /Audio/Effects/silence.ogg
+    damage:
+      types:
+        Blunt: 0
+    hidden: true
+  - type: PhysicalComposition
+    materialComposition:
+      Cloth: 100
+  - type: StaticPrice
+    price: 5
+  - type: Food
+    requiresSpecialDigestion: true
+    useSound:
+      path: /Audio/Effects/silence.ogg
+    delay: 2
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 10
+        reagents:
+        - ReagentId: Fiber
+          Quantity: 10
+      leaky:
+        maxVol: 20
+  - type: InjectableSolution
+    solution: leaky
+  - type: LeakyObject
+  - type: ContainerContainer
+    containers:
+      stash: !type:ContainerSlot {}
+  - type: Speech
+    speechVerb: Default # for pais (In the secret stash)
+  - type: SecretStash
+    secretStashName: secret-stash-plushie
+    blacklist:
+      components:
+      - SecretStash # Prevents being able to insert plushies inside each other (infinite plush)!
+      - NukeDisk # Could confuse the nukies if they don't know that plushies have a stash.
+      tags:
+      - QuantumSpinInverter # It will cause issues with the grinder...
+      - FakeNukeDisk # So you can't tell if the nuke disk is real or fake depending on if it can be inserted or not.
+  - type: ToolOpenable
+    openToolQualityNeeded: Slicing
+    closeToolQualityNeeded: Slicing # Should probably be stitching or something if that gets added
+    name: secret-stash-plushie
+
+
+- type: entity
+  parent: BasePlushieVulp
+  id: PlushieJanie
+  name: Janie plushie
+  description: Sua própria Janie, edição de colecionador.
+  components:
+  - type: Sprite
+    sprite: _Andromeda/Objects/Fun/andromeda_plush.rsi
+    state: janie
+  - type: UseDelay
+    delay: 1.5
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/_DV/Voice/Vulpkanin/dog_bark1.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/_DV/Voice/Vulpkanin/dog_whine.ogg
+  - type: EmitSoundOnCollide
+    sound:
+      path: /Audio/Effects/silence.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/_DV/Voice/Vulpkanin/dog_bark1.ogg
+      params:
+        volume: 1
+  - type: Food
+    requiresSpecialDigestion: true
+    useSound:
+      path: /Audio/_EinsteinEngines/Voice/Vulpkanin/vulpscream4.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/_DV/Voice/Vulpkanin/dog_snarl2.ogg
+  - type: EmitSoundOnTrigger
+    sound:
+      path: /Audio/_DV/Voice/Vulpkanin/dog_snarl2.ogg
+
+- type: entity
+  parent: PlushieJanie
+  id: KaliPlushie
+  name: Kali plushie
+  description: Kali só para você, edição de colecionador.
+  components:
+  - type: Sprite
+    sprite: _Andromeda/Objects/Fun/andromeda_plush.rsi
+    state: kali
+
+- type: entity
+  parent: BasePlushieVulp
+  id: PodroPlushie
+  name: Podro  plushie
+  description: Podro só para você, edição de colecionador.
+  components:
+  - type: Sprite
+    sprite: _Andromeda/Objects/Fun/andromeda_plush.rsi
+    state: podro
+  - type: UseDelay
+    delay: 1.5
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Animals/mouse_squeak.ogg
+      params:
+        volume: 1
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Animals/mouse_squeak.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Animals/mouse_squeak.ogg
+      params:
+        volume: 1
+
+- type: entity
+  parent: PodroPlushie
+  id: ApoloPlushie
+  name: Apolo  plushie
+  description: Apolo só para você, edição de colecionador.
+  components:
+  - type: Sprite
+    sprite: _Andromeda/Objects/Fun/andromeda_plush.rsi
+    state: apolo
+
+- type: entity
+  parent: PodroPlushie
+  id: AndroSealPlushie
+  name: Foca  plushie
+  description: Um plushie de foca.
+  components:
+  - type: Sprite
+    sprite: _Andromeda/Objects/Fun/andromeda_plush.rsi
+    state: seal
+
+- type: entity
+  parent: PodroPlushie
+  id: WellsPlushie
+  name: Wells Chaplon
+  description: Ele ama Gorilas
+  components:
+  - type: Sprite
+    sprite: _Andromeda/Objects/Fun/andromeda_plush.rsi
+    state: wells_chibi
+    scale: 0.8, 0.8
+
+- type: entity
+  parent: PlushieLizard
+  id: PhilMalPlushie
+  name: Phil-Mal
+  description: Oi Phil!!!
+  components:
+  - type: Sprite
+    sprite: _Andromeda/Objects/Fun/andromeda_plush.rsi
+    state: phill_pelucia
+    scale: 0.8, 0.8
