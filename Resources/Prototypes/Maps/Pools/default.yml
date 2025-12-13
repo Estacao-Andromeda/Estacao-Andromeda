@@ -56,11 +56,14 @@
   - Fland
   - Marathon
   - Meta
-  - AndromedaCyberiad
+  #- AndromedaCyberiad
   #- Relic ## Essa porra de mapa é cursed demais
   - Saltern
   - Core
   - Fland
-  - Olympus
-
+# - open slot
+# - open slot
+  # backup maps
+  # comment and uncomment as needed
+  - Court
 
