@@ -104,9 +104,9 @@ A magia de invocação de adaga permite que um cultista receba instantaneamente 
     <GuideEntityEmbed Entity="ActionCultistSanguineDream" Caption="Sanguine Dream"/>
   </Box>
 
-O feitiço Sonho Sanguíneo mergulha a vítima em um sono repleto de pesadelos, onde ela sonha com facas ensanguentadas. Ele também drena a energia de entidades cibernéticas.
+O feitiço Sonho Sanguíneo mergulha a vítima em um sono repleto de pesadelos, onde ela sonha com facas ensanguentadas. Isso também drena a energia de entidades cibernéticas. Aqueles com um escudo mental ficarão brevemente atordoados em vez de adormecerem.
 
-Este feitiço pode permitir que você sequestre silenciosamente e com mais eficiência aqueles que seu culto precisa. Ele não funcionará em pessoas com a mind-shield. Recomenda-se que todos os cultistas mantenham um feitiço Sonho Sanguíneo preparado ao se aventurarem além de sua base de operações, [bold]por precaução.[/bold]"
+Este feitiço pode permitir que você sequestre silenciosamente e com mais eficiência aqueles que seu culto precisa. Aqueles com escudos mentais ficarão brevemente atordoados, fazendo com que caiam no chão e larguem quaisquer itens que estiverem carregando. Recomenda-se que todos os cultistas mantenham um feitiço Sonho Sanguíneo preparado ao se aventurarem além de sua base de operações, [bold]por precaução.[/bold]
 
   <Box>
     <GuideEntityEmbed Entity="ActionCultistTwistedConstruction" Caption="Twisted Construction"/>
