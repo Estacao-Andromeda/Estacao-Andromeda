@@ -43,6 +43,8 @@
     - type: Inventory # Allows vulps to wear properly shaped helmets
       speciesId: vulpkanin
     - type: Thirst
+    - type: MessyDrinker
+      spillChance: 0.33
     - type: Icon
       sprite: _DV/Mobs/Species/Vulpkanin/parts.rsi
       state: full
