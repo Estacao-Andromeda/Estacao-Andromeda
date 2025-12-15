@@ -5,6 +5,7 @@
 # SPDX-FileCopyrightText: 2024 Piras314 <p1r4s@proton.me>
 # SPDX-FileCopyrightText: 2024 Tadeo <td12233a@gmail.com>
 # SPDX-FileCopyrightText: 2025 SigmaTheDragon <162711378+SigmaTheDragon@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 YaraaraY <158123176+YaraaraY@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
@@ -97,7 +98,7 @@
       nutriblock:
       - FoodSnackNutribrick
       flare:
-      - Flare
+      - GlowstickBase
       tank:
       - EmergencyOxygenTankFilled
       mask:
@@ -187,7 +188,7 @@
       nutriblock:
       - FoodSnackNutribrick
       flare:
-      - Flare
+      - GlowstickBase
       tank:
       - EmergencyNitrogenTankFilled
       mask:
@@ -213,7 +214,7 @@
       nutriblock:
       - FoodSnackNutribrick
       flare:
-      - Flare
+      - GlowstickYellow
       tank:
       - ExtendedEmergencyOxygenTankFilled
       mask:
@@ -237,7 +238,7 @@
       nutriblock:
       - FoodSnackNutribrick
       flare:
-      - Flare
+      - GlowstickYellow
       tank:
       - ExtendedEmergencyNitrogenTankFilled
       mask:
@@ -265,7 +266,7 @@
       nutriblock:
       - FoodSnackNutribrick
       flare:
-      - Flare
+      - GlowstickRed
       tank:
       - ExtendedEmergencyOxygenTankFilled
       mask:
@@ -289,7 +290,7 @@
       nutriblock:
       - FoodSnackNutribrick
       flare:
-      - Flare
+      - GlowstickRed
       tank:
       - ExtendedEmergencyNitrogenTankFilled
       mask:
@@ -317,7 +318,7 @@
       nutriblock:
       - FoodSnackNutribrick
       flare:
-      - Flare
+      - GlowstickBlue
       tank:
       - EmergencyOxygenTankFilled
       mask:
@@ -341,7 +342,7 @@
       nutriblock:
       - FoodSnackNutribrick
       flare:
-      - Flare
+      - GlowstickBlue
       tank:
       - EmergencyNitrogenTankFilled
       mask:
@@ -369,7 +370,7 @@
       nutriblock:
       - FoodSnackNutribrick
       flare:
-      - Flare
+      - GlowstickPurple
       tank:
       - EmergencyFunnyOxygenTankFilled
       mask:
@@ -398,7 +399,7 @@
       nutriblock:
       - FoodSnackNutribrick
       flare:
-      - Flare
+      - GlowstickPurple
       tank:
       - EmergencyNitrogenTankFilled
       mask:
@@ -474,7 +475,7 @@
       nutriblock:
       - FoodBreadBaguette
       flare:
-      - Flare
+      - GlowstickPurple
       tank:
       - EmergencyOxygenTankFilled
       mask:
@@ -496,7 +497,7 @@
       nutriblock:
       - FoodBreadBaguette
       flare:
-      - Flare
+      - GlowstickPurple
       tank:
       - EmergencyNitrogenTankFilled
       mask:
@@ -568,3 +569,54 @@
       - CableApcStack10
   - type: Sprite
     state: box_silicon
+- type: entity
+  parent: BoxSurvivalSlots
+  id: BoxSurvivalSlotsSalvage
+  name: extended-capacity survival box
+  description: It's a box with basic internals inside. This one is labelled to contain an extended-capacity tank.
+  suffix: Extended
+  components:
+  - type: ContainerFill
+    containers:
+      water:
+      - DrinkWaterBottleFull
+      nutriblock:
+      - FoodSnackNutribrick
+      flare:
+      - Flare
+      tank:
+      - ExtendedEmergencyOxygenTankFilled
+      mask:
+      - ClothingMaskBreath
+      emergencypen:
+      - EmergencyMedipen
+      spacepen:
+      - SpaceMedipen
+  - type: Sprite
+    state: box_extend
+
+- type: entity
+  parent: BoxSurvivalSlotsSalvage
+  id: BoxSurvivalSlotsSalvageNitrogen
+  suffix: Extended N2
+  components:
+  - type: ContainerFill
+    containers:
+      water:
+      - DrinkWaterBottleFull
+      nutriblock:
+      - FoodSnackNutribrick
+      flare:
+      - Flare
+      tank:
+      - ExtendedEmergencyNitrogenTankFilled
+      mask:
+      - ClothingMaskBreath
+      emergencypen:
+      - EmergencyMedipen
+      spacepen:
+      - SpaceMedipen
+  - type: Label
+    currentLabel: reagent-name-nitrogen
+  - type: Sprite
+    state: box_extend

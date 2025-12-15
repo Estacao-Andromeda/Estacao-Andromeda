@@ -13,7 +13,7 @@ namespace Content.Shared._DV.CCVars;
 /// </summary>
 [CVarDefs]
 // ReSharper disable once InconsistentNaming - Shush you
-public sealed partial class DCCVars
+public sealed class DCCVars
 {
     /*
      * Vision filters / Species
