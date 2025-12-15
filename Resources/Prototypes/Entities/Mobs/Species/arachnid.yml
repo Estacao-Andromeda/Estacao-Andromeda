@@ -61,7 +61,7 @@
       actionDescription: bite-action-description-sleep
       hungerCost: 50
       injectedReagents:
-      ChloralHydrate: 10
+        ChloralHydrate: 10
     - type: Tag
       tags:
         - CanPilot
