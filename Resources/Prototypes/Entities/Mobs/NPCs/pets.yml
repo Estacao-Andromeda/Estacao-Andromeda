@@ -119,6 +119,7 @@
     - VimPilot
   - type: StealTarget
     stealGroup: AnimalIan
+  - type: MessyDrinker
 
 - type: entity
   name: Old Ian
@@ -144,6 +145,7 @@
       amount: 2
     - id: SheetSteel1
     - id: MaterialHideCorgi
+  - type: MessyDrinker
 
 - type: entity
   name: Lisa
@@ -167,6 +169,7 @@
     attributes:
       proper: true
       gender: female
+  - type: MessyDrinker
 
 - type: entity
   name: real mouse
@@ -208,6 +211,7 @@
     - id: MaterialHideCorgi
   - type: StealTarget
     stealGroup: AnimalIan
+  - type: MessyDrinker
 
 - type: entity
   name: Runtime
@@ -412,6 +416,7 @@
     - VimPilot
   - type: StealTarget
     stealGroup: AnimalMcGriff
+  - type: MessyDrinker
 
 - type: entity
   name: Paperwork
@@ -508,6 +513,7 @@
   - type: Speech
     speechVerb: Canine
     speechSounds: Dog
+  - type: MessyDrinker
 
 - type: entity
   name: Morty
@@ -648,6 +654,7 @@
     - VimPilot
   - type: StealTarget
     stealGroup: AnimalRenault
+  - type: MessyDrinker
 
 - type: entity
   name: Hamlet
