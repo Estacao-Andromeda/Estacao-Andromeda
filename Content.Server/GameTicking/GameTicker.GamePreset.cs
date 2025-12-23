@@ -31,15 +31,10 @@
 //
 // SPDX-License-Identifier: MIT
 
-using Content.Server.Ghost;
-using Content.Server.GameTicking.Presets;
-using Content.Server.Maps;
-using Content.Shared.CCVar;
-using JetBrains.Annotations;
-using Robust.Shared.Player;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Threading.Tasks;
+using Content.Server.Ghost;
 using Content.Server.GameTicking.Presets;
 using Content.Server.Maps;
 using Content.Shared.CCVar;
@@ -51,7 +46,7 @@ namespace Content.Server.GameTicking;
 
 public sealed partial class GameTicker
 {
-
+    [Dependency] private readonly GhostReturnToRoundSystem _ghostReturnToRound = default!;
     public const float PresetFailedCooldownIncrease = 30f;
 
     /// <summary>
@@ -71,8 +66,6 @@ public sealed partial class GameTicker
 
     private bool StartPreset(ICommonSession[] origReadyPlayers, bool force)
     {
-        [Dependency] private readonly GhostReturnToRoundSystem _ghostReturnToRound = default!;
-        public const float PresetFailedCooldownIncrease = 30f;
         var startAttempt = new RoundStartAttemptEvent(origReadyPlayers, force);
         RaiseLocalEvent(startAttempt);
 
