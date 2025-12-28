@@ -78,6 +78,8 @@
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
+  alternateTitles:
+  - SecurityOfficerHallMonitor
 
 - type: startingGear
   id: SecurityOfficerGear
@@ -91,3 +93,7 @@
     #- MagazinePistol # Andromeda
     - SecHypo # Goobstation
     - CartridgeEmergency
+
+- type: jobAlternateTitle
+  id: SecurityOfficerHallMonitor
+  name: job-name-alt-secoff-1
