@@ -141,6 +141,12 @@ public sealed partial class MaterialReclaimerComponent : Component
     [DataField, AutoNetworkedField]
     public int ItemsProcessed;
 
+    [DataField]
+
+    /// <summary>
+    /// The damage the recycler will deal to creatures.
+    /// </summary>
+    public DamageSpecifier? Damage = default!;
     /// <summary>
     /// Container ID for the processing queue container.
     /// </summary>
