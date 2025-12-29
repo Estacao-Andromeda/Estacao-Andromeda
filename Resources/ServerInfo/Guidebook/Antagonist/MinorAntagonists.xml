@@ -89,4 +89,17 @@ SPDX-License-Identifier: MIT
   Slimes e aranhas não têm características marcantes, mas irão [color=cyan]infestar a estação[/color] de vez em quando. Ambos perseguirão e atacarão qualquer coisa que virem.
   - Slimes podem [bold]causar dano celular extra ou dano de veneno[/bold], dependendo de sua cor. Água os fere da mesma forma que feriria uma pessoa slime.
   - Aranhas têm uma picada venenosa e podem [bold]criar teias[/bold] difíceis de mover. Teias são facilmente destruídas com uma lâmina. Elas também podem abrir AirLocks.
+
+  # Mini Dragon
+  <Box>
+    <GuideEntityEmbed Entity="MobMiniDragon" Scale="2.4"/>
+  </Box>
+
+  Mini Dragões são pequenas criaturas semelhantes a dragões que gostam de acumular tesouros e riquezas.
+  - Apesar de ser um antagonista, você [bold]não[/bold] é diretamente hostil à tripulação, mas [bold]deve[/bold] atacá-los e matá-los se eles ameaçarem ou prejudicarem você ou seu tesouro.
+  - Você tem a liberdade de escolher o que deseja acumular! Pelúcias, ouro, armas, dinheiro e muito mais, tudo à sua escolha!
+  - Você possui regeneração de saúde relativamente rápida! O ícor que corre em suas veias ajudará a mantê-lo vivo, mas não se esqueça de que você não é imortal!
+  - Tome cuidado para não ser caçado! Você pode ser abatido e transformado em carne de dragão, que fornece [bold]ícor[/bold] valioso para a tripulação, então tente sobreviver!
+  - Suas garras afiadas e músculos poderosos permitem que você [bold]arrombe portas[/bold] rapidamente. Você é capaz até mesmo de arrombar portas [bold]trancadas[/bold]!
+  - Sua linhagem dracônica lhe permite voar e sobreviver no espaço. Quando ferido, você sempre pode retornar à segurança do cosmos!
 </Document>
