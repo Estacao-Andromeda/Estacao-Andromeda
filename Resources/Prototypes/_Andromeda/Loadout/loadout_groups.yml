@@ -229,6 +229,13 @@
   minLimit: 0
   maxLimit: 3
   loadouts:
+  - PlushieJanieLoadout
+  - KaliPlushieLoadout
+  - PodroPlushieLoadout
+  - ApoloPlushieLoadout
+  - AndroSealPlushieLoadout
+  - WellsPlushieLoadout
+  - PhilMalPlushieLoadout
   - FigureLunaraGooben
   - FigurePodroSilva
   - FigureWellsChaplon

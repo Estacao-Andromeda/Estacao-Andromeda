@@ -1,0 +1,48 @@
+- type: loadout
+  id: PlushieJanieLoadout
+  storage:
+    back:
+    - PlushieJanie
+  groupBy: "Androplushies"
+
+- type: loadout
+  id: KaliPlushieLoadout
+  storage:
+    back:
+    - KaliPlushie
+  groupBy: "Androplushies"
+
+- type: loadout
+  id: PodroPlushieLoadout
+  storage:
+    back:
+    - PodroPlushie
+  groupBy: "Androplushies"
+
+- type: loadout
+  id: ApoloPlushieLoadout
+  storage:
+    back:
+    - ApoloPlushie
+  groupBy: "Androplushies"
+
+- type: loadout
+  id: AndroSealPlushieLoadout
+  storage:
+    back:
+    - AndroSealPlushie
+  groupBy: "Androplushies"
+
+- type: loadout
+  id: WellsPlushieLoadout
+  storage:
+    back:
+    - WellsPlushie
+  groupBy: "Androplushies"
+
+- type: loadout
+  id: PhilMalPlushieLoadout
+  storage:
+    back:
+    - PhilMalPlushie
+  groupBy: "Androplushies"

@@ -57,7 +57,7 @@ Seu ganha-pão como cultista são suas [color=#ff6666]Runas[/color]. Esses sigil
 As runas mais importantes que você tem disponíveis são a [color=#ff6666]runa de oferenda[/color] e a [color=#ff6666]runa de fortalecimento[/color]. Com essas runas colocadas em um local seguro, os cultistas podem começar a realizar [color=#dd55aa]a vontade de sua mestra[/color].
   
   <Box>
-    <GuideEntityEmbed Entity="OfferingRune" Caption="offering rune"/>
+    <GuideEntityEmbed Entity="OfferingRune" Caption="conversion rune"/>
   </Box>
 
 A [bold][color=#ff6666]runa da oferenda[/color][/bold] permite que os cultistas convertam os indivíduos de mente fraca para a sua causa. Assim que a [color=#ff3333]Geômetra[/color] tiver ascendido, o poder dela pode destruir as proteções mentais daqueles que lhe foram oferecidos.

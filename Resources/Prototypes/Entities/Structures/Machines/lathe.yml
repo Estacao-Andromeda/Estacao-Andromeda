@@ -1281,7 +1281,7 @@
     - VoiceTrigger
     - WeaponAdvancedLaser
     - WeaponDisabler
-    - WeaponDisablerSMG
+#    - WeaponDisablerSMG
     - WeaponLaserCannon
     - WeaponLaserCarbine
     - WeaponXrayCannon
