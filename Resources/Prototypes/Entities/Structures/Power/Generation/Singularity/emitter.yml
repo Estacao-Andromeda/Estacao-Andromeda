@@ -54,8 +54,7 @@
         mask:
         - MachineMask
         layer:
-        - MidImpassable
-        - HighImpassable
+        - GlassLayer
   - type: Transform
     anchored: true
   - type: Sprite
