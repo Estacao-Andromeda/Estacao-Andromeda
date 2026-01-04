@@ -82,7 +82,7 @@ SPDX-License-Identifier: MIT
     </ColorBox>
     <ColorBox Color="#DA1010">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-	  Nitrogen
+	   Nitrogen
       </Box>
     </ColorBox>
     <ColorBox>
@@ -109,7 +109,7 @@ SPDX-License-Identifier: MIT
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-	  Strongly Endothermic
+	    Strongly Endothermic
       </Box>
     </ColorBox>
     <ColorBox Color="#7b68ee">
@@ -162,7 +162,7 @@ SPDX-License-Identifier: MIT
     </ColorBox>
     <ColorBox Color="#fa8072">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-	  Healium
+	    Healium
       </Box>
     </ColorBox>
     <ColorBox>
@@ -286,7 +286,7 @@ SPDX-License-Identifier: MIT
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-	  Electrolyze
+	    Electrolyze
       </Box>
     </ColorBox>
     <ColorBox Color="#9370db">
@@ -311,7 +311,7 @@ SPDX-License-Identifier: MIT
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-	  270k
+	    270k
       </Box>
     </ColorBox>
     <ColorBox Color="#9370db">
@@ -348,7 +348,7 @@ SPDX-License-Identifier: MIT
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-	  Stops Reactions
+	    Stops Reactions
       </Box>
     </ColorBox>
     <ColorBox Color="#525151">
@@ -358,7 +358,7 @@ SPDX-License-Identifier: MIT
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-	  Electrolyze-100k
+	    Electrolyze-100k
       </Box>
     </ColorBox>
     <ColorBox Color="#33cccc">
