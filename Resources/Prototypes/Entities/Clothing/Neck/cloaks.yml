@@ -30,6 +30,7 @@
 # SPDX-FileCopyrightText: 2025 Icepick <122653407+Icepicked@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 IronDragoon <8961391+IronDragoon@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 Lachryphage <stuart.e.clough@gmail.com>
+# SPDX-FileCopyrightText: 2025 Xcybitt <197952719+Xcybitt@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
@@ -52,6 +53,12 @@
     modifiers:
       coefficients:
         Heat: 0.90
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 5
+    bluntStaminaDamageFactor: 4 #it's heavy, it hits hard
+
 - type: entity
   parent: [ClothingNeckBase, BaseCommandContraband]
   id: ClothingNeckCloakCap
@@ -69,6 +76,12 @@
     modifiers:
       coefficients:
         Heat: 0.90
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 5
+    bluntStaminaDamageFactor: 2
+
 - type: entity
   parent: [ClothingNeckBase, BaseCommandContraband]
   id: ClothingNeckCloakHos
@@ -86,6 +99,11 @@
     modifiers:
       coefficients:
         Heat: 0.90
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 5
+    bluntStaminaDamageFactor: 2
 
 - type: entity
   parent: [ClothingNeckBase, BaseCommandContraband]
@@ -104,6 +122,11 @@
     modifiers:
       coefficients:
         Heat: 0.90
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 5
+    bluntStaminaDamageFactor: 2
 
 - type: entity
   parent: [ClothingNeckBase, BaseCommandContraband]
@@ -122,6 +145,11 @@
     modifiers:
       coefficients:
         Heat: 0.90
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 5
+    bluntStaminaDamageFactor: 2
 
 - type: entity
   parent: [ClothingNeckBase, BaseCommandContraband]
@@ -140,6 +168,11 @@
     modifiers:
       coefficients:
         Heat: 0.90
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 5
+    bluntStaminaDamageFactor: 2
 
 - type: entity
   parent: [ClothingNeckBase, BaseCommandContraband]
@@ -158,6 +191,11 @@
     modifiers:
       coefficients:
         Heat: 0.90
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 5
+    bluntStaminaDamageFactor: 2
 
 - type: entity
   parent: [ClothingNeckBase, BaseCommandContraband]
@@ -176,6 +214,11 @@
     modifiers:
       coefficients:
         Heat: 0.90
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 5
+    bluntStaminaDamageFactor: 2
 
 - type: entity
   parent: ClothingNeckBase
@@ -219,6 +262,11 @@
     modifiers:
       coefficients:
         Heat: 0.90
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 5
+    bluntStaminaDamageFactor: 2
 
 - type: entity
   parent: ClothingNeckBase
