@@ -9,8 +9,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 <Document>
   # Desconversão
   <Box>
-    <GuideEntityEmbed Entity="Bible" Caption=""/>
-    <GuideEntityEmbed Entity="CosmicCenser" Caption=""/>
+    <GuideEntityEmbed Entity="CosmicDeconversionJail" Caption=""/>
   </Box>
 
   Ao organizar um esforço para frustrar o [color=#4cabb3]Culto Cósmico[/color], existem vários métodos que a tripulação pode empregar para garantir sua sobrevivência e segurança. Um desses métodos é a [color=Yellow]Desconversão[/color].
@@ -20,9 +19,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
   ## Métodos de Supressão
   <Box>
-    <GuideEntityEmbed Entity="Bible" Caption=""/>
     <GuideEntityEmbed Entity="MindShieldImplanter" Caption=""/>
-    <GuideEntityEmbed Entity="CosmicCenser" Caption=""/>
   </Box>
 
   A desconversão é apenas um método para lidar com um culto invasor. A tripulação a bordo da estação pode, alternativamente, investir em implantadores de [color=Green]Escudo Mental[/color].

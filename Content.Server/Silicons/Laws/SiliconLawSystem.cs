@@ -39,12 +39,15 @@
 // SPDX-FileCopyrightText: 2025 Roudenn <romabond091@gmail.com>
 // SPDX-FileCopyrightText: 2025 ScarKy0 <106310278+ScarKy0@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 gluesniffler <159397573+gluesniffler@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2025 Tyranex <bobthezombie4@gmail.com>
 // SPDX-FileCopyrightText: 2025 slarticodefast <161409025+slarticodefast@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+// SPDX-FileCopyrightText: 2026 AftrLite <61218133+AftrLite@users.noreply.github.com>
 //
 // SPDX-License-Identifier: MIT
 
 using System.Linq;
+using Content.Server._DV.Objectives.Events;
 using Content.Server.Administration;
 using Content.Server.Chat.Managers;
 using Content.Server.Radio.Components;
@@ -381,6 +384,11 @@ public sealed class SiliconLawSystem : SharedSiliconLawSystem
                 SetLaws(lawset, stationAiHeldComp.CurrentConnectedEntity.Value, provider.LawUploadSound);
             }
             // Corvax-Next-AiRemoteControl-End
+            
+            // Start Stellar - AILawUpdatedEvent
+            var evt = new AILawUpdatedEvent(update, provider.Laws);
+            RaiseLocalEvent(ref evt);
+            // End Stellar - AILawUpdatedEvent
         }
     }
 

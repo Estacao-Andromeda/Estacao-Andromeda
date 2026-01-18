@@ -72,7 +72,9 @@ SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
   ## Fendas Malignas
   <Box>
-    <GuideEntityEmbed Entity="CosmicMalignRift" Caption=""/>
+    <GuideEntityEmbed Entity="CosmicBorgChantry" Caption=""/>
+    <GuideEntityEmbed Entity="BorgChassisGeneric" Caption=""/>
+    <GuideEntityEmbed Entity="MobCosmicColossus" Caption=""/>
   </Box>
   À medida que seu culto progride, [color=#4cabb3]Fendas Malignas[/color] começarão a surgir por todo o ambiente ao redor. Essas fendas no espaço real drenam poder astral instável e devem ser localizadas o mais rápido possível!
 
