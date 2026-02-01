@@ -97,3 +97,16 @@
   - ShocksGroup
   - UnderPantsGroup
   - UnderShirtGroup
+
+- type: roleLoadout
+  id: JobGeneticist
+  groups:
+    - GeneticistJumpsuit
+    - GeneticistOuterClothing
+    - GeneticistBackpack
+    - GeneticistGloves
+    - GeneticistShoes
+    - Survival
+    - Trinkets
+    - GroupSpeciesBreathTool
+
