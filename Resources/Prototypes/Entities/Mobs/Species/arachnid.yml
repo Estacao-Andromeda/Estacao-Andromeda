@@ -58,7 +58,7 @@
       wrapAction: ActionWrap
       wrapDuration: 10
       hungerCost: 30
-      
+
     - type: Tag
       tags:
         - CanPilot
@@ -83,8 +83,6 @@
           methods: [Touch]
           effects:
             - !type:WashCreamPieReaction # Damage (Self)
-
-
     - type: Bloodstream
       bloodReagent: CopperBlood
     # Damage (Others)
@@ -173,9 +171,11 @@
           visible: false
     - type: Inventory
       templateId: arachnid
+      speciesId: arachnid
     - type: Spider
     - type: IgnoreSpiderWeb
     - type: FootprintOwner
+    - type: Carriable # Carrying system from EE.
 
 - type: entity
   parent: BaseSpeciesDummy
