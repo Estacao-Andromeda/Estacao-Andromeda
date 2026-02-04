@@ -4,6 +4,8 @@ SPDX-FileCopyrightText: 2023 DerbyX <50932435+DerbyX@users.noreply.github.com>
 SPDX-FileCopyrightText: 2024 Tadeo <td12233a@gmail.com>
 SPDX-FileCopyrightText: 2024 UBlueberry <161545003+UBlueberry@users.noreply.github.com>
 SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+SPDX-FileCopyrightText: 2026 harro <foxthingsemail@gmail.com>
+
 
 SPDX-License-Identifier: MIT
 -->
@@ -20,9 +22,7 @@ SPDX-License-Identifier: MIT
 
   Zumbis são antagonistas de conversão que infectam todos os seres que mordem com [color=#7e916e]Romerol[/color], um vírus mortal e contagioso que pode se espalhar facilmente se não for contido.
 
-  <Box>
-    <GuideReagentEmbed Reagent="Romerol"></GuideReagentEmbed>
-  </Box>
+## Infection Progression
 
   ## Infectado Inicial
   Você é o paciente zero. Você tem [color=#7e916e]Romerol[/color] correndo em suas veias e tem um grande desejo de compartilhá-lo com todos os seres vivos que encontrar.

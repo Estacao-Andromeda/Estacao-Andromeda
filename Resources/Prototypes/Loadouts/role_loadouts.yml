@@ -31,6 +31,7 @@
 # SPDX-FileCopyrightText: 2025 MaiaArai <158123176+YaraaraY@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 PoquitoDondito <danielchristianstone@gmail.com>
 # SPDX-FileCopyrightText: 2025 Princess Cheeseballs <66055347+Princess-Cheeseballs@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 RosySaturniidae <rosysaturniidae@gmail.com>
 # SPDX-FileCopyrightText: 2025 SaffronFennec <firefoxwolf2020@protonmail.com>
 # SPDX-FileCopyrightText: 2025 SigmaTheDragon <162711378+SigmaTheDragon@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 Tay <td12233a@gmail.com>
@@ -49,6 +50,11 @@
 # SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
 # SPDX-FileCopyrightText: 2025 vectorassembly <vectorassembly@icloud.com>
 # SPDX-FileCopyrightText: 2025 w.xyz() <84605679+pirakaplant@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Frogoo <153249069+Fr0goo@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 ThatOneMoon <91613003+ThatOneMoon@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 ThatOneMoon <juozas.dringelis@gmail.com>
+# SPDX-FileCopyrightText: 2026 Zergologist <114537969+Chedd-Error@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 zergologist <114537969+Chedd-Error@users.noreply.github.com>
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
@@ -61,6 +67,7 @@
     - CaptainJumpsuit
     - CaptainBackpack
     - CaptainOuterClothing
+    - CaptainShoes
     - Survival
     - Trinkets
     - CaptainJobTrinkets
@@ -78,7 +85,7 @@
     - HoPJumpsuit
     - HoPBackpack
     - HoPOuterClothing
-    - GenericShoes
+    - HoPShoes
     - Glasses
     - Survival
     - Trinkets
@@ -104,13 +111,14 @@
 - type: roleLoadout
   id: JobPassenger
   groups:
+    - GenericHats
     - PassengerJumpsuit
     - CommonBackpack
     - PassengerNeck
     - PassengerFace
     - PassengerGloves
     - PassengerOuterClothing
-    - PassengerShoes
+    - GenericShoes
     - Glasses
     - Survival
     - Trinkets
@@ -127,6 +135,7 @@
     - BartenderHead
     - BartenderJumpsuit
     - CommonBackpack
+    - Gloves
     - BartenderOuterClothing
     - GenericShoes
     - Glasses
@@ -141,8 +150,10 @@
 - type: roleLoadout
   id: JobServiceWorker
   groups:
+    - GenericHats
     - ServiceJumpsuit
     - CommonBackpack
+    - Gloves
     - GenericShoes
     - Glasses
     - Survival
@@ -161,6 +172,7 @@
     - ChefMask
     - ChefJumpsuit
     - CommonBackpack
+    - Gloves
     - ChefOuterClothing
     - GenericShoes
     - Glasses
@@ -178,6 +190,7 @@
   groups:
     - LibrarianJumpsuit
     - CommonBackpack
+    - Gloves
     - GenericShoes
     - Glasses
     - Survival
@@ -195,6 +208,7 @@
     - LawyerNeck
     - LawyerJumpsuit
     - CommonBackpack
+    - Gloves
     - GenericShoes
     - Glasses
     - Survival
@@ -252,10 +266,12 @@
 - type: roleLoadout
   id: JobBotanist
   groups:
-    - BotanistHead
+    - GenericHats
     - BotanistJumpsuit
     - BotanistBackpack
+    - Gloves
     - BotanistOuterClothing
+    - GenericShoes
     - Glasses
     - Survival
     - Trinkets
@@ -274,6 +290,7 @@
     - ClownMask
     - ClownJumpsuit
     - ClownBackpack
+    - Gloves
     - ClownOuterClothing
     - ClownShoes
     - Glasses
@@ -293,6 +310,7 @@
     - MimeMask
     - MimeJumpsuit
     - MimeBackpack
+    - Gloves
     - MimeOuterClothing
     - MimeBelt
     - Glasses
@@ -310,6 +328,7 @@
   groups:
     - MusicianJumpsuit
     - CommonBackpack
+    - Gloves
     - MusicianOuterClothing
     - GenericShoes
     - Glasses
@@ -350,6 +369,7 @@
     - CargoTechnicianNeck
     - CargoTechnicianJumpsuit
     - CargoTechnicianBackpack
+    - Gloves
     - CargoTechnicianOuterClothing
     - CargoTechnicianShoes
     - CargoPDA
@@ -637,7 +657,7 @@
     - MedicalBackpack
     - ChiefMedicalOfficerOuterClothing
     - ChiefMedicalOfficerNeck
-    - ChemistShoes
+    - ChiefMedicalOfficerShoes
     - MedicalItensLoadout # Andromeda
     - Glasses
     - SurvivalMedical
@@ -736,6 +756,7 @@
   id: JobZookeeper
   groups:
     - CommonBackpack
+    - GenericShoes
     - Glasses
     - Survival
     - Trinkets
@@ -749,9 +770,11 @@
 - type: roleLoadout
   id: JobReporter
   groups:
+    - GenericHats
     - ReporterJumpsuit
     - ReporterOuterClothing # Goobstation - Bodycams
     - CommonBackpack
+    - Gloves
     - Glasses
     - Survival
     - Trinkets

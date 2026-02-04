@@ -16,6 +16,7 @@
 // SPDX-FileCopyrightText: 2024 deltanedas <39013340+deltanedas@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2024 metalgearsloth <31366439+metalgearsloth@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2024 nikthechampiongr <32041239+nikthechampiongr@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2025 Kyle Tyo <36606155+VerinSenpai@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 Tay <td12233a@gmail.com>
 // SPDX-FileCopyrightText: 2025 Terkala <appleorange64@gmail.com>
 // SPDX-FileCopyrightText: 2025 ThatOneMoon <91613003+ThatOneMoon@users.noreply.github.com>
@@ -33,7 +34,6 @@ using Content.Server.Administration.Logs;
 using Content.Server.Fluids.EntitySystems;
 using Content.Server.Ghost;
 using Content.Server.Popups;
-using Content.Server.Repairable;
 using Content.Server.Stack;
 using Content.Server.Wires;
 using Content.Shared.Body.Systems;
@@ -51,6 +51,7 @@ using Content.Shared.Materials;
 using Content.Shared.Mind;
 using Content.Shared.Nutrition.EntitySystems;
 using Content.Shared.Power;
+using Content.Shared.Repairable;
 using Content.Shared.Stacks;
 using Robust.Server.GameObjects;
 using Robust.Shared.Containers;

@@ -3,6 +3,8 @@
 # SPDX-FileCopyrightText: 2025 JoulesBerg <104539820+JoulesBerg@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 MaiaArai <158123176+YaraaraY@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 SaffronFennec <firefoxwolf2020@protonmail.com>
+# SPDX-FileCopyrightText: 2025 Smugman <85798843+Smugman@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Starry <tehevilduckiscoming@gmail.com>
 # SPDX-FileCopyrightText: 2025 Tay <td12233a@gmail.com>
 # SPDX-FileCopyrightText: 2025 Teasq <Xerithin@gmail.com>
 # SPDX-FileCopyrightText: 2025 ThatOneMoon <91613003+ThatOneMoon@users.noreply.github.com>
@@ -10,6 +12,9 @@
 # SPDX-FileCopyrightText: 2025 YaraaraY <158123176+YaraaraY@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 kbarkevich <24629810+kbarkevich@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+# SPDX-FileCopyrightText: 2026 Idem778 <fromidemland@gmail.com>
+# SPDX-FileCopyrightText: 2026 SigmaTheDragon <162711378+SigmaTheDragon@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Zergologist <114537969+Chedd-Error@users.noreply.github.com>
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
@@ -47,6 +52,14 @@
   - NanotrasenRepresentativePaperworkGloves
 
 - type: loadoutGroup
+  id: InternalAffairsAgentShoes
+  name: loadout-group-iaa-shoes
+  loadouts:
+  - NanotrasenRepresentativeBoots
+  - NanotrasenRepresentativeShoes
+  - DesignerWinterBoots
+
+- type: loadoutGroup
   id: InternalAffairsAgentBackpack
   name: loadout-group-iaa-backpack
   loadouts:
@@ -66,6 +79,8 @@
   minLimit: 0
   loadouts:
   - CommandLighter
+  - CentralCommandLighter
+  - CentComPersonalAI
 
 - type: loadoutGroup
   id: ChaplainBible
@@ -128,6 +143,7 @@
   - NanotrasenRepresentativeBoots
   - NanotrasenRepresentativeShoes
   - NanotrasenRepresentativeHeels
+  - DesignerWinterBoots
 
 - type: loadoutGroup
   id: MagistrateBackpack
@@ -160,6 +176,7 @@
   loadouts:
   - CommandLighter
   - CentralCommandLighter
+  - CentComPersonalAI
 
 - type: loadoutGroup
   id: ScienceRoboticistGlasses
@@ -168,3 +185,43 @@
   - ScienceRoboNormGlasses
   - ScienceRoboJamjarGlasses
   - ScienceRoboGlasses
+
+- type: loadoutGroup
+  id: GeneticistJumpsuit
+  name: loadout-group-geneticist-jumpsuit
+  loadouts:
+    - GeneticistJumpsuit
+    - GeneticistJumpskirt
+
+- type: loadoutGroup
+  id: GeneticistOuterClothing
+  name: loadout-group-geneticist-outer
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+    - GeneticistLabcoat
+    - GeneticistWintercoat
+
+- type: loadoutGroup
+  id: GeneticistBackpack
+  name: loadout-group-geneticist-backpack
+  loadouts:
+    - GeneticistBackpack
+    - GeneticistSatchel
+    - GeneticistDuffel
+
+- type: loadoutGroup
+  id: GeneticistGloves
+  name: loadout-group-geneticist-gloves
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+    - GeneticistGlovesLatex
+    - GeneticistGlovesNitrile
+
+- type: loadoutGroup
+  id: GeneticistShoes
+  name: loadout-group-geneticist-shoes
+  loadouts:
+    - GeneticistShoesWhite
+    - GeneticistShoesBlue

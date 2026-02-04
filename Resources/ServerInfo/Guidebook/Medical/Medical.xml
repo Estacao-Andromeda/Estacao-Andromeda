@@ -18,6 +18,7 @@ A equipe do [color=#5b97bc]Medical[/color] é composta por médicos estágiarios
     <GuideEntityEmbed Entity="ToyFigurineMedicalDoctor" Caption="Doctor"/>
     <GuideEntityEmbed Entity="ToyFigurineParamedic" Caption="Paramedic"/>
     <GuideEntityEmbed Entity="ToyFigurineChemist" Caption="Chemist"/>
+    <GuideEntityEmbed Entity="ToyFigurineMedicalDoctor" Caption="Geneticist"/>  <!-- Funkystation - Genetics -->
     <GuideEntityEmbed Entity="ToyFigurineChiefMedicalOfficer" Caption="CMO"/>
   </Box>
 
