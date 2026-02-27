@@ -377,6 +377,7 @@
     - id: MedicalBiofabMachineBoard
     - id: AutoclaveFlatpack # DV
     - id: PrinterDocFlatpack  # Corvax-Printer
+    - id: ClothingHandsGlovesCMO
 
 # Hardsuit table, used for suit storage as well
 - type: entityTable
