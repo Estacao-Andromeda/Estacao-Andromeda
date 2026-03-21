@@ -29,7 +29,7 @@
   id: Atlas
   mapName: Atlas
   mapPath: /Maps/_Funkystation/atlas.yml #Funkystation - Robotics
-  minPlayers: 5
+  minPlayers: 0
   maxPlayers: 20
   stations:
     Atlas:
