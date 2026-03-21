@@ -31,7 +31,7 @@
   id: Amber
   mapName: 'Amber'
   mapPath: /Maps/_Funkystation/amber.yml #Funkystatin - Robotics
-  minPlayers: 8
+  minPlayers: 5
   maxPlayers: 50
   stations:
     Amber:

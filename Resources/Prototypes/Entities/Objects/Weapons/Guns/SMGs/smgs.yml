@@ -39,6 +39,7 @@
 # SPDX-FileCopyrightText: 2025 Tay <td12233a@gmail.com>
 # SPDX-FileCopyrightText: 2025 slarticodefast <161409025+slarticodefast@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+# SPDX-FileCopyrightText: 2026 Xcybitt <197952719+Xcybitt@users.noreply.github.com>
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
@@ -132,6 +133,14 @@
     fireRate: 10
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/atreides.ogg
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 8
+    soundHit:
+      collection: MetalThud
+  - type: AltFireMelee
+    attackType: Light
   - type: MagazineVisuals
     magState: mag
     steps: 1
@@ -174,6 +183,18 @@
     magState: mag
     steps: 6
     zeroVisible: true
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 5
+    soundHit:
+      collection: MetalThud
+  - type: AltFireMelee
+    attackType: Heavy
+  - type: IncreaseDamageOnWield
+    damage:
+      types:
+        Blunt: 7
   - type: Appearance
 
 - type: entity
@@ -233,6 +254,18 @@
       steps: 1
       zeroVisible: true
     - type: Appearance
+    - type: MeleeWeapon
+      damage:
+        types:
+          Blunt: 5
+      soundHit:
+        collection: MetalThud
+    - type: AltFireMelee
+      attackType: Heavy
+    - type: IncreaseDamageOnWield
+      damage:
+        types:
+          Blunt: 7
 
 - type: entity
   name: WT550
@@ -290,6 +323,14 @@
         whitelist:
           tags:
             - CartridgePistol
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 8
+    soundHit:
+      collection: MetalThud
+  - type: AltFireMelee
+    attackType: Light
   - type: MagazineVisuals
     magState: mag
     steps: 6
