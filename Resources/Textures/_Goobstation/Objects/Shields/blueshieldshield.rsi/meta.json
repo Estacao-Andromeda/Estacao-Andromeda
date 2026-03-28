@@ -28,6 +28,14 @@
     {
         "name": "inhand-right",
         "directions": 4
+    },
+    {
+        "name": "equipped-BACKSTORAGE",
+        "directions": 4
+    },
+    {
+        "name": "equipped-BACKSTORAGE-on",
+        "directions": 4
     }
   ]
 }
